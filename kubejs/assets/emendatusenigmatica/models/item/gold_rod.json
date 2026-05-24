@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "emendatusenigmatica:item/gold_rod"
+                 },
+    "parent":  "minecraft:item/generated"
+}

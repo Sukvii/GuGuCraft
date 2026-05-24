@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gugucraft"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "guguaddons:item/tab_icon"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "58AD5AF80722331D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E4D4147072B5809"
+			rewards: [{
+				id: "441A91BBAF32F54B"
+				table_id: 5267060173514639155L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CDD3BC52BA46EFD"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "3974744BE1CB4D7E"
+			tasks: [{
+				id: "2CB264557B7B6D6E"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "5939C56A0E871225"
+			tasks: [{
+				id: "28A1930D84F54C60"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "619CC9255627D69D"
+			tasks: [{
+				id: "181B481664FA735B"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "4E02622DDA832F7F"
+			tasks: [{
+				id: "71AD602898E3BFB4"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "6C56617CC14B9DB4"
+			tasks: [{
+				id: "3658764C05C0E4DB"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "51B435BB7CF9EAEB"
+			tasks: [{
+				id: "5E89EDD7F091A3BC"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "5F8D54587D37CCEC"
+			tasks: [{
+				id: "0D8F18A773E2C609"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E4D4147072B5809"]
+			hide_until_deps_complete: true
+			id: "66DD1F44726A98F2"
+			tasks: [{
+				id: "34A46F5762DEEFD8"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "58CAED56455A232A"
+			rewards: [{
+				command: "/astages add @p test"
+				id: "57F21CE6CB2A7B8D"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "53748D66BDE2FC5A"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "182B017FF38F0768"
+			rewards: [{
+				command: "/astages remove @p test"
+				id: "74EFBCDBB0E39D38"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "2D183ED6419753FF"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "0DDBAB31D494D755"
+			rewards: [{
+				id: "2A9DCAA229CD0222"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6400L
+				id: "09EBCE403C0C7BD2"
+				item: { count: 1, id: "minecraft:oak_log" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "0776FD82E9C13041"
+			tasks: [{
+				count: 1111L
+				id: "0B1D35D49CCC92E8"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+	]
+}

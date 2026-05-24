@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#kubejs:no_ars_nouveau_natural_generation",
+  "spawners": {
+    "type": "ars_nouveau:gift_starby",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 1
+  }
+}

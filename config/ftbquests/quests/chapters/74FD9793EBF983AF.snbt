@@ -1,0 +1,265 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "74FD9793EBF983AF"
+	group: "5B35751FF01CB70D"
+	icon: {
+		id: "guguaddons:quest_interface"
+	}
+	id: "74FD9793EBF983AF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E89BA85799A724B"]
+			id: "66435C3FE4214FE7"
+			rewards: [{
+				id: "4CFF384BA9A6A6C4"
+				item: {
+					count: 1
+					id: "create:builders_tea"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "1D503DEFDF6A7C7F"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66435C3FE4214FE7"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "create:goggles"
+			}
+			icon_scale: 0.9d
+			id: "350E5B96AEA079A7"
+			rewards: [{
+				count: 128
+				id: "32B49C7E21D086FD"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3E48BA130B226730"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["350E5B96AEA079A7"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "createaddition:small_light_connector"
+			}
+			icon_scale: 0.9d
+			id: "128A83BF0B506781"
+			optional: true
+			rewards: [{
+				id: "510426AD7262A22F"
+				table_id: 5267060173514639155L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5D3151C469CC0436"
+				item: { count: 1, id: "minecraft:oak_log" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14F992B07C3BEFA9"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:kinetic_mechanism"
+			}
+			icon_scale: 0.9d
+			id: "54EAE16EABEE8F0F"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @p practice_phase1"
+				disable_reward_screen_blur: true
+				exclude_from_claim_all: true
+				icon: {
+					id: "guguaddons:deduction_casing"
+				}
+				id: "1904E3191C29D4BE"
+				permission_level: 4
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				icon: {
+					id: "kubejs:kinetic_mechanism"
+				}
+				id: "3A8C14BE3A2AF0CF"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54EAE16EABEE8F0F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "create:sturdy_sheet"
+			}
+			icon_scale: 0.9d
+			id: "5ACF65004EF1DD06"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @p practice_phase2"
+				icon: {
+					id: "guguaddons:quest_input"
+				}
+				id: "3EEABC9481A45834"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: false
+					id: "461CAEE49F8A22A2"
+					item: { count: 1, id: "guguaddons:deduction_casing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "643D021728BE15AC"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "1512E15D4B865C6C"
+					item: { count: 1, id: "create:sturdy_sheet" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5ACF65004EF1DD06"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "createdieselgenerators:hammer"
+			}
+			icon_scale: 0.9d
+			id: "28EF8F833313DCFC"
+			shape: "gear"
+			tasks: [
+				{
+					id: "195AC89CF3536A24"
+					item: { count: 1, id: "guguaddons:quest_interface" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "3DDAD809431D78A1"
+					item: { count: 1, id: "guguaddons:deduction_casing" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "448689E4A8CCD318"
+					item: { count: 1, id: "create:framed_glass_pane" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0CBE0034CE66EBB7"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "46468F6C6848191C"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "1C753F8A6AFF65AF"
+					item: { count: 1, id: "guguaddons:quest_input" }
+					type: "item"
+				}
+				{
+					id: "1927FD6287B2645E"
+					item: { count: 1, id: "guguaddons:quest_submission" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["350E5B96AEA079A7"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "14F992B07C3BEFA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11427E797E31EEA9"
+				table_id: 5267060173514639155L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0BE6F4C7474BE914"
+				item: { count: 1, id: "guguaddons:quest_interface" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["350E5B96AEA079A7"]
+			icon: {
+				id: "guguaddons:unknown_bag"
+			}
+			id: "3B1BA1B9DC394B51"
+			repeat_cooldown: 60
+			rewards: [{
+				id: "7AEE07EBFB095B97"
+				item: {
+					count: 1
+					id: "guguaddons:unknown_bag"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "04536C5D50BD4CFA"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+}

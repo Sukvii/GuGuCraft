@@ -1,0 +1,20 @@
+﻿{
+    "id":  "brass",
+    "source":  "modded",
+    "localizedName":  "Brass",
+    "processedTypes":  [
+                           "dust",
+                           "gear"
+                       ],
+    "properties":  {
+                       "materialType":  "alloy",
+                       "harvestLevel":  1
+                   },
+    "compat":  {
+                   "create":  true,
+                   "thermal":  false,
+                   "mekanism":  false,
+                   "ars_nouveau":  false,
+                   "occultism":  false
+               }
+}

@@ -1,0 +1,19 @@
+Platform.getInfo('kubejs').name = 'GuGuAddons'
+
+StartupEvents.registry('item', event => {
+    event.create('incomplete_warp_stone').displayName('传送石（半成品）')
+    event.create('raw_mythril').displayName('粗秘银')
+    event.create('mythril_ingot').displayName('秘银锭')
+    event.create('mythril_nugget').displayName('秘银粒')
+    event.create('crushed_mythril_ore').displayName('粉碎秘银矿')
+    event.create('crushed_raw_netherite').displayName('粉碎粗下界合金')
+    event.create('mythril_mixture').displayName('秘银混合物')
+    event.create('arcane_ingot').displayName('奥术锭')
+    event.create('kinetic_mechanism').displayName('动力构件')
+    event.create('arcane_mechanism').displayName('奥术构件')
+    event.create('incomplete_kinetic_mechanism', 'create:sequenced_assembly').displayName('动力构件（半成品）')
+    event.create('incomplete_deduction_casing', 'create:sequenced_assembly').displayName('推演机壳（半成品）')
+    event.create('saw').displayName('锯子').maxDamage(256)
+    event.create('oula_ingot').displayName('oula锭')
+    event.create('incomplete_oula_ingot', 'create:sequenced_assembly').displayName('oula锭（半成品）')
+})

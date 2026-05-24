@@ -1,0 +1,9 @@
+{
+    "item.kubejs.reactive_dye_bucket": "活性染色剂桶",
+    "item.kubejs.liquid_mana_bucket": "液态魔力桶",
+    "item.kubejs.mythril_solvent_bucket": "秘银溶剂桶",
+    "block.kubejs.reactive_dye": "活性染色剂",
+    "fluid_type.kubejs.reactive_dye": "活性染色剂",
+    "fluid_type.kubejs.liquid_mana": "液态魔力",
+    "fluid_type.kubejs.mythril_solvent": "秘银溶剂"
+}

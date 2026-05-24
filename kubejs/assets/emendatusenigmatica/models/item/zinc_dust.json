@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "emendatusenigmatica:item/zinc_dust"
+                 },
+    "parent":  "minecraft:item/generated"
+}

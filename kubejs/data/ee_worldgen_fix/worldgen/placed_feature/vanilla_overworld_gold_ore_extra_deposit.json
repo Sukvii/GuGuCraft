@@ -1,0 +1,27 @@
+{
+    "feature":  "ee_worldgen_fix:vanilla_overworld_gold_ore_extra_deposit",
+    "placement":  [
+                      {
+                          "type":  "minecraft:count",
+                          "count":  50
+                      },
+                      {
+                          "type":  "minecraft:in_square"
+                      },
+                      {
+                          "type":  "minecraft:height_range",
+                          "height":  {
+                                         "type":  "minecraft:uniform",
+                                         "max_inclusive":  {
+                                                               "absolute":  256
+                                                           },
+                                         "min_inclusive":  {
+                                                               "absolute":  32
+                                                           }
+                                     }
+                      },
+                      {
+                          "type":  "minecraft:biome"
+                      }
+                  ]
+}

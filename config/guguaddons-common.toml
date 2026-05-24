@@ -1,0 +1,16 @@
+#The item ID used in the Smithing Table template slot to repair the Slash Back Terminal.
+slashBackRefillTemplate = "minecraft:netherite_upgrade_smithing_template"
+#The item ID used in the Smithing Table material slot (addition) to repair the Slash Back Terminal.
+slashBackRefillMaterial = "minecraft:ender_pearl"
+#Numismatics cost (sp) per chunk claim in FTB Chunks. Set to 0 to disable charging.
+# Default: 100
+# Range: > 0
+ftbChunksClaimPrice = 100
+#Refund ratio on unclaim, based on the paid claim price. 0.0 = no refund, 1.0 = full refund.
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+ftbChunksUnclaimRefundRatio = 0.5
+#Ticks before a pending chunk-claim confirmation expires.
+# Default: 200
+# Range: 20 ~ 12000
+ftbChunksClaimConfirmTimeoutTicks = 200

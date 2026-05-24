@@ -1,0 +1,13 @@
+name = "project-1527769"
+filename = "ysm-2.6.5-neoforge+mc1.21.1-release.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "18bec74a5b7f3778ce162ddbbbd5555aff0eda2e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8005064
+project-id = 1527769

@@ -1,0 +1,19 @@
+﻿{
+    "type":  "neoforge:remove_features",
+    "biomes":  [
+                   "deeperdarker:deeplands",
+                   "deeperdarker:blooming_caverns",
+                   "deeperdarker:echoing_forest"
+               ],
+    "features":  [
+                     "deeperdarker:sculk_coal",
+                     "deeperdarker:sculk_iron",
+                     "deeperdarker:sculk_copper",
+                     "deeperdarker:sculk_gold",
+                     "deeperdarker:sculk_redstone",
+                     "deeperdarker:sculk_emerald",
+                     "deeperdarker:sculk_lapis",
+                     "deeperdarker:sculk_diamond"
+                 ],
+    "step":  "underground_ores"
+}

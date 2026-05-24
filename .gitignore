@@ -1,0 +1,19 @@
+# packwiz export artifacts
+/*.mrpack
+/*.zip
+
+# local tooling
+/packwiz.exe
+/.packwiz-cache/
+
+# temporary local mod jars copied from the old instance.
+# Convert these to .pw.toml entries before relying on Git-only reproduction.
+/mods/*.jar
+!/mods/emendatusenigmatica-1.21.1-2.2.0-alpha-4.jar
+!/mods/guguaddons-0.2.4.jar
+
+# local editor/system noise
+/.idea/
+Thumbs.db
+Desktop.ini
+

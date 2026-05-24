@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emendatusenigmatica:dust/from_ore/lapis"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "lapis_unlock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:gems/lapis"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "lapis_unlock"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emendatusenigmatica:dust/from_ore/lapis"
+    ]
+  }
+}

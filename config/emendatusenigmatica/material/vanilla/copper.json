@@ -1,0 +1,27 @@
+﻿{
+    "id":  "copper",
+    "source":  "vanilla",
+    "localizedName":  "Copper",
+    "processedTypes":  [
+                           "ore",
+                           "dust",
+                           "plate",
+                           "gear"
+                       ],
+    "properties":  {
+                       "materialType":  "metal",
+                       "harvestLevel":  1
+                   },
+    "oreDrop":  {
+                    "drop":  "minecraft:raw_copper",
+                    "min":  2,
+                    "max":  5
+                },
+    "compat":  {
+                   "create":  true,
+                   "thermal":  false,
+                   "mekanism":  false,
+                   "ars_nouveau":  false,
+                   "occultism":  false
+               }
+}

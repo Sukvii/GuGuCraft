@@ -1,0 +1,6 @@
+{
+    "type":  "neoforge:add_features",
+    "biomes":  "#minecraft:is_overworld",
+    "features":  "ee_worldgen_fix:vanilla_overworld_gold_ore_lower_deposit",
+    "step":  "underground_ores"
+}

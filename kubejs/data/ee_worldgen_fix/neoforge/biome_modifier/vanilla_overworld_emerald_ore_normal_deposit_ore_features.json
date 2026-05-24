@@ -1,0 +1,16 @@
+{
+    "type":  "neoforge:add_features",
+    "biomes":  [
+                   "minecraft:windswept_hills",
+                   "minecraft:windswept_gravelly_hills",
+                   "minecraft:windswept_forest",
+                   "minecraft:meadow",
+                   "minecraft:frozen_peaks",
+                   "minecraft:jagged_peaks",
+                   "minecraft:stony_peaks",
+                   "minecraft:snowy_slopes",
+                   "minecraft:grove"
+               ],
+    "features":  "ee_worldgen_fix:vanilla_overworld_emerald_ore_normal_deposit",
+    "step":  "underground_ores"
+}

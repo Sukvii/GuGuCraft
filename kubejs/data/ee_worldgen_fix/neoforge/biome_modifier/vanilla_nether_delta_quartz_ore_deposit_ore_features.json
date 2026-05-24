@@ -1,0 +1,6 @@
+{
+    "type":  "neoforge:add_features",
+    "biomes":  "minecraft:basalt_deltas",
+    "features":  "ee_worldgen_fix:vanilla_nether_delta_quartz_ore_deposit",
+    "step":  "underground_ores"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "deeperdarker_gloomslate",
+  "baseTexture": "deeperdarker:block/gloomslate",
+  "suffix": "gloomslate",
+  "fillerType": "deeperdarker:gloomslate",
+  "localizedName": "Gloomslate"
+}

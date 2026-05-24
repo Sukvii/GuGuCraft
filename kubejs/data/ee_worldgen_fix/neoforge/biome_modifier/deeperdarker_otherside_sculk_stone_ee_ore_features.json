@@ -1,0 +1,19 @@
+﻿{
+    "type":  "neoforge:add_features",
+    "biomes":  [
+                   "deeperdarker:deeplands",
+                   "deeperdarker:blooming_caverns",
+                   "deeperdarker:echoing_forest"
+               ],
+    "features":  [
+                     "ee_worldgen_fix:otherside_sculk_stone_coal_ore_deposit",
+                     "ee_worldgen_fix:otherside_sculk_stone_iron_ore_deposit",
+                     "ee_worldgen_fix:otherside_sculk_stone_copper_ore_deposit",
+                     "ee_worldgen_fix:otherside_sculk_stone_gold_ore_deposit",
+                     "ee_worldgen_fix:otherside_sculk_stone_redstone_ore_deposit",
+                     "ee_worldgen_fix:otherside_sculk_stone_emerald_ore_deposit",
+                     "ee_worldgen_fix:otherside_sculk_stone_lapis_ore_deposit",
+                     "ee_worldgen_fix:otherside_sculk_stone_diamond_ore_deposit"
+                 ],
+    "step":  "underground_ores"
+}

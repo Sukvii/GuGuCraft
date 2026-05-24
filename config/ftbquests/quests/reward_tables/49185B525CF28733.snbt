@@ -1,0 +1,57 @@
+{
+	hide_tooltip: true
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "49185B525CF28733"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "598DBA8DFB1BD5ED"
+			item: {
+				count: 1
+				id: "farmersdelight:cake_slice"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			id: "7F57E87DFED6423F"
+			item: {
+				count: 1
+				id: "farmersdelight:cooked_mutton_chops"
+			}
+		}
+		{
+			id: "391A4C0FDF6B19E2"
+			type: "xp_levels"
+			weight: 0.5f
+			xp_levels: 5
+		}
+		{
+			id: "37B44B2F11FF9FA8"
+			type: "xp_levels"
+			weight: 0.1f
+			xp_levels: 10
+		}
+		{
+			count: 3
+			id: "485409FABC7EBFFF"
+			item: {
+				count: 1
+				id: "create:builders_tea"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "334023D00F4B25A8"
+			item: {
+				count: 1
+				id: "create:bar_of_chocolate"
+			}
+		}
+	]
+}

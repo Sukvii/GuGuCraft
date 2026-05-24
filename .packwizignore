@@ -1,0 +1,29 @@
+/.git/
+/.github/
+/.vscode/
+/.idea/
+/docs/
+
+/.gitignore
+/.packwizignore
+/README.md
+/packwiz.exe
+
+# root-level export archives only; resourcepacks/datapacks zips stay included.
+/*.mrpack
+/*.zip
+
+# safety guards for accidental runtime output
+/.probe/
+/local/
+/logs/
+/crash-reports/
+/saves/
+/screenshots/
+/xaero/
+/XaeroWaypoints_BACKUP*/
+/downloads/
+/PCL/
+/CustomSkinLoader/
+/GuGuCraft NEW-natives/
+

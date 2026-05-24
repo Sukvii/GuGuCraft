@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "copper_unlock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/copper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emendatusenigmatica:ingot/from_ore/blasting/copper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "copper_unlock"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emendatusenigmatica:ingot/from_ore/blasting/copper"
+    ]
+  }
+}

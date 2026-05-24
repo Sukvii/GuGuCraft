@@ -1,0 +1,18 @@
+{
+  "item.create_ae2recipes.incomplete_calculation_processor": "运算处理器（半成品）",
+  "item.create_ae2recipes.incomplete_engineering_processor": "工程处理器（半成品）",
+  "item.create_ae2recipes.incomplete_logic_processor": "逻辑处理器（半成品）",
+  "item.create_ae2recipes.incomplete_basic_card": "基础卡（半成品）",
+  "item.create_ae2recipes.incomplete_advanced_card": "高级卡（半成品）",
+  "item.create_ae2recipes.incomplete_cell_component_1k": "1k ME存储组件（半成品）",
+  "item.create_ae2recipes.incomplete_cell_component_4k": "4k ME存储组件（半成品）",
+  "item.create_ae2recipes.incomplete_cell_component_16k": "16k ME存储组件（半成品）",
+  "item.create_ae2recipes.incomplete_cell_component_64k": "64k ME存储组件（半成品）",
+  "item.create_ae2recipes.incomplete_cell_component_256k": "256k ME存储组件（半成品）",
+  "item.create_ae2recipes.incomplete_spatial_cell_component_2": "2³空间组件（半成品）",
+  "item.create_ae2recipes.incomplete_spatial_cell_component_16": "16³空间组件（半成品）",
+  "item.create_ae2recipes.incomplete_spatial_cell_component_128": "128³空间组件（半成品）",
+  "item.create_ae2recipes.incomplete_item_cell_housing": "ME物品元件外壳（半成品）",
+  "item.create_ae2recipes.incomplete_fluid_cell_housing": "ME流体元件外壳（半成品）",
+  "item.create_ae2recipes.incomplete_blank_pattern": "空白样板（半成品）"
+}

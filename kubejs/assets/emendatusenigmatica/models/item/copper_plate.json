@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "emendatusenigmatica:item/copper_plate"
+                 },
+    "parent":  "minecraft:item/generated"
+}

@@ -1,0 +1,619 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "725884AB89488808"
+	group: "5B35751FF01CB70D"
+	icon: {
+		id: "kubejs:kinetic_mechanism"
+	}
+	id: "725884AB89488808"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28EF8F833313DCFC"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/accept.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "1ADFEAFE92E08F24"
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "09ACD32B46BA581C"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					id: "2DA71C3A06B04594"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1ADFEAFE92E08F24"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "guguaddons:quest_interface"
+			}
+			icon_scale: 0.9d
+			id: "31473A2C2F107100"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "3511C03FA46D2B48"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31473A2C2F107100"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "44DDEE323451701D"
+			shape: "gear"
+			tasks: [{
+				id: "115A06D0C5D180EC"
+				item: { count: 1, id: "guideme:guide" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31473A2C2F107100"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ae2:speed_card"
+			}
+			icon_scale: 0.9d
+			id: "6FF9ABC70A1ED35E"
+			shape: "gear"
+			tasks: [{
+				id: "78354EFE34CF2F46"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FF9ABC70A1ED35E"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "guguaddons:interface_upgrade_1"
+			}
+			icon_scale: 0.9d
+			id: "5CF611A89C4A3460"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @p interface_upgrade_1"
+				icon: {
+					id: "guguaddons:interface_upgrade_1"
+				}
+				id: "7B24CE5D937AB6BE"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 4096L
+				id: "0EF51A3237029021"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5CF611A89C4A3460"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "guguaddons:interface_upgrade_2"
+			}
+			icon_scale: 0.9d
+			id: "15F92C8B6180BBCD"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @p interface_upgrade_2"
+				icon: {
+					id: "guguaddons:interface_upgrade_2"
+				}
+				id: "743A36A41733EC72"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 8192L
+					id: "5617F77BCE0281C6"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "2C77D5DBA2530816"
+					item: { count: 1, id: "create:precision_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31473A2C2F107100"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "3DF01E01D8045FD0"
+			shape: "gear"
+			tasks: [{
+				id: "468B9AACD1E2B739"
+				item: { count: 1, id: "guideme:guide" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44DDEE323451701D"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "536171A3638882E5"
+			shape: "gear"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["536171A3638882E5"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "27FFA1C1A467F4E0"
+			shape: "gear"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3DF01E01D8045FD0"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "515D94A2377A0691"
+			shape: "gear"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1ADFEAFE92E08F24"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kaleidoscope_cookery:stockpot"
+			}
+			icon_scale: 0.9d
+			id: "6D770935677BE2AE"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "5B40738CC9FC0543"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D770935677BE2AE"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"create:banktank_air": 900
+				}
+				id: "create:copper_backtank"
+			}
+			icon_scale: 0.9d
+			id: "65A4C7999CB24B58"
+			shape: "gear"
+			tasks: [{
+				id: "13CDA03EC3CA9B1F"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65A4C7999CB24B58"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"create:banktank_air": 900
+				}
+				id: "create_jetpack:jetpack"
+			}
+			icon_scale: 0.9d
+			id: "47E085E69978417A"
+			rewards: [{
+				command: "/astages add @p jetpack_1"
+				icon: {
+					components: {
+						"create:banktank_air": 900
+					}
+					id: "create_jetpack:jetpack"
+				}
+				id: "1BBACB89FF50A9A2"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 256L
+				id: "377F7FA3137A36C1"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47E085E69978417A"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"create:banktank_air": 900
+				}
+				id: "create_jetpack:netherite_jetpack"
+			}
+			icon_scale: 0.9d
+			id: "0EA1B4E371713261"
+			rewards: [{
+				command: "/astages add @p jetpack_2"
+				icon: {
+					components: {
+						"create:banktank_air": 900
+					}
+					id: "create_jetpack:netherite_jetpack"
+				}
+				id: "740C30414D726C5C"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 512L
+				id: "055791189E551DBB"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["644F6979053A23C6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "torchmaster:megatorch"
+			}
+			icon_scale: 0.9d
+			id: "142E41E10006D041"
+			rewards: [{
+				command: "/astages add @p torchmaster_1"
+				icon: {
+					id: "torchmaster:megatorch"
+				}
+				id: "180509D6B49E5928"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "3577669BF89C93D1"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["142E41E10006D041"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "torchmaster:dreadlamp"
+			}
+			icon_scale: 0.9d
+			id: "65094E8DF35B6220"
+			rewards: [{
+				command: "/astages add @p torchmaster_2"
+				icon: {
+					id: "torchmaster:dreadlamp"
+				}
+				id: "7A2CF6278E6E4544"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "541AFBD0AAB924D7"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["65094E8DF35B6220"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "torchmaster:feral_flare_lantern"
+			}
+			icon_scale: 0.9d
+			id: "4449D408A6115C65"
+			rewards: [{
+				command: "/astages add @p torchmaster_3"
+				icon: {
+					id: "torchmaster:feral_flare_lantern"
+				}
+				id: "22FD7710C5E2E1CD"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "679A9CE0F0EDCAC1"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D770935677BE2AE"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/chat.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "7DCB180AF32B68EA"
+			shape: "gear"
+			tasks: [{
+				id: "6099D00D318EDD3F"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DCB180AF32B68EA"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "guguaddons:slash_back_terminal"
+			}
+			icon_scale: 0.9d
+			id: "6D87C1DF995717D7"
+			shape: "gear"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D770935677BE2AE"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:torch"
+			}
+			icon_scale: 0.9d
+			id: "644F6979053A23C6"
+			shape: "gear"
+			tasks: [{
+				id: "66738393F2A76237"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15F92C8B6180BBCD"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "guguaddons:interface_upgrade_3"
+			}
+			icon_scale: 0.9d
+			id: "21486D4A2E6BF8A7"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @p interface_upgrade_3"
+				icon: {
+					id: "guguaddons:interface_upgrade_3"
+				}
+				id: "5546093623D2FE5C"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 16384L
+					id: "30F944EFE3B03B81"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "43FB51B656CA8F42"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["515D94A2377A0691"]
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "7988351A06BE2338"
+			shape: "gear"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1ADFEAFE92E08F24"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:arcane_mechanism"
+			}
+			icon_scale: 0.9d
+			id: "12DE07A7191AB43F"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @p arcane_mechanism"
+				icon: {
+					id: "kubejs:arcane_mechanism"
+				}
+				id: "308D8CABA724E780"
+				silent: true
+				type: "command"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "00FA2680740B956B"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12DE07A7191AB43F"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/accept.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "06C4F025C07591FE"
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "5652E4D62CCF7818"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					id: "7EB4FEEAF2E47207"
+					item: { count: 1, id: "guideme:guide" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["06C4F025C07591FE"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/accept.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "68E9F68EF5DB9EC1"
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "47ADF945C1B6310A"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["06C4F025C07591FE"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/accept.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "596383B9CDDF758A"
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "4625DA22E392C6C2"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06C4F025C07591FE"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/accept.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "43736E29D2D9457B"
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "200A2DBE7D5FC48A"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+	]
+}

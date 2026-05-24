@@ -1,0 +1,14 @@
+{
+    "typescript.tsserver.maxTsServerMemory": 4096,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/recipe_schemas/*.json"
+            ],
+            "url": "./.vscode/recipe.json"
+        }
+    ],
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.surveys.enabled": false,
+    "typescript.validate.enable": false
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "emendatusenigmatica",
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "N": {
+      "tag": "c:nuggets/iron"
+    }
+  },
+  "pattern": [
+    " I ",
+    "INI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "emendatusenigmatica:copper_gear"
+  }
+}

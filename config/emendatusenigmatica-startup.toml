@@ -1,0 +1,32 @@
+[Debug]
+	#Whether Emendatus Enigmatica should generate a Validation Summary in the configuration directory.
+	generateSummary = true
+
+[Configuration]
+	#Whether Emendatus Enigmatica should silently skip empty JSON files (Either 0 Bytes or empty root object) instead of including them on the summary.
+	skipEmptyJsons = false
+	#Whether Emendatus Enigmatica should generate default configuration files, whenever the configuration folder is missing.
+	generateDefaults = true
+	#Whether Emendatus Enigmatica should regenerate the default configuration.
+	#Beware: This WILL delete the content of your Emendatus Enigmatica configuration folder!
+	regenerateDefaults = false
+
+	[Addons.vanilla-plugin]
+		#Determines if Coal ore generation should be disabled.
+		disableCoalOre = true
+		#Determines if Copper ore generation should be disabled.
+		disableCopperOre = true
+		#Determines if Iron ore generation should be disabled.
+		disableIronOre = true
+		#Determines if Gold ore generation should be disabled.
+		disableGoldOre = true
+		#Determines if Redstone ore generation should be disabled.
+		disableRedstoneOre = true
+		#Determines if Lapis ore generation should be disabled.
+		disableLapisOre = true
+		#Determines if Diamond ore generation should be disabled.
+		disableDiamondOre = true
+		#Determines if Emerald ore generation should be disabled.
+		disableEmeraldOre = true
+		#Determines if Quartz ore generation should be disabled.
+		disableQuartzOre = true

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "emendatusenigmatica",
+  "ingredients": [
+    {
+      "tag": "c:ores/quartz"
+    },
+    {
+      "item": "emendatusenigmatica:enigmatic_hammer"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "emendatusenigmatica:quartz_dust"
+  }
+}

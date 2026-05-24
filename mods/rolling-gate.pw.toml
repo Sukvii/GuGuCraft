@@ -1,0 +1,13 @@
+name = "Rolling Gate"
+filename = "RollingGate-neoforge-1.21.1-1.1.0+build.64.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "41d842a82bc7ae305e1c6c58e5f5c84517f962d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6955881
+project-id = 1194894

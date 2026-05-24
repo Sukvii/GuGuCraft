@@ -1,0 +1,17 @@
+﻿{
+    "type":  "neoforge:add_features",
+    "biomes":  [
+                   "deeperdarker:overcast_columns"
+               ],
+    "features":  [
+                     "ee_worldgen_fix:otherside_gloomslate_coal_ore_deposit",
+                     "ee_worldgen_fix:otherside_gloomslate_iron_ore_deposit",
+                     "ee_worldgen_fix:otherside_gloomslate_copper_ore_deposit",
+                     "ee_worldgen_fix:otherside_gloomslate_gold_ore_deposit",
+                     "ee_worldgen_fix:otherside_gloomslate_redstone_ore_deposit",
+                     "ee_worldgen_fix:otherside_gloomslate_emerald_ore_deposit",
+                     "ee_worldgen_fix:otherside_gloomslate_lapis_ore_deposit",
+                     "ee_worldgen_fix:otherside_gloomslate_diamond_ore_deposit"
+                 ],
+    "step":  "underground_ores"
+}

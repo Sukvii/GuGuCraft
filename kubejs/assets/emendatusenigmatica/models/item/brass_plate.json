@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "emendatusenigmatica:item/brass_plate"
+                 },
+    "parent":  "minecraft:item/generated"
+}

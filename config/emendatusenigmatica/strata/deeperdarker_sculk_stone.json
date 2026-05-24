@@ -1,0 +1,7 @@
+{
+  "id": "deeperdarker_sculk_stone",
+  "baseTexture": "deeperdarker:block/sculk_stone",
+  "suffix": "sculk_stone",
+  "fillerType": "deeperdarker:sculk_stone",
+  "localizedName": "Sculk Stone"
+}

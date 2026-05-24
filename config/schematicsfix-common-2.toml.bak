@@ -1,0 +1,5 @@
+["Schematic Patch Config"]
+	#List of banned keywords for schematic files
+	bannedKeywords = ["minecraft:bedrock", "minecraft:command_block"]
+	#Enable keyword checking
+	enableKeywordCheck = true

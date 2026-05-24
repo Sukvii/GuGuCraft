@@ -1,0 +1,10 @@
+{
+    "type":  "neoforge:add_features",
+    "biomes":  [
+                   "minecraft:badlands",
+                   "minecraft:eroded_badlands",
+                   "minecraft:wooded_badlands"
+               ],
+    "features":  "ee_worldgen_fix:vanilla_overworld_gold_ore_extra_deposit",
+    "step":  "underground_ores"
+}

@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "all":  "emendatusenigmatica:block/zinc_block"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

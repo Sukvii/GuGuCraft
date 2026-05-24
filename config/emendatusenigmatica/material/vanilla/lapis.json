@@ -1,0 +1,26 @@
+{
+    "id":  "lapis",
+    "source":  "vanilla",
+    "localizedName":  "Lapis Lazuli",
+    "processedTypes":  [
+                           "ore",
+                           "dust",
+                           "gear"
+                       ],
+    "properties":  {
+                       "materialType":  "gem",
+                       "harvestLevel":  1
+                   },
+    "oreDrop":  {
+                    "drop":  "minecraft:lapis_lazuli",
+                    "min":  4,
+                    "max":  9
+                },
+    "compat":  {
+                   "create":  true,
+                   "thermal":  false,
+                   "mekanism":  false,
+                   "ars_nouveau":  false,
+                   "occultism":  false
+               }
+}

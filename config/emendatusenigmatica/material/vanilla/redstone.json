@@ -1,0 +1,28 @@
+{
+    "id":  "redstone",
+    "source":  "vanilla",
+    "localizedName":  "Redstone",
+    "processedTypes":  [
+                           "ore"
+                       ],
+    "properties":  {
+                       "materialType":  "gem",
+                       "harvestLevel":  2,
+                       "hasParticles":  true
+                   },
+    "oreDrop":  {
+                    "drop":  "minecraft:redstone",
+                    "min":  4,
+                    "max":  5
+                },
+    "colors":  {
+                   "particlesColor":  "ff0000"
+               },
+    "compat":  {
+                   "create":  true,
+                   "thermal":  false,
+                   "mekanism":  false,
+                   "ars_nouveau":  false,
+                   "occultism":  false
+               }
+}

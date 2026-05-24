@@ -1,0 +1,19 @@
+{
+  "type": "emendatusenigmatica:vanilla_deposit",
+  "dimension": "minecraft:overworld",
+  "biomes": [],
+  "registryName": "create_overworld_zinc_ore_deposit",
+  "config": {
+    "material": "zinc",
+    "fillerTypes": [
+      "minecraft_stone",
+      "minecraft_deepslate"
+    ],
+    "chance": 8,
+    "size": 12,
+    "minYLevel": -63,
+    "maxYLevel": 70,
+    "placement": "uniform",
+    "rarity": "common"
+  }
+}
