@@ -5,6 +5,8 @@
 # local tooling
 /packwiz.exe
 /.packwiz-cache/
+/.codex-tools/
+/.codex-default-config-*/
 
 # temporary local mod jars copied from the old instance.
 # Convert these to .pw.toml entries before relying on Git-only reproduction.

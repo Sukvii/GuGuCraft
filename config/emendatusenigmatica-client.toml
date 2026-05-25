@@ -1,6 +1,0 @@
-[Rendering]
-	#Allows for bringing back the old strength of glint for the Emendatus Enigmatica armor.
-	#Note that this option doesn't affect vanilla armor rendering!
-	oldSchoolGlint = false
-	#Whether the Patreon Reward should appear floating over the player's head
-	showReward = true
