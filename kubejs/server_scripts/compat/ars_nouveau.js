@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
         'ars_nouveau:polished_sconce',
         'ars_nouveau:polished_source_sconce',
         'ars_nouveau:source_lamp',
+        'ars_nouveau:source_gem_block',
         'ars_nouveau:gold_grate',
         'ars_nouveau:jar_of_light'
     ])

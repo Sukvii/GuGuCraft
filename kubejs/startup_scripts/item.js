@@ -5,6 +5,8 @@ StartupEvents.registry('item', event => {
     event.create('raw_mythril').displayName('粗秘银')
     event.create('mythril_ingot').displayName('秘银锭')
     event.create('mythril_nugget').displayName('秘银粒')
+    event.create('hallowed_gold_ingot').displayName('神圣金锭')
+    event.create('hallowed_gold_nugget').displayName('神圣金粒')
     event.create('crushed_mythril_ore').displayName('粉碎秘银矿')
     event.create('crushed_raw_netherite').displayName('粉碎粗下界合金')
     event.create('mythril_mixture').displayName('秘银混合物')

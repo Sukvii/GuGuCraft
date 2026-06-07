@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         .id('kubejs:vein_mythril_ore')
 
     event.recipes.createoreexcavation.drilling(coeutil.processingOutput('kubejs:raw_mythril', 0.5), 'kubejs:vein_mythril_ore', 120)
-        .fluid(Fluid.of('kubejs:liquid_mana', 100))
+        .fluid(Fluid.of('kubejs:liquid_source', 100))
         .id('kubejs:drilling_mythril_ore')
 
     event.recipes.createoreexcavation.vein('{"text": "秘银溶剂脉"}', 'kubejs:mythril_solvent_bucket')

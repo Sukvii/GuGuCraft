@@ -4,6 +4,7 @@ var IllegalItemCleanerItemHandlerCapabilities = Java.loadClass('net.neoforged.ne
 
 var ILLEGAL_ITEM_SCAN_INTERVAL = 200
 var ILLEGAL_ITEM_MAX_NESTED_DEPTH = 5
+var ILLEGAL_ITEM_BYPASS_PERMISSION_LEVEL = 2
 
 // Keep the denylist explicit so every scan is a fast string lookup.
 var ILLEGAL_ITEM_IDS = [
@@ -46,6 +47,56 @@ function newIllegalItemStats() {
 
 function isIllegalItem(stack) {
     return stack != null && !stack.isEmpty() && ILLEGAL_ITEM_SET[String(stack.getId())] === true
+}
+
+function hasIllegalItemBypassPermission(player) {
+    if (player == null) {
+        return false
+    }
+
+    try {
+        if (player.hasPermissions(ILLEGAL_ITEM_BYPASS_PERMISSION_LEVEL)) {
+            return true
+        }
+    } catch (ignored) {
+    }
+
+    return false
+}
+
+function isCreativeModePlayer(player) {
+    if (player == null) {
+        return false
+    }
+
+    try {
+        if (player.isCreative()) {
+            return true
+        }
+    } catch (ignored) {
+    }
+
+    try {
+        var gameMode = player.gameMode.getGameModeForPlayer()
+        if (gameMode != null && gameMode.isCreative()) {
+            return true
+        }
+    } catch (ignored) {
+    }
+
+    try {
+        var abilities = player.getAbilities()
+        if (abilities != null && abilities.instabuild) {
+            return true
+        }
+    } catch (ignored) {
+    }
+
+    return false
+}
+
+function shouldSkipIllegalItemScan(player) {
+    return hasIllegalItemBypassPermission(player) || isCreativeModePlayer(player)
 }
 
 function countRemoved(stack) {
@@ -309,6 +360,10 @@ function scanPlayerIllegalItems(player, reason) {
         return
     }
 
+    if (shouldSkipIllegalItemScan(player)) {
+        return
+    }
+
     var stats = newIllegalItemStats()
     var changed = false
 
@@ -336,6 +391,10 @@ PlayerEvents.inventoryChanged(event => {
 })
 
 PlayerEvents.chestOpened(event => {
+    if (shouldSkipIllegalItemScan(event.player)) {
+        return
+    }
+
     var stats = newIllegalItemStats()
     var changed = false
     changed = scanContainer(event.inventory, stats, 0) || changed
@@ -344,6 +403,10 @@ PlayerEvents.chestOpened(event => {
 })
 
 PlayerEvents.inventoryOpened(event => {
+    if (shouldSkipIllegalItemScan(event.player)) {
+        return
+    }
+
     var stats = newIllegalItemStats()
     var changed = false
     changed = scanMenu(event.inventoryContainer, stats) || changed
@@ -352,6 +415,10 @@ PlayerEvents.inventoryOpened(event => {
 })
 
 PlayerEvents.inventoryClosed(event => {
+    if (shouldSkipIllegalItemScan(event.player)) {
+        return
+    }
+
     var stats = newIllegalItemStats()
     var changed = false
     changed = scanMenu(event.inventoryContainer, stats) || changed

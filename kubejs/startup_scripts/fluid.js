@@ -5,10 +5,10 @@ StartupEvents.registry('fluid', event => {
         .stillTexture('kubejs:fluid/mys_still')
         .flowingTexture('kubejs:fluid/mys_flow')
 
-    event.create('liquid_mana')
-        .displayName('液态魔力')
-        .stillTexture('kubejs:fluid/liquid_mana_still')
-        .flowingTexture('kubejs:fluid/liquid_mana_flow')
+    event.create('liquid_source')
+        .displayName('液态魔源')
+        .stillTexture('kubejs:fluid/liquid_source_still')
+        .flowingTexture('kubejs:fluid/liquid_source_flow')
 
     event.create('mythril_solvent')
         .displayName('秘银溶剂')

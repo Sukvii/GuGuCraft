@@ -22,6 +22,6 @@ ServerEvents.recipes(event => {
 
     event.recipes.create.compacting('kubejs:mythril_ingot', '9x kubejs:mythril_nugget').id('kubejs:compacting/mythril_ingot').id('guguaddons:compating/mythril_ingot')
 
-    event.recipes.create.mixing('kubejs:arcane_ingot', [Fluid.of('kubejs:liquid_mana',250), Fluid.of('kubejs:mythril_solvent',100), 'kubejs:mythril_ingot'], 100).id('guguaddons:mixing/arcane_ingot')
+    event.recipes.create.mixing('kubejs:arcane_ingot', [Fluid.of('kubejs:liquid_source',250), Fluid.of('kubejs:mythril_solvent',100), 'kubejs:mythril_ingot'], 100).id('guguaddons:mixing/arcane_ingot')
 
 })
