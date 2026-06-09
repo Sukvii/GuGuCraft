@@ -42,6 +42,18 @@ AStages.customizeStage('arcane_mechanism')
 
 AStages.addRestrictionForItem('astages/item/arcane_mechanism', 'arcane_mechanism', 'kubejs:arcane_mechanism')
 
+AStages.customizeStage('theurgy_machines_1')
+    .setAddTitle(_stageKey => $Component.literal('科技已解锁！'))
+
+AStages.addRestrictionForItem('astages/item/calcination_oven', 'theurgy_machines_1', 'theurgy:calcination_oven')
+AStages.addRestrictionForItem('astages/item/pyromantic_brazier', 'theurgy_machines_1', 'theurgy:pyromantic_brazier')
+AStages.addRestrictionForItem('astages/item/sal_ammoniac_tank', 'theurgy_machines_1', 'theurgy:sal_ammoniac_tank')
+AStages.addRestrictionForItem('astages/item/liquefaction_cauldron', 'theurgy_machines_1', 'theurgy:liquefaction_cauldron')
+AStages.addRestrictionForRecipe('astages/recipe/calcination_oven', 'theurgy_machines_1', 'lychee:block_interacting', 'guguaddons:lychee/block_interacting/calcination_oven')
+AStages.addRestrictionForRecipe('astages/recipe/pyromantic_brazier', 'theurgy_machines_1', 'lychee:block_interacting', 'guguaddons:lychee/block_interacting/pyromantic_brazier')
+AStages.addRestrictionForRecipe('astages/recipe/sal_ammoniac_tank', 'theurgy_machines_1', 'lychee:block_interacting', 'guguaddons:lychee/block_interacting/sal_ammoniac_tank')
+AStages.addRestrictionForRecipe('astages/recipe/liquefaction_cauldron', 'theurgy_machines_1', 'lychee:block_interacting', 'guguaddons:lychee/block_interacting/liquefaction_cauldron')
+
 AStages.customizeStage('torchmaster_1')
     .setAddTitle(_stageKey => $Component.literal('科技已解锁！'))
 

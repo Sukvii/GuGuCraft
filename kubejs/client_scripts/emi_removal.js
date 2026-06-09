@@ -4,6 +4,7 @@ RecipeViewerEvents.removeEntries('item', event => {
     event.remove('farmersdelight:rice')
     event.remove('pantographsandwires:iron_rod')
     event.remove('kubejs:incomplete_kinetic_mechanism')
+    event.remove('kubejs:incomplete_arcane_mechanism')
     event.remove('kubejs:incomplete_deduction_casing')
     event.remove('kubejs:incomplete_oula_ingot')
     Ingredient.of('/^create_ae2recipes:.*$/').itemIds.forEach(id => {
