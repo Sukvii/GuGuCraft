@@ -1,0 +1,17 @@
+{
+  "priority": 995,
+  "style": "obscure_tooltips:level5_style",
+  "filter": {
+    "type": "obscure_tooltips:mod",
+    "mods": [
+      "create",
+      "createrailwaysnavigator",
+      "create_vibrant_vaults",
+      "escalated",
+      "copycats",
+      "numismatics",
+      "createaddition",
+      "createdieselgenerators"
+    ]
+  }
+}

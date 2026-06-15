@@ -21,6 +21,16 @@
 			}
 			icon_scale: 0.9d
 			id: "1ADFEAFE92E08F24"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					id: "kubejs:kinetic_mechanism"
+				}
+				id: "4388F95DC39D5F2E"
+				ignore_reward_blocking: true
+				stage: "基础研究"
+				type: "gamestage"
+			}]
 			shape: "gear"
 			size: 1.6d
 			tasks: [
@@ -97,13 +107,14 @@
 			id: "5CF611A89C4A3460"
 			rewards: [{
 				auto: "enabled"
-				command: "/astages add @p interface_upgrade_1"
 				icon: {
 					id: "guguaddons:interface_upgrade_1"
 				}
-				id: "7B24CE5D937AB6BE"
-				silent: true
-				type: "command"
+				id: "36B6A012112DEA60"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "interface_upgrade_1"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -127,13 +138,14 @@
 			id: "15F92C8B6180BBCD"
 			rewards: [{
 				auto: "enabled"
-				command: "/astages add @p interface_upgrade_2"
 				icon: {
 					id: "guguaddons:interface_upgrade_2"
 				}
-				id: "743A36A41733EC72"
-				silent: true
-				type: "command"
+				id: "4DC6F876DAB975D9"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "interface_upgrade_2"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [
@@ -149,6 +161,12 @@
 					id: "2C77D5DBA2530816"
 					item: { count: 1, id: "create:precision_mechanism" }
 					task_screen_only: true
+					type: "item"
+				}
+				{
+					count: 256L
+					id: "3DDA5597C3A80A58"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
 					type: "item"
 				}
 			]
@@ -177,15 +195,6 @@
 			shape: "gear"
 			x: -7.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["536171A3638882E5"]
-			hide_until_deps_complete: true
-			icon_scale: 0.9d
-			id: "27FFA1C1A467F4E0"
-			shape: "gear"
-			x: -7.5d
-			y: 7.0d
 		}
 		{
 			dependencies: ["3DF01E01D8045FD0"]
@@ -414,7 +423,24 @@
 			}
 			icon_scale: 0.9d
 			id: "6D87C1DF995717D7"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					id: "guguaddons:slash_back_terminal"
+				}
+				id: "4986E6455363256B"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "slash_back_terminal"
+				type: "astages:player"
+			}]
 			shape: "gear"
+			tasks: [{
+				count: 256L
+				id: "62D2FB4D8CC1B57C"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				type: "item"
+			}]
 			x: 7.5d
 			y: 4.5d
 		}
@@ -462,24 +488,20 @@
 					type: "item"
 				}
 				{
-					count: 256L
-					id: "43FB51B656CA8F42"
+					count: 4096L
+					id: "36FA448B43B761EA"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					count: 1024L
+					id: "7A3FBC4AEEBD42D4"
 					item: { count: 1, id: "kubejs:arcane_mechanism" }
-					task_screen_only: true
 					type: "item"
 				}
 			]
 			x: -5.0d
 			y: 9.5d
-		}
-		{
-			dependencies: ["515D94A2377A0691"]
-			hide_until_deps_complete: true
-			icon_scale: 0.9d
-			id: "7988351A06BE2338"
-			shape: "gear"
-			x: -2.5d
-			y: 7.0d
 		}
 		{
 			dependencies: ["1ADFEAFE92E08F24"]
@@ -516,30 +538,30 @@
 			dependencies: ["12DE07A7191AB43F"]
 			hide_until_deps_complete: true
 			icon: {
-				components: {
-					"ftbquests:icon": "ftbteams:textures/accept.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "ars_nouveau:relay_deposit"
 			}
 			icon_scale: 0.9d
 			id: "06C4F025C07591FE"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @p theurgy_machines_1"
+				icon: {
+					id: "theurgy:liquefaction_cauldron"
+				}
+				id: "4C03CE9B4C906AF5"
+				silent: true
+				type: "command"
+			}]
 			shape: "gear"
 			size: 1.4d
-			tasks: [
-				{
-					consume_items: true
-					count: 512L
-					id: "5652E4D62CCF7818"
-					item: { count: 1, id: "kubejs:kinetic_mechanism" }
-					task_screen_only: true
-					type: "item"
-				}
-				{
-					id: "7EB4FEEAF2E47207"
-					item: { count: 1, id: "guideme:guide" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "5652E4D62CCF7818"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
 			x: 0.0d
 			y: 2.1d
 		}
@@ -547,28 +569,33 @@
 			dependencies: ["06C4F025C07591FE"]
 			hide_until_deps_complete: true
 			icon: {
-				components: {
-					"ftbquests:icon": "ftbteams:textures/accept.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "create:cuckoo_clock"
 			}
 			icon_scale: 0.9d
 			id: "68E9F68EF5DB9EC1"
+			rewards: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "05D442B3BCD9DFAB"
+				type: "custom"
+			}]
 			shape: "gear"
 			size: 1.4d
 			tasks: [{
-				consume_items: true
-				count: 512L
-				id: "47ADF945C1B6310A"
-				item: { count: 1, id: "kubejs:kinetic_mechanism" }
-				task_screen_only: true
-				type: "item"
+				icon: {
+					id: "create:cuckoo_clock"
+				}
+				id: "22F53E8C63AFD672"
+				stat: "ae2:items_inserted"
+				type: "stat"
+				value: 1
 			}]
 			x: 0.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["06C4F025C07591FE"]
+			dependencies: ["68E9F68EF5DB9EC1"]
 			hide_until_deps_complete: true
 			icon: {
 				components: {
@@ -592,7 +619,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["06C4F025C07591FE"]
+			dependencies: ["68E9F68EF5DB9EC1"]
 			hide_until_deps_complete: true
 			icon: {
 				components: {

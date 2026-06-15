@@ -1,6 +1,6 @@
 name = "Rolling Gate"
 filename = "RollingGate-neoforge-1.21.1-1.1.0+build.64.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"

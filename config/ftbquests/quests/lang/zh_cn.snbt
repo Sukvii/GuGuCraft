@@ -4,8 +4,15 @@
 	chapter.74FD9793EBF983AF.title: "从零开始"
 	chapter.7E04319371B01AD0.title: "路线"
 	chapter_group.5B35751FF01CB70D.title: "Expert"
-	quest.06C4F025C07591FE.quest_desc: ["敬请期待"]
-	quest.06C4F025C07591FE.title: "未完待续"
+	quest.06C4F025C07591FE.quest_desc: [
+		"听着，实验员，接下来的奥术挑战可不是闹着玩的，高层在报告里管这叫“&6难度稍高的自动化挑战&f”。但据我所知，上一个试图徒手组装的工友，他的胡子至今还在闪烁着紫光。"
+		""
+		"为了不让你步其后尘，我们需要在正式开始前，为你解锁制造奥术构件的核心必要机器。规则依旧：向终端上缴512个动力构件作为研发经费。"
+		""
+		"&4正所谓工欲善其事，必先利其器。老老实实把必备工具准备好，除非你真的想用肉体去搅拌那些狂暴的魔法能量。"
+	]
+	quest.06C4F025C07591FE.quest_subtitle: "工欲善其事，必先利其器"
+	quest.06C4F025C07591FE.title: "在此之前"
 	quest.0776FD82E9C13041.title: "122"
 	quest.0EA1B4E371713261.title: "下界合金喷气背包"
 	quest.128A83BF0B506781.quest_desc: [
@@ -142,7 +149,10 @@
 	]
 	quest.66435C3FE4214FE7.quest_subtitle: "章节基础教程"
 	quest.66435C3FE4214FE7.title: "欢迎来到GuGu研究所！"
+	quest.68E9F68EF5DB9EC1.quest_subtitle: "因为产能就这点了，只能做这么多了.jpg"
+	quest.68E9F68EF5DB9EC1.title: "未完待续"
 	quest.6D770935677BE2AE.title: "生活质量更新"
+	quest.6D87C1DF995717D7.title: "“/back”"
 	quest.6FF9ABC70A1ED35E.quest_desc: ["嫌弃终端吞噬物资像在品茶？这套超频升级方案能把它的进食方式从“细嚼慢咽”变成“暴风吸入”。别让漫长的进度条成为你偷懒的借口，效率就是一切！"]
 	quest.6FF9ABC70A1ED35E.quest_subtitle: "更高更快更强"
 	quest.6FF9ABC70A1ED35E.title: "提交速率升级"
@@ -151,19 +161,49 @@
 	quest.7E4D4147072B5809.title: "欢迎回来！"
 	quest.7E89BA85799A724B.quest_desc: ["本章节主要内容为Expert内容的重要节点，你可以在这里看到目前的大致发展阶段"]
 	quest.7E89BA85799A724B.title: "摘要"
+	reward.05D442B3BCD9DFAB.title: "敬请期待"
 	reward.180509D6B49E5928.title: "解锁：巨型火把"
 	reward.1904E3191C29D4BE.title: "解锁：推演机壳"
 	reward.1BBACB89FF50A9A2.title: "解锁：喷气背包"
 	reward.22FD7710C5E2E1CD.title: "解锁：狂野闪耀之灯"
 	reward.308D8CABA724E780.title: "解锁：奥术构件"
+	reward.36B6A012112DEA60.title: "解锁：输入速率升级 I"
 	reward.3EEABC9481A45834.title: "解锁：功能接口"
 	reward.441A91BBAF32F54B.title: "领取你的奖励！"
+	reward.4986E6455363256B.title: "解锁：“/back”"
+	reward.4C03CE9B4C906AF5.title: "解锁：奥术基础套件"
+	reward.4DC6F876DAB975D9.title: "解锁：输入速率升级 II"
 	reward.5546093623D2FE5C.title: "解锁：输入速率升级 III"
 	reward.740C30414D726C5C.title: "解锁：下界合金喷气背包"
-	reward.743A36A41733EC72.title: "解锁：输入速率升级 II"
 	reward.7A2CF6278E6E4544.title: "解锁：恐惧之灯"
-	reward.7B24CE5D937AB6BE.title: "解锁：输入速率升级 I"
 	reward_table.49185B525CF28733.title: "初心者奖励包"
+	reward_table.6CB5E0321863F6C6.title: "初级工程师福利包"
+	task.22F53E8C63AFD672.title: "未完待续"
 	task.2C6B700002CAD194.title: "1"
 	task.3A8C14BE3A2AF0CF.title: "动力构件"
+	chapter.22892B39A985EC54.title: "农贸市场"
+	chapter_group.3C63A0CCCA15A8F0.title: "Event"
+	quest.19F7CB808D8E2DCC.quest_desc: ["七日后失效"]
+	quest.3974744BE1CB4D7E.quest_desc: ["若无其他意外情况，服务器将&4持续运行&f，存档也将&4长期保留&f，所以不必担心自己辛苦建造的成果随存档更换而消失"]
+	quest.3974744BE1CB4D7E.title: "服务器状况"
+	quest.4E02622DDA832F7F.quest_desc: ["如果你是被其他朋友介绍进服的，别忘了加入我们的&a官方QQ群：613726820"]
+	quest.4E02622DDA832F7F.title: "交流群指南"
+	quest.5939C56A0E871225.quest_desc: [
+		"如何&a邀请朋友&f进服？"
+		""
+		"没有任何限制，只需要告诉他QQ群号即可"
+	]
+	quest.5939C56A0E871225.title: "邀请指南"
+	quest.5F8D54587D37CCEC.quest_desc: [
+		"&4最基本的规则&f是所作所为不能影响到服务器的正常运作"
+		""
+		"除此之外服务器没有其他限制，只要不影响到其他玩家正常游玩，你可以自由探索这个世界"
+	]
+	quest.5F8D54587D37CCEC.title: "服务器守则"
+	quest.619CC9255627D69D.quest_desc: ["除开&a新年&f的固有合影活动之外，服务器将&a不定期&f举行一些小活动，欢迎积极参与"]
+	quest.619CC9255627D69D.title: "服务器活动"
+	quest.66DD1F44726A98F2.title: "更新日志"
+	quest.6C56617CC14B9DB4.quest_desc: ["如你所见，这里是MC，做你想做的事吧"]
+	quest.6C56617CC14B9DB4.title: "我能做些什么？"
+	quest.7E4D4147072B5809.quest_desc: ["欢迎来到GuGuCraft六周目！这是你的奖励，快拿好！"]
 }

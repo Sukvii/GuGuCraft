@@ -1,0 +1,13 @@
+{
+  "priority": 1000,
+  "style": "obscure_tooltips:level0_style",
+  "filter": {
+    "type": "obscure_tooltips:mod",
+    "mods": [
+      "minecraft",
+      "blockbox",
+      "handcrafted",
+      "ecologics"
+    ]
+  }
+}

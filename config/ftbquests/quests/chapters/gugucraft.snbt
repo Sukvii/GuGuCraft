@@ -4,10 +4,7 @@
 	filename: "gugucraft"
 	group: ""
 	icon: {
-		components: {
-			"ftbquests:icon": "guguaddons:item/tab_icon"
-		}
-		id: "ftbquests:custom_icon"
+		id: "minecraft:grass_block"
 	}
 	id: "58AD5AF80722331D"
 	order_index: 0
@@ -31,7 +28,15 @@
 		{
 			dependencies: ["7E4D4147072B5809"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "waystones:warp_scroll"
+			}
 			id: "3974744BE1CB4D7E"
+			rewards: [{
+				id: "7B3BCFF360ABC700"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2CB264557B7B6D6E"
 				type: "checkmark"
@@ -42,7 +47,15 @@
 		{
 			dependencies: ["7E4D4147072B5809"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "create:deployer"
+			}
 			id: "5939C56A0E871225"
+			rewards: [{
+				id: "03450FE72305A5F2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "28A1930D84F54C60"
 				type: "checkmark"
@@ -53,6 +66,9 @@
 		{
 			dependencies: ["7E4D4147072B5809"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "touhou_little_maid:trumpet"
+			}
 			id: "619CC9255627D69D"
 			tasks: [{
 				id: "181B481664FA735B"
@@ -64,7 +80,15 @@
 		{
 			dependencies: ["7E4D4147072B5809"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "kaleidoscope_cookery:scarecrow"
+			}
 			id: "4E02622DDA832F7F"
+			rewards: [{
+				id: "5A1640AD16F5E032"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "71AD602898E3BFB4"
 				type: "checkmark"
@@ -75,7 +99,29 @@
 		{
 			dependencies: ["7E4D4147072B5809"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:red_bed"
+			}
 			id: "6C56617CC14B9DB4"
+			rewards: [
+				{
+					id: "07E74426E42D7E6D"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "06FAC378FC615687"
+					item: {
+						count: 1
+						id: "farmersdelight:cake_slice"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3658764C05C0E4DB"
 				type: "checkmark"
@@ -97,7 +143,15 @@
 		{
 			dependencies: ["7E4D4147072B5809"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:writable_book"
+			}
 			id: "5F8D54587D37CCEC"
+			rewards: [{
+				id: "7CFA5A09ED259577"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "0D8F18A773E2C609"
 				type: "checkmark"
@@ -108,6 +162,9 @@
 		{
 			dependencies: ["7E4D4147072B5809"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "create:clipboard"
+			}
 			id: "66DD1F44726A98F2"
 			tasks: [{
 				id: "34A46F5762DEEFD8"
@@ -115,70 +172,6 @@
 			}]
 			x: -0.5d
 			y: 2.0d
-		}
-		{
-			can_repeat: true
-			id: "58CAED56455A232A"
-			rewards: [{
-				command: "/astages add @p test"
-				id: "57F21CE6CB2A7B8D"
-				silent: true
-				type: "command"
-			}]
-			tasks: [{
-				id: "53748D66BDE2FC5A"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			can_repeat: true
-			id: "182B017FF38F0768"
-			rewards: [{
-				command: "/astages remove @p test"
-				id: "74EFBCDBB0E39D38"
-				silent: true
-				type: "command"
-			}]
-			tasks: [{
-				id: "2D183ED6419753FF"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			id: "0DDBAB31D494D755"
-			rewards: [{
-				id: "2A9DCAA229CD0222"
-				item: {
-					count: 1
-					id: "minecraft:oak_log"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 6400L
-				id: "09EBCE403C0C7BD2"
-				item: { count: 1, id: "minecraft:oak_log" }
-				task_screen_only: true
-				type: "item"
-			}]
-			x: -3.5d
-			y: 4.5d
-		}
-		{
-			id: "0776FD82E9C13041"
-			tasks: [{
-				count: 1111L
-				id: "0B1D35D49CCC92E8"
-				item: { count: 1, id: "minecraft:oak_log" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.5d
 		}
 	]
 }

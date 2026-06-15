@@ -18,7 +18,10 @@ RecipeViewerEvents.removeEntries('item', event => {
         'theurgy:calcination_oven',
         'theurgy:pyromantic_brazier',
         'theurgy:sal_ammoniac_tank',
-        'theurgy:liquefaction_cauldron'
+        'theurgy:liquefaction_cauldron',
+        'theurgy:purified_gold',
+        'theurgy:sal_ammoniac_accumulator',
+        'theurgy:sal_ammoniac_bucket'
     ])
 
     Ingredient.of('/^theurgy:.*$/').itemIds.forEach(id => {

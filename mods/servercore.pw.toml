@@ -1,6 +1,6 @@
 name = "ServerCore"
 filename = "servercore-neoforge-1.5.17+1.21.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/4WWQxlQP/versions/zEViyXZ9/servercore-neoforge-1.5.17%2B1.21.1.jar"

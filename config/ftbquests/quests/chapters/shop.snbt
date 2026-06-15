@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: "3C63A0CCCA15A8F0"
+	icon: {
+		id: "kaleidoscope_cookery:straw_hat"
+	}
+	id: "22892B39A985EC54"
+	images: [
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "create:block/axis"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "0D4CB7E115A4D3D6"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "415F5D20F0587CD8"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "263E46BFB27BD06B"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "57142B283C89B74F"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "29F66E86ACB65D6E"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "39A6209708CC421A"
+				item: { count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "5504A17E8C5168A7"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "4C652F0336F17E21"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "172731EC44D58E35"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "155CA37B850612D5"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "09F89DDD0E2A1EB3"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "28A234A7D44BF2C4"
+				item: { count: 1, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "78A6E78E5CA9F5C6"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "643FB6CA086380DA"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "5D97204900373BC0"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "22A210C1E35CB1E0"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "73701BBFC7FD865E"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6D18F5836931242C"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "3D9D127393B99003"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "38F671169DC5FA93"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "18CDAC4D253DC700"
+				item: { count: 1, id: "kaleidoscope_cookery:rice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "4CDBCBF12F10AF3C"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "2D9C4FC425A6AC6C"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "404BA79F170BD656"
+				item: { count: 1, id: "kaleidoscope_cookery:red_chili" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "751B472D7F1F173E"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "0EB2D412DA0AD943"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "20DB5DC0083D968A"
+				item: { count: 1, id: "kaleidoscope_cookery:lettuce" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "7422F7EB9C31C3C5"
+			repeat_cooldown: 86400
+			rewards: [{
+				id: "70EA83E2C3381214"
+				item: {
+					count: 1
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "4A074AD4034A388C"
+				item: { count: 1, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+}

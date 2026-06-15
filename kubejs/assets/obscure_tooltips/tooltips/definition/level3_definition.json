@@ -1,0 +1,13 @@
+{
+  "priority": 997,
+  "style": "obscure_tooltips:level3_style",
+  "filter": {
+    "type": "obscure_tooltips:mod",
+    "mods": [
+      "farmersdelight",
+      "ends_delight",
+      "mynethersdelight",
+      "kaleidoscope_cookery"
+    ]
+  }
+}

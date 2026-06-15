@@ -1,0 +1,13 @@
+name = "AStages FTB Quests"
+filename = "astages_ftbquests-2.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WeZ2k3T1/versions/mu04tLy4/astages_ftbquests-2.0.0-1.21.1.jar"
+hash-format = "sha512"
+hash = "8daaa32878b45431eca48e0fcd929adef1c8c79e29526e0c01ce20bce46297ddc43420f8ce15d1c67656071a018a05b01d532eb9a39b5a7def6d76ae590afbd3"
+
+[update]
+[update.modrinth]
+mod-id = "WeZ2k3T1"
+version = "mu04tLy4"

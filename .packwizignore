@@ -27,3 +27,7 @@
 /CustomSkinLoader/
 /GuGuCraft NEW-natives/
 
+# jars managed through .pw.toml metadata
+/mods/astages_ftbquests-2.0.0-1.21.1.jar
+/mods/automodpack-mc1.21.1-neoforge-4.0.5.jar
+/mods/certain_questing_additions-neoforge-*.jar
