@@ -8422,7 +8422,7 @@ hash = "c03be636eecf89742f89a2617ff178ba77f13ee6f603244310c7029398375b51"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_interacting.js"
-hash = "956dfd74ae0f29441f676cc978483e4807fc57adc77e6e1bab24c545e3a3847a"
+hash = "3abdf68236fef47819a765995972da534ad5ed0a273a81764962f0c61b55389a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/theurgy/calcination_oven.js"
@@ -8708,7 +8708,7 @@ metafile = true
 
 [[files]]
 file = "mods/deeperdarker.pw.toml"
-hash = "ebb3df18070c94169933965dc6ef11ea68adb2b362623417e6b129f0af9a1bbe"
+hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
 metafile = true
 
 [[files]]

@@ -23,6 +23,11 @@ ServerEvents.recipes(event => {
             },
             {
                 type: 'execute',
+                command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run particle minecraft:end_rod ~ ~ ~ 0.16 0.16 0.16 0.1 20 force @a',
+                hide: true
+            },
+            {
+                type: 'execute',
                 command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run playsound ars_nouveau:ea_finish block @a ~ ~ ~ 1',
                 hide: true
             }
@@ -156,4 +161,29 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('guguaddons:lychee/block_interacting/liquefaction_cauldron')
+
+    event.custom({
+        type: 'lychee:block_interacting',
+        item_in: {
+            item: 'waystones:warp_dust',
+            count: 1
+        },
+        block_in: 'minecraft:jungle_sapling',
+        post: [
+            {
+                type: 'place',
+                block: 'ars_nouveau:green_archwood_sapling'
+            },
+            {
+                type: 'execute',
+                command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run particle minecraft:end_rod ~ ~ ~ 0.16 0.16 0.16 0.1 20 force @a',
+                hide: true
+            },
+            {
+                type: 'execute',
+                command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run playsound ars_nouveau:ea_finish block @a ~ ~ ~ 1',
+                hide: true
+            }
+        ]
+    }).id('guguaddons:lychee/block_interacting/green_archwood_sapling')
 })
