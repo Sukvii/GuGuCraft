@@ -253,16 +253,18 @@
 			icon_scale: 0.9d
 			id: "47E085E69978417A"
 			rewards: [{
-				command: "/astages add @p jetpack_1"
+				auto: "enabled"
 				icon: {
 					components: {
 						"create:banktank_air": 900
 					}
 					id: "create_jetpack:jetpack"
 				}
-				id: "1BBACB89FF50A9A2"
-				silent: true
-				type: "command"
+				id: "1CE54C482257621D"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "jetpack_1"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -287,16 +289,18 @@
 			icon_scale: 0.9d
 			id: "0EA1B4E371713261"
 			rewards: [{
-				command: "/astages add @p jetpack_2"
+				auto: "enabled"
 				icon: {
 					components: {
 						"create:banktank_air": 900
 					}
 					id: "create_jetpack:netherite_jetpack"
 				}
-				id: "740C30414D726C5C"
-				silent: true
-				type: "command"
+				id: "1E4D5C0F1C78BFFA"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "jetpack_2"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -318,13 +322,15 @@
 			icon_scale: 0.9d
 			id: "142E41E10006D041"
 			rewards: [{
-				command: "/astages add @p torchmaster_1"
+				auto: "enabled"
 				icon: {
 					id: "torchmaster:megatorch"
 				}
-				id: "180509D6B49E5928"
-				silent: true
-				type: "command"
+				id: "540E1760009D0F4A"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "torchmaster_1"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -347,13 +353,15 @@
 			icon_scale: 0.9d
 			id: "65094E8DF35B6220"
 			rewards: [{
-				command: "/astages add @p torchmaster_2"
+				auto: "enabled"
 				icon: {
 					id: "torchmaster:dreadlamp"
 				}
-				id: "7A2CF6278E6E4544"
-				silent: true
-				type: "command"
+				id: "42C202BDCE50DACC"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "torchmaster_2"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -376,13 +384,15 @@
 			icon_scale: 0.9d
 			id: "4449D408A6115C65"
 			rewards: [{
-				command: "/astages add @p torchmaster_3"
+				auto: "enabled"
 				icon: {
 					id: "torchmaster:feral_flare_lantern"
 				}
-				id: "22FD7710C5E2E1CD"
-				silent: true
-				type: "command"
+				id: "7B382D1D6D70BF7B"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "torchmaster_3"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -470,13 +480,14 @@
 			id: "21486D4A2E6BF8A7"
 			rewards: [{
 				auto: "enabled"
-				command: "/astages add @p interface_upgrade_3"
 				icon: {
 					id: "guguaddons:interface_upgrade_3"
 				}
-				id: "5546093623D2FE5C"
-				silent: true
-				type: "command"
+				id: "6FD3FD5D43BFA8B4"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "interface_upgrade_3"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [
@@ -513,13 +524,14 @@
 			id: "12DE07A7191AB43F"
 			rewards: [{
 				auto: "enabled"
-				command: "/astages add @p arcane_mechanism"
 				icon: {
 					id: "kubejs:arcane_mechanism"
 				}
-				id: "308D8CABA724E780"
-				silent: true
-				type: "command"
+				id: "3DB775EA629D23FD"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "arcane_mechanism"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			size: 1.4d
@@ -544,13 +556,14 @@
 			id: "06C4F025C07591FE"
 			rewards: [{
 				auto: "enabled"
-				command: "/astages add @p theurgy_machines_1"
 				icon: {
 					id: "theurgy:liquefaction_cauldron"
 				}
-				id: "4C03CE9B4C906AF5"
-				silent: true
-				type: "command"
+				id: "4B321182ACCBA2DD"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "theurgy_machines_1"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			size: 1.4d

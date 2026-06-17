@@ -4,7 +4,10 @@
 	filename: "gugucraft"
 	group: ""
 	icon: {
-		id: "minecraft:grass_block"
+		components: {
+			"ftbquests:icon": "guguaddons:item/tab_icon"
+		}
+		id: "ftbquests:custom_icon"
 	}
 	id: "58AD5AF80722331D"
 	order_index: 0
@@ -127,7 +130,7 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7E4D4147072B5809"]
@@ -171,7 +174,44 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C56617CC14B9DB4"]
+			id: "61225D16E85DC829"
+			invisible: true
+			rewards: [
+				{
+					id: "727779A31B28A793"
+					item: {
+						count: 1
+						id: "create:builders_tea"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ftbquests:book"
+					}
+					id: "062017ABCF0A980E"
+					item: {
+						count: 1
+						id: "ftbquests:book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:brass_casing"
+				criterion: ""
+				icon: {
+					id: "create:wrench"
+				}
+				id: "728C11576CF4C550"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 }

@@ -42,6 +42,11 @@ AStages.customizeStage('slash_back_terminal')
 
 AStages.addRestrictionForItem('astages/item/slash_back_terminal', 'slash_back_terminal', 'guguaddons:slash_back_terminal')
 
+AStages.customizeStage('fluid_drill')
+    .setAddTitle('科技已解锁！')
+
+AStages.addRestrictionForItem('astages/item/fluid_drill', 'fluid_drill', 'createoreexcavation:extractor')
+
 AStages.customizeStage('arcane_mechanism')
     .setAddTitle('科技已解锁！')
 
@@ -63,6 +68,7 @@ GuGuMachineStageEvents.register(event => {
         'guguaddons:lychee/block_interacting/sal_ammoniac_tank',
         'guguaddons:lychee/block_interacting/liquefaction_cauldron'
     ], 'theurgy_machines_1')
+    event.addRecipe('create:mechanical_crafting', 'createoreexcavation:extractor', 'fluid_drill')
 })
 
 AStages.customizeStage('torchmaster_1')

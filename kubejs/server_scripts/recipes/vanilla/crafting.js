@@ -13,4 +13,9 @@ ServerEvents.recipes(event => {
         C: 'create:fluid_tank',
         D: '#minecraft:wooden_slabs'
     }).id('guguaddons:crafting/sal_ammoniac_accumulator')
+
+    event.shaped('kubejs:saw', ['  A', ' A ', 'B  '], {
+        A: 'create:iron_sheet',
+        B: 'minecraft:stick'
+    }).id('guguaddons:crafting/saw')
 })

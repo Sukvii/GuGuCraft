@@ -22,6 +22,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5F262010FF62FC8C"]
+			hide_until_deps_complete: true
 			id: "7E89BA85799A724B"
 			rewards: [{
 				id: "5CA2F6856719285C"
@@ -34,10 +36,11 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7E89BA85799A724B"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "guguaddons:quest_interface"
 			}
@@ -55,10 +58,11 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7E89BA85799A724B"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "kubejs:kinetic_mechanism"
 			}
@@ -80,7 +84,19 @@
 				type: "gamestage"
 			}]
 			x: -0.5d
-			y: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61225D16E85DC829"]
+			hide_until_deps_complete: true
+			id: "5F262010FF62FC8C"
+			shape: "gear"
+			tasks: [{
+				id: "6AF024E3A7465684"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
 		}
 	]
 }

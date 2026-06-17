@@ -12,6 +12,7 @@
 	quests: [
 		{
 			dependencies: ["7E89BA85799A724B"]
+			hide_until_deps_complete: true
 			id: "66435C3FE4214FE7"
 			rewards: [{
 				id: "4CFF384BA9A6A6C4"
@@ -94,17 +95,14 @@
 			id: "54EAE16EABEE8F0F"
 			rewards: [{
 				auto: "enabled"
-				command: "/astages add @p practice_phase1"
-				disable_reward_screen_blur: true
-				exclude_from_claim_all: true
 				icon: {
 					id: "guguaddons:deduction_casing"
 				}
-				id: "1904E3191C29D4BE"
-				permission_level: 4
-				silent: true
-				team_reward: false
-				type: "command"
+				id: "63466AF724ADFD0D"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "practice_phase1"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [{
@@ -130,13 +128,14 @@
 			id: "5ACF65004EF1DD06"
 			rewards: [{
 				auto: "enabled"
-				command: "/astages add @p practice_phase2"
 				icon: {
 					id: "guguaddons:quest_input"
 				}
-				id: "3EEABC9481A45834"
-				silent: true
-				type: "command"
+				id: "26A11C5C06A686E5"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "practice_phase2"
+				type: "astages:player"
 			}]
 			shape: "gear"
 			tasks: [

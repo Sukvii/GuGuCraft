@@ -8421,6 +8421,10 @@ file = "kubejs/server_scripts/recipes/guguaddons/deduction.js"
 hash = "c03be636eecf89742f89a2617ff178ba77f13ee6f603244310c7029398375b51"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/lychee/block_crushing.js"
+hash = "9147f1e3814ef739395b0dea62a8513e00a5021f5c5585be7b72b5e3d914d9f7"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_interacting.js"
 hash = "3abdf68236fef47819a765995972da534ad5ed0a273a81764962f0c61b55389a"
 

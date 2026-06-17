@@ -542,22 +542,22 @@
 	#Maximum length of track that can be placed as one batch or turn.
 	# Default: 32
 	# Range: 16 ~ 128
-	maxTrackPlacementLength = 32
+	maxTrackPlacementLength = 128
 	#.
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
 	# Range: 5 ~ 512
-	maxAssemblyLength = 128
+	maxAssemblyLength = 512
 	#.
 	#Maximum amount of bogeys assembled as a single Train.
 	# Default: 20
 	# Range: 1 ~ 200
-	maxBogeyCount = 20
+	maxBogeyCount = 50
 	#.
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	# Default: 0.75
 	# Range: 0.0 ~ 3.4028234663852886E38
-	manualTrainSpeedModifier = 0.75
+	manualTrainSpeedModifier = 0.8
 
 	#.
 	#Standard Trains
@@ -567,19 +567,19 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 50.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 30.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainAcceleration = 3.0
+		trainAcceleration = 5.0
 
 	#.
 	#Powered Trains
@@ -589,16 +589,16 @@
 		#The top speed of powered Trains.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 40.0
+		poweredTrainTopSpeed = 60.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		# Default: 20.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 20.0
+		poweredTrainTurningTopSpeed = 35.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainAcceleration = 3.0
+		poweredTrainAcceleration = 6.0

@@ -1,0 +1,13 @@
+name = "Accelerated Recoiling"
+filename = "acceleratedrecoiling-21.1.13-alpha.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mMXtqi5e/versions/BhZHa04A/acceleratedrecoiling-21.1.13-alpha.jar"
+hash-format = "sha512"
+hash = "edc7b7e91d6d5503ee7782815ae854c91d5e8653fa39f2ad07bb12ea4e8932bfea8492c15704d531e3d78977feeb39ab0e8e87799145bd7cc89ef3bdeee0baf2"
+
+[update]
+[update.modrinth]
+mod-id = "mMXtqi5e"
+version = "BhZHa04A"
