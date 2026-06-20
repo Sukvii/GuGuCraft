@@ -362,7 +362,7 @@ hash = "910257102bb58da719545721de2ab9112639b42ebb899c2bdca425d2099872b8"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
+hash = "d3cc6ec3f67818d7c72ee4c69961e6ec95295f3e033d7b1252f532883641c85f"
 
 [[files]]
 file = "config/emendatusenigmatica-startup.toml"
@@ -1466,7 +1466,7 @@ hash = "f07c5396633290d18162817332dfdda8e7108d6b61ff7e7038946b479bf480ff"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/copper.json"
-hash = "b515c8f27fea6c537992611b1741737732e2a6227a867d57cb652125ac6cdc53"
+hash = "49c7fecf2a55f9a0c3e6ea09c41e59fd21b9d713444bf66a571312a9714af432"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/diamond.json"
@@ -1522,23 +1522,23 @@ hash = "451769586a66eb524d42bad814e371a58d85d55991331c0c48b2ad128ba51aa4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/725884AB89488808.snbt"
-hash = "727bf39fb0bba917ffb2f9419c2c1a4c72fd594dab9f4a1a0fd1cd746bd86d58"
+hash = "433e9f6b8676d6fa9b8fb695eb8413111c60b7384afee0e1042ad8767fa11542"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74FD9793EBF983AF.snbt"
-hash = "99466eb6128eca18c459ebf23269a74fdd9dd41dc5ce457475a0d786a91f9bbe"
+hash = "62756d57a883b389ce5e8f7edd4792766e396e5a8362d443b2c1cc618086520b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7E04319371B01AD0.snbt"
-hash = "2da19c04fbf2f45092bbb141f40bf81807890b6337f6d95a319ca9247ee9c7c5"
+hash = "753ac9e86e4c9956c8c04343e9a5e2288fb1218f8a253bb89dc908de0d9d03a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gugucraft.snbt"
-hash = "8a5124bef89fcad6a98edf47fdd5fa296bf8db167abbaf399312a25514e81d10"
+hash = "7bede87a9864b250e1d784582f2566468621a78b9ebdca7abbda6e09d44ca155"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
-hash = "9b22eb0adf06ce97ce3304b11e2253c3cee88e7fcc84a93be3e9bf561921e926"
+hash = "53253b2ec34c89abed84cb53b7235513bdbe0b7d048fa6e7f45c1c06150be23a"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1550,11 +1550,15 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "b6085613141ef001040cc0abac7dff186cdbf9c8274be9a53bbd5895b5453744"
+hash = "13e55741057a458017fd5e3d76c98a94c9d7b36e4b3ffbaba4df91d6ee1af2b6"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/49185B525CF28733.snbt"
 hash = "471c1de98eabdf7f7886e0d89f123e04784e75e11bf4a680b003822e1cfccd92"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/6CB5E0321863F6C6.snbt"
+hash = "fc56a24bfbc3fed62097e92240e027885197810037197e4843eedf76c64f2c09"
 
 [[files]]
 file = "config/guguaddons-common.toml"
@@ -1563,6 +1567,14 @@ hash = "5a4935574eafb20f71a2de5c56fd761781e2f9ccce96a05f984e7c79bf2e7125"
 [[files]]
 file = "config/guguaddons-server.toml"
 hash = "160728423662eb313a7e6e8e61159a30c85e0cb93443b682e5d88c502eb8b5b5"
+
+[[files]]
+file = "config/tectonic.json"
+hash = "90e00e604246e54760845dbf596083f8bbaf026a1e2c820e269d9873451e7eaf"
+
+[[files]]
+file = "config/touhou_little_maid-common.toml"
+hash = "9f82eccf6ced94a7b14c7ab6653f751b5a78f431b6165d90faad59bcfaf005db"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -8349,8 +8361,16 @@ file = "kubejs/server_scripts/compat/cca.js"
 hash = "d6030e97aed1dac4fe9b8c30f085ebbdf62ed72e1b6e60c36bd70077a3dadd24"
 
 [[files]]
+file = "kubejs/server_scripts/compat/cpw.js"
+hash = "ea8e73ba161149919ecd377addd79a806d9f097beed66a4588bd9779ae432ad4"
+
+[[files]]
 file = "kubejs/server_scripts/compat/farmerscompat.js"
 hash = "17abcb26aaf55da0944b20e6055cf38b707267e06377769c7075ffbce953a21a"
+
+[[files]]
+file = "kubejs/server_scripts/compat/ftbquest.js"
+hash = "a9c6759845aa8b8a0df45e1745e3d7ff98ee0a37a57b884869229ac1052b0f4b"
 
 [[files]]
 file = "kubejs/server_scripts/compat/theurgy.js"
@@ -8397,6 +8417,10 @@ file = "kubejs/server_scripts/recipes/ars_nouveau/imbuement.js"
 hash = "2794a3efd9190470a31370ff438ba6408913a821bcf4a2f89415ef44f4f438b9"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/create/compacting.js"
+hash = "18b6582f1567221aea81e95a981f2237158f30e2fe490dc21e7e9bda13219bb5"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/create/preesing.js"
 hash = "ac1bd8edb3e3c8dc627c1d6a9287306d9bad192270a074c74a773fe996891760"
 
@@ -8421,12 +8445,16 @@ file = "kubejs/server_scripts/recipes/guguaddons/deduction.js"
 hash = "c03be636eecf89742f89a2617ff178ba77f13ee6f603244310c7029398375b51"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/lychee/anvil_crafting.js"
+hash = "46b45bf2b48192b98d78b8b6fdf9e9ef50d89f57d84c84f598694c734ed53c46"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_crushing.js"
-hash = "9147f1e3814ef739395b0dea62a8513e00a5021f5c5585be7b72b5e3d914d9f7"
+hash = "05cfe1936be623c04d1467227b7130529c4a9fb8f141909aabfa64f9456a3a1e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_interacting.js"
-hash = "3abdf68236fef47819a765995972da534ad5ed0a273a81764962f0c61b55389a"
+hash = "f88fdca404e6b8df2d7f6bd5beefd05bb6acb52e78a6cf9267ff05ee3d6f3f12"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/theurgy/calcination_oven.js"
@@ -8446,7 +8474,7 @@ hash = "4a113b806aad81cca07939a82f6d7ecf910e6adc88ffb9f0f0d4b55914008c8c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/crafting.js"
-hash = "4f109b4719233d9cb0c6e4b38e37400ed8a1db8661ac0af5908684d70595d722"
+hash = "9b3878113343c84b95404fb8cb7dacc198895e12fa440139f53f2c246e8ed259"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/waystone.js"
@@ -8458,7 +8486,7 @@ hash = "120d183f6194f2d25b7d5037127349d5127787ae4f0e7884cbdf2b3b2e4be12c"
 
 [[files]]
 file = "kubejs/server_scripts/stages/stages.js"
-hash = "964a3f9b60a78105833c497319c703056688f0d7d04c3a03cd7ed15b186e530a"
+hash = "f464940eadf954318715392ace9ead8749605eded98dc46d815ea8b71fef46b5"
 
 [[files]]
 file = "kubejs/server_scripts/tags/fluid.js"
@@ -8499,6 +8527,11 @@ hash = "c598d8f9710af7a23f92cdd9061894afa84b2380377a66e15d293e769c998f97"
 [[files]]
 file = "kubejs/startup_scripts/ore_registry.js"
 hash = "c84aa219cf581c8405615a5e7faf7cd344fc75c3cfdee4295ee52a723ac4ee49"
+
+[[files]]
+file = "mods/accelerated-recoiling.pw.toml"
+hash = "25b88aaec9abeb01a2bced01757f30d56b8e3fd17233592d20868ba6d8ff8878"
+metafile = true
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
@@ -8737,7 +8770,7 @@ metafile = true
 
 [[files]]
 file = "mods/emendatusenigmatica-1.21.1-2.2.0-alpha-4.jar"
-hash = "9550f0516a8bb06392379a469e043784f37d13012357d466a4752ab56ed0d5eb"
+hash = "9eba0caad503c61380e4141cd5fa82658256e591c61e065c9b25f86152fca010"
 
 [[files]]
 file = "mods/emi-loot.pw.toml"
@@ -8785,6 +8818,11 @@ hash = "2e37359f2919f3937bc4473b830b54d86d8f6975d040b05d21be51c9b91d1dc9"
 metafile = true
 
 [[files]]
+file = "mods/ftb-essentials.pw.toml"
+hash = "aaa5d15a2ebf6ae368561fc49d7994ffa5084138942095cb4ded4c8921189437"
+metafile = true
+
+[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "5fb287ddb204cc2460dc51984099b0010462f781d00b2d6ed2a37046accf2560"
 metafile = true
@@ -8825,8 +8863,8 @@ hash = "68e15ffc71a84261e0dbbb317329788c21a7b9eb8060687dc8a51008cc3029fe"
 metafile = true
 
 [[files]]
-file = "mods/guguaddons-0.2.6.jar"
-hash = "528cae6ce38e38c0f71f9dd1924fe7f01f18e00dd9b92675375933e3da505c39"
+file = "mods/guguaddons-0.2.13.jar"
+hash = "333f26f4a07984d733f03bc1839f469138f0698bb37d8c481aa7d5d589e0d112"
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -8986,6 +9024,11 @@ metafile = true
 [[files]]
 file = "mods/nolijium.pw.toml"
 hash = "36f8189bb57be713280a80f2efdfbf31d57cb46c826778740489774553e93532"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-bandwidth-legacy(nebl).pw.toml"
+hash = "bfd31eda60ea72f77f978ef56e131084e3a93292f9f68eefed33a3b3aebfe383"
 metafile = true
 
 [[files]]
@@ -9241,47 +9284,3 @@ metafile = true
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip"
 hash = "3be76ded53d1d3b6af114dc7dd257591ddb037a6bd15b66b047988cab094c20a"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/lang/zh_cn.json"
-hash = "5c064bdb9271531bca61a43576c387e0a602649a3cdb1856f3c38617c97285f1"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/models/item/brass_rod.json"
-hash = "fcd562a365a8e3f649a772f9fbce2747eea4dc5394be6914411002658485be8a"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/models/item/copper_rod.json"
-hash = "23e444d5cabe50a813b53d6ef3c8cf3e39f8b1452c717f55be5a529468f53fed"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/models/item/gold_rod.json"
-hash = "ae3bb1a05d803c203f2cdaa132ace064672147f8486f9e86d3eddb5dc6755400"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/models/item/iron_rod.json"
-hash = "b1a019210b52fcfab0733356a1dfbd7e8ba86e5e76e5579b2941d697aa754668"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/textures/item/brass_rod.png"
-hash = "bcf6539ed48d33c828c209a4b41a6f62033386865dfe503c1e3f4b366a6b6186"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/textures/item/copper_rod.png"
-hash = "ff69ed10d281e3c90f5cb4526314d8187a2a7e42d6d17981788b3f9bb42720e7"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/textures/item/gold_rod.png"
-hash = "8dcd2328850a8819530a139e9e6e5751b64b81c7cb58da1159909062ec4964cc"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/assets/createaddition/textures/item/iron_rod.png"
-hash = "36eeeaa058339e762ab448483d67570460c2c010f63664ba9316da968b6d7502"
-
-[[files]]
-file = "resourcepacks/ee_createaddition_override/pack.mcmeta"
-hash = "f39cd65b2187f09d96258bba085ca241e17ee4312e55a4848075b3d0e176a695"
-
-[[files]]
-file = "resourcepacks/waystones_1.21.1.zip"
-hash = "8bf91c6140d71038e0b36b46a12229cd767bea01b8db3d5daf27fc12634fc107"

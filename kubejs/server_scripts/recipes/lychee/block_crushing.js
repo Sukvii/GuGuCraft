@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         falling_block: '#minecraft:anvil',
         post: [
             chanceDrop('create:crushed_raw_gold', 0.6),
-            chanceDrop('kubejs:hallowed_gold_nugget', 0.5),
+            chanceDrop('kubejs:hallowed_gold_nugget', 0.05),
             chanceDrop('kubejs:crushed_raw_netherite', 0.5),
             chanceDrop('minecraft:netherite_scrap', 0.3),
             chanceDrop('minecraft:gold_ingot', 0.3)
