@@ -6,7 +6,8 @@ ServerEvents.recipes(event => {
         'ars_nouveau:source_lamp',
         'ars_nouveau:source_gem_block',
         'ars_nouveau:gold_grate',
-        'ars_nouveau:jar_of_light'
+        'ars_nouveau:jar_of_light',
+        'ars_nouveau:arcane_platform'
     ])
 
     const keepPatterns = [

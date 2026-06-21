@@ -37,6 +37,41 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'lychee:block_interacting',
         item_in: {
+            item: 'kubejs:hallowed_gold_nugget',
+            count: 1
+        },
+        block_in: 'ars_nouveau:green_archwood_log',
+        post: [
+            {
+                type: 'place',
+                block: 'ars_nouveau:arcane_pedestal'
+            },
+            {
+                type: 'execute',
+                command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run particle minecraft:block{block_state:"ars_nouveau:green_archwood_wood"} ~ ~ ~ 0.35 0.35 0.35 0.05 80 force @a',
+                hide: true
+            },
+            {
+                type: 'execute',
+                command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run playsound minecraft:block.wood.break block @a ~ ~ ~ 1 1',
+                hide: true
+            },
+            {
+                type: 'execute',
+                command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run particle minecraft:end_rod ~ ~ ~ 0.16 0.16 0.16 0.1 20 force @a',
+                hide: true
+            },
+            {
+                type: 'execute',
+                command: 'execute align xyz positioned ~0.5 ~0.5 ~0.5 run playsound ars_nouveau:ea_finish block @a ~ ~ ~ 1',
+                hide: true
+            }
+        ]
+    }).id('guguaddons:lychee/block_interacting/arcane_pedestal')
+
+    event.custom({
+        type: 'lychee:block_interacting',
+        item_in: {
             item: 'minecraft:copper_block',
             count: 1
         },
