@@ -8354,11 +8354,15 @@ hash = "c6f54ed3f945086cedc368db4877d2191fcbb95f1f33baf1bf82937359c9d4a9"
 
 [[files]]
 file = "kubejs/server_scripts/compat/ars_nouveau.js"
-hash = "4c7fd80b197f0096178a878c28bb38ccbd05a2d5f462e11cbd2d213c4e22fed7"
+hash = "bd4c7c9e5f6e78e8dd595c0b0eb2e4c28cbdd9c80d93df9a4924a10932645de7"
 
 [[files]]
 file = "kubejs/server_scripts/compat/cca.js"
 hash = "d6030e97aed1dac4fe9b8c30f085ebbdf62ed72e1b6e60c36bd70077a3dadd24"
+
+[[files]]
+file = "kubejs/server_scripts/compat/coe.js"
+hash = "5369686fc511ad2cb6aabad8dfa00cc6c1061bf0e4d8495f803aef755c9883f4"
 
 [[files]]
 file = "kubejs/server_scripts/compat/cpw.js"
@@ -8454,7 +8458,7 @@ hash = "05cfe1936be623c04d1467227b7130529c4a9fb8f141909aabfa64f9456a3a1e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_interacting.js"
-hash = "f88fdca404e6b8df2d7f6bd5beefd05bb6acb52e78a6cf9267ff05ee3d6f3f12"
+hash = "68e697352924883789c4a78863c9a772685844095a8c658aab8f2fec8371edab"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/theurgy/calcination_oven.js"
