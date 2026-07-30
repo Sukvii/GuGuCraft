@@ -1,13 +1,13 @@
 name = "Certain Questing Additions"
-filename = "certain_questing_additions-neoforge-1.1.7+mc1.21.1.jar"
+filename = "certain_questing_additions-neoforge-1.2.0.3+mc1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/5BPpCYUe/versions/Pq4OMDNA/certain_questing_additions-neoforge-1.1.7%2Bmc1.21.1.jar"
+url = "https://cdn.modrinth.com/data/5BPpCYUe/versions/WsryTGqi/certain_questing_additions-neoforge-1.2.0.3%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "a66b8331c558afee8bf6ee26a41c5d55a53dc0b7b47996f16d9b49e36f4c9450c2e3105488c4ab61000754b4e1d7f1c603e88ae0ae5d01862da38038a5d2988f"
+hash = "c93afe8a9b2d53e7243ac83dc5ed499bfe2ef631f1928a84f257831e5ab32cd340229bd9a63d5b370be65cc76c7c60c4c18c082fbfab7442929e01eac336a2a4"
 
 [update]
 [update.modrinth]
 mod-id = "5BPpCYUe"
-version = "Pq4OMDNA"
+version = "WsryTGqi"

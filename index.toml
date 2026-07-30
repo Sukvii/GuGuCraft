@@ -2,15 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
-hash = "b64c938ddb95cbda82d41e37a4d60ca8c42295391d5d6d576bfcfba997bab9a4"
+hash = "c924bf809b40f967027bd22fe90c7ee4931f015656999e1d1ec1545000e6af8c"
 
 [[files]]
 file = "config/ars_nouveau-server.toml"
-hash = "74e43c97096cc80ba8d8a1966ecc63b1cf57ee0116fb32f8821f777e4c78fc60"
+hash = "74da68b16079a6cccb1a7b24094fc045268bd1edfa6c0e4fcfdb53edb00fc5ee"
 
 [[files]]
 file = "config/ars_nouveau-startup.toml"
-hash = "5839ba1a2b9434ff1aeb8ea0dcfeb28d0ca4a45172580ec353356542c105adb1"
+hash = "970c41f02e692a24a87675a106c0f5f61388fec12df857104a744d1a023c5f7f"
 
 [[files]]
 file = "config/ars_nouveau/doc_data.json"
@@ -18,355 +18,355 @@ hash = "081b1b98b191d81c4ff5b49760b51f491bb330a6ac45dfac831a3a6313cb072f"
 
 [[files]]
 file = "config/ars_nouveau/glyph_accelerate.toml"
-hash = "a31f5889f63fe0dbf691ee7dd7206899a57deef186b3b2b46d7efa628c4c9d80"
+hash = "1a00f7fa7cdb3667f85dd61f913d1a57455f6688f506cf5b90b854e4a33411ad"
 
 [[files]]
 file = "config/ars_nouveau/glyph_amplify.toml"
-hash = "1f08cedc144ec201d890842b5073d9c5f7a9b061274a472b29ca564b4ba819cf"
+hash = "6d744796480f2d66754efffe376472caea02274b3af8798c90f67d34f6465ec0"
 
 [[files]]
 file = "config/ars_nouveau/glyph_animate_block.toml"
-hash = "0fb48deefa414eb5b2df9f519ae8e8df8253f8d26565a41c275b9b8a54254fc4"
+hash = "fe0da1597d3924940ecf447eff2c001da5deb6a8fe8b168ee764e04f427aaeac"
 
 [[files]]
 file = "config/ars_nouveau/glyph_aoe.toml"
-hash = "6067cc16ce094c79c33841a718a5b9af9ecfaddb56f186b0901df50e76b7c0ab"
+hash = "2e47c6efedb37a1614b72517fb09ca513180fcc1bc7e9aa668f356cec750d2f4"
 
 [[files]]
 file = "config/ars_nouveau/glyph_blink.toml"
-hash = "b1be9bd915365b3abbe81b327dab17f7f26bb43f3ad11ea6bb4bfea35d091b28"
+hash = "e46b59271dd1d9d4aa026b4530c3bbd096adae063c0b6676511c25a7b55b0603"
 
 [[files]]
 file = "config/ars_nouveau/glyph_bounce.toml"
-hash = "62447efc5276f8069a2ea44a1627c59a92e260fea86cf3ba8b617cca3509e1d2"
+hash = "d544b36881d1a1e73b90de303c1a33267bdd00e32df0f73e6723cf6d777ba322"
 
 [[files]]
 file = "config/ars_nouveau/glyph_break.toml"
-hash = "8bd1f7dd3bd6407a947b0a2d0a9aa2a37f314deca764408b7f3d2c726b06aab8"
+hash = "7db359220072afbf4b4ace26de45ec5b9768b0dc2964c6e53030f9c7ecf74864"
 
 [[files]]
 file = "config/ars_nouveau/glyph_bubble.toml"
-hash = "92fc53b20e893fcf59264d4804f875936ba78e4e593591fef16e095e094fb70a"
+hash = "a594309f6f98deb6a41bc439f5bbf6aa450236fd36ee07cfbee97f797a9c8923"
 
 [[files]]
 file = "config/ars_nouveau/glyph_burst.toml"
-hash = "78ab4ac2f8e4b1509226075249774feb048851007aa5b6bd1dde6132f68bfed1"
+hash = "7143356e93ad47762c4d5c0381aa8257ad370a011d818458a25f1d2d57388dfc"
 
 [[files]]
 file = "config/ars_nouveau/glyph_cold_snap.toml"
-hash = "228b1ac24a26b16c65ea1e40d7cb6adc912e17e319f741ceb6fe025cbcd988c6"
+hash = "38afcc32cea2dd984b7f980feb83cbb0f4cfbc2b399ec6c9b22bba4d5b8d895e"
 
 [[files]]
 file = "config/ars_nouveau/glyph_conjure_water.toml"
-hash = "8c09b754d12127b13e3b5c4b1ca02f833480e5b17ea5c30407fff2bf2437bbc6"
+hash = "43137435d5ba37db7bf1408ce0986d0f2d1f0580163b9b69e42fe45b92e10c2d"
 
 [[files]]
 file = "config/ars_nouveau/glyph_craft.toml"
-hash = "a816b622f7f5f854eab26acc5482df2b3899ac5347552bbfa4fd9d9c0463c85c"
+hash = "d47e80f91c8c630c9bc1d94db62a988cb2d465a57e7757b66c843e87120abce7"
 
 [[files]]
 file = "config/ars_nouveau/glyph_crush.toml"
-hash = "14eb1329449f03ac7941a6eea6e74fd1fea8b47e42a250ce2099e00e3ee4988d"
+hash = "ab830f97b0840f8791eb9aefc929c11058c83eccedec33998dce4a18edb5182a"
 
 [[files]]
 file = "config/ars_nouveau/glyph_cut.toml"
-hash = "b8415cea74a8a393207ff5246ddb8e1834eff5f6bd23c7bc410c60c1611e9d83"
+hash = "5d0226e1a709a45a7f36e0975f56d423ccf84cdc0746a2de1db5e6547a1f6811"
 
 [[files]]
 file = "config/ars_nouveau/glyph_dampen.toml"
-hash = "dd21ec3899d06bff70793eeefbdc372e0b93b3842bf1e1c8a15f7e0b0f8e5f7f"
+hash = "526371ec6a6012cc7671ec633d6a686a173082ad74ce55a0ba45945297db15e3"
 
 [[files]]
 file = "config/ars_nouveau/glyph_decelerate.toml"
-hash = "b5990e67e62d60837508ef900955ba274ed580aa865cd377379ddf69762cdc85"
+hash = "5d1b1f1f648e4618bfe5f104cc0dcd8c5a48f7dc9152b3c1f28b38beb3812b66"
 
 [[files]]
 file = "config/ars_nouveau/glyph_delay.toml"
-hash = "64b39a22cd33e19c245dbec70e14da76da09368a16e346e42bd95cce5fd91e54"
+hash = "ca69d25cbdfd4a4e1495e766ddf24664096c455f64d60436394b3dcfd4fa4a13"
 
 [[files]]
 file = "config/ars_nouveau/glyph_dispel.toml"
-hash = "0526dbfce1d8351539200857e343455871cc811a025f43568217d360e335413a"
+hash = "8c8a8748076d9ca77aee9ea2e1c056c578f90c80c77b4eece0596f07d3d334d3"
 
 [[files]]
 file = "config/ars_nouveau/glyph_duration_down.toml"
-hash = "102d57868ed836487c5e9d1060027211f86eea12cc95db7c8650fe8c4bf1239b"
+hash = "5782cfd9f26599d253253abc81c9a1cc7488707eaf97261926c7625d2e0063b2"
 
 [[files]]
 file = "config/ars_nouveau/glyph_ender_inventory.toml"
-hash = "2a1fcb27cfcdf2ae95bafe7b485977cd22b64ff593a9a0034827858e47bd935b"
+hash = "83517866ee58eeaa5207853b1df9f48fe1e6002d3d4ac9316685826e102f741e"
 
 [[files]]
 file = "config/ars_nouveau/glyph_evaporate.toml"
-hash = "a816b622f7f5f854eab26acc5482df2b3899ac5347552bbfa4fd9d9c0463c85c"
+hash = "d47e80f91c8c630c9bc1d94db62a988cb2d465a57e7757b66c843e87120abce7"
 
 [[files]]
 file = "config/ars_nouveau/glyph_exchange.toml"
-hash = "2a1fcb27cfcdf2ae95bafe7b485977cd22b64ff593a9a0034827858e47bd935b"
+hash = "83517866ee58eeaa5207853b1df9f48fe1e6002d3d4ac9316685826e102f741e"
 
 [[files]]
 file = "config/ars_nouveau/glyph_explosion.toml"
-hash = "beacf60540f77b97b4bc12e4aa722c425893bf6d22745c8e6c935b8d85d90aba"
+hash = "9f292ff65812c4658eb32d8d1cf9c0439f1a77f070462048c439bce7375fcd10"
 
 [[files]]
 file = "config/ars_nouveau/glyph_extend_time.toml"
-hash = "a31f5889f63fe0dbf691ee7dd7206899a57deef186b3b2b46d7efa628c4c9d80"
+hash = "1a00f7fa7cdb3667f85dd61f913d1a57455f6688f506cf5b90b854e4a33411ad"
 
 [[files]]
 file = "config/ars_nouveau/glyph_extract.toml"
-hash = "558434e11f6a82855a8e43c6bf4896bcc86677aed0f6a06827295c0c1d33fbe7"
+hash = "2923b972473f84e569639a661792bc2bd8bb9f1bf7122d0da628f312f48a58a0"
 
 [[files]]
 file = "config/ars_nouveau/glyph_fangs.toml"
-hash = "4cc4c94639da07abb843d2f0e213c7e00e6f97ac25f4d9bd47ec592f25f4a022"
+hash = "3f2ce40f6b2a4c804a0ef4faa21f55533450a581f6595208a64f569807e01e7a"
 
 [[files]]
 file = "config/ars_nouveau/glyph_fell.toml"
-hash = "2d63e4dab44c445888035153f016535a471b45a5b63cb5060727dbcdd4eb4e41"
+hash = "0bb273e77ecfb966d8f4f00336a7483e30cbac46b92ed43a6f874a03c811dd6f"
 
 [[files]]
 file = "config/ars_nouveau/glyph_firework.toml"
-hash = "8e7fbe8d06d9e7fdfe4e191f9a1ad699813eee2e41e1ba3ecec22392925591e7"
+hash = "a2bea05f322b1102860b50c92d485c4624035d33c082dbb62f524f4eaef79c5e"
 
 [[files]]
 file = "config/ars_nouveau/glyph_flare.toml"
-hash = "61e5c27ed697fb87fb693aaf0f1dd0e7d40081a589c59c00bb2b004aa2a743ea"
+hash = "475a5099fd400281ab1aeb5b38e4b95065e107ef856682bec6a6261e9c24e390"
 
 [[files]]
 file = "config/ars_nouveau/glyph_fortune.toml"
-hash = "a1b14281c77dc0588771af4e235d03912b17b73090d68a2f4106b6a0d3ff4fd5"
+hash = "6545a7af2dfa4de29ddc11b4ce893f09f3d347fa28b93b00abd14d95ca508b76"
 
 [[files]]
 file = "config/ars_nouveau/glyph_freeze.toml"
-hash = "cd7351df30eadfd4a5583dee4882fac2f76fef2e0d1f7e3cd7a9b9a354d61e65"
+hash = "04d635e42fda5056cafa24fd498e971275aac31862ba7f142192ed36d0ea3144"
 
 [[files]]
 file = "config/ars_nouveau/glyph_glide.toml"
-hash = "ea07f2419ded616ff01c33cb04c81cdc1eff77ca681eb16b2351e0a7aa41fbb1"
+hash = "999f9cc0d2772f6c8c4c113b6d423507a0f5aa7c6ff9612fed4494951aba93ae"
 
 [[files]]
 file = "config/ars_nouveau/glyph_gravity.toml"
-hash = "db83e5fb8ce9e8fb19e25655a233c3a6800f8437f8e776c9e3cca78875cda12c"
+hash = "8475981cbf4a153c7e619200884d1bfd02b6e5c97fc7219af9ad9c46569143a1"
 
 [[files]]
 file = "config/ars_nouveau/glyph_grow.toml"
-hash = "8cb26465bdad2ecee54319f83445a41ba2bbf26a7071eac93131812ea0af3e53"
+hash = "16196c2bfc1df9823079d6b80f820e7231ac96070adbe93e980ee3acb6fac008"
 
 [[files]]
 file = "config/ars_nouveau/glyph_gust.toml"
-hash = "9f60447a11660f62afafcf56c295faa78208fc83df991a4ccde07ce9cd9f28d0"
+hash = "29d609f56b64275ad70cca667792fb0eb3f52507e72aaac6863f17293d84ade6"
 
 [[files]]
 file = "config/ars_nouveau/glyph_harm.toml"
-hash = "d7db3c90bd6bba8671486ac780b27c27ad4bde13afade533128a468468df528e"
+hash = "b66e2ce66f7ca08f827d19ea578ae790955f2115adf28e622d5370b792fa8538"
 
 [[files]]
 file = "config/ars_nouveau/glyph_harvest.toml"
-hash = "63274ce775cae15a45124a0e8cb84021aa4e3f228a48cc3e88157c90f3aaf84b"
+hash = "6512b369f02e92b6ff2749541497b53c8abd71a4172b38299efa3ce9cd38b6ee"
 
 [[files]]
 file = "config/ars_nouveau/glyph_heal.toml"
-hash = "8973781972472014a1b81e4107734c482ef9cc268ddb08d73901838503b776a7"
+hash = "09623cd93bde087fa5355cb2ec2b88dc263e1b978c76da2a5638fa37c88fa1f3"
 
 [[files]]
 file = "config/ars_nouveau/glyph_hex.toml"
-hash = "4169a17c968a70aed11b64fab82f61c19d9d07f0fcc569365ff212008da64c12"
+hash = "67e4e66aeda634742bf3af2aa8537636475b24ec6e22edf858b0ff5d98a2ffb8"
 
 [[files]]
 file = "config/ars_nouveau/glyph_ignite.toml"
-hash = "a8063898d4c718297aa4862f68d4174a6f0d384e05e7b7b55f48fbc01de4c8e2"
+hash = "8d11fde6e7b881456fd9eac472b2e49ee7c21996941b70ef3befaf7d412ee5f7"
 
 [[files]]
 file = "config/ars_nouveau/glyph_infuse.toml"
-hash = "06aa8cd35dea1dd11468c882d121365ef4f786eba6a3cd3eb6687e7715fc1449"
+hash = "2654b2da2bd530785867b1aeeec450b43a8b5bc4e649b6fd7263cdd61cc86b25"
 
 [[files]]
 file = "config/ars_nouveau/glyph_intangible.toml"
-hash = "be5aca1382603d2de080205417d063e09602018ce910ec789cdb47da87f8e46f"
+hash = "3db36c0ebc07fd8842313c30ce3981132f04a6ec862a76397b1ab237affd0ca6"
 
 [[files]]
 file = "config/ars_nouveau/glyph_interact.toml"
-hash = "07b250690cc61289a015440fd7b3e97764157b12625ce69f857bc57bc131373f"
+hash = "1d5551a16a0612d67420c6bb777f320afbc83016edf64eda20fdf93a2137522e"
 
 [[files]]
 file = "config/ars_nouveau/glyph_invisibility.toml"
-hash = "cad5a54db1c8515614c12f0aae81de81db83a52d4803463f46a998adaaf1c533"
+hash = "70875b8e70361d9e520418568a49abf298671f063f71b79a7da2be73611ef476"
 
 [[files]]
 file = "config/ars_nouveau/glyph_launch.toml"
-hash = "3982b1d34b2ca9665699e3c14bf9919c9e82da79e27cbe0b084b9b578f7ab125"
+hash = "55d87daf100d881544e27cb79f8f64ab45bf0f029a95f65533b0053c1471011b"
 
 [[files]]
 file = "config/ars_nouveau/glyph_leap.toml"
-hash = "3f2a6124981a7a360867e319cfd3731c493d449083239a02560ae8ffaa3d284f"
+hash = "baac5add5570f00c76b16382d478b6a1b294e8752479eff61b0df9ad77bbabd8"
 
 [[files]]
 file = "config/ars_nouveau/glyph_light.toml"
-hash = "bd0bc89ccb0ba38c181596a4378a323e578805bd89e1ba980b2fb3781e2d1d64"
+hash = "477cf53d7df336dc8005a67189472ce8efa69a82b0f38d224168614a679a40e8"
 
 [[files]]
 file = "config/ars_nouveau/glyph_lightning.toml"
-hash = "0177b63a5fcb9e0b50523bb39c5babfd8a6fdf1c6d11b736d337254d5fa4e57a"
+hash = "e4b8be6bd7614eb592b8dd84098c7057f3b1f7581311a96e6573de60345c4d14"
 
 [[files]]
 file = "config/ars_nouveau/glyph_linger.toml"
-hash = "a7c281c535969659ba1578598eeaa0d7751c94081acf09f6953bff5b76cf4756"
+hash = "caf577865e0234d9fe327fdcdd2883a1e462fda5317f3b3941a8188c98b67331"
 
 [[files]]
 file = "config/ars_nouveau/glyph_name.toml"
-hash = "bb76094a2602e94a1b04703879c154b9c7e785e028c06bc48f3c5c377d664070"
+hash = "ff738a5089fa9261efe843e37bb736ea260e52c735b5358beda912fe60d8cdda"
 
 [[files]]
 file = "config/ars_nouveau/glyph_orbit.toml"
-hash = "2c62e6e7d96d7bbe5cb9e67af0d0f2003c6021c0a18bfff0de65e2371cf8fae2"
+hash = "cc6826ea137cd8a61acfc9d968eb87309fc6a106a0192078e49171b0c5722442"
 
 [[files]]
 file = "config/ars_nouveau/glyph_pantomime.toml"
-hash = "59279368035dd965e62431da2d189d417ae78371668b49f8bd6b1c1e325047bd"
+hash = "87e0fa71d54f11c99c165d95e2fa361fb5e4f8ef341313eedca2178766fdb983"
 
 [[files]]
 file = "config/ars_nouveau/glyph_phantom_block.toml"
-hash = "595b43d01cdd6aa3b878f032f3e4c240559fba498f0c135ea6e2bdb2e05349cc"
+hash = "a29ef51f5d01b46c7fe1659a0313002a65ef95ab9e73fbf9bb6e61590b83b0dd"
 
 [[files]]
 file = "config/ars_nouveau/glyph_pickup.toml"
-hash = "63274ce775cae15a45124a0e8cb84021aa4e3f228a48cc3e88157c90f3aaf84b"
+hash = "6512b369f02e92b6ff2749541497b53c8abd71a4172b38299efa3ce9cd38b6ee"
 
 [[files]]
 file = "config/ars_nouveau/glyph_pierce.toml"
-hash = "a514cd3b7a903a483ae2dacc7ed00cfeb9b2e0663997d4821acb6343a2a19958"
+hash = "3df19f4771ba80f902f704908120eaf9cabfa34f47d063cb2025519c4c62134c"
 
 [[files]]
 file = "config/ars_nouveau/glyph_place_block.toml"
-hash = "53883e24d2ec0a7a86d0246ec373e74b252476d3a8aed44a9697b5d61eeb9b62"
+hash = "2ba37ee883c6482f3d5a0f36c5fd04549cb52ae6a4effc790735565921421309"
 
 [[files]]
 file = "config/ars_nouveau/glyph_prestidigitation.toml"
-hash = "dce9b819f6078583fe575c1f465b0c1bcda44e64edb02d367728512adf65fafe"
+hash = "c4d0396bb7394dbd63a9a77fb20889341e375d4090e825bfb3cc2d916d7d82a7"
 
 [[files]]
 file = "config/ars_nouveau/glyph_projectile.toml"
-hash = "d58156524ab56bd9a226215ed2f3fa984f10736a6e937384217f781d2cf9eb1a"
+hash = "f2ab02704ba92ff2ef858429bfecfaa7f07c203cc692aadbb5450b9463bd9f14"
 
 [[files]]
 file = "config/ars_nouveau/glyph_pull.toml"
-hash = "94f4318b159b004eb17817aa60a0d25fa38e6994e48704ec4e82582010480de9"
+hash = "4b4203c95aa9aa1c9af99868aef83b538ba402b0d0a7050d5e0d0ec1f4c797c0"
 
 [[files]]
 file = "config/ars_nouveau/glyph_randomize.toml"
-hash = "1fbef113921700cb95768f8c25cd28c03ef3814c146592cac08567319169cc4c"
+hash = "422149dc77ea5f8c78d9357722dbca5e02b98db4c21523a6d5d769ce15fa722b"
 
 [[files]]
 file = "config/ars_nouveau/glyph_redstone_signal.toml"
-hash = "fcc34d8f285896bb7bdacbd05a7ead8f70ce95b0b11834ac75eb9d267c526b63"
+hash = "b6bf3273656f9ac4e2ed21622e56d142406ff86fcfe52c3e552ed2e316607ed0"
 
 [[files]]
 file = "config/ars_nouveau/glyph_rotate.toml"
-hash = "ab29558b612a2aae5770be84688c7a363874fe3a97662fda1558328b72afd595"
+hash = "68fbbb0a64f5f79ead0b969541533c98a4e842ce0c48f2ca172bb72884b8256f"
 
 [[files]]
 file = "config/ars_nouveau/glyph_rune.toml"
-hash = "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4"
+hash = "2a6cdb9050080e2c86a7d1b67df0921e0c3470694500f561b33cc1bbb00fcca8"
 
 [[files]]
 file = "config/ars_nouveau/glyph_self.toml"
-hash = "1961af198d330b93354d62b95e220cb92863346a85dfee990136329e42ea0771"
+hash = "67453348063edb2df92471333ec8e843aa7525e04f903730acba1cf77ffc3cdf"
 
 [[files]]
 file = "config/ars_nouveau/glyph_sense_magic.toml"
-hash = "944f91fb6ea9d469f2ab8ec81d908af0ff86a2d1d93098d3bcd3fd517046cab7"
+hash = "90a76d94272fb2e9e8a33f76e2e360e15cef274d8e641e79a5274b4d85d8de79"
 
 [[files]]
 file = "config/ars_nouveau/glyph_sensitive.toml"
-hash = "3bfc7fe9767892cf8d9e8d9622eaa0885e19813bb286c8ce65c18be244a7755a"
+hash = "d7cbfaa21678bdd9517ec4ef82194df43444426cf45c56dbe50c08b1180f42a8"
 
 [[files]]
 file = "config/ars_nouveau/glyph_slowfall.toml"
-hash = "cad5a54db1c8515614c12f0aae81de81db83a52d4803463f46a998adaaf1c533"
+hash = "70875b8e70361d9e520418568a49abf298671f063f71b79a7da2be73611ef476"
 
 [[files]]
 file = "config/ars_nouveau/glyph_smelt.toml"
-hash = "b3319285867d0e5cf609e171e9d0d1c8a2b3a8706bb26c798ca8a10cbe273cea"
+hash = "e8e3bbd8f4d9e69818a6f77e53f616cae184f486d7f1a96a82cf18bb90ec85ef"
 
 [[files]]
 file = "config/ars_nouveau/glyph_snare.toml"
-hash = "bcc530d2c08046256cd0ceadca6369826157b6dd9d571f7661e60e5e16ce3a79"
+hash = "504c9ae0f7654926f8b03ecf5b19c80e0291f0ab794f1ad3d944f2e743728d4f"
 
 [[files]]
 file = "config/ars_nouveau/glyph_split.toml"
-hash = "084c274c075eca508a74685b21c066eea0b14d816652152cd3cc75e6b4f692e8"
+hash = "52c42e61b03534889af34c74a4afbf3fd9534152633e98a2bc6ad392ae2bfb7f"
 
 [[files]]
 file = "config/ars_nouveau/glyph_summon_decoy.toml"
-hash = "1bdadb76d582d01fb61ece1415abcc684cd37502c759e153c39af3768536a014"
+hash = "08b390b9dc3f9cff82bdcbdbf4046f0f1caae224e07cdd1697a9fffa4fe94eb5"
 
 [[files]]
 file = "config/ars_nouveau/glyph_summon_steed.toml"
-hash = "14d04da5fa4e1230b4a0ec76bb55cc5d39d1d7d6ecfbec806add2b5eef2b1d7d"
+hash = "237b9dfa9c110da43d561e87362b92fa7a3a32ebd5d45f1445f72372e7f2a25d"
 
 [[files]]
 file = "config/ars_nouveau/glyph_summon_undead.toml"
-hash = "15786295b7aa1295bff15d52139baefbb0ba532ffa67a9b5a265e664ad7c4d98"
+hash = "80aae6754a1c8c1290bfa9c55c3c19ad0de55e0c7527eb2619556e75f6767982"
 
 [[files]]
 file = "config/ars_nouveau/glyph_summon_vex.toml"
-hash = "15786295b7aa1295bff15d52139baefbb0ba532ffa67a9b5a265e664ad7c4d98"
+hash = "80aae6754a1c8c1290bfa9c55c3c19ad0de55e0c7527eb2619556e75f6767982"
 
 [[files]]
 file = "config/ars_nouveau/glyph_summon_wolves.toml"
-hash = "afc91de685aa8e4a619443ff158a55392fc6f300c45aaa83c46cf097c26cd6fa"
+hash = "935d953295955d0101d1cb1424b25dded8892b3cfb8eecd680c46587a0d328a6"
 
 [[files]]
 file = "config/ars_nouveau/glyph_toss.toml"
-hash = "63274ce775cae15a45124a0e8cb84021aa4e3f228a48cc3e88157c90f3aaf84b"
+hash = "6512b369f02e92b6ff2749541497b53c8abd71a4172b38299efa3ce9cd38b6ee"
 
 [[files]]
 file = "config/ars_nouveau/glyph_touch.toml"
-hash = "456dbafffbf25cbca859350ff34e746e8484f856d9163b039099e8fbae4fbb0c"
+hash = "e1eec53c901be4a05b07bc49b56217982b90819fea17fab20fb0a370a3be347b"
 
 [[files]]
 file = "config/ars_nouveau/glyph_underfoot.toml"
-hash = "6a92f02f8b006e0053d10f27dbc80da9bfa36d0203f52d364b736033c0eaad14"
+hash = "e1eec53c901be4a05b07bc49b56217982b90819fea17fab20fb0a370a3be347b"
 
 [[files]]
 file = "config/ars_nouveau/glyph_wall.toml"
-hash = "da7512f154f9718e3c431a095b10bc87da01196897e4c70d85988794e680f2aa"
+hash = "b17d23ad6304cc473e3cab4ff353ec8c95700ec0f435703c9433cc79ef451500"
 
 [[files]]
 file = "config/ars_nouveau/glyph_wind_burst.toml"
-hash = "bba5f0fcca3ed14efcc274b040d300419c6055f0773ead64ef2e56a3b536dc5f"
+hash = "eac41dee3c88074dc995bd9d138fe65aeb1d12b05d44017cda1b9b3a2e4feb28"
 
 [[files]]
 file = "config/ars_nouveau/glyph_wind_shear.toml"
-hash = "7aa97b266a9a8af07db4803bd61aeba15e8f6e3e059b562faa3c40bc8da31dd4"
+hash = "a1d305436a2af427091dc79c817ad5f19aabeca97be1297ddbffb4ed6977e4bd"
 
 [[files]]
 file = "config/ars_nouveau/glyph_wither.toml"
-hash = "4169a17c968a70aed11b64fab82f61c19d9d07f0fcc569365ff212008da64c12"
+hash = "67e4e66aeda634742bf3af2aa8537636475b24ec6e22edf858b0ff5d98a2ffb8"
 
 [[files]]
 file = "config/ars_nouveau/reset.toml"
-hash = "dce9b819f6078583fe575c1f465b0c1bcda44e64edb02d367728512adf65fafe"
+hash = "c4d0396bb7394dbd63a9a77fb20889341e375d4090e825bfb3cc2d916d7d82a7"
 
 [[files]]
 file = "config/ars_nouveau/rewind.toml"
-hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
+hash = "cfba46b855cf3bef2c4792b313eb9bdfc28ecdf29792ab8996fb44840d8b3009"
 
 [[files]]
 file = "config/ars_nouveau/wololo.toml"
-hash = "d97f22e6a2dda9ad91f1dab25b2a700ed87a4d91a9420e576e9516c8476603f4"
+hash = "2a6cdb9050080e2c86a7d1b67df0921e0c3470694500f561b33cc1bbb00fcca8"
 
 [[files]]
 file = "config/astages-common.toml"
-hash = "910257102bb58da719545721de2ab9112639b42ebb899c2bdca425d2099872b8"
+hash = "85fbd3de43d9daa3c11b598a69b9e7a538e86b6a5655859e03daf197e4870112"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "d3cc6ec3f67818d7c72ee4c69961e6ec95295f3e033d7b1252f532883641c85f"
+hash = "c2fce277b3911aa3ef8c9e2e638eaff2c1790ecd8504b2d5280286d2f7946bac"
 
 [[files]]
 file = "config/emendatusenigmatica-startup.toml"
-hash = "bcd9519d69ea2169f6c0bf265b43f2382334d6952658dbbb579e74ded8607fcb"
+hash = "82d01549975b0661b4e9422dcd53e0cc60832e4c2c9ca54e1aa369978ae235d1"
 
 [[files]]
 file = "config/emendatusenigmatica/default/assets/emendatusenigmatica/blockstates/coal_gloomslate_ore.json"
@@ -1454,47 +1454,47 @@ hash = "b4e4b96e35d996b57e58e9b118efd541fa791213e5ad414dcb6665f4a2eb73b6"
 
 [[files]]
 file = "config/emendatusenigmatica/material/create/brass.json"
-hash = "2e4bac2396a26f7562b33c3f147728a728dee6501e43a6869fc69938c0b3e0b4"
+hash = "66ca2f59dc3d04aadcb48af605b9be54acffafdde0cf2995de7b953586b868a7"
 
 [[files]]
 file = "config/emendatusenigmatica/material/create/zinc.json"
-hash = "395569b6a5430184ffe8ca3351ca6d6470af5a31f5967f7549ab9b14b034fbb0"
+hash = "f82e43a280bc99ae25f0707140337ef8a8b5c8a6c4264e622716083db00beb06"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/coal.json"
-hash = "f07c5396633290d18162817332dfdda8e7108d6b61ff7e7038946b479bf480ff"
+hash = "910945d6155101efa9a33cefa6c9e3327b383c0aab5a69347506f37b0f49a0fc"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/copper.json"
-hash = "49c7fecf2a55f9a0c3e6ea09c41e59fd21b9d713444bf66a571312a9714af432"
+hash = "3a11e1f055e0306d17b8b082adcca073972efef3a7f9db38ccc37a6c78319836"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/diamond.json"
-hash = "38fc1775161665a02c6cc65f2046e9ac493203cad07a623c751419ee365946f3"
+hash = "11aa37c53444e303b5d5fa200531749a11f3a4bdbca4dd5b0a93fdee47a1f543"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/emerald.json"
-hash = "5196839933748c731c73ea1a9986f0507b86a8e8dc34c2145d6e6099060c17f0"
+hash = "31d3809ae9469d5e758989f8bba3fc474a8d53554a7f633d6f57ae995465d255"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/gold.json"
-hash = "333a677636b5b1c65031b258f359a997fe4973eef15c6df0cbb9e548bf78d61a"
+hash = "f6679bc99fd6e299f6c32606ce767e918493788c672e3e2b23faf90f2d0507db"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/iron.json"
-hash = "3782059afa88a865cdf7071f815cc967a2f633ba457df0fb0527623f0d60c60a"
+hash = "ad0a4a0a21bbd92c2a04846a51512a275640773935df5aba92bb1fa86e16d5ec"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/lapis.json"
-hash = "65be5989f976f5d0a969cd1cd8ea609c1fbc92553368662ba4bc138c6f8effc7"
+hash = "15adffe88d1d060d1ac64d74ce4fd4a58512cf83b6487b59080c2b1d2edf2245"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/nether_quartz.json"
-hash = "1e40f1240bb9406be1aa593eec6a0a5c765d2f794476e4e3ee74359edda723ff"
+hash = "1ff9d9078267c7e61654426dcd775a2a0f4fbe2dcdeb8749737ea0b6d919e414"
 
 [[files]]
 file = "config/emendatusenigmatica/material/vanilla/redstone.json"
-hash = "8d9a59af69214dd6fb517d460f86875b3d8a0245a9934bee2181401b98c583fd"
+hash = "a06e27548cb69bdc83dd085a77bc18624e752e31ee4fc5f046bbece8df4f7e58"
 
 [[files]]
 file = "config/emendatusenigmatica/strata/deeperdarker_gloomslate.json"
@@ -1518,55 +1518,55 @@ hash = "6807aac77ed275e7169b86587754b44fd252bfc4339bc8b565c190acd08c9d2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "451769586a66eb524d42bad814e371a58d85d55991331c0c48b2ad128ba51aa4"
+hash = "481a69f227a6eaaa43a369adb15f44e1cbfacefec7c1b86fc64285539f080b5e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/725884AB89488808.snbt"
-hash = "9d997f3711c150a74144f51d1e0d34c6232aff2316e9b000a0c12be048a9aed2"
+hash = "5460e601095a5d7bd882f08cc7bde81ef71fc73d1bc2a9bb7e62afc6a72e3614"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/74FD9793EBF983AF.snbt"
-hash = "62756d57a883b389ce5e8f7edd4792766e396e5a8362d443b2c1cc618086520b"
+hash = "aff467045b318906de57f28d58da53453e6c7ec514c43732710a049db3bb2e2c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7E04319371B01AD0.snbt"
-hash = "753ac9e86e4c9956c8c04343e9a5e2288fb1218f8a253bb89dc908de0d9d03a7"
+hash = "a7d277b4b639b1b1e3f22b3337d2272f2f4a42b95e64945dc11f50965a915250"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gugucraft.snbt"
-hash = "7bede87a9864b250e1d784582f2566468621a78b9ebdca7abbda6e09d44ca155"
+hash = "cbafc76e83a1b3cb9c6ed3ce22eab7ec573a9662b68ce77ce7a2408b6ffb86fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
-hash = "53253b2ec34c89abed84cb53b7235513bdbe0b7d048fa6e7f45c1c06150be23a"
+hash = "601f85e2a50ae34a4ec997244c6c0543778775d3948128f65c54b9428b817ad2"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "df92fd6b31e38ecbe9761f6ca2260e1b19eb9bcce38e9116565733ad47078b76"
+hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
+hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "13e55741057a458017fd5e3d76c98a94c9d7b36e4b3ffbaba4df91d6ee1af2b6"
+hash = "a4b4bc9f51b7ff7d98f601f0e4b299d514c28abd805206dbb45a871e96b7fa58"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/49185B525CF28733.snbt"
-hash = "471c1de98eabdf7f7886e0d89f123e04784e75e11bf4a680b003822e1cfccd92"
+hash = "172c6d335fe8ea7490c97721ae509f4da02659526827e93cf080c7de3ef941fd"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/6CB5E0321863F6C6.snbt"
-hash = "fc56a24bfbc3fed62097e92240e027885197810037197e4843eedf76c64f2c09"
+hash = "eb0825ef414f63aa576ae2ef7eb0f4a8c84fa138bb9932535426e06fc4e5167d"
 
 [[files]]
 file = "config/guguaddons-common.toml"
-hash = "5a4935574eafb20f71a2de5c56fd761781e2f9ccce96a05f984e7c79bf2e7125"
+hash = "a3d911e0da243910421080825ce59791eb99386146fe97fdae3b34cf449b7a3a"
 
 [[files]]
 file = "config/guguaddons-server.toml"
-hash = "160728423662eb313a7e6e8e61159a30c85e0cb93443b682e5d88c502eb8b5b5"
+hash = "651cfd8c8dbb3c2ce084df50060c4916a9f3edf7a38432073aa54139bc515e7e"
 
 [[files]]
 file = "config/tectonic.json"
@@ -1574,7 +1574,7 @@ hash = "90e00e604246e54760845dbf596083f8bbaf026a1e2c820e269d9873451e7eaf"
 
 [[files]]
 file = "config/touhou_little_maid-common.toml"
-hash = "9f82eccf6ced94a7b14c7ab6653f751b5a78f431b6165d90faad59bcfaf005db"
+hash = "3855efb6f5cbdd39428d73aff91b4174d3bd62b9e40be84b519328add0dddf74"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -1582,11 +1582,11 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/astages/lang/zh_cn.json"
-hash = "72b809dbb537c31cddd75015c169e1e8453c92684a5ffea6a40c98a39d73bfae"
+hash = "6b6b6fcb452b2542081bc1736245a56d6a7667a2990be8f3a776a01eecb65498"
 
 [[files]]
 file = "kubejs/assets/chloride/lang/zh_cn.json"
-hash = "43e3e8076fd8c71fe211f0a44b6149744b6c4946a747b07907b6bda46f3fb33c"
+hash = "d28228cddea23cf44e32643c86b281f62716edaf73068457bf8cfb18aac6702e"
 
 [[files]]
 file = "kubejs/assets/create_ae2recipes/lang/zh_cn.json"
@@ -1594,23 +1594,23 @@ hash = "3b097751646b34aa06f2df01e7dc33041fa81c99512b6f639caa22f819ab76d3"
 
 [[files]]
 file = "kubejs/assets/createaddition/lang/zh_cn.json"
-hash = "5c064bdb9271531bca61a43576c387e0a602649a3cdb1856f3c38617c97285f1"
+hash = "0b2f2e62b9cb2c95a493869976b2227eb5a8c85b995dba3f61929cb07dda59a0"
 
 [[files]]
 file = "kubejs/assets/createaddition/models/item/brass_rod.json"
-hash = "9c5e7b9a70fd9d0e658d9e54f70bb03404b124a26a149943e6b3a2bae7e5d9f8"
+hash = "26e26f5a287f3bc5fc428bbcfa69f2e0c50fae7c566f62b6decd400213072aa8"
 
 [[files]]
 file = "kubejs/assets/createaddition/models/item/copper_rod.json"
-hash = "5186234f06fe1a91c9d334ec1a4ccf1973e7e3d76c1558b7846840b1253e2298"
+hash = "cccf6416ba04bd6af3ecbd3ecb37282b472d3a39d3dd7ce8dbaf4d36b7283038"
 
 [[files]]
 file = "kubejs/assets/createaddition/models/item/gold_rod.json"
-hash = "fb6ce9523e14c65b53a2513effb3413adcdd10b9f0bf9471f6f991d6d7b1665b"
+hash = "8d391d365acb585f0377967e357583c4eccd324a218466852cfadfdcbd7208bb"
 
 [[files]]
 file = "kubejs/assets/createaddition/models/item/iron_rod.json"
-hash = "91eb87ef9cb3f24e739a7d16010b2ed0d6d17478e9e987ef422563d19016b9ae"
+hash = "7a6ce12df3634dc82784f8af963c2abe71065aedc70545acbc8aad4dbeab8629"
 
 [[files]]
 file = "kubejs/assets/createaddition/textures/item/brass_rod.png"
@@ -1634,175 +1634,175 @@ hash = "9080ad423bc3cdda486a408e291acd6162d53720ce6c74340da2f0369ce0acad"
 
 [[files]]
 file = "kubejs/assets/displaydelight/lang/zh_cn.json"
-hash = "a3ee73faa967339054590441cdc963a15e4006db7f78e30fce6738e683641a6e"
+hash = "5ca6cd71dc81f110be2c2a13bb151a057fc224deb80b26e5cca73efab71d4704"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/blockstates/andesite_block.json"
-hash = "d86d70276d0e2c5b3a051cfd86747b6c73ff2d9b5e03312aeff84a04a186486d"
+hash = "ccb0772922b38f3408e1410a88ead814595f679f7c9a5adf45650c3e0e96b488"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/blockstates/brass_block.json"
-hash = "3e5e49cb945270f1ee1db574bac1cd2b02b8e921b91de6bf2aa970f64da32fcb"
+hash = "dc7e29c91fbb861c368d2c48210371099f465b510d36d57f9ab8b2c6c7e52fa9"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/blockstates/raw_zinc_block.json"
-hash = "0874aa93c2320424f24c825f7826bcedd24511d8bfa0a204e2bf017c9363b96b"
+hash = "532aedf38b38574db46933ba6ec2c11e3ace8958f40490331cc95171a3a0ff84"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/blockstates/zinc_block.json"
-hash = "bb09e25ccc6e9c6c620908d7e920393fe4ff76cc49fc6e1ae707e49c7674b344"
+hash = "e11a3f8acd7d34165501de492edddaf94b1eeb32e56d195033399db8e5f50698"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/lang/zh_cn.json"
-hash = "c7f874737599c82630a6f3b8c110d5119e0edd22e4b6be683e1ca50074065d4a"
+hash = "ff3e957121d0a696bc8bd6be81d26c9532e00c306134bf9debf61b467ac0eb2d"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/block/andesite_block.json"
-hash = "b9929e2acb227048140b25698a1b677ae37a04229f8d025ee0be84b09065aca0"
+hash = "fb1d029332dfe693f97333cf0f1e631a7419e9cef0fef098a241d39a844ee2f4"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/block/brass_block.json"
-hash = "a44fea0a28abdd0d58c57377a0a5b7faa24279bd124b242fb9d2f0969c7bce7e"
+hash = "45f5e00b78a177b72375eb7fda07772f54411c5e226d2cd1f832babcc58f1e50"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/block/raw_zinc_block.json"
-hash = "2f0e54bb7a53f482be97b39821f2c47ecc3dc8703ae19adb1db822faff9dfd10"
+hash = "a55fcf8b9c3a5e4d42ae3bed53de3223ecca65467b57fd23936aa9cc38bf350d"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/block/zinc_block.json"
-hash = "671004ff1a461ca3392c729fd7406fec7ba9635ebd1c7e5d3ccebb1dd097e202"
+hash = "1040f4249b9a6e66c62c6b6867ef6affbf2ae0fda853273386443da4e355731f"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/andesite_block.json"
-hash = "e7a4a3bd022a01979530fb75091dcbf99b82f159177c2c76e657120a65ccf5aa"
+hash = "ce11b91a9f0fc468d06d118c070e223602353d6af529ce0e5b33700266819309"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/andesite_ingot.json"
-hash = "f27e12d6e8185daa7517c19300185be8e08d1958e80ac6bc2d1b57e2160f6568"
+hash = "44884085ad08fe533627fdeb5d7193da9b1df5561278f15a725909f647ff1a21"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/brass_block.json"
-hash = "385c1600e57a1a6b1de3dacc556f0ba566e2a7873337249fc2a10788f9a1fe53"
+hash = "5d6816c87037b96941be6db94551c9e953ddccbfbf4732e295ea58770f799c4f"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/brass_dust.json"
-hash = "64f832c6dae8ef729fa228e9d6a96e41c993b0dfbe305275ccec417c6c2a8f41"
+hash = "050c3c5c72213c1c837e87a2d10eecf502e138f1020a81e45359f77fa872d9f0"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/brass_gear.json"
-hash = "53f0cc78801b5d72ce31880f13479871a743b7a0ffbebef29a024f3c5c97bf2a"
+hash = "0492a97994a59d2aa732e9067e6f5cd1db935853da440c153456d4a6545a096d"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/brass_ingot.json"
-hash = "18f6bdd4ad2191c9fe764627ef8db98af1244c38ba645be21b6508e4855c6c76"
+hash = "e2cb4dfb6c6f85b4cb0abafcdfa8df33842f067219208fa3d488e761b067f64d"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/brass_nugget.json"
-hash = "8353502a73e28a9b874c431065433c03b904eaaa97278b1dbaa90da5bca8884b"
+hash = "4b0321aa56f3bb6de9a0664276a73e02178ff30b6c5764774b9ad21acba5fdd1"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/brass_plate.json"
-hash = "b53f5b4dd336d83998adc6c8874a63207af2d276f968326cfe5f36bda59bf252"
+hash = "5b0112b9c05e12bb4289966e06e29852676a4975c832feb9e619a12183885f38"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/brass_rod.json"
-hash = "00ef1ee264146380f6d10731bf31a693d8ad71371fea8f6360fb7f64616c3270"
+hash = "bafabb15d8867f7bf7fc3d972274c084009298e498a19a16f00cb63d82fe765e"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/copper_dust.json"
-hash = "1f9fe0fb1bdd3d49f200166706b123601e0476c8dd5b429d7db86e924dd047b3"
+hash = "82df767b45863fd948b5c3a1149052eba94c8dbc735deff41d395f1a9df37061"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/copper_gear.json"
-hash = "1a029d917a25f75a4b62e6f8fba413012f631db1f989d77f83bfb6d38866da1c"
+hash = "40eedcda07c9fe33ecdf5d8404688409234ac1d3ab762b526b3e663eccb40f6d"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/copper_nugget.json"
-hash = "4e640f1629e5ed85ed2502adacf4ca960a92c55991caaf58e0c8465072c0e57d"
+hash = "e095a5be478d14f4ab00e927a12e3749fb54e9363c297fa19212dba9fe7d7007"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/copper_plate.json"
-hash = "d46f0f45304dad569d7fc48cda86cdc39cd0e36668a925549f00df6200890a5b"
+hash = "3f34ec0c673841a0d31d64576709a59c2dd6b926d4bcc2c2d5a62130368d7a9a"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/copper_rod.json"
-hash = "8626ec4c0df26b461a0837f86d8c653c393f2702a99966c01729c7265745a790"
+hash = "271a799657789e333381bf7a2af39a6f83bdc7dc461897acc715ecc238bcf69f"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/gold_dust.json"
-hash = "d731848f46257a03b478fab9f07fe59b0c089c473574d94507c1c1e79585b267"
+hash = "048095c574b37cc0aad70f62ad99e4e07d38a8c9657dbcfa2f1f7f7fc5d5c1a1"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/gold_gear.json"
-hash = "14c7705316020f61c0233920548db0744d75caba50915d678d44aaeb22dce1bc"
+hash = "c2d175f7737a4f4856e3337663eb850fd5e5a71c737469425a5f09686a8936ce"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/gold_nugget.json"
-hash = "083b81799da08f4f31f78e0e0f2bea05e68e43c3db659a13b55b0792dd0f9ac6"
+hash = "a7478c1fb00161b490a9d39684da43e8c7bd79a366bb39dc3e3dba8b45615e70"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/gold_plate.json"
-hash = "e329f1c97a6461f455bc9db0de64bb08c4e90629ba3ee0b0894dca33980b5efa"
+hash = "b565481457f5c0f13b0f3208db579a1b86efff0f49ab0f351d3ecb9cc68e5f0b"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/gold_rod.json"
-hash = "a29bc1cd3ceaf1f5b4e49875103fc8579de9e809ef5f15cc79ec0cf8fed4f578"
+hash = "99793d17b798616b4bc4d8c71e2b764f48eec38dec5ed4db3d107fd29b27fa8a"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/iron_dust.json"
-hash = "c689995051802adc57c2218c6904941938bcc017b9ff56906b22531c0ff1c7a6"
+hash = "e3bb56339b1b04af0c73b8233708fe7346945c45ef1f58a22304a50606df42d2"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/iron_gear.json"
-hash = "50d972c19a495eb4924f1ac44d8103ec1398b046dd8881dd4561d2ecf995ade8"
+hash = "921d12c00b2e5bd991c7850d6b5cfb1b4d8c05da8898f9075effabf89a14077a"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/iron_nugget.json"
-hash = "28350f39469d62d0d90a3c649601c3a66d6eb37f40999ec31aaba0762a0fb18e"
+hash = "0501df3f914067d31711b904e867f72bb6e237686a85d60211f10410cb49e8a2"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/iron_plate.json"
-hash = "22e31e9af1a44a9e2f5fdacea80914bdc4a471b64495c6b3be7af37197d6071f"
+hash = "080ef98eb0c24e789786a84488becbba516f42ae07edf59a1e9395477a411619"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/iron_rod.json"
-hash = "fa1941d1e260038bc1ce7760b6d68ae965aa30881eb7df40ca34c2b9be08736c"
+hash = "aeec540558ee1dba5b221f9c8877646e2b1db2718747fd4de9f1a5c7ae22efe1"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/raw_zinc.json"
-hash = "fbd31575ae19b223dee3ff12f6617dbaf0d50f9fa28017be43f268caf048c722"
+hash = "0394d503027c9a7e5d79407deda255d2f12a977aca439d38b2f0f1b71711880a"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/raw_zinc_block.json"
-hash = "d51e40c764687c4c2aee726e298315801017db38dfbd4e2c561b2fc6db07b640"
+hash = "3956ee5d56e85ba00de75127b4ffe2e436b43b2ce781024acd4f879dc91843e5"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/zinc_block.json"
-hash = "82b1d218ec8bf56ac4ac3cea050f71b0aabd854e3f470461fc8e01e5dba5c2c9"
+hash = "26a3487354b5d4ef96c8d5ce3b389025212f81dbdef3cef9c588badfba06c9dd"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/zinc_dust.json"
-hash = "1462feeb1a3874f288acd7b90d20fa2f4def77a9e75fb4f4a627bc77d2036317"
+hash = "5809ffee5e75555ddd6ca61f842bae86c85f1842e027de5a100b3cc9b55a9fcb"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/zinc_gear.json"
-hash = "0f02bee7d072d0c388b8abf572d015535cd40a28972748433c873952cde39e26"
+hash = "b69618e00c2bc4734bbb237b32d48ccc987b1d1c6b1aa780efbea32a048c81e2"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/zinc_ingot.json"
-hash = "384c45fd546981071985c5d5add9aaa5f70a5f6f0f13ba0f4f0df34fcf969c3b"
+hash = "1eee2280d6adb53bdf28054086d650f8427ee5bc160fceb745ac60f0789aba84"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/zinc_nugget.json"
-hash = "c2008b876921b77e0b018ee3c8ddf145088140a4cd1ad18c7df486ee33184a67"
+hash = "e411455fcba68bded26655ac9a166d98be47a76322993d449a1678e43dffa177"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/zinc_plate.json"
-hash = "0a861dcc48a439b4d3c0be9c19e7f8692e27313394a0262646a9d2e01c44964b"
+hash = "004bea4c880b4909e5071a3949fb3e36f813282221585f1e853027fb2880dd0a"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/models/item/zinc_rod.json"
-hash = "c81ad3c8a75573e8ee2a3fe78bf9e05c90976c444d7069d13ceb90ef07e54b55"
+hash = "9f2bb11dcd640126093176b306c852c3fda12ca90658ab58f8e5cb94b2d29eb9"
 
 [[files]]
 file = "kubejs/assets/emendatusenigmatica/textures/block/aluminum_block.png"
@@ -4494,11 +4494,11 @@ hash = "31fa8b46c34cd384fb8f5f4f8ca847c8969e292dd8cc85b4dc3ef9570d0c4278"
 
 [[files]]
 file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
-hash = "a2a37a17a345fb4364a5941ee3455b7d072249413af64a8e1abe95809e8ad310"
+hash = "051785d53fc0bebe78053f38939d4aa3bc38943b441e7b5244e3fb4d827db614"
 
 [[files]]
 file = "kubejs/assets/ftbquests/lang/zh_cn.json"
-hash = "20445df8dc140dc11fbef6bf44bc8b3bf6b7038dd114538c5cf6fa263f9e28a8"
+hash = "3bb0c179527889946fbd11a920b75a7db71122b06f48c4ce3c43be5bec408956"
 
 [[files]]
 file = "kubejs/assets/ftbquests/models/item/book.json"
@@ -4737,28 +4737,76 @@ file = "kubejs/assets/ftbquests/textures/shapes/square/shape.png.mcmeta"
 hash = "23cafa521768d1245f5a4e46eca8e09851c971b4ddf4db7832cc0aa88827f05a"
 
 [[files]]
+file = "kubejs/assets/kubejs/blockstates/counter.json"
+hash = "2a005524746e0db0aa6c72e036ba8bf9fc86733a48240c305168803f775da13f"
+
+[[files]]
 file = "kubejs/assets/kubejs/blockstates/mythril_ore.json"
-hash = "4bcbfe3a4cd1e882b61852485c07ef76e594f70869843659c27130493b7403a0"
+hash = "60fb5035fdd5bbe5d407bc17a2d908910cc98675107dbec0da7af6574c943253"
+
+[[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "9db8223426b75724510c7fef0b6d10d98185eb0f27a867b688d243375a9e7674"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "ab52d87b4987988f8aab0fc88382499934a8f517ac523db4310e3e5533430399"
+hash = "b5e638673de4effcf0fb56669bca6c749125d281b177a47ec34934c6163ade54"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/counter.json"
+hash = "63412b1d631642cb3ac7a24f1506abe049475ba5f508fc4d5929056e9c338604"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/mythril_ore.json"
-hash = "b3168ee53c6aabe6901b631614749c4a83a944eef1d0364cb3bf08218a48791a"
+hash = "2e35b5555bb2093bfb10abdddfd19473388ff5126db4570b1681b83acd3f9bb0"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/counter.json"
+hash = "2dee5d82e2c81696ae658122ecc69f18cb49a0291083347457232c85208af383"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/crowbar.json"
+hash = "fdf6f060afad92876153f4e774eee7475be277b0c80aba93282546a870c41ec3"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/diamond_contract.json"
+hash = "553e8695a1881deb6d51a235bd96c2b09c86b2e2d1dd7b1d746f5fa36f110756"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/gold_contract.json"
+hash = "553e8695a1881deb6d51a235bd96c2b09c86b2e2d1dd7b1d746f5fa36f110756"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/iron_contract.json"
+hash = "553e8695a1881deb6d51a235bd96c2b09c86b2e2d1dd7b1d746f5fa36f110756"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/liquid_mana_bucket.json"
-hash = "566e69fc4ecab8d93ccb03db47604ba6e36bef10b392eef86964ebee725f72e6"
+hash = "3709e57273d0f0c808922ae3bb257a6f4ddc766226763e54b508ef7664174250"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/mythril_ore.json"
-hash = "41c5f9685cc795bd52a6794af659580328594a0875a6313efc8fdada1d250445"
+hash = "3d83f0098afb7ec4d1708be81da2f6141b96c1b180cad41c0cb90cc22e34753d"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/mythril_solvent_bucket.json"
-hash = "1a5809eb1c2e9e7355076573d583cf6fa80440c60d37eb688182a34da9dc75b8"
+hash = "e06e90641f5dd75793429d2b86d64fde6d0eee7c7b8c118f036a593a566752b8"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/station_linker.json"
+hash = "59ecdf9c6c739448a832337fd9466d12cf07a03bf648ed4be7ab5ae5d58e332d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/counter_bottom.png"
+hash = "9cc47a92c59e4ded7894a977e0a49aeca7d3a7fe8746d100b351f8b7c926fd29"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/counter_side.png"
+hash = "1117ae621203d6e812675852d516b9ea2a1483fadc95a1bae6715531cac424c7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/counter_top.png"
+hash = "aba28b34825f7ec8c56a1c4a20a8445d05b108ca2dcf11d3056c2c5643f7f987"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/mythril_ore.png"
@@ -4794,7 +4842,7 @@ hash = "1f347b0de2509ccc19aef1754f4c25891f6c9255a3676656c17e16f6186fadc0"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/fluid/mys_flow.png.mcmeta"
-hash = "ca7305f09c932f1939ddc3e906ad8a2a07fcf809e7b1c5432d2fff315eb89eb8"
+hash = "3bf9be6363938ce6e546aadd80f6ba1eb538fe64aa97ff05ee35b883c3a4a657"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/fluid/mys_still.png"
@@ -6726,91 +6774,91 @@ hash = "597b670a454241c39270b9b750d4b45a85669cb2369b6d91ed1b0a7d5e5989bd"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/black_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/blue_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/brown_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/cyan_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/gray_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/green_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/light_blue_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/light_gray_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/lime_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/magenta_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/mossy_waystone.json"
-hash = "ca88a911c96b468c0d5d6eeb1d8fcfe6a5829e4720c30ec959fdc6ce535d6a6f"
+hash = "2f1d20ab5b1f5d12edddf4bb4a85a74ca57be5d740348c63533524c133c1f44e"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/orange_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/pink_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/portstone.json"
-hash = "828dbb5127f9112107d62321bd6df28683c2ceb4dfa287c49b8c95731b4d818e"
+hash = "fca8c61b358f15362771c503d0df9818dd33bba3647b11137d2bab92f2ee5b5b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/purple_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/red_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/sandy_waystone.json"
-hash = "a53821223c28bac230679547594059e0bfb0426c9ad667effbc4b2b8bf324fe7"
+hash = "49989a2e3bf8950f8a60e7f4757885cf496aced9356fb436aa81cb7b40558957"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/warp_plate.json"
-hash = "9fcfab2dbb376d1fa6f10fe27754f64c62e88c417a6356e7c69ca5dbc915246a"
+hash = "1565d57c5e3653cb7a291e15dedfc2eb292297955907d3671c18493e80c4a02f"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/waystone.json"
-hash = "83084894b22328af2593427d5a487578586ac40d84e3918991281f5a6dd6be20"
+hash = "7eeca4526942cfdd5e4871706046da6654d906bb0e50aa42d3996641dfc0cccd"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/white_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/blockstates/yellow_sharestone.json"
-hash = "a848841b6f54fffe0a9a0ef703ac8f39c2e2f893b15ee75c4bfd91d21875be7e"
+hash = "048f8de9df91791be1ded5dca2f1c0c624ee149f650eb03b6c90a45a62ea951b"
 
 [[files]]
 file = "kubejs/assets/waystones/models/block/blackstone_waystone_bottom.json"
@@ -6886,7 +6934,7 @@ hash = "9c06ea3f87063475defc51a396e595a9a0905a2c2a7469ae35576c37ef92943f"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/attuned_shard.json"
-hash = "51d03b8eef956c2f9a0d67d2dfd584028d65f77f6c2c74f4d4e95a876159b8b3"
+hash = "2b895deb8a2686e54e952abbf106dd0e3e0f26cae18daaf339cf841242787b2a"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/black_sharestone.json"
@@ -6902,7 +6950,7 @@ hash = "3800b0e80aa9bd8c7566f4f3a3b56ae7b390c9926bc41d944d6b99566472ce19"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/bound_scroll.json"
-hash = "c65ec741ca651bad656d617ed8648f69b6342638803d02a0dbe43fa5baa4ef9a"
+hash = "588fa034da573cd2eb710b05474b45814a00b42a5926a2793c9bd79d30848672"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/brown_sharestone.json"
@@ -6970,7 +7018,7 @@ hash = "3800b0e80aa9bd8c7566f4f3a3b56ae7b390c9926bc41d944d6b99566472ce19"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/return_scroll.json"
-hash = "56be1bcaab584cd02262819f838b09deab5eeb2cf39f48fd0dd57b4e4e508da6"
+hash = "53322fe25d922ae0a8705244cb636bc8c97981f8c425f5ba3305cd59f181d6b7"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/sandy_waystone.json"
@@ -6986,19 +7034,19 @@ hash = "52ee200bc00771c275c5e7552be5bcb74f799c5e5ae95510cbb6a20699183fd5"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/warp_dust.json"
-hash = "67149abe6925ec950e8f5571445605d22099b694d0a632d4bb1fe2369732084c"
+hash = "dd79710df05d82fb237ac4c20807fb0c5169cd16e7cd1b7f9d4d3a62257f7719"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/warp_plate.json"
-hash = "316fafafa5e682c69786b277e916470ae8927d26f511471d31425a1bafc9e734"
+hash = "a8f1b2088bc26023118e45f1b2387882e7499120eb2f6bcf77ec7400ad2ddda9"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/warp_scroll.json"
-hash = "9148d828eaf2e97a20ebd59e552adcf48442369f76c95ba7c0e628ff42892983"
+hash = "509ae30a91a29dff8579421d5214e5c471550267933515f7eb254014a07e1f72"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/warp_stone.json"
-hash = "9ddfce4ec423d74822b2bb807dd915086d511904f3cdd27e6ff885b934ba31eb"
+hash = "9c61145fa474d1e311314f2d72872cdcfb498ce70c242e27777e6bb28d7de8eb"
 
 [[files]]
 file = "kubejs/assets/waystones/models/item/waystone.json"
@@ -7234,7 +7282,7 @@ hash = "3a2d644d14c6a8983d50173a5598b96135b81464bc19be48a9c4da0c327b38b4"
 
 [[files]]
 file = "kubejs/client_scripts/ee_integration/20_createaddition_lang_overrides.js"
-hash = "dbd919816d7f4a476a80272ca20b7488f8acd2ff530a0b0de213a38d9edefe5c"
+hash = "59f763de5046ee0b0bc6dd76da7150816ea524c4aa3cc1bf45e4342e5108dd30"
 
 [[files]]
 file = "kubejs/client_scripts/emi_removal.js"
@@ -7242,7 +7290,7 @@ hash = "9ec1b4a820d77819d7858bb72b2978909c9ca356f989956c2d02f5ae85e40e64"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
-hash = "d2a13306c453d92e9fe31b499b657a16a5083b1471850216a5a22d9876520e17"
+hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -7854,483 +7902,483 @@ hash = "cbd503ffb5bd76d6efa090d5e0f6d7674e934c8d86658e89dfdf82d6739c528a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/create_overworld_zinc_ore_deposit_ore_features.json"
-hash = "ad8c752b155b437070c744a5c7884f072a102ab6f24eed0c494b44e4bc78afe7"
+hash = "236cfaec17b8c7f5a339da5bb19a15a7cefa4e9d5c584b779e5bbdf2811c7240"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/deeperdarker_otherside_gloomslate_ee_ore_features.json"
-hash = "c83631e4b1f7ff2d5b216e3d4ff4aa292c3df4c213d2d9044e4ec824821b83aa"
+hash = "1f2a20d4300516046f4b7141ecd6a107c323dedf96df5bfaa8c79835f2e34291"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/deeperdarker_otherside_sculk_stone_ee_ore_features.json"
-hash = "13cd5bff6ef118fe276ffb61fc1da1c2945282d3cbe0f67878b3f319516ea1de"
+hash = "76467e9889a5aac985629bb359cf9ab19de6df6a5285f2de8200df37d0d527ec"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_create_zinc_ore.json"
-hash = "d62bd8212e163045b2970370f97b4d224df4ac36783038f1fc95f08806a2d1b1"
+hash = "9e4f691d7c0a3187ca2a7c65beb36324b6249efb8c449e6d6e98b3631b20af71"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_deeperdarker_otherside_gloomslate_ores.json"
-hash = "21701c5494156c2589502ced2bed15215da531ccd22c7aa6f1e933921f210cbb"
+hash = "828db3664fc7b81718bcddcf760a203fac5dda45e40488b118ab26fd5657b37e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_deeperdarker_otherside_sculk_stone_ores.json"
-hash = "31bfbd82fbf1f523e0f9e6cf7083b1e7a1b7e776310d1b21f1d229aab415121a"
+hash = "a34166af78cfe7e25268939891271c8cc72d3b12b4d6f7c276a32e17e52a555e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_coal_ore.json"
-hash = "344f2816748c5cd127a72bfd46ad80f7046058528c59b6b3ce96a5205a7ab3ef"
+hash = "7d3d1ef4efd77de804406986bbfdbc0a58dddc6794b4ed04acec326a6b7f3b35"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_copper_ore.json"
-hash = "f7b8ff6bdc099f832ae8bd5a1e1676b6730adcb4f62a4245751875242316545d"
+hash = "7c2b860ad7c760244eb80f53c2e693af1e090cdbba6bce683b18d092389f52da"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_diamond_ore.json"
-hash = "fefdb3102ccb9a611cc7bcbd372859e475c2d547fee780cecdd6206bbefc08ba"
+hash = "c5494ebe69a285dc38662ccc0ef8bf648ff77a03a99c0c117efb934bab5a458b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_emerald_ore.json"
-hash = "70b1c777e85a14291a4b43c9a5900856a966faa6688510183513c39c3f1400f1"
+hash = "f655b12df752ff29db9f7d7053c534c60aa502943c15d9eec1be673bec69105f"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_gold_ore.json"
-hash = "ff76bc31abe5e9188d6107246a4265f5be9f619add5bdc7154c76d5928e596ca"
+hash = "b6c509e75cef68022b16e5ceb2a85a205ae0b2ac6a6f9f6474fede0a14e05e86"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_iron_ore.json"
-hash = "01158b37e7e5b0336df89619e9cda0e1405ce196ec42529566079b9567b3de12"
+hash = "6f2b3d1eeb4b6490d1dcb830cd4944ce8fbd7c82f4d70f2030d31e55b5e0a88e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_lapis_ore.json"
-hash = "23700502b9848b9927adb133bf30b6b7c7727bbdd465426073fb901af7fd8870"
+hash = "03e3a37b516c3ee979911a5a1c7f140e6255b7ed00cc9a9994eacbcc32982f49"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_nether_gold_ore.json"
-hash = "2eac4bd8709cab0c4f31f653111276f9853feea109e287e0726abe578ec5d750"
+hash = "ced53b1e2c36fa69c4e1b7e2717752cd5fd372dbd260e0d6b90d17bd76d8fa2a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_nether_quartz_ore.json"
-hash = "5341d8cce28101cb4c514e7a77f1ade18889dbc114a0f092dec0eeed473bae72"
+hash = "b130e05c11503c91d4fe66795b1fc24adbec2a1cbf11130fb5c11ed915799ce7"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/remove_default_redstone_ore.json"
-hash = "5fbd1e0beeaed09495cdcb0fce1e33e366442b1f8698bb474e6c2866125ed840"
+hash = "e874c31c677d38f5a84ce374e44de69e7d9ec9d1fe94bc8b0be44398a5cb6ba7"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_nether_delta_gold_ore_deposit_ore_features.json"
-hash = "666943d80022eef3c8677b97a52d9f5c57c00dfc27a24404077d73879edfcaeb"
+hash = "4f9b305dd8704333ed6765f629ae8f66a33c1ca0a8eb31e83c76eef515d9ff2f"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_nether_delta_quartz_ore_deposit_ore_features.json"
-hash = "cdb353afc6560cac22770173a1c64dd2decf74bdfbfa60063e0da213d80461c3"
+hash = "da0627f897c367330ab1e9a60c1c3fe6c73ba76e8e13d058ac2a5b9cb5ff953e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_nether_general_gold_ore_deposit_ore_features.json"
-hash = "492b28e6f6170f01944fb168cc7e629b229b79b2ae48d0067f48c6661a68e2c8"
+hash = "ec7aee7af5880f2dc2ee96d91904e6043df3ab93a46d5b2196a776424518930d"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_nether_general_quartz_ore_deposit_ore_features.json"
-hash = "ac9a90932154d068f20415562ecbb90403d9605cce0eb9a8c79a8b730b9ba2b9"
+hash = "435d9f569fb9cfd2c3fc84e31ea74b6e32ac18844e01ca22e1ce0609ba184354"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_coal_ore_lower_deposit_ore_features.json"
-hash = "14a4d054ea4e5cade98dc7b97b9fcb9bb618aae7f7450d7ae99acf80bbd38490"
+hash = "f914115e8c0a9e805a0ab9d092aa33c0778daf9f73831733f964fe985e18be18"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_coal_ore_upper_deposit_ore_features.json"
-hash = "bd2b6a7f72e8da60f91c14f73d6bf84e3961f3a3fc9331e82746e99578cafe72"
+hash = "ff9157f9d1d01ae8ae0d7c604b26c4e17dc10ee086802f66fe4a080263da5c7e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_copper_ore_large_deposit_ore_features.json"
-hash = "d79f21862aea822b2df6343c53d18779e4236568fcb7f2db48bdae97e29cb5ee"
+hash = "500abe66f3062ba84d9c68e5a68c153e7064653d06a55c3eb3b7cb18a0603bae"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_copper_ore_normal_deposit_ore_features.json"
-hash = "85ed5bb09bcf807b56287208db0a6918ab545e4a7cb72d6ecb385ea233ba4f8c"
+hash = "c932454fadf65edfa8ba598cc41257e010a463dd292c76908b5407cea125e4bb"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_diamond_ore_large_deposit_ore_features.json"
-hash = "57ea0a6df63952119dd73d13d514a9b6deba2c84a2a881c8ba9a8db7927aae44"
+hash = "efbf3ca17f595622b3b9f9a1f459a0826ff4006b04a2f1034b6fb096d4723e82"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_diamond_ore_lower_deposit_ore_features.json"
-hash = "757f11af311c4acbd1888ec26f9cbbbd162438e57ec2e6eb891f01b2a2b5d23e"
+hash = "a86a8717c9035dcbdca09e4382d429d7b1323d23b51488d7f760978cc410eefc"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_diamond_ore_medium_deposit_ore_features.json"
-hash = "1360dbf5e7eeabe135f7fb01219c4146b7282b2f6f5e6309d392919fecde1346"
+hash = "87f571301b091e68089517982f85403746036ba536ee3cd9b7dc203d36666239"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_diamond_ore_normal_deposit_ore_features.json"
-hash = "d5fe45ce68c714c7deb2db8f34077d689fe5bbb3fbe17b1bf0bf7cff1c57b57e"
+hash = "0e9efb7be8b578c7a626cadefd6d3d65402884a65e2df7164308c5b373ef26fa"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_emerald_ore_normal_deposit_ore_features.json"
-hash = "473c9016179e6af6b0276520b3b847b497371ce6e4a75c2caa7c6e8f87b02b83"
+hash = "4cc362d3d0af774d56743da2439553599ae8b7c7db498ecaa38cfc24b99d33c6"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_gold_ore_extra_deposit_ore_features.json"
-hash = "0c2f003a761cae71c8cb4d55deb7062b93d61728dfdbd193b6174c417f8bc83a"
+hash = "ea20442d4c774335a5b74b9da8cb2fd2e301aa2155cafad53db03ba0b9d1cbfc"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_gold_ore_lower_deposit_ore_features.json"
-hash = "56ac0394f47421cf2b6594ff727d507525c0b58a526998ce8992e35c206dfe0a"
+hash = "0fdd0e50fe4c7d0173745ac486a7ccc56d4353a19ed73d385ea25f1e265e5025"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_gold_ore_normal_deposit_ore_features.json"
-hash = "b468894652a34573a929f396f5cf0fa023f85ea7110953e5c5f13ab1f4e730d4"
+hash = "c52556d550febbcb6fe1bf1a173c3ad1588593b1c15f65b9b7e96172c44c1e92"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_iron_ore_middle_deposit_ore_features.json"
-hash = "d26eb7a1f22d0b627e5a9063cc42dc6d155d9c0dc2749d348561cb5cd1bfa5e2"
+hash = "aaa3f73ee99b02ed1d6eda4d6f2bdbdfc9193e115ead863e954603d34f1f0e90"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_iron_ore_small_deposit_ore_features.json"
-hash = "6b1d80385dc9a0e519caada93c92bb649841d3c1b85d331304c89d4b2677bf6d"
+hash = "221a1e0b527b03cd0c6ca83981e5853e4c4019c695c89870516eb217d3d3f00b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_iron_ore_upper_deposit_ore_features.json"
-hash = "80c77f2744feee362db7ed794b593e711a7239962c4463a10b6c4081fd4ee499"
+hash = "401c1640a71669efdd4819ff55d08398426377eff230458534a8a0872ecab632"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_lapis_ore_lower_deposit_ore_features.json"
-hash = "3b06452fde4fcfbdbc45ce6a0a917acb00a6cd696421c5ca89f44ce9280a9c60"
+hash = "06cb4c8edf3ad288a219b0a80071e507b4b8ac8bb2115a1d858c8a0461e02d3e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_lapis_ore_normal_deposit_ore_features.json"
-hash = "0b480711619fe970e994b1519e5b09c42ba5267e00192b293ccdb34f82963e52"
+hash = "1f08919443fb98ca4d822a28ad78522d2a1f61ad254b9ab953890baa6256b7f0"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_redstone_ore_lower_deposit_ore_features.json"
-hash = "7fe52aecc228356a0cc64edca92e390539a90c7b1d45cfb068efce43bf1a0a0c"
+hash = "062b81f3763209c9d7fc1898b91c1103379b2bbf087bec9acd0fc15dcb510100"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/neoforge/biome_modifier/vanilla_overworld_redstone_ore_normal_deposit_ore_features.json"
-hash = "3b90498c5a1b2c61464dff0de7d4eabcd77924b0e46ac5465eb38d04050d304b"
+hash = "a5a412efef01c601db2650a6c2c5f917d8a2de11119bd462cc2f25542180752d"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/create_overworld_zinc_ore_deposit.json"
-hash = "ea00a883ccc2dcdb560639c0cb866cc77faeb28e0188f8341370fe5fdd0250e1"
+hash = "60d2398e4ff4ef3fe6b940fad06ddb75be53e45a96a42d7f7577f89ca2951ded"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_coal_ore_deposit.json"
-hash = "7afb978105a05ed0bac3839e889f36a29a38157f8ff32c62c771ba98f5118e67"
+hash = "228c5fe6acdf6608a2c07428ce9d1de36ee76944e896e66a2b63947b6d91b4ea"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_copper_ore_deposit.json"
-hash = "b5f135b5c946cbad7760f4fbed901e2bdc86f1c463be0801d7f1dc5531b19059"
+hash = "4b370cea89872fd6d516a3cfe99d18100ded3d07d994c6dbca4ededb492a08e9"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_diamond_ore_deposit.json"
-hash = "ce13512074eaa9452279142e5fdd166fe259c371c372805b9805a9aba1451917"
+hash = "399a1d099634c58110dd48ae522fe88a38556ab602de61068e55224553e4d208"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_emerald_ore_deposit.json"
-hash = "db94e66006bc0b17bc27ff3b416ce70f2e72c52cc92ef6be94e1a6edd4d246be"
+hash = "46e0cc481dc9b253ce5dc8dcd2ae935e521450c36ed6847dd102ffa94501a101"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_gold_ore_deposit.json"
-hash = "63c6d03a97a9965e1e5186a20e44f968298935172d948e14eaaab83dc13bb500"
+hash = "ef96032e92f7af2597f99db4941d5bcb52c87f8846a21d8f35d7454b976fea8f"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_iron_ore_deposit.json"
-hash = "58ce10eb92248baa74d703e9cacb00b733455daf8abc1635b7e688ff37dddd9d"
+hash = "2cec38fb31a168ca963b40bdc5bcb157cf32e7a0188263594b93eaf7ca55d74d"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_lapis_ore_deposit.json"
-hash = "be334bcf8b7014d430cff0964e3524bbbf92aee0d5ece47e89bfc523ee19b9ee"
+hash = "bec563566d3151652d842327b411cafdf64b58e4bf0c2056c20373596670639e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_gloomslate_redstone_ore_deposit.json"
-hash = "ecff318ae08c49fb862e838df330c8058778de11852120a24f2bfb9edf869b3f"
+hash = "609998bd2e8b9afaba733bc333602eb8b91b3c984ae6c0c1ded71e8a46a0211d"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_coal_ore_deposit.json"
-hash = "3768fd4bc86e1a0d46c187cddd3f37a8cd91244dcd7cef9fe4d12694ee611a19"
+hash = "2317cf95687701dc4a6519aa87c6c1b1eb2ad199edf6b176337ad52160ea8b8b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_copper_ore_deposit.json"
-hash = "c4ab06f06285b40c905346e0c4655a00046d71ebe7a92408088ce5e97f4185fe"
+hash = "95f45fef8ff8d3fc24a7cf93c85bbdc1d1156db65fd0fe58bb53fd1306fa216f"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_diamond_ore_deposit.json"
-hash = "1127a8d4948205f264cb305d3a9d8f893484b451cf5f62b1efb2ce6b7b95c786"
+hash = "a3303f96ac80b4d26a47980f68e4b1370ea6057d7ae3d94cab4d98b0e4e66cb7"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_emerald_ore_deposit.json"
-hash = "8e885306e382c2cce7784511e37b74121d0bc63a5e5bce270616196b1c9f6b2c"
+hash = "399234cb7da88419e3b74553f6229516d5b0ee14176898073b283eff61fc3a2f"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_gold_ore_deposit.json"
-hash = "324846e2f769be97dc343ea9c3b7351f8dfc9174a79d0e7a222b36fb3fc74b4d"
+hash = "562217bc8a6b66db700cc73fe4cef9f3cd87cdac1f6dd498e06e8b10ede8e93c"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_iron_ore_deposit.json"
-hash = "06895a5490dfeed756962ba5517732acfb9b823eecf544a002992c8900b7d339"
+hash = "40d2948e241be1dbb7b17189aa0a2e57f88de64f87e21ac6cc7439d6c15e5bad"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_lapis_ore_deposit.json"
-hash = "619d3a9e6e971a1b12e457ba77e441de701468fd239aac4e30069c9ff90977a7"
+hash = "39b4f761969ca7d89e0e578543e2d7fc3270f91893766a4282f4c854b8f2cf2a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/otherside_sculk_stone_redstone_ore_deposit.json"
-hash = "123d9baa427a2a8be6ad5512e97864d833b1219b2ff0dc7550e33a09fdf43a9c"
+hash = "9acac3cc9b94405c465232cbc1ca879b9a17bb14a0f670c45d1376bbb0311c41"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_nether_delta_gold_ore_deposit.json"
-hash = "e8b640e86663934d1df441ec1106e5ae9444a9fc3463605f83e3fa54aef3e213"
+hash = "f262986f05b6880890e4c42b3bc3bdab20e02a69117899b25c58c2677b52aa94"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_nether_delta_quartz_ore_deposit.json"
-hash = "6609a7831a26f5fe678f1ab9a81190b241382e5a07e9b56aa9dd6dcae0a01106"
+hash = "ef11c9355fc648a510c9babd3fcb2b9473a0f6e81dbc92f0934002aa222bf9d5"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_nether_general_gold_ore_deposit.json"
-hash = "e8b640e86663934d1df441ec1106e5ae9444a9fc3463605f83e3fa54aef3e213"
+hash = "f262986f05b6880890e4c42b3bc3bdab20e02a69117899b25c58c2677b52aa94"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_nether_general_quartz_ore_deposit.json"
-hash = "6609a7831a26f5fe678f1ab9a81190b241382e5a07e9b56aa9dd6dcae0a01106"
+hash = "ef11c9355fc648a510c9babd3fcb2b9473a0f6e81dbc92f0934002aa222bf9d5"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_coal_ore_lower_deposit.json"
-hash = "279cd04c3d91bac4370f45a39001c35796c1bd7c1165c8d10992e2b3383a427d"
+hash = "017dda5c28c7f9ef4a857a1dbf3572a1efe75d068e416d15f6192fffb5a7a66d"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_coal_ore_upper_deposit.json"
-hash = "a3534001c9a45e3fd5b9d7e7c0d22f76c90677b3f61ffdfdabf31a36362c39ef"
+hash = "6244f8f8a9cfd68fd612f76130a27e319be47e8857fa799110c9d55961167863"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_copper_ore_large_deposit.json"
-hash = "5108498531d647f0c5bc08bd5e27401028bbb21b6a65abddbd0e50bf7f6fb994"
+hash = "59c8c2a2043c3e0233a5c994489b920059c5248e6e23eeb8067d16ca969c2b06"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_copper_ore_normal_deposit.json"
-hash = "e18f86fddd5cf7d87915d72f5c62f4d95336e4f024e6d86809eb7365796161f1"
+hash = "33b231ddc90da09eec4782a322a7815798598b88f7a38d3ea7bf8b683087a7d3"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_diamond_ore_large_deposit.json"
-hash = "7bfa154d49a69b32d072f2dc80a7abb44abf29de3614d0ee52e4bcd4ec490d8b"
+hash = "1681753e2c931089f6c7693046ed306033c767a82f7c1f721ad70b1bc51f250b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_diamond_ore_lower_deposit.json"
-hash = "cfa40fcd8994a80d8984e414345d301f85e860bac76cb6c71cd51f0351b749f1"
+hash = "aa288e79787067af73ad3bdf676f70713cf2f7f9289f36fb275b9263bf26ec2a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_diamond_ore_medium_deposit.json"
-hash = "2964906efdfdf6e506909246148e9eab35e25cb1c8ba45ab75805e4cccb07470"
+hash = "c9af01e103cc7f538930df79b382cbbe4497a50d4da9a2f741947898ac0d83f7"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_diamond_ore_normal_deposit.json"
-hash = "f8621b5ae7de47aeed8fbfd9f9ddb7f48eb3533748e590b49b199db86966e0ef"
+hash = "0a293e6d536e2e9bc5e3ce5d7a8efd2eef57faa4450087829ce5406abe3e1e0b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_emerald_ore_normal_deposit.json"
-hash = "2586601376b77d7fd55ff19ec3d0a1e527286f53b4b7e3c32f5650515fca42f1"
+hash = "18baafd2a86716c220c55118cbfb1b8c850ee45621e14d7cb6adcf1cd3ef45be"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_gold_ore_extra_deposit.json"
-hash = "4122781a1bac2977d1c78ed54b476ac25b5db9ca146a4f43a2079fe2698d368d"
+hash = "0627a7edb6051f61276c95f370812882a28c83b2e1b1eb7ec4077488fcc8bfac"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_gold_ore_lower_deposit.json"
-hash = "90c969a2d3b32024f86a71d8289fa811038c7af805803c29f37ae0b5c1650367"
+hash = "6eb3f1e09ea4fd845af9610c572e8521473fd124a50e5b1f519cad0c83e23213"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_gold_ore_normal_deposit.json"
-hash = "90c969a2d3b32024f86a71d8289fa811038c7af805803c29f37ae0b5c1650367"
+hash = "6eb3f1e09ea4fd845af9610c572e8521473fd124a50e5b1f519cad0c83e23213"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_iron_ore_middle_deposit.json"
-hash = "84c12231afd81a14e865706b961c4e80518e266e1893e5d9d243a29a28334425"
+hash = "f3301608e724a84b0efff000a351eb6404afdb3e7ccd6db048ac200404b8c8c6"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_iron_ore_small_deposit.json"
-hash = "745159d8244af85b708068d4335cc2e5569d471c079356ded9ca21bb8e195730"
+hash = "60aa2160186310229de85d0cb14ef914e05065b6c540c5d6c72b8a657b2e0cb9"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_iron_ore_upper_deposit.json"
-hash = "84c12231afd81a14e865706b961c4e80518e266e1893e5d9d243a29a28334425"
+hash = "f3301608e724a84b0efff000a351eb6404afdb3e7ccd6db048ac200404b8c8c6"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_lapis_ore_lower_deposit.json"
-hash = "61b2a12d1df8bd1258548ae4bc2b25c60b23bcbf0495093ed297491d072e5f9e"
+hash = "dac893b15996a22d1530018ee2c2db0658c1f864bcecd0965f9b5ed677becc4b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_lapis_ore_normal_deposit.json"
-hash = "2057e7ea69149148c3654bdeeeba98afc74a9903a0276874b9ebf7924e5ca6fc"
+hash = "5ef70b06d1990a30a9f05ff73cc25b63462bb8d37a586681fcdd39226cfd845b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_redstone_ore_lower_deposit.json"
-hash = "a455bc1b835877ea5facb9225b90ca0d11e448074bb5b662bfe6d2da13bd0773"
+hash = "304d1652998a02ab407206769dac81a6ffa463b0682467dffa304bb40c60c45a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/configured_feature/vanilla_overworld_redstone_ore_normal_deposit.json"
-hash = "a455bc1b835877ea5facb9225b90ca0d11e448074bb5b662bfe6d2da13bd0773"
+hash = "304d1652998a02ab407206769dac81a6ffa463b0682467dffa304bb40c60c45a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/create_overworld_zinc_ore_deposit.json"
-hash = "8eb48b7720bd276264ee3ea614f1965c7454a15d922712cd954b7f8ac609e26a"
+hash = "5f4e32a8aa248f025d856abd96af7f1126c1c8011ab4d6f907673de540781b2a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_coal_ore_deposit.json"
-hash = "1f03e0e05b8926ec175f852d39decb142b247b48364f6d72cb6d968f653b7ee5"
+hash = "980428860260c11cb7d11fd00bc1cdcd9c71f9dd8233f5a23a51b4c3acaccc47"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_copper_ore_deposit.json"
-hash = "1790da1e19bc4b1ba56e645a19d41582a7461433eeaf1e61942a96d6922315ab"
+hash = "6b28f27814399da6e2e44a4cb68ec4222146caa6c5599fffcf5c09b8219413ff"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_diamond_ore_deposit.json"
-hash = "4f97b0dbf898606ae78e772c9b8baa43b780ecfeb71941aa7e2ec76804f34237"
+hash = "79ae0cdb8e44ae97ab142141ed7ef8290f5521fd4a8073b4e8c34c348ac13c4f"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_emerald_ore_deposit.json"
-hash = "8bb61024df4378dd583e886fbf22f845c5bacc47d66f96b56943ad76eeebb80d"
+hash = "b33a349a501c2cfc6a40a947129b2e63ae49fadd24cff2006496497ce8f1b011"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_gold_ore_deposit.json"
-hash = "a3a7b196c54a84eb3114bbc24173ff381b3028a97be86a0b19fd5068c0f65acf"
+hash = "9912941f7f64bff2cfc6ded2df03e3ee70cd01d5e26097769d20ed1e90e43733"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_iron_ore_deposit.json"
-hash = "927aaf94cfda77c2a2b0afed404924e1793a5d7b62b9fbd26ea0eeabb8777a4c"
+hash = "7c92fa1defdb3460fd6494e05d8df87c284e5ea31115a4f60fc48205bcc9c103"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_lapis_ore_deposit.json"
-hash = "4f55bee58eeba8b22823555788d7994ba79815cb4c36b110b575bc4a8e4faefd"
+hash = "e0948ca1d945b0b27ec4409e5abb464e12dd96cf4819e749a1959d8cc92d20af"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_gloomslate_redstone_ore_deposit.json"
-hash = "10b9be4500d2b1a51bc1b75c867df8eccf763a39b67a8b7610bb1d05c58529d2"
+hash = "5a6b5a087a6819df79e26804d911b0d0e8dbf923cb779c5d3017d6f91f26679d"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_coal_ore_deposit.json"
-hash = "0843d389179647fdb7c31a5be122792a73b885b4d52621551e5fde713067dad5"
+hash = "3a60997625719d839ed5d78b02fc25a1c46f867d66104d2b1952b4e22820aa05"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_copper_ore_deposit.json"
-hash = "409900449e55ce5d98b8d2edcb48182e9ccd20d54175fa95ae4e88dd1fe6c12c"
+hash = "fce5a37a15d30110461843607ef05ef50381020df50ae7958e915efaa278d72b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_diamond_ore_deposit.json"
-hash = "0578b5838b2ab6d55530b7b76c6ca01a0a05bfe6c00740fa7a9126c7b0cd4bb0"
+hash = "6d2ae7ffdcd421755698e920a132c77c2f49fdf46aa47c4910c0137677b1a134"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_emerald_ore_deposit.json"
-hash = "d390c7d419efff60238ca5602e021074af5dc6a55bca700c31b84759450f03ed"
+hash = "c9b3af55067e333f254b261c468823484e7eff1568a3390dbd228747461efb4c"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_gold_ore_deposit.json"
-hash = "8fb7e37c771ca3be9eb6f09e3db0e530a6b291b67c4d0d79cbde49850112c07f"
+hash = "35ce6f1d3305673570b90560efc5756d10a1167129d3f86a477b50479760d234"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_iron_ore_deposit.json"
-hash = "7cd32a11648bc7e63f29c0c6ec0471612e544faec8f7ad974cb9d011a6cf88f9"
+hash = "9cbb2f3d3c199cd55c9dfadce2bdca3d320323a3bf41b403e9c8f77ce344c572"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_lapis_ore_deposit.json"
-hash = "ab97110de14a0c8e70d8f1f3e5a68d0796d0ff88a2582971e4db4f0df49ee2c7"
+hash = "622713088b3d08af4a0678021dfb29f76e2e2db8d5a3c7439d9c84e9e6b65148"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/otherside_sculk_stone_redstone_ore_deposit.json"
-hash = "1eb296ccbd1198b567d780af9f84ace1c0b178746f604e522bede2d8e995a41e"
+hash = "2b5999920cf432c53df50e6325c123fbce7e05baaaabc03f08bd6122e58e07df"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_nether_delta_gold_ore_deposit.json"
-hash = "52bc6fbe90543b80c64b4fcb1a7e57d88290d03a3cc7d6cc60050a183cec311f"
+hash = "2045e3550f60eacbc7a67620c02ee3596b5604e387de44838e249cf80160e7fc"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_nether_delta_quartz_ore_deposit.json"
-hash = "4f09e5dc28205f20fcee5909975a0335cec0569fb81a6c66b23fa5cfeb387170"
+hash = "b54bbdff61a91c15a8daeeb4371c524f3c7a2088cade57b905c87b21757302d6"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_nether_general_gold_ore_deposit.json"
-hash = "17e32db6c77b256e4ed2aa67128fb20df15b44d0b58ff8a74cb252aab89e9b8e"
+hash = "ac53b5fcbbe33a60a9b0457c9a6bd42d59b16f9ab63669c50f72b830259ef17c"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_nether_general_quartz_ore_deposit.json"
-hash = "487d032d8856551a526fee4ad897172c2752a3168c0ead399f9818a7d69710d4"
+hash = "c1c5cc61833f85686db0b17476795214c2e6c045200bee46cbb508579a57afa7"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_coal_ore_lower_deposit.json"
-hash = "d78df13f7a70e83aaac174e9e539d5b09a99a43f512f62cb63d60ec5ae4e03d4"
+hash = "155a3e9602ec5d474f1ac0c5710b78dc93ecf00a18a119aae1ec5394ac5d02e0"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_coal_ore_upper_deposit.json"
-hash = "e6a7063f19197181716b75c12a5c7d9af003286595b866fd987e537a702edf4c"
+hash = "f60fb664ef0ded7af6ca875f5782adfc4693fad5c20567ab7ec4f58b1a081e60"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_copper_ore_large_deposit.json"
-hash = "3662567e97a7396604a0384cd973a91a200840bf6403ee547c3d69d10e861e00"
+hash = "b77b951a3c12fad25ed4d348a386e777059f82f08f22ee217e8025bef30fdb63"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_copper_ore_normal_deposit.json"
-hash = "1df1b933abc4b102fa47a59ac621e9ab1d5b28892baebb9322a6af42ea5a7b97"
+hash = "6fc79f1d32844b317efca15605a5482f00b18413c3bb7d076c18615cae77812b"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_diamond_ore_large_deposit.json"
-hash = "72dad86ab0887412e452573fb3a7b225386dbb15e1e3fa649e5b89a11807fd94"
+hash = "0c9d4c5c03cca24928daad7ba01174ff9b9b92956887a5eaae7b8c264c7b9de4"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_diamond_ore_lower_deposit.json"
-hash = "5f7e4ef9d6d465a998ed662f8b660ed2815b43487320975dde1108b64c1ec416"
+hash = "63b31074116ecdaf3b5926d45f0e6840dc9e004a8c5f5b3f59195b10461a1f2e"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_diamond_ore_medium_deposit.json"
-hash = "1aec86e65f2c16d143d810a7fcd3efa6f685b5bbe17444e9718d1241ae501c30"
+hash = "61a74cdbee9c72df7cda828f30f3d2ffa553fc796ea27ea508ecbea30e83e9fa"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_diamond_ore_normal_deposit.json"
-hash = "de712525074cd56225ed3f22ae14615282386e7b15f91fc463192ec97b9aec9b"
+hash = "2db18986c1520627d9d321ce6c0a4f7c7ad409869439bea8dd12934435e40320"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_emerald_ore_normal_deposit.json"
-hash = "4d4639935dda170e3e487720f74144adda125761b21c6d9fd4456f8390d027e4"
+hash = "1ef40a6a9144786b85d3af3b34e604329d1d7804c09159ab48c634b0689ec2be"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_gold_ore_extra_deposit.json"
-hash = "c820704584912f0e986f9c2acaaee9cffc1bcddd20d955bca4413c864b24e5c8"
+hash = "7ae60c5f0db20b637372911072b5ce98c0a450107f1d5585073e5ad64fe72bfd"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_gold_ore_lower_deposit.json"
-hash = "fbf1031ac5f82bedcd8d740d8ddfc60e6e7a77b3af41857c4b00c40435532570"
+hash = "f93b459b744c96ecc48d58e893f2515cc5ac55d2ee6411fa630b01ddf2ecfc51"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_gold_ore_normal_deposit.json"
-hash = "f50cfd0856748faeefe9162cf1a321d7cba678ca8dab06d46a1321530773c4bf"
+hash = "348e86cb69d1b0c633d698b013f85c4899cd61ecb349c97fbba48369a1fe4a4c"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_iron_ore_middle_deposit.json"
-hash = "210dae12e9945e46b6da59018769db1707bdf28e72b9943f2f8c4cf0701e22e2"
+hash = "7fe4ac6071611c2a493c25110c730067525fa8bb373c543b46a7c0466dfef95f"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_iron_ore_small_deposit.json"
-hash = "3b43ce0fbe5e1f430e6fd510f878150c0df6aee97c31b024e22d555ae183dc8b"
+hash = "d6c9c8d69d8c210584410f5d675794f0bafe2cf1cc759752eb56e1e5f7cffd01"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_iron_ore_upper_deposit.json"
-hash = "6a2c43831ddecce5afaa9fd48f4160a0aadd8fae82e5dd5be13a8b10fb265af8"
+hash = "eeddcaef53743ddc770b204c776289bb8e5201f77e11119bd5b24b376733ac8a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_lapis_ore_lower_deposit.json"
-hash = "11f0e9d944b1841332c30773088a96ac5ec0d1984a07ee1463217066d3919d76"
+hash = "986575ffeb43182ea37f1e792a70c3e2788a36c69940bdb703895b57340c1637"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_lapis_ore_normal_deposit.json"
-hash = "c933cafa7cff7ff3c36fb3c0fa3871e9c294b309ba01b444b90bed8500ce5de3"
+hash = "e164c1a5f284113508e973c477b028e2ab4bb8edafa24eeb6ea25ebeeecb7df7"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_redstone_ore_lower_deposit.json"
-hash = "b86749b173503055b371b2d6905fa6f32914ac8129ac721184118a8e143acc6a"
+hash = "590e901587717f55e69373784191a38e75fb39aa7cf518fbc9a1e82ba73e003a"
 
 [[files]]
 file = "kubejs/data/ee_worldgen_fix/worldgen/placed_feature/vanilla_overworld_redstone_ore_normal_deposit.json"
-hash = "450cd35ffaba79239da04e16e2a32c93f7c1c13791318ffa425434f5d754a271"
+hash = "f31a2f9b0f461970c01b4c8a351156908446bf6a3b83be0290cb0760b356d4bd"
 
 [[files]]
 file = "kubejs/data/farmersdelight/loot_table/blocks/wild_rice.json"
-hash = "a879c6aa08be214fb068ab564b299953aeed754cdb507106a568744d798c1832"
+hash = "bb7279f150a5e0dccf91708b6f9a24fe3f062bee4b15fef01078903a314a7a49"
 
 [[files]]
 file = "kubejs/data/kaleidoscope_cookery/loot_table/straw_hat_seed_drop.json"
@@ -8346,11 +8394,11 @@ hash = "b4a30853ccfe6eb122e810181832493bcfaaaca06a5d99f527a974ae7413832c"
 
 [[files]]
 file = "kubejs/package.json"
-hash = "f312a1006906fb7b7a409715c0567b4fe169a5346cb966143b63b64dc8dc16a6"
+hash = "3d04369a44dc75f6a70dfc51080beb357eb39b395a2db0b6557ce8b9900ceec4"
 
 [[files]]
 file = "kubejs/server_scripts/compat/ae2.js"
-hash = "c6f54ed3f945086cedc368db4877d2191fcbb95f1f33baf1bf82937359c9d4a9"
+hash = "d5a62316cac563bbc97eaf3a20c8a9a5b7f2f562c49f96eab4643def74252092"
 
 [[files]]
 file = "kubejs/server_scripts/compat/ars_nouveau.js"
@@ -8358,23 +8406,23 @@ hash = "bd4c7c9e5f6e78e8dd595c0b0eb2e4c28cbdd9c80d93df9a4924a10932645de7"
 
 [[files]]
 file = "kubejs/server_scripts/compat/cca.js"
-hash = "d6030e97aed1dac4fe9b8c30f085ebbdf62ed72e1b6e60c36bd70077a3dadd24"
+hash = "99ca3c2ec5ef1b01b739f97da3eb42796e4c5cd23c0167dca7803fa106970293"
 
 [[files]]
 file = "kubejs/server_scripts/compat/coe.js"
-hash = "5369686fc511ad2cb6aabad8dfa00cc6c1061bf0e4d8495f803aef755c9883f4"
+hash = "c58b9976986ef1f6df974eae6d2ff8bfc6304261b0848ce5903d7e5217f86ce8"
 
 [[files]]
 file = "kubejs/server_scripts/compat/cpw.js"
-hash = "ea8e73ba161149919ecd377addd79a806d9f097beed66a4588bd9779ae432ad4"
+hash = "35955998e387cae9a588274703594c4a001327a8aa0dbe9eebffef5b969945bf"
 
 [[files]]
 file = "kubejs/server_scripts/compat/farmerscompat.js"
-hash = "17abcb26aaf55da0944b20e6055cf38b707267e06377769c7075ffbce953a21a"
+hash = "716b07dba7e3f40b0d0a9f912c33e5bdb911e9b83bb3939e6af743a65589a328"
 
 [[files]]
 file = "kubejs/server_scripts/compat/ftbquest.js"
-hash = "a9c6759845aa8b8a0df45e1745e3d7ff98ee0a37a57b884869229ac1052b0f4b"
+hash = "9a1abbf434ec4a65abff6079c0c1f37a16e3f51090d651f75d5e28a5057a3ca3"
 
 [[files]]
 file = "kubejs/server_scripts/compat/theurgy.js"
@@ -8382,19 +8430,19 @@ hash = "a1a15a2c5a0e11149e89f562c36b1876a541472c232ac87d37e4903b4fbc501b"
 
 [[files]]
 file = "kubejs/server_scripts/ee_integration/00_materials.js"
-hash = "b89f34dacf6393a03f29336b9f619f3ba88a7d484a2457eb04ea8cb2bd5b8a31"
+hash = "b61e43783d15f1c3ba42517929d1882abce20ae91f69220e4f8aefc0ab13eab6"
 
 [[files]]
 file = "kubejs/server_scripts/ee_integration/10_create_recipes.js"
-hash = "1e2e2adf5b75e57b3997a616fa83b31f3593e18f7975edcd974069afdeb19551"
+hash = "52d45c6f312bb780b25912ed517a0581eea8671193e9fc6c8ed8bd67ce1f61cd"
 
 [[files]]
 file = "kubejs/server_scripts/ee_integration/20_legacy_item_compat.js"
-hash = "c2035b22b9f191ba65837524a1b33046b0ea8ff69679d2c873209667224c6582"
+hash = "05583b5b15b2d4d068ec2310660cd2a84cfd250517734b409eb3f7bf1d9c0897"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
-hash = "76baa3d2717a253e959bff6e1468592ebd9ec417e44e7f46846e57a4ca636c79"
+hash = "42c92ad557857b1c4a99cf2ef009e6e65ef00615df0f9513b71312817e938f6f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/deeperdarker_warden.js"
@@ -8402,19 +8450,19 @@ hash = "88cbf3e4fa1a6fc9f0ff34383e49d70fa083b16168b2f48da080dac78bc185ad"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/dungeons_arise/abandoned_temple.js"
-hash = "8c2015a7b5004668160fab031a9456ccbfb258a36100b51ee188f293d0a8bd1e"
+hash = "3369a2f5f9cd466b4b31f09dbd6dcc5bcb854896c4d8933ecd4fcfd4c90dd69b"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/dungeons_arise/aivary.js"
-hash = "fb16dc243cef2ea315615606d791235e4aac33254caeb90204a1c72d60529ffb"
+hash = "34c054de75d0d221a8ee15f22067049d05a1f56e179e83cc5ed83714b33ffb0d"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/dungeons_arise/bandit_towers.js"
-hash = "5eacf64b02b6cf43f8120509f4b7cb1da69c711244ec3bc2214269ebf67a3bcd"
+hash = "d654f811af629a2c8f0ee97c229490e0f32183c28469d0cdcecff73166cb237f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/ore_loot.js"
-hash = "77691dd970a1c4843f32484a565befc42d518775db79334d09d5bd07aaf9942a"
+hash = "4f3f20b30707575cb65ab35216a39b6ee767cd4988c4c41fbe9f1df93527d90a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ars_nouveau/imbuement.js"
@@ -8422,11 +8470,11 @@ hash = "2794a3efd9190470a31370ff438ba6408913a821bcf4a2f89415ef44f4f438b9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/compacting.js"
-hash = "18b6582f1567221aea81e95a981f2237158f30e2fe490dc21e7e9bda13219bb5"
+hash = "6493c58b4d16fa53de29b196505580a92508e1628c715d4d137b5cc8f94a5158"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/preesing.js"
-hash = "ac1bd8edb3e3c8dc627c1d6a9287306d9bad192270a074c74a773fe996891760"
+hash = "9557ce5f64c777e7ca4e074a73c1bf075e505152ecf941fbd33c2a3196600386"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/sequenced_assembly.js"
@@ -8434,11 +8482,11 @@ hash = "d8de60d7f563f0738997e8b6c5616d1e26414b9d9a02da0e5127435e5eb66b01"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/dragonplus.js"
-hash = "e09c2d3195dd6ec5f1cf88e25b876b1a97132ff153608e730c22a9d9ca3db672"
+hash = "2cdf33c4c719070806fcdb8cda0ad9a4395aae8acec1aa995f48a7b8554478f6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/fixes.js"
-hash = "6e94ef7d3cb14ff257388e607bf3eb342d3527c0c09430929319cbb056bac361"
+hash = "89c1dfcd65cbc8af8e9d541b5f085e2172bde59aa34503081f499a783e0b8a5b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/fools.js"
@@ -8446,7 +8494,7 @@ hash = "8ac8fff778caeafab7a5781022acf075f7f328f547b9984b4b768c5c4fab0dfc"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/guguaddons/deduction.js"
-hash = "c03be636eecf89742f89a2617ff178ba77f13ee6f603244310c7029398375b51"
+hash = "52243c3a8165bd01d0eb60b09f2b3c20a844d3aef17945253117d42ecadf86f0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/lychee/anvil_crafting.js"
@@ -8474,7 +8522,7 @@ hash = "439482ea8b717ea084146b64e7c52115a03f22756c6f1a34aded7bc125970e3b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/colored_concrete.js"
-hash = "4a113b806aad81cca07939a82f6d7ecf910e6adc88ffb9f0f0d4b55914008c8c"
+hash = "98577e651238567861bf9696b7826e7a29177c1ea8358bc65ebbebf85f61e2f6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/crafting.js"
@@ -8487,6 +8535,26 @@ hash = "69222b269fbd09ff03d7ebe46d71162277b480dc588b7fb1edee9f6a58e388c8"
 [[files]]
 file = "kubejs/server_scripts/security/illegal_item_cleaner.js"
 hash = "120d183f6194f2d25b7d5037127349d5127787ae4f0e7884cbdf2b3b2e4be12c"
+
+[[files]]
+file = "kubejs/server_scripts/selling_game/00_config.js"
+hash = "a29b02529efdec3456106f535a8fe357a185db3def8edbd4e4f52ce04ff368ff"
+
+[[files]]
+file = "kubejs/server_scripts/selling_game/01_functions.js"
+hash = "b1d5e65b0c9348cba178ccead3e3cc588aab053a0be1bf7cb0b13d9360e13ab6"
+
+[[files]]
+file = "kubejs/server_scripts/selling_game/02_counter.js"
+hash = "50d5f491d76dfcf51c9dcb8a2f6035ffbe76a865e1aa1ff08a7cf4f00b780c1e"
+
+[[files]]
+file = "kubejs/server_scripts/selling_game/04_employee.js"
+hash = "6d00bc7be5383071689b5af69edaf85b7584a82eb98d789eb730ba87cf539da8"
+
+[[files]]
+file = "kubejs/server_scripts/selling_game/05_hud.js"
+hash = "54f0badc7ea41fb1797e3333e02f1e18f7ce3616c7768a006ebc75efbf6f5a68"
 
 [[files]]
 file = "kubejs/server_scripts/stages/stages.js"
@@ -8502,15 +8570,15 @@ hash = "2e7521acaaa92fbbc8fdd08a552d186dc2b95484bcdbe05b2d340bae2790e66a"
 
 [[files]]
 file = "kubejs/server_scripts/tech/arcane_line.js"
-hash = "516ca15567703263a29d2f4988cc5c7856179575147ee6d0f8a6fb6609ed7347"
+hash = "1fcabcfac2c4f86a797c8baa30e65783671305333f555ee89a1b3d38d8a724c9"
 
 [[files]]
 file = "kubejs/server_scripts/tech/ore.js"
-hash = "3b346ef1c763d96250d78fba3935364c2b84b59bf7f290ec981901c92afe47bc"
+hash = "2ccc45bb5f7efff07466c33329eb234a7e61a39ec33964eff4488bc57cd86423"
 
 [[files]]
 file = "kubejs/server_scripts/util/dragons_plus.js"
-hash = "1a0296d28fd413a7bd703423c62839acb5fa39f96c6c048cb432732471c57563"
+hash = "7ce1c89ad5c86a85c7f83142739cc5444815b901381786cfdd909e7ec05883f3"
 
 [[files]]
 file = "kubejs/startup_scripts/ee_integration/10_ore_sound_fix.js"
@@ -8518,19 +8586,35 @@ hash = "1cec3e846664134efdc37a1a84d8de8cda5d124788c742201d46b4df8b4b1fba"
 
 [[files]]
 file = "kubejs/startup_scripts/fluid.js"
-hash = "d6d4b1cedf656fa0a174d5a36cd2ae20f6276e77f427ae9bf9a1cd6cb975d9bb"
+hash = "29e8fbd35937bd2e02cc8c0ed689fb59ad34bd909837eddde2ee77e72494db92"
 
 [[files]]
 file = "kubejs/startup_scripts/item.js"
-hash = "46e94ad7ad22cb832aca68565e539c7ffce908b7066704c8c06737f189d2f4c8"
+hash = "eea78c7b18a075d6bbbd8e6fb8e4bac05a6810a3d0395f7b2418a56e9a77fe64"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-hash = "c598d8f9710af7a23f92cdd9061894afa84b2380377a66e15d293e769c998f97"
+hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
 
 [[files]]
 file = "kubejs/startup_scripts/ore_registry.js"
-hash = "c84aa219cf581c8405615a5e7faf7cd344fc75c3cfdee4295ee52a723ac4ee49"
+hash = "28a184d6271b8f5f2ec985288e0c334567f610868b2244e190b32ab822dfb189"
+
+[[files]]
+file = "kubejs/startup_scripts/selling_game/00_config.js"
+hash = "402985c5233ddfd58f600b18b1ae9be13c33e068741ff54b6f8ed3e881fddcb8"
+
+[[files]]
+file = "kubejs/startup_scripts/selling_game/00_items.js"
+hash = "0adcd3750c299966696036f3be8af7b8c8558286de93ec2ced30b7826cde824d"
+
+[[files]]
+file = "kubejs/startup_scripts/selling_game/01_counter_block.js"
+hash = "dc40b32652cf723bf0425971b9248a643c1fd252c591a560cc4c526e875865b8"
+
+[[files]]
+file = "kubejs/startup_scripts/selling_game/03_dishes.js"
+hash = "ffc83717c287bfeda1d1fbd8ae47c03d711beb65a830a68de0f7a1c48f483813"
 
 [[files]]
 file = "mods/accelerated-recoiling.pw.toml"
@@ -8554,12 +8638,12 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "5150d0aebd32633617c791ecf1b3665c77ce5b17c256453e9d66a7da93cff4b1"
+hash = "ea07c3191498f67ca0b388aaaeafc6c9339dbffd3e6cbd1888bd9904da59c1db"
 metafile = true
 
 [[files]]
@@ -8574,7 +8658,7 @@ metafile = true
 
 [[files]]
 file = "mods/ati-structures.pw.toml"
-hash = "bc0d9c875645e3370941cde6c6ff83fb2a04f54caeb7d3d156b34513412d4190"
+hash = "34df2a50396be575739b94a70b36c23586aa3e31d90aab71f2a1ea7060cacf26"
 metafile = true
 
 [[files]]
@@ -8594,7 +8678,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "a0f52f47c27d6ccdbee89735e459ff955ba09cdf499ef42bc901f8426be75253"
+hash = "f1518b9325a7fa419cfb856774ab3065e12b3d6c467ae566a8e07d7cb9929857"
 metafile = true
 
 [[files]]
@@ -8609,12 +8693,12 @@ metafile = true
 
 [[files]]
 file = "mods/certain-questing-additions.pw.toml"
-hash = "bd46e5e374acb67080300cbcd18acf528c070576271d8bb40085955eb0ee8451"
+hash = "f7f6d7f52d7af05d0dc3ceec8a1d4e52231e61029806b3f52006940e583ca826"
 metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "9cbe070b269ec57ecb6f69c2130e8839b06b5ba462df4bce81a41d087bc74ec8"
+hash = "790bb2fd302150470e1b2f2223cca5987f29af41edf97481cd5ddfda6fb21c01"
 metafile = true
 
 [[files]]
@@ -8658,13 +8742,18 @@ hash = "9ed42a12c86c8cc153625d690bc475d0e7f9ab341667dc8aa401d0e68881a1d4"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
+metafile = true
+
+[[files]]
 file = "mods/create-diesel-generators.pw.toml"
-hash = "8fb57bc618f50cf03f299a8f36cce5b0805765a3033f46e3b0420ca3a8585856"
+hash = "2e29c21d4d3f24894b9faa658c2d2183f33042d92660d89741333397f2bfa427"
 metafile = true
 
 [[files]]
 file = "mods/create-dragons-plus.pw.toml"
-hash = "b8871b2a91d1eb68d187060e8f6e34d9cd2b407677587e9481b4b9eb042afab0"
+hash = "6765cbdd57396dacf7ba925f8939496a2c67a8c9695a40a6099f8b7bdb65beb6"
 metafile = true
 
 [[files]]
@@ -8674,7 +8763,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-framed.pw.toml"
-hash = "cede8b7fbb98d9623fb783d0edfe0710104557405653235ca602a38e76677b90"
+hash = "4744275b4d8f42696051832986adc4b007fcca77dc3a4dda4bb4cd77a946f544"
 metafile = true
 
 [[files]]
@@ -8684,7 +8773,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-let-the-adventure-begin.pw.toml"
-hash = "56954613096032cd272743122888506895a283615b82e22135e8f9608332c080"
+hash = "125550f754e447392aab3688e11652157296f53eac160bb62d1fbdca6c5af359"
 metafile = true
 
 [[files]]
@@ -8724,7 +8813,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
@@ -8744,7 +8833,7 @@ metafile = true
 
 [[files]]
 file = "mods/customskinloader.pw.toml"
-hash = "37779fa8b66c233b0090bc90f4044d040da12c461bb2df87390bac7ea4ff7b3a"
+hash = "e2d93111e07848c01ec0515783d48540bb58753f487ea65eddb62a8761750ce5"
 metafile = true
 
 [[files]]
@@ -8763,8 +8852,23 @@ hash = "d2abefd9997328f0fdc8b36f9386438bee89889f58e878f290e9a9c8db8b1b5c"
 metafile = true
 
 [[files]]
+file = "mods/easy-npc-config-ui.pw.toml"
+hash = "8c44c04b6be4226e954d0e2badd1ef4973cf01ca947e3d3f004038ba700e5712"
+metafile = true
+
+[[files]]
+file = "mods/easy-npc-core.pw.toml"
+hash = "f2a9b4ba7338f44ffd3a730c31e6578dfaed537e1d9b4644ac8848679f9d4be8"
+metafile = true
+
+[[files]]
+file = "mods/easy-npc.pw.toml"
+hash = "aca5bf495380a2d087e6a42b74d5ad24ee9621e129ac945081c5fdf27f16a3f5"
+metafile = true
+
+[[files]]
 file = "mods/ecologics.pw.toml"
-hash = "929964f3821c83a8b7cec0ed60a2cfbdb8bac55673bae4d9cef4c32b216249bd"
+hash = "b5162861a3d393aafb2b02d91ab04b5732f82e3bafbbc3b3ec4e336337f2d7bf"
 metafile = true
 
 [[files]]
@@ -8788,7 +8892,7 @@ metafile = true
 
 [[files]]
 file = "mods/ends-delight.pw.toml"
-hash = "fc2742e86220ba39d0638c16118108ce1e6be56fbf742664a0818465c2790791"
+hash = "ac4e0cf6211625b432284e8f057592a2a0fa1c2fc33b94f9bf710153c4b79522"
 metafile = true
 
 [[files]]
@@ -8818,22 +8922,22 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "2e37359f2919f3937bc4473b830b54d86d8f6975d040b05d21be51c9b91d1dc9"
+hash = "0922cfee3b7351e62fb22ccc6e5a59f35fd99fe80737dc861ada3b5407ecdf87"
 metafile = true
 
 [[files]]
 file = "mods/ftb-essentials.pw.toml"
-hash = "aaa5d15a2ebf6ae368561fc49d7994ffa5084138942095cb4ded4c8921189437"
+hash = "6fa984dc1b5905ae909b417ed1cd92d6b536ba4832ed8c8d95aa9d424ad789df"
 metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "5fb287ddb204cc2460dc51984099b0010462f781d00b2d6ed2a37046accf2560"
+hash = "4c996e783683f1a51df88d6af6b57881ff095c8801b0f5ab2969d0d121c137f8"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "87feb9b970fb1778c1983ab64c4b9702f2583d40b810f204c5fa6a266e66b73f"
+hash = "bcb262cd4974aa8539786bfe5ff42c2c8737e595b34090131ada06cda5658f80"
 metafile = true
 
 [[files]]
@@ -8848,12 +8952,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "43287a3c5030a05b370b45ec1ab9a4a8d5c3d43e9c740aae5218f07ffd041fd2"
+hash = "6a76a2faafbca6e5743c1907e5acf878b0ef75c29807452af8c2655439a1c085"
 metafile = true
 
 [[files]]
 file = "mods/functional-storage.pw.toml"
-hash = "401abbfd7d9b9cdde37c8f00c604526a237f39ec79a47adbf46ff70ace12bd96"
+hash = "55c21e0159f5509b84d1e1fa42c2e478a3600c43007ede829cad5839aaa1b8da"
 metafile = true
 
 [[files]]
@@ -8863,16 +8967,16 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "68e15ffc71a84261e0dbbb317329788c21a7b9eb8060687dc8a51008cc3029fe"
+hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
 metafile = true
 
 [[files]]
-file = "mods/guguaddons-0.2.13.jar"
-hash = "333f26f4a07984d733f03bc1839f469138f0698bb37d8c481aa7d5d589e0d112"
+file = "mods/guguaddons-0.2.14.jar"
+hash = "20e5730b4cb25713136fb73e12bfecbaae2e44585d7e3f6b7b9866abe5018597"
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "10c6e9563ce848472a6e817c05f5801da01a0d941bee2bf9ba7a0e848cf0a334"
+hash = "9163b1128300a4a9e8a021276fb16544d7e0e7e85f776dc3f59c1a54ec22e598"
 metafile = true
 
 [[files]]
@@ -8887,7 +8991,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "0a340d62ec786133c1cc6f40d86655a77055461ad65390a8679be294279d6f94"
+hash = "3e6d3262ebbf9838ab67178f71480edf47f55a074b4abd8527e862cdeb57d362"
 metafile = true
 
 [[files]]
@@ -8902,7 +9006,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "e34877bf9d74d3f71c69fdd47ce509fa473fadcdf88f87f79754a522cfa1c60b"
+hash = "bc0ed43619af3b5e453ccb36412d72aef8d066594946a927155d2fbd440e4b40"
 metafile = true
 
 [[files]]
@@ -8917,22 +9021,22 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "7def863bb91ab596ae4676ade8cb752020696f9d69e033244802118a24371529"
+hash = "f98a2b315538d7693ebb6394f05a01d92b558608f18998a4e7f9740dfa74757c"
 metafile = true
 
 [[files]]
 file = "mods/kaleidoscope-cookery.pw.toml"
-hash = "d67913d6835444ac0cf5a2fce6f3809bbbdd77c5f7824557fb1f2d1ef9b36512"
+hash = "736320078bdd72041452e9bb1c6efd44859e46b0e5d862dbd814cf48ef5b92aa"
 metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "e3b291c04643b91eb5f4b963d07267c7de2aee6ed239abc3d3f5b1ed26082b95"
+hash = "083c9d609335090c7fd62c13c146c0739306f597096e257fbdae6cdbb1917019"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "27302b0087cf53570cd7a3b4eb550a208cbb6f6ba07210c604176155f39e0078"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
@@ -8952,12 +9056,12 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "ae243a307314d9121188377b1f0347563b7e84cfe7bae8918d0e7cf2ab56286b"
+hash = "9bd4207c2c81f918a38e468e87cf7b95687cb679fd7fb030282e195075fd82ef"
 metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "ec9d06ac76e4017bbfbae4ecd54702071b796b502ac8eabb682705ef71c8d671"
+hash = "d48948d8dbdf7ca96c4bc34be4aed08313d3a7707acab9ed12fb894b470bce58"
 metafile = true
 
 [[files]]
@@ -8972,12 +9076,12 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "d7ed4aa2c8e01de8d38b08f96b7f10dac30b96df1c1e7f4b924588a36f5bdca3"
+hash = "b8ff01729e29868e7b48d6829d14136f300e176365a91fbd517e3d6d8155320f"
 metafile = true
 
 [[files]]
 file = "mods/lychee.pw.toml"
-hash = "31c837d23b18a6283742ec38d990bacc08ea2a20b1e87cc9c81e9c08583c3aa6"
+hash = "ced67763a74b1797ff9abc346afdaa50f81c980a24336e6e22c33032511d104b"
 metafile = true
 
 [[files]]
@@ -8987,12 +9091,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "7cf42d1cf3f7e27121d6c8fe1a5b66f7ae20b282e52a29ec63b1d43f88267d1c"
+hash = "b0364f6b95f6ed837239c232bad0e2d7317e58f0e4c040e66a4f533239d5775e"
 metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "90e374f5744d552d2a14d8dec41247810c0ef9994d958f9a57d359bb03103115"
+hash = "f35e905918b2694a543ca4bef5e90be9a84f966b80a5f486dbbab6cc015f07e8"
 metafile = true
 
 [[files]]
@@ -9012,12 +9116,12 @@ metafile = true
 
 [[files]]
 file = "mods/mru.pw.toml"
-hash = "9749d73e7add8942aa12ca754ed46d4549f2148bc9f169f4ce94d19f6c5fb4b5"
+hash = "74a47e823adeaa80301516a154d3a5299ce83da742702416c797668d491209d1"
 metafile = true
 
 [[files]]
 file = "mods/my-nethers-delight.pw.toml"
-hash = "6d2a317fd568932754a3263ad6dda2f55781d5f191d752946335d033e293da34"
+hash = "ceca044e7cabf16b147a79c0800235249d26a95075058970c77957b1a1054d3c"
 metafile = true
 
 [[files]]
@@ -9032,7 +9136,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-bandwidth-legacy(nebl).pw.toml"
-hash = "bfd31eda60ea72f77f978ef56e131084e3a93292f9f68eefed33a3b3aebfe383"
+hash = "448d6885c7fa183c5795545d81d6bfc5ff630418963b2daa6c40752f4a9a94c7"
 metafile = true
 
 [[files]]
@@ -9052,7 +9156,7 @@ metafile = true
 
 [[files]]
 file = "mods/particular-reforged.pw.toml"
-hash = "feb003ee68e06eaaeed7c45554556e726105d8ba9e364452e7429d2739588da7"
+hash = "eb2477aec01f21dd99a16854173a1694085942db597af21b049564d1031198e3"
 metafile = true
 
 [[files]]
@@ -9092,7 +9196,7 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
+hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
 metafile = true
 
 [[files]]
@@ -9102,7 +9206,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "ba0fbc01b797b664021580151aa626f3816bdf4420136cc424761df4d05c9d55"
+hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
 metafile = true
 
 [[files]]
@@ -9112,27 +9216,27 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "20e216ce1d2a14b8e8e224701df5bf3f06789ebdf33715b9d01b3dc9ac35e38a"
+hash = "f56e0c23ba34fcbb889c396b99f31a5f33365e00202b7728846e449825d58e03"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d5534e08a72674112093017e8f4d8ad5db91a0b06d62fc7d82258afdfeae7911"
+hash = "16d83873bed6c9301df009a4f21ba45f920d3fca7536e4cd8b719c73393209e8"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "dba8921d7f66788c44649ec21a2f495e2875effb0884577e315d20f54e60a270"
+hash = "f1ac2f9ecce242d0f193db475dba673da2bd5ee04b59d3e750699e7b7c4d1f39"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "c66a21cc5dcab2ba241b47c42544cf0ca1bccdf8e6605c6d332837fb2dbe98ca"
+hash = "78a821b1555c067aa6a1efb5a8a1a8f467ad958fcf2af7649534d61ea31c510e"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "b61c1d72ae4f867afe7bfd1750e19b3c33bdb36f2ea0eeb5b1a63d33e271892b"
+hash = "c700f42611b1e4412c3528b976100e48d7fb992f84f39de37b8db3aa2bb444ce"
 metafile = true
 
 [[files]]
@@ -9147,12 +9251,12 @@ metafile = true
 
 [[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
-hash = "60d6921ec70b1c098fcfbf0254022b7a9a3a859635e6857fd6dc64c12381aeac"
+hash = "a2681409a01e496281b21d383cb28043efc4425f7110d21dfd8b6362e258a817"
 metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "cbbc06cd921b629776f574566af0b5dbd58819fad7513cfaac2967d3fb750845"
+hash = "003fc4f0346ef9fc643692f85236055b820830a531bc284275c3cc7a4ce7c8b3"
 metafile = true
 
 [[files]]
@@ -9167,17 +9271,17 @@ metafile = true
 
 [[files]]
 file = "mods/theurgy.pw.toml"
-hash = "0feb1a5a2db841d005dd725ce3600b682624d4a70dfc7ff47c06d1ea1731e126"
+hash = "031d29ab6ac3dbbc0d80f980e2e2683629376cc682031f452c8597d56b4e8538"
 metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
-hash = "b4839b51f328fbd3af8addab6905f444a425ffd8d540966766bbe2947528cba8"
+hash = "7830a79862c572434679f36377d3bd985a11a6ccb508d8f1911138138e647a4c"
 metafile = true
 
 [[files]]
 file = "mods/tmrv.pw.toml"
-hash = "6a74877f3cd1aa910324383206b42a9775c3564e3174df009950cff3c8b1e740"
+hash = "d323a56389acaff215e3dc54e9db35141e8398d111644b45a970b114a29299df"
 metafile = true
 
 [[files]]
@@ -9197,7 +9301,7 @@ metafile = true
 
 [[files]]
 file = "mods/trek.pw.toml"
-hash = "00afcbfc1b6771e8650e868dcdb6f0aac3a319b8de9bf363530ce7a62bd807fe"
+hash = "856519bd5d0f0736c86a2ebbc833b8499075be4b1d6613988f4e5104ba2d9a32"
 metafile = true
 
 [[files]]
@@ -9207,7 +9311,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "a30086884843ddcd5b0f5d3d82d0942341c8bdc09adf3198a0621ab4751f7c16"
+hash = "cdd6792d04eef2981de616a24f1d89648749c3c7494396f2119cd6ec7ce1e242"
 metafile = true
 
 [[files]]
@@ -9227,12 +9331,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "3bf2e0895fdeeb12b2c8f163d7e7338fba9b0d93c605bfc86ef33d9f39e4d162"
+hash = "cb214059678b43fbfcc7266cc1345cdf577afbc1a0b7baeeecf284ea10b02269"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "a82cf99f5601ff67e697a627b5d35238d40dc869e1fd0a9624a7150126f5aeb8"
+hash = "4fdab0d580a8e20ef23d74513e1f5ddbb46e56d379a6fabab9e5d4bbf9846329"
 metafile = true
 
 [[files]]
