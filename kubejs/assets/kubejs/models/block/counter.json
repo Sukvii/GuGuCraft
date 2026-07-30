@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "kubejs:block/counter_side",
+    "down": "kubejs:block/counter_bottom",
+    "up": "kubejs:block/counter_top",
+    "north": "kubejs:block/counter_side",
+    "east": "kubejs:block/counter_side",
+    "south": "kubejs:block/counter_side",
+    "west": "kubejs:block/counter_side"
+  }
+}
