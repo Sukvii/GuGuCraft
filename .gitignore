@@ -19,3 +19,40 @@
 Thumbs.db
 Desktop.ini
 
+# local env
+/tools/.env
+
+# local automation workflow
+/tools/
+/overlay/
+**/.gitkeep
+
+# backups
+/.backups/
+
+# build output
+/dist/
+
+# minecraft runtime
+/world/
+/logs/
+/crash-reports/
+/run/
+/server.properties
+/usercache.json
+/usernamecache.json
+/ops.json
+/whitelist.json
+/banned-players.json
+/banned-ips.json
+
+# generated temp files
+*.tmp
+*.bak
+*:Zone.Identifier
+__pycache__/
+
+# system/editor
+.DS_Store
+Thumbs.db
+/.vscode/

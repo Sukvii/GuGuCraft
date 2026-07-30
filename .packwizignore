@@ -9,6 +9,14 @@
 /README.md
 /packwiz.exe
 
+# local automation workflow
+/tools/
+/overlay/
+/.backups/
+/dist/
+**/.gitkeep
+*:Zone.Identifier
+
 # root-level export archives only; resourcepacks/datapacks zips stay included.
 /*.mrpack
 /*.zip
