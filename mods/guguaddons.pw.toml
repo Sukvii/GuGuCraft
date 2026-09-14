@@ -1,0 +1,15 @@
+name = "GuGuAddons"
+filename = "guguaddons-0.2.17.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Sukvii/GuGuAddons/releases/download/v0.2.17/guguaddons-0.2.17.jar"
+hash-format = "sha256"
+hash = "84f619aed24121c7646888150ac4976109cb7c9fa8e5ad6b8d69872097879654"
+
+[update]
+[update.github]
+branch = "6e5fcc4534a729af2bd9962b894eff1fef8e2118"
+regex = "guguaddons-0\\.2\\.17\\.jar$"
+slug = "Sukvii/GuGuAddons"
+tag = "v0.2.17"

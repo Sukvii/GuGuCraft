@@ -1,0 +1,15 @@
+name = "TooManyRecipeViewers"
+filename = "toomanyrecipeviewers-0.9.1-dev.4+mc.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Nolij/TooManyRecipeViewers/releases/download/release/0.9.1-dev.4/toomanyrecipeviewers-0.9.1-dev.4%2Bmc.21.1.jar"
+hash-format = "sha256"
+hash = "dba21863ec8c2e1367a2c0f2bd50431af9efe38f44ea4703f782ce1889c45dec"
+
+[update]
+[update.github]
+branch = "0271e908fa3dcb9c6f0a3f90f42ffb5729087d8c"
+regex = "toomanyrecipeviewers-0\\.9\\.1-dev\\.4\\+mc\\.21\\.1\\.jar$"
+slug = "Nolij/TooManyRecipeViewers"
+tag = "release/0.9.1-dev.4"

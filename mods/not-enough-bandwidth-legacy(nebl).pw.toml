@@ -1,13 +1,13 @@
 name = "Not Enough Bandwidth Legacy(NEBL)"
-filename = "nebl-21.1.10-neoforge+1.21.1.jar"
+filename = "nebl-21.1.12-neoforge+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/VdO1hTrG/versions/C1UATxjp/nebl-21.1.10-neoforge%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/VdO1hTrG/versions/rbR6InFg/nebl-21.1.12-neoforge%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "bbee6b66a51242a8f39ae8c2af07b77a7b7094f8eeb53ba3e6daa6d107edb9afa3bf0c7a45cfb570a5824ebd54cfad9773952b3ffb947f3cd66f12157d026d11"
+hash = "00e51cf5640a8151eb3205b0386245959b368fc0bd47831946e8ce8fbf46c2574305239682345d328c83a5568df851145caea2b880172a4e16ef38cdf3eade0b"
 
 [update]
 [update.modrinth]
 mod-id = "VdO1hTrG"
-version = "C1UATxjp"
+version = "rbR6InFg"
