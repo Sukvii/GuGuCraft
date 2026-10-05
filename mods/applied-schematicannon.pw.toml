@@ -1,13 +1,13 @@
 name = "Applied Schematicannon"
-filename = "appliedschematicannon-1.0.4.jar"
+filename = "appliedschematicannon-1.0.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "01beefc2f633d50d2a82e01f245a3dd0588f9c48"
+hash = "0e2fd576b715a2ba64f7e52a70a5262270f77875"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6584437
+file-id = 8900280
 project-id = 1269760

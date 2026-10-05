@@ -1,13 +1,13 @@
 name = "Easy NPC: Config UI"
-filename = "easy_npc_config_ui-neoforge-1.21.1-7.12.1.jar"
+filename = "easy_npc_config_ui-neoforge-1.21.1-7.14.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uTGjf7vA/versions/ae36UNtQ/easy_npc_config_ui-neoforge-1.21.1-7.12.1.jar"
+url = "https://cdn.modrinth.com/data/uTGjf7vA/versions/am2FLyOh/easy_npc_config_ui-neoforge-1.21.1-7.14.0.jar"
 hash-format = "sha512"
-hash = "232ebb9451657015eaebbc39b0e347a108aad10d07b7212857e81a8a4d47eaebc40f67890b8de35dade5e00282c10d886b1298ef0f3fa1cbffaa341abc5cf631"
+hash = "b5f6dcab0c1c228d399cd9c74cf3e5be8102d2e77e9b4017087896389662f893aca403063781168e780897bb63a74ed5b06ca9b183cda6014c05aab44407b6a1"
 
 [update]
 [update.modrinth]
 mod-id = "uTGjf7vA"
-version = "ae36UNtQ"
+version = "am2FLyOh"
