@@ -8668,7 +8668,7 @@ metafile = true
 
 [[files]]
 file = "mods/automodpack.pw.toml"
-hash = "c0b5090dfcccb2450e9ea9938a75ef5a3cef166c24da962bb3a401ef679d4797"
+hash = "768cf5ecd2d80beacac0a2df259b651f367a5ebf707e0876f2c7a006704e4ef3"
 metafile = true
 
 [[files]]
@@ -8793,7 +8793,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-prismatic-shine.pw.toml"
-hash = "73dad91517662ee93600e75a6143c0723e0af384f34ab86d293345aa9c72f38f"
+hash = "db031f1d29edbfcb956110265a72e220f1a829630d5146ab15da591e02c51d84"
 metafile = true
 
 [[files]]
@@ -8922,7 +8922,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "18d9fbb0f1b7585d2e6886abc7a7322c0d8a564b5299d745586440dcb4e0c400"
+hash = "a36ff0728cf99bb5adfe114d32fce1a42483291aee9312aabb5cf5642b97264e"
 metafile = true
 
 [[files]]
@@ -8997,7 +8997,7 @@ metafile = true
 
 [[files]]
 file = "mods/imblocker-original.pw.toml"
-hash = "ade1c94e164a4c3c69689f37b3fca8be1fc647baea733460c43a7cd03642dc4d"
+hash = "b3d17df598bded3cd8cf4e0f9bfd61866c7aec56578f95b97a9707e36bdb167e"
 metafile = true
 
 [[files]]
@@ -9097,7 +9097,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "1813b429f0782edb4d0c428f00da0c760acea32ede566656588af99c6ad10a11"
+hash = "45ce987bba32274bfd0b34a592cc185b22a35befbbedd98c49a86093179aa523"
 metafile = true
 
 [[files]]
@@ -9222,27 +9222,27 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
-hash = "e7e888ba47b41e53de8e520b14a98b9fc61ed0a7ee0824b4407cbde1cdea98f6"
+hash = "4ad16a440d4a3ff30953d303a21581c1bdafae9ace3a00ae400a875e24c7f4a5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "c0f73c72c3903c3302a2589ba75fd4e1f4c1b3e2b1fe478340b2c826b55e5cd4"
+hash = "82eb396d99c4e97ba50ae990a4419f6d5baf870ad13d26be3487162c3790f7f0"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e824f362b3537caa9dc64e54021f80b0f9f7a8eac36603fd8a3e53f3c7264670"
+hash = "7225aa153f0c2b765736adf1e91776af1aa95cd1e545e66a2b9d46f97aa7c7ac"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
-hash = "78a821b1555c067aa6a1efb5a8a1a8f467ad958fcf2af7649534d61ea31c510e"
+hash = "bf77b75f44804c640ecaa51e5c6353c88567f1464759198abf4a2b690cd5b052"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "a63036d889fa809b62a17eb0588f27d98ea472d57b2cf926cf6e42bc746646d3"
+hash = "4b45eb6bb8dc80ae185b8077aedc91967ac77368720f3835e96edc14167265f3"
 metafile = true
 
 [[files]]
@@ -9277,7 +9277,7 @@ metafile = true
 
 [[files]]
 file = "mods/theurgy.pw.toml"
-hash = "ff9b3e6176bfaa4bef39623da9bcf283b26d6cebd74f27f6691e0df31ac7b812"
+hash = "f88cb653ff6f682e618d54f7d32fec79d0c4a590a8193d1e12f900a39e0fac81"
 metafile = true
 
 [[files]]
