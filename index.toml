@@ -8653,7 +8653,7 @@ metafile = true
 
 [[files]]
 file = "mods/astages.pw.toml"
-hash = "b1130fe96a572ce781ccf4fb45e607fcc84991be9b5c844312d4834cb49faba8"
+hash = "cd1696c6c8ce0885084185b1ea748cdc913bf96d2d59d5a68bcd218fd8a7a965"
 metafile = true
 
 [[files]]
@@ -9067,7 +9067,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "d48948d8dbdf7ca96c4bc34be4aed08313d3a7707acab9ed12fb894b470bce58"
+hash = "a5021505140d5b7ffa4ff7184e74566a21b4e72a7ae256afeaf1e99e929333d1"
 metafile = true
 
 [[files]]
