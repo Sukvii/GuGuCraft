@@ -9091,6 +9091,11 @@ hash = "315121e1328b1a30d05b6a6d6b59dbeaab5623645290efaf601efe55b3e275a2"
 metafile = true
 
 [[files]]
+file = "mods/mantle.pw.toml"
+hash = "3c3f5b347b42518f3ccd67e31b57f2d11583675afe0c6b6a84e967fa21890015"
+metafile = true
+
+[[files]]
 file = "mods/minopp.pw.toml"
 hash = "ad45deee7f144ba4ca0b5cca09d8d0d649eee55ae3cd0afd2e21581e23019a20"
 metafile = true
@@ -9278,6 +9283,11 @@ metafile = true
 [[files]]
 file = "mods/theurgy.pw.toml"
 hash = "f88cb653ff6f682e618d54f7d32fec79d0c4a590a8193d1e12f900a39e0fac81"
+metafile = true
+
+[[files]]
+file = "mods/tinkersconstruct.pw.toml"
+hash = "929bf60d70cd89092be0151810cd6cf4e37ab312bcc791353bf95b4760065944"
 metafile = true
 
 [[files]]

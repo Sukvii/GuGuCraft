@@ -1,0 +1,15 @@
+name = "Mantle"
+filename = "Mantle-1.21.1-1.12.4.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Sukvii/TinkersConstruct-1.21.1/releases/download/v3.12.5/Mantle-1.21.1-1.12.4.jar"
+hash-format = "sha256"
+hash = "e4f46cf840c943805ce9e562391a6921e2ec8288d595f0b89eae719fc02afe1d"
+
+[update]
+[update.github]
+branch = "main"
+regex = "Mantle-1[.]21[.]1-.*[.]jar$"
+slug = "Sukvii/TinkersConstruct-1.21.1"
+tag = "v3.12.5"
