@@ -9036,6 +9036,11 @@ hash = "8d41ba66e8a0bb237d7d322b55ef415d60b7b044f565820f9a6fb32ac0249219"
 metafile = true
 
 [[files]]
+file = "mods/kilagraph.pw.toml"
+hash = "5f1db7b72c26c5fafea9641e2fe4ccab050588cede4f3e9fd4a8f091b709fa93"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "083c9d609335090c7fd62c13c146c0739306f597096e257fbdae6cdbb1917019"
 metafile = true
@@ -9128,6 +9133,11 @@ metafile = true
 [[files]]
 file = "mods/mru.pw.toml"
 hash = "2909bb5f2f738538b35d359ee9d7accf5d10f90b737fa96b59d2c1e31a247e38"
+metafile = true
+
+[[files]]
+file = "mods/multiblocked2.pw.toml"
+hash = "bd06c9c39fcb0abd559ac3c817a02bfc85b1014e8ed95fdce564b7431a2060c3"
 metafile = true
 
 [[files]]
