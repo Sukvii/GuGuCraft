@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://github.com/Sukvii/TooManyRecipeViewers/releases/download/jei-19.54.0.429/toomanyrecipeviewers-0.9.0-dev%2Bmc.21.1.jar"
 hash-format = "sha256"
-hash = "f763fea3cedd1e5b60c1ae7caff5236179e66ffafa230ceacdf388c9d1206535"
+hash = "30e034653671de8475b37de219a766b39c2716931e33bd2a0c0d8184d281042b"
 
 [update]
 [update.github]
