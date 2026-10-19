@@ -1581,6 +1581,14 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/ars_nouveau/models/block/liquid_sourcelink.json"
+hash = "6037c995ebf7817a3f51ef936f41741e5ba7294861ce1a90e221ef74e9a99884"
+
+[[files]]
+file = "kubejs/assets/ars_nouveau/textures/block/liquid_sourcelink.png"
+hash = "6a6dae68ec0e617b8e7dd4cb56218990da25c44a14eb39c6173bbd195d75d1c8"
+
+[[files]]
 file = "kubejs/assets/astages/lang/zh_cn.json"
 hash = "6b6b6fcb452b2542081bc1736245a56d6a7667a2990be8f3a776a01eecb65498"
 
@@ -7293,6 +7301,22 @@ file = "kubejs/client_scripts/jsconfig.json"
 hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
 
 [[files]]
+file = "kubejs/client_scripts/source_converter/goggles.js"
+hash = "3b2078656bdb6b00b2e108a65bafbc8f84691e6b5c817d82c0c69801e1809582"
+
+[[files]]
+file = "kubejs/client_scripts/source_converter/jade.js"
+hash = "659713967becbf3c5a2be6dc957e495c8801a6a4842260c393921f772fc36584"
+
+[[files]]
+file = "kubejs/client_scripts/source_converter/lang.js"
+hash = "b132bf39203b7ef653f177914946706cea3b81aa63a8454f17dda90d257c4da4"
+
+[[files]]
+file = "kubejs/client_scripts/source_converter/tooltip.js"
+hash = "c370e533a97b5877418add5f726f8f7e43f83d6e4731d9793d4af9e3fd3daa96"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "87a09ee1609bc799223c58cb6225c769bb4d0a1a0bb6d9186ff5f8875c7e9a37"
 
@@ -8509,6 +8533,10 @@ file = "kubejs/server_scripts/recipes/lychee/block_interacting.js"
 hash = "68e697352924883789c4a78863c9a772685844095a8c658aab8f2fec8371edab"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/source_converter.js"
+hash = "25c20bb7884f8a2c59ceeec238c85cabe14999f58c1bacfa97d486ff62dd063d"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/theurgy/calcination_oven.js"
 hash = "f52ae6d5ba1a1c98aaacc7bf7657b43c795f3399a4f33686ecf2c41606b6eafd"
 
@@ -8577,6 +8605,18 @@ file = "kubejs/server_scripts/tech/ore.js"
 hash = "2ccc45bb5f7efff07466c33329eb234a7e61a39ec33964eff4488bc57cd86423"
 
 [[files]]
+file = "kubejs/server_scripts/tech/source_converter/inspection.js"
+hash = "3be5e9931633442450e5b546aa23d35685eda210b22deaf37db873c8ddd43307"
+
+[[files]]
+file = "kubejs/server_scripts/tech/source_converter/logic.js"
+hash = "c41eca88dcc7dc5599b530ae13ccd36df2aab2767845cb4aeaad7cb0615829ba"
+
+[[files]]
+file = "kubejs/server_scripts/tech/source_converter/transfer.js"
+hash = "84ab71b651a12d1b51b638a391f2a5cdb2bd3d88ee886092ca92372d2b0e4595"
+
+[[files]]
 file = "kubejs/server_scripts/util/dragons_plus.js"
 hash = "7ce1c89ad5c86a85c7f83142739cc5444815b901381786cfdd909e7ec05883f3"
 
@@ -8615,6 +8655,14 @@ hash = "dc40b32652cf723bf0425971b9248a643c1fd252c591a560cc4c526e875865b8"
 [[files]]
 file = "kubejs/startup_scripts/selling_game/03_dishes.js"
 hash = "ffc83717c287bfeda1d1fbd8ae47c03d711beb65a830a68de0f7a1c48f483813"
+
+[[files]]
+file = "kubejs/startup_scripts/source_converter/00_config.js"
+hash = "1352c35cebba8d9aef19853df1a28bf430df820b526fde3a064fbe2d4a6e5f3f"
+
+[[files]]
+file = "kubejs/startup_scripts/source_converter/01_machine.js"
+hash = "beb9ced732989c20769df095c5f2d066d8dd93c3bc23533e6f84e915203cf4bf"
 
 [[files]]
 file = "mods/accelerated-recoiling.pw.toml"
