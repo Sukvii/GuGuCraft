@@ -8830,6 +8830,11 @@ hash = "3a99e0babeb75872334ed2abd96949fb9e993690f27eb51dcb30ec376186c719"
 metafile = true
 
 [[files]]
+file = "mods/create-more-machines.pw.toml"
+hash = "7bd8885bcae3e0e04e0f56aef0d566bae36335ee66389118e4b901e8e9a5d80d"
+metafile = true
+
+[[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "cba6d7d04b6068e326445672253580520a87873fc1065f7682984a9b9d91deb5"
 metafile = true
