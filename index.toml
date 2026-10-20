@@ -1637,6 +1637,170 @@ file = "kubejs/assets/createaddition/textures/item/iron_rod.png"
 hash = "36eeeaa058339e762ab448483d67570460c2c010f63664ba9316da968b6d7502"
 
 [[files]]
+file = "kubejs/assets/createmoremachines/models/block/basin/brass_basin.json"
+hash = "9f3f1162fb3e09ace1abdc352926fb534d954412f0aa8654820a7ad2995358d9"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/basin/brass_basin_directional.json"
+hash = "e41268b0c727cb9f4f7371ae4adc860a0fbe8353e4c190d9c52519acd9aea3c4"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/deployer/brass_deployer_horizontal.json"
+hash = "85bb793bd5ae150560842ec9f4b3dc5f242573301995893cf2876362cd624703"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/deployer/brass_deployer_vertical.json"
+hash = "24055748b8901abfaad153d9062b5162de1b4446e8c9849d1dcaad8a064bdf25"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/deployer/item/brass_deployer.json"
+hash = "f2ff7effa97cbc6c17a4f5c4beb2419515863cb9cba7d6a8f710fa7238d118da"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/depot/brass_depot.json"
+hash = "d24684c68bab30ffe56a8b5408b1c8e8b15119b8847cf4859938a25036ad58e7"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_mixer/brass_mechanical_mixer.json"
+hash = "5703cc521a3d7e0acd4b6587a80afbb4249dc3f917d44dc7de785710b5756aa0"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_mixer/item/brass_mechanical_mixer.json"
+hash = "089f8c295d8a614d51882ef8bd4a3e7f528b61ca0a81abff4fd089b69ddf018b"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_press/brass_mechanical_press.json"
+hash = "32b3d515982209e916db80e6e0285de9f3bff0038d37c057a95fddffef318379"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_press/item/brass_mechanical_press.json"
+hash = "e855daa4f975fdd141f491b3b037e7b0096a319aa40248e042dc75c9c24083d0"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/spout/brass_spout.json"
+hash = "c62902a57625478edc42ab0d3603ec9da7844914562a454813dedddf1ac42c37"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/spout/item/brass_spout.json"
+hash = "69e891fceb5d24807f976b64fb8c9844284f1ab5ee96d735ec4312480b9d6c80"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_basin.png"
+hash = "a35af21f02f0243e82a581e21da78ec8936ca7b073aa0432ec53c943db8ea022"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_basin_canal.png"
+hash = "26017829840f69b36748030b78577503ad68fc64bde42ab2793442516f952d85"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_block.png"
+hash = "be4febaeb6b86137ef9d584e45856f6a4bfabd81779ed600a0a70771c4c76077"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_casing.png"
+hash = "5e4533792cb5888ea948df65ee3f25a642e80608234f80dee675c06c63d1be5a"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_casing_piston.png"
+hash = "40ff81a342fecc7dd8dbda1dff018b5047fe2288694e6b143c80364ad2a31292"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_casing_short.png"
+hash = "01618c4ae4239992f42dc740211e622c8219a97be856d913c7c876ef85f478ff"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_crushing_wheel_insert.png"
+hash = "acab74606a7e6995624f36026e5fbf02c32ef293b1ad01e6f5e310a485721270"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_crushing_wheel_plates.png"
+hash = "d44e7a90aa936f9350f18c6e22f3c23f7d3e5c0585fd0d56f9d23e00ff483a65"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_depot_side.png"
+hash = "0a5e835af299b969adc800a35f6f6033d8f8b04becc5c53f64edb362bdc40cc8"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_depot_top.png"
+hash = "23ab645abcafd52f361db38afef08f67e92e856bd92ad5c8d462248f6e261bc0"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_encased_fan_back.png"
+hash = "4cb02cb6b7f39e2b2ba4107ccee9356c81e2c77f1fa87b22a6adc7844a9222fd"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_encased_fan_casing.png"
+hash = "50eba678e2506bf7371b20c58fc8cd13dbdcedfc3f951cba5431c2d20422e18d"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_encased_fan_frame.png"
+hash = "8b8c0b46de73d50de15fbc6a873f717315ee4a4f8c0980423e546802c6c95a84"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_encased_fan_side.png"
+hash = "eed1a47508b5e1b3b54d454392c81ce20322bf7f0fcbea9e71d1cdd9b9fc8b17"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_encased_pipe.png"
+hash = "9237fbfb0cab9ac53e052d87d78d297d77eae19184fd35a094adbaedec906c8a"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_gearbox.png"
+hash = "4cb02cb6b7f39e2b2ba4107ccee9356c81e2c77f1fa87b22a6adc7844a9222fd"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_mechanical_saw_belt.png"
+hash = "64a08455c5f166ca48c5b507548c51d39af4690e3bfe1d888060a6e5930ecad4"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_mechanical_saw_gearbox.png"
+hash = "4cb02cb6b7f39e2b2ba4107ccee9356c81e2c77f1fa87b22a6adc7844a9222fd"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_mechanical_saw_gearbox_top.png"
+hash = "062aa4c373eac5e3a7b8f7554ac6b2c6029623561220c86a9c1105e5b0775e75"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_mechanical_saw_saw_top.png"
+hash = "e3710129ff1d779f9be021a9872071c9db2a452f2687cecbc9ad81abdf0831f0"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_mechanical_saw_saw_top_no_slot.png"
+hash = "96ec7f0b7094fdacb6c5c580d757e27d42b02e1512596dae692f926e61842703"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_mixer_head.png"
+hash = "2209481d5bccf81e09ec9ee1db8bdb2e5cb0ed81fa877d20a6234c287636faf0"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_mixer_side.png"
+hash = "8b661427b176feedaa5a091a04019f24fe960727ca77b7911fbfd1d9492a37d5"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_piston_bottom.png"
+hash = "6594194e394fbdbf9e12520873669faecb827dd13ff48d55c5959bd0321db78e"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_press_bottom.png"
+hash = "f8cae7a9cd5118c4154dd47dacaa70e28234fd8808279bc2c4343114f82f8fd1"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_press_side.png"
+hash = "e5474deb196972d67848fe9615b6a21acce597c2ff14f073bfb4c273d149433e"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_press_top.png"
+hash = "f31f585064fa64f6dff13a52561f7a2e5bc99a8bc3c26407d722c219030791e1"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_spout.png"
+hash = "78e81e67c982381b61eb7fd1f8652548b64652955749006c10c20540c54f8eff"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/brass_spout_nozzle.png"
+hash = "8f18cc8a5dd28b4e6b3fb9de5ec861cb31a85383c714734b830d24cb09867927"
+
+[[files]]
 file = "kubejs/assets/deeperdarker/lang/zh_cn.json"
 hash = "9080ad423bc3cdda486a408e291acd6162d53720ce6c74340da2f0369ce0acad"
 
@@ -4805,6 +4969,14 @@ file = "kubejs/assets/kubejs/models/item/station_linker.json"
 hash = "59ecdf9c6c739448a832337fd9466d12cf07a03bf648ed4be7ab5ae5d58e332d"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/arcane_casing.png"
+hash = "65c4afc637ccb6170629738a7e821221bba8df54a8c012dd5a961d6d827f828e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/arcane_casing_connected.png"
+hash = "164b01c5ad553e55aa998454da806599486e3958e97eee8146f1c7e41910de26"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/counter_bottom.png"
 hash = "9cc47a92c59e4ded7894a977e0a49aeca7d3a7fe8746d100b351f8b7c926fd29"
 
@@ -7285,8 +7457,20 @@ file = "kubejs/assets/waystones/textures/item/waystone/waystone.png"
 hash = "b69cb09c95683e7650b4bfc1a50f79dbda3735e5fe2fe7b182c482b32eec57a0"
 
 [[files]]
+file = "kubejs/client_scripts/arcane_casing/connected_textures.js"
+hash = "5cc124948be9975a3d88c40de5a1d096ff28639eebe632b52aa5a80416b5dc41"
+
+[[files]]
+file = "kubejs/client_scripts/arcane_casing/lang.js"
+hash = "d396146b684ae339eba86bc97b201655ea99a1c546473b9c8885c5b6ac5f6a13"
+
+[[files]]
 file = "kubejs/client_scripts/ars_nouveau_tooltips.js"
 hash = "3a2d644d14c6a8983d50173a5598b96135b81464bc19be48a9c4da0c327b38b4"
+
+[[files]]
+file = "kubejs/client_scripts/createmoremachines/lang.js"
+hash = "6b0b496fdc447b0e679fe08c893bb746a30f67d3203640376ba0cfa87183e3c1"
 
 [[files]]
 file = "kubejs/client_scripts/ee_integration/20_createaddition_lang_overrides.js"
@@ -8441,6 +8625,10 @@ file = "kubejs/server_scripts/compat/cpw.js"
 hash = "35955998e387cae9a588274703594c4a001327a8aa0dbe9eebffef5b969945bf"
 
 [[files]]
+file = "kubejs/server_scripts/compat/createmoremachines.js"
+hash = "a26ed16545ff4186a895decc251ca90db2ed04719baed6ea814ebade3b7147b9"
+
+[[files]]
 file = "kubejs/server_scripts/compat/farmerscompat.js"
 hash = "716b07dba7e3f40b0d0a9f912c33e5bdb911e9b83bb3939e6af743a65589a328"
 
@@ -8497,12 +8685,20 @@ file = "kubejs/server_scripts/recipes/create/compacting.js"
 hash = "6493c58b4d16fa53de29b196505580a92508e1628c715d4d137b5cc8f94a5158"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/create/item_application.js"
+hash = "b7356f2173cd8f741ca65bd7c5fa1a634ad66620761b45af104d59cda4350b9e"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/create/preesing.js"
 hash = "9557ce5f64c777e7ca4e074a73c1bf075e505152ecf941fbd33c2a3196600386"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/sequenced_assembly.js"
 hash = "d8de60d7f563f0738997e8b6c5616d1e26414b9d9a02da0e5127435e5eb66b01"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/createmoremachines/arcane_machines.js"
+hash = "b9886764b8aac3e80dba80dcfc10123c68ef32f8870d3976d7a31f4e94e86461"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/dragonplus.js"
@@ -8619,6 +8815,10 @@ hash = "84ab71b651a12d1b51b638a391f2a5cdb2bd3d88ee886092ca92372d2b0e4595"
 [[files]]
 file = "kubejs/server_scripts/util/dragons_plus.js"
 hash = "7ce1c89ad5c86a85c7f83142739cc5444815b901381786cfdd909e7ec05883f3"
+
+[[files]]
+file = "kubejs/startup_scripts/arcane_casing/registry.js"
+hash = "30dc6aeea55d3a0c14cafa00f25d3bac97c874a76c4852a6272b27bae7238d51"
 
 [[files]]
 file = "kubejs/startup_scripts/ee_integration/10_ore_sound_fix.js"

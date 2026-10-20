@@ -1,0 +1,8 @@
+{
+  "parent": "createmoremachines:block/basin_directional",
+  "textures": {
+    "basin": "createmoremachines:block/brass_basin",
+    "canal": "createmoremachines:block/brass_basin_canal",
+    "particle": "createmoremachines:block/brass_block"
+  }
+}

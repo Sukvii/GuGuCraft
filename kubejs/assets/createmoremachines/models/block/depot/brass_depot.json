@@ -1,0 +1,9 @@
+{
+  "parent": "createmoremachines:block/depot",
+  "textures": {
+    "top": "createmoremachines:block/brass_depot_top",
+    "casing": "createmoremachines:block/brass_casing",
+    "side": "createmoremachines:block/brass_depot_side",
+    "particle": "createmoremachines:block/brass_casing"
+  }
+}

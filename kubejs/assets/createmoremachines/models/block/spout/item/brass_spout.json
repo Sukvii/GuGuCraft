@@ -1,0 +1,9 @@
+{
+	"parent": "createmoremachines:block/spout_item",
+	"textures": {
+		"spout": "createmoremachines:block/brass_spout",
+		"nozzle": "createmoremachines:block/brass_spout_nozzle",
+		"pipe": "createmoremachines:block/brass_encased_pipe",
+		"particle": "createmoremachines:block/brass_block"
+	}
+}
