@@ -101,7 +101,7 @@ GuGuMachineStageEvents.register(event => {
 
     event.addRecipe('create:sequenced_assembly', 'guguaddons:sequenced_assembly/arcane_mechanism', 'arcane_mechanism')
 
-    event.addRecipe('create:mechanical_crafting', 'createoreexcavation:extractor', 'fluid_drill')
+    event.addRecipe('create:mechanical_crafting', 'guguaddons:mechanical_crafting/extractor', 'fluid_drill')
 })
 
 AStages.customizeStage('torchmaster_1')
