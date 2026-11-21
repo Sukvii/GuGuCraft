@@ -116,5 +116,24 @@
 			x: -0.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["6E37D3C346AFEC21"]
+			icon: {
+				id: "kubejs:echo_mechanism"
+			}
+			id: "260DDADB4FB49F1A"
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "kubejs:echo_mechanism"
+				}
+				id: "3E2710E62EBFAD37"
+				stage: "幽匿声学"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
 	]
 }

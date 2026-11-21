@@ -1,0 +1,176 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.warden_resonance_chamber_glass",
+    "texture_width": 128,
+    "texture_height": 176,
+    "visible_bounds_width": 6,
+    "visible_bounds_height": 6.5,
+    "visible_bounds_offset": [
+     0,
+     2.75,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "chamber",
+     "pivot": [
+      0,
+      0,
+      16
+     ]
+    },
+    {
+     "name": "glass",
+     "parent": "chamber",
+     "pivot": [
+      0,
+      40,
+      16
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -20,
+        12,
+        -7
+       ],
+       "size": [
+        40,
+        56,
+        1
+       ],
+       "uv": {
+        "north": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        },
+        "south": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        }
+       }
+      },
+      {
+       "origin": [
+        -20,
+        12,
+        38
+       ],
+       "size": [
+        40,
+        56,
+        1
+       ],
+       "uv": {
+        "north": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        },
+        "south": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        }
+       }
+      },
+      {
+       "origin": [
+        22,
+        12,
+        -4
+       ],
+       "size": [
+        1,
+        56,
+        40
+       ],
+       "uv": {
+        "east": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        },
+        "west": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        }
+       }
+      },
+      {
+       "origin": [
+        -23,
+        12,
+        -4
+       ],
+       "size": [
+        1,
+        56,
+        40
+       ],
+       "uv": {
+        "east": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        },
+        "west": {
+         "uv": [
+          1,
+          48
+         ],
+         "uv_size": [
+          40,
+          56
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

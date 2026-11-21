@@ -1,6 +1,7 @@
 {
 	chapter.09933CE28D084DB1.title: "奥术工业"
 	chapter.22892B39A985EC54.title: "农贸市场"
+	chapter.55595EF0B9EB9CF1.title: "幽匿声学"
 	chapter.58AD5AF80722331D.title: "欢迎来到GuGuCraft！"
 	chapter.725884AB89488808.title: "基础研究"
 	chapter.74FD9793EBF983AF.title: "从零开始"
@@ -58,6 +59,15 @@
 	]
 	quest.0A374A4C03BAE12B.quest_subtitle: "自产自销"
 	quest.0A374A4C03BAE12B.title: "幽匿块"
+	quest.0A67762DB01390C3.quest_desc: [
+		"谐振素锭要它，上缴清单也要它——本部门对幽匿之盐的胃口越来越大，幽匿蔓延器那点地盘已经不够用了。装上升级组件，蔓延范围扩大一倍多，每一批也能多长几块。"
+		""
+		"上缴&a768个奥术构件&f、&a256个幽匿之盐&f与&a64个幽匿之硝&f，解锁&a幽匿蔓延器升级组件&f。"
+		""
+		"&4宿舍楼三楼的警告依然有效，而且范围也翻倍了。"
+	]
+	quest.0A67762DB01390C3.quest_subtitle: "地盘不够了"
+	quest.0A67762DB01390C3.title: "幽匿蔓延器强化"
 	quest.0AD937A0448E5A06.quest_desc: ["探宝蟹从一堆碎屑里挑出来的精品。它对自己的眼光非常满意。"]
 	quest.0AD937A0448E5A06.quest_subtitle: "精挑细选"
 	quest.0AD937A0448E5A06.title: "淬炼甲壳"
@@ -81,6 +91,9 @@
 	]
 	quest.0DDF1A6636380BF4.quest_subtitle: "比钢更硬，比钱包更薄"
 	quest.0DDF1A6636380BF4.title: "秘银"
+	quest.0E548295597CAF98.quest_desc: ["精炼过的原浆终于安静了下来，还微微发着光。请勿饮用——它会在你肚子里回响。"]
+	quest.0E548295597CAF98.quest_subtitle: "安静下来了"
+	quest.0E548295597CAF98.title: "回响灵液"
 	quest.0E86442281471FCD.quest_desc: [
 		"在炼金术士眼里，万物都由 “躯体” 和 “灵魂” 组成：盐是躯体，硫是灵魂。要复制幽匿的力量，得先把它拆开。"
 		""
@@ -91,6 +104,18 @@
 	quest.0E86442281471FCD.quest_subtitle: "躯体与灵魂"
 	quest.0E86442281471FCD.title: "盐与硫"
 	quest.0EA1B4E371713261.title: "下界合金喷气背包"
+	quest.0EC25B1B7F98E629.quest_desc: ["低频安抚的回报。监守者交出甲壳的时候，看起来居然有点放松。"]
+	quest.0EC25B1B7F98E629.quest_subtitle: "低频的回报"
+	quest.0EC25B1B7F98E629.title: "监守者甲壳"
+	quest.0F5E13DF9824EAA3.quest_desc: [
+		"幽冥里有一种布满孔洞的发光体，会慢慢渗出冰凉的胶质——&a微光凝胶&f。生态部发现，它们只肯在幽冥里长，搬回研究所就罢工。"
+		""
+		"野外的数量有限，生态部已经摸索出人工培植的办法。上缴&a512个奥术构件&f、&a128个谐振素板&f与&a128个活化幽匿催发体&f，解锁多孔幽匿微光体的培植工艺。"
+		""
+		"&c凝胶熟了要用剪刀 “收割”。不，剪别的东西不会让它熟得更快。"
+	]
+	quest.0F5E13DF9824EAA3.quest_subtitle: "只在幽冥生长"
+	quest.0F5E13DF9824EAA3.title: "微光凝胶"
 	quest.110C5677FA49998A.quest_desc: [
 		"魔源浆果长得太慢，高产路线的发酵罐已经开始 “饿肚子” 了。生态部推荐了一位绿色的帮手：&a风转草&f——它待过的地方，作物都会长得飞快。"
 		""
@@ -142,6 +167,9 @@
 	]
 	quest.14E13CF3DED8D236.quest_subtitle: "毛茸茸的临时工"
 	quest.14E13CF3DED8D236.title: "星宝石兽"
+	quest.14EBD1C793537BCD.quest_desc: ["最小号的淤泥怪交出来的第一块谐振素。把它贴在耳边，能听到很轻的嗡嗡声。"]
+	quest.14EBD1C793537BCD.quest_subtitle: "嗡嗡的"
+	quest.14EBD1C793537BCD.title: "谐振素"
 	quest.14F992B07C3BEFA9.quest_desc: [
 		"把你的扳手准备好，实验员，我们即将接触真正的重工业技术。呈现在你面前的是“演算终端”，它是整个自动化提交流程的大脑。"
 		""
@@ -160,6 +188,9 @@
 	quest.15F92C8B6180BBCD.quest_desc: ["将提交速度提升至 &a8 / tick"]
 	quest.15F92C8B6180BBCD.quest_subtitle: "Tier 2"
 	quest.15F92C8B6180BBCD.title: "输入速率升级 II"
+	quest.18E11475BADF6250.quest_desc: ["发酵釜的第一份成果。和幽匿之盐、幽匿之硫是一家人，脾气介于两者之间。"]
+	quest.18E11475BADF6250.quest_subtitle: "酿出来的"
+	quest.18E11475BADF6250.title: "幽匿之硝"
 	quest.19F7CB808D8E2DCC.quest_desc: ["七日后失效"]
 	quest.1ADFEAFE92E08F24.quest_desc: [
 		"&6恭喜存活，实验员！既然那台演算终端没有因为短路把你烤熟，欢迎正式进入基础研究部门。"
@@ -170,6 +201,15 @@
 	]
 	quest.1ADFEAFE92E08F24.quest_subtitle: "开端"
 	quest.1ADFEAFE92E08F24.title: "基础研究"
+	quest.1BCE11A5E4128D4E.quest_desc: [
+		"工程部的压箱底作品：&d深渊催化釜&f。它不靠火，也不靠电，靠的是头顶那台&d机械幽匿尖啸体&f的尖叫。尖啸体的核心需要一点&a辉光&f——只有幽冥深处的远古神殿里才有。"
+		""
+		"催化釜分三个阶段工作，每个阶段都会喊出不同的声音。听懂它在喊什么，你就知道该什么时候喂它——喂早了、喂多了，整炉都会变成一摊淤渣。第一份订单：&a灵魂水晶&f。上缴&a768个奥术构件&f、&a256个幽匿之硝&f与&a512个回响原木&f，解锁深渊催化釜与机械幽匿尖啸体。"
+		""
+		"&c找不到神殿？监守者甲壳加一个指南针，能做出一个总指着神殿的罗盘。另外，这是本部门第一次需要 “用耳朵” 做自动化——这就是我们叫声学部的原因。"
+	]
+	quest.1BCE11A5E4128D4E.quest_subtitle: "用耳朵做自动化"
+	quest.1BCE11A5E4128D4E.title: "深渊催化釜"
 	quest.1EFBD868961A12B4.quest_desc: [
 		"不是所有魔法都要轰轰烈烈。后勤部整理了一批 “懒人法术”：随身合成、换个颜色、把东西扔远点——专治各种不想走路。"
 		""
@@ -188,6 +228,9 @@
 	]
 	quest.1FCB6867A133AADB.quest_subtitle: "站好别动"
 	quest.1FCB6867A133AADB.title: "控制法术"
+	quest.1FF384E0982CB8EF.quest_desc: ["一份幽匿之硝，四份硝粉。本章接下来的炼金原料，大半都要靠它。"]
+	quest.1FF384E0982CB8EF.quest_subtitle: "一拆四"
+	quest.1FF384E0982CB8EF.title: "幽匿硝粉"
 	quest.2033516B0E3F66E1.quest_desc: [
 		"奥术工业部的魔源罐已经从一楼摆到了楼顶，后勤部每天抱着罐子上上下下，膝盖比预算先报废了。"
 		""
@@ -200,6 +243,18 @@
 	quest.21486D4A2E6BF8A7.quest_desc: ["将提交速度提升至 &a16 / tick"]
 	quest.21486D4A2E6BF8A7.quest_subtitle: "Tier 3"
 	quest.21486D4A2E6BF8A7.title: "输入速率升级 III"
+	quest.226D1B22A27EDBAD.quest_desc: [
+		"德格米每轮要一整罐魔源，财务部的电费单已经撑不住了。工程部给魔源转化器设计了一块扩容组件：装上去，一次处理四倍的液态魔源。"
+		""
+		"上缴&a768个奥术构件&f、&a64个魔源宝石块&f与&a256个灵魂粉尘&f，解锁&a魔源转化器升级组件&f。"
+		""
+		"&c它对储液量的挑剔程度也跟着翻了四倍。祝你好运。"
+	]
+	quest.226D1B22A27EDBAD.quest_subtitle: "部门电费（二期）"
+	quest.226D1B22A27EDBAD.title: "魔源转化器强化"
+	quest.247990E6EDCB18F4.quest_desc: ["深渊催化釜交出的第一份订单。它没有变成一摊淤渣——恭喜，你听懂了它在喊什么。"]
+	quest.247990E6EDCB18F4.quest_subtitle: "第一份订单"
+	quest.247990E6EDCB18F4.title: "灵魂水晶"
 	quest.25135B4F929E1EDF.quest_desc: [
 		"&5深渊之心&f——据说能打开另一个世界的心脏。研究所的计划很简单：既然它原本长在监守者身上，那就……请一只监守者来研究所做客。"
 		""
@@ -212,6 +267,9 @@
 	quest.25FA6209BD88BBDD.quest_desc: ["神圣金相关的设备需要用到&a繁茂至高木&f。这种树在研究所附近可不常见，想要稳定的木材供应，你得想办法自己种。"]
 	quest.25FA6209BD88BBDD.quest_subtitle: "会长魔力的树"
 	quest.25FA6209BD88BBDD.title: "繁茂至高木"
+	quest.26C991A3C77C59D5.quest_desc: ["第一批量产的灵魂粉尘。考古部说它是 “那个世界的通用货币”，财务部正在研究汇率。"]
+	quest.26C991A3C77C59D5.quest_subtitle: "幽冥的硬通货"
+	quest.26C991A3C77C59D5.title: "灵魂粉尘"
 	quest.2806210C82CB96DF.quest_desc: [
 		"液态魔源的蓄积需要用到&a魔源浆果&f。"
 		""
@@ -267,6 +325,21 @@
 	quest.33DBBC295C8C1B16.quest_desc: ["幽匿的 “躯体”。看起来像一碗盐，尝起来……别尝。"]
 	quest.33DBBC295C8C1B16.quest_subtitle: "躯体"
 	quest.33DBBC295C8C1B16.title: "幽匿之盐"
+	quest.34068B0A2F94EC45.quest_desc: ["第一副谐振外壳。说了轻拿轻放。"]
+	quest.34068B0A2F94EC45.quest_subtitle: "会响一整天"
+	quest.34068B0A2F94EC45.title: "谐振外壳"
+	quest.342722DF9F2D2041.quest_desc: ["炼成锭、压成板，谐振素终于成了能用的建材。材料部已经开始排队领料。"]
+	quest.342722DF9F2D2041.quest_subtitle: "本部门的建材"
+	quest.342722DF9F2D2041.title: "谐振素板"
+	quest.3491A0DDC369A9F3.quest_desc: [
+		"汞线又在喊饿了。生态部推荐了一位结晶农夫：&a紫晶傀儡&f。它会照料紫水晶母岩、收割晶簇，甚至能把普通的紫水晶块 “教” 成母岩。"
+		""
+		"上缴&a512个奥术构件&f、&a512个紫水晶碎片&f与&a128个灵魂粉尘&f，解锁紫晶傀儡护符。"
+		""
+		"&c它对紫水晶感情很深。请不要当着它的面敲碎晶簇。"
+	]
+	quest.3491A0DDC369A9F3.quest_subtitle: "结晶农夫"
+	quest.3491A0DDC369A9F3.title: "紫晶傀儡"
 	quest.350E5B96AEA079A7.quest_desc: [
 		"听好了，新人。在 GuGu 研究所，知识可不是免费的午餐——它是通过“物质转化数据”来换取的。"
 		""
@@ -296,6 +369,15 @@
 	]
 	quest.36EFBB37362A750D.quest_subtitle: "魔法执照"
 	quest.36EFBB37362A750D.title: "法术入门"
+	quest.3846444C3D1C9447.quest_desc: [
+		"谐振素板除了造机器，也能锻进你的钻石装备：比钻石结实一点、快一点，还会轻轻地嗡嗡响。"
+		""
+		"上缴&a512个奥术构件&f、&a64个谐振素板&f与&a128个灵魂粉尘&f，解锁谐振素装备的锻造。"
+		""
+		"&c嗡嗡声无法关闭。图书馆已禁止穿着入内。"
+	]
+	quest.3846444C3D1C9447.quest_subtitle: "嗡嗡作响的盔甲"
+	quest.3846444C3D1C9447.title: "谐振素装备"
 	quest.3974744BE1CB4D7E.quest_desc: ["若无其他意外情况，服务器将&4持续运行&f，存档也将&4长期保留&f，所以不必担心自己辛苦建造的成果随存档更换而消失"]
 	quest.3974744BE1CB4D7E.title: "服务器状况"
 	quest.3B1BA1B9DC394B51.quest_desc: [
@@ -321,6 +403,15 @@
 	quest.3D2A818D220469DF.title: "机动法术"
 	quest.3DF01E01D8045FD0.quest_desc: ["敬请期待"]
 	quest.3DF01E01D8045FD0.title: "并行任务升级"
+	quest.409289E37B9319C9.quest_desc: [
+		"本部门最大胆的项目：把一只&5监守者&f装进收容罐，关进隔音玻璃的房间，然后对着它 “说话”。低沉的频率让它平静，交出甲壳；尖锐的频率让它激动，凝出&a共鸣晶核&f。"
+		""
+		"它越激动，产出越多——直到它忍无可忍。读懂它的情绪，在那条线之前收手，就是你的工作。&a羊毛&f能让它冷静下来。上缴&a1024个奥术构件&f、&a1024个幽匿硝粉&f与&a128个灵魂水晶&f，解锁&d监守者共鸣室&f。"
+		""
+		"&4共鸣室必须建在幽冥，而且一丝光都不能有。监守者说它怕光。我们没敢问为什么。"
+	]
+	quest.409289E37B9319C9.quest_subtitle: "和它说说话"
+	quest.409289E37B9319C9.title: "监守者共鸣室"
 	quest.431019A7FFCD9CC1.quest_desc: [
 		"第一片汞晶碎片。摸起来凉凉的。"
 		""
@@ -364,8 +455,33 @@
 	]
 	quest.49FF3C14FEECCAE6.quest_subtitle: "安保外包"
 	quest.49FF3C14FEECCAE6.title: "战斗法术"
+	quest.4C43CCE55964AED1.quest_desc: [
+		"往探知仪式里多丢一份操纵之精华，透视的时间能从 5 分钟拉长到 15 分钟。"
+		""
+		"&c时间到了，墙就又是墙了。"
+	]
+	quest.4C43CCE55964AED1.quest_subtitle: "加时赛"
+	quest.4C43CCE55964AED1.title: "操纵之精华"
+	quest.4DC3F9B9DBE61B72.quest_desc: [
+		"催化釜的新用法：把奥术工业部的魔源醪液直接送进去，跳过分馏和真空处理，萃取出比老路线多将近一半的液态魔源。代价是乙醇没了——秘银线还等着用它。留多少醪液走老路，你自己算。"
+		""
+		"上缴&a1024个奥术构件&f、&a16桶魔源醪液&f与&a32个灵魂水晶&f，解锁深渊萃取工艺。"
+		""
+		"&c这是本部门第三种要 “听着声音喂料” 的配方。是的，它也会喊。"
+	]
+	quest.4DC3F9B9DBE61B72.quest_subtitle: "跳过分馏"
+	quest.4DC3F9B9DBE61B72.title: "深渊萃取"
 	quest.4E02622DDA832F7F.quest_desc: ["如果你是被其他朋友介绍进服的，别忘了加入我们的&a官方QQ群：613726820"]
 	quest.4E02622DDA832F7F.title: "交流群指南"
+	quest.4F377A7938A923EC.quest_desc: [
+		"七种精华里，只有火之精华一直在仓库吃灰。材料部发现，它的火能把幽匿块直接 “煅” 成幽匿之盐，而且是一锅一锅地煅，不用再排队等煅烧炉。"
+		""
+		"上缴&a768个奥术构件&f、&a256个幽匿之盐&f与&a8桶回响灵液&f，解锁幽匿之盐的批量煅烧工艺。"
+		""
+		"&c神通术的煅烧炉对此保持沉默。它本来就不爱说话。"
+	]
+	quest.4F377A7938A923EC.quest_subtitle: "一锅一锅地煅"
+	quest.4F377A7938A923EC.title: "精华之火"
 	quest.5080A08A5244278D.quest_desc: [
 		"从这里开始，研究所正式踏入&b神通术&f的炼金领域。一切的起点是&b汞&f——它既是原料，也是驱动炼金设备的能量。"
 		""
@@ -375,10 +491,48 @@
 	]
 	quest.5080A08A5244278D.quest_subtitle: "流动的能量"
 	quest.5080A08A5244278D.title: "汞"
+	quest.5156ABA9AF3AEB22.quest_desc: [
+		"一份幽匿之硝能拆成四份更细的&a幽匿硝粉&f——前提是有人愿意 “消化” 它。神通术的&d消化釜&f再次出山，溶剂换成了回响灵液。"
+		""
+		"上缴&a1024个奥术构件&f、&a16桶回响灵液&f与&a512个幽匿之硝&f，解锁消化釜。"
+		""
+		"&c发酵釜和消化釜长得像双胞胎，脾气也一样：开盖才收货，合盖才干活。"
+	]
+	quest.5156ABA9AF3AEB22.quest_subtitle: "一拆四"
+	quest.5156ABA9AF3AEB22.title: "消化"
+	quest.51B1AB04C78641CF.quest_desc: [
+		"幽匿声学部的最后一项工程：一条穿过门的铁路。让列车从幽冥驶出，把前哨站的货物直接运回研究所。"
+		""
+		"完成条件：乘坐一列火车穿过幽冥传送门。"
+		""
+		"&c后勤部终于不用每天抱着箱子穿门了。他们说这是本章最伟大的研究成果。"
+	]
+	quest.51B1AB04C78641CF.quest_subtitle: "挑战"
+	quest.51B1AB04C78641CF.title: "幽冥铁路"
+	quest.52C8E951EB081149.quest_desc: [
+		"回响构件的骨架：&a谐振外壳&f。谐振素、奥术板和微光凝胶压在一起——奥术工业部的老手艺，加上幽匿声学部的新材料。"
+		""
+		"上缴&a1536个奥术构件&f、&a256个共鸣晶核&f与&a512个监守者甲壳&f，解锁谐振外壳的压制工艺。"
+		""
+		"&c请轻拿轻放。外壳敲一下，会响一整天。"
+	]
+	quest.52C8E951EB081149.quest_subtitle: "骨架"
+	quest.52C8E951EB081149.title: "谐振外壳"
 	quest.536171A3638882E5.title: "占位符1-1"
 	quest.53C54B9E16BBD469.quest_desc: ["幽匿的 “灵魂”。稀有，而且脾气不好。"]
 	quest.53C54B9E16BBD469.quest_subtitle: "灵魂"
 	quest.53C54B9E16BBD469.title: "幽匿之硫"
+	quest.53E483EEF8F5F4A2.quest_desc: [
+		"考古部从幽冥带回一小撮&a灵魂粉尘&f，声称它是 “那个世界的通用货币”。问题是：去哪儿稳定地弄到它？"
+		""
+		"线索指向那些被虫蛀空的幽匿块——里面住着某种小东西。把它请进罐子，再请德格米来 “谈谈”。注意：这笔生意只有在幽冥里才谈得拢。"
+		""
+		"上缴&a384个奥术构件&f、&a512个幽匿之盐&f与&a256个汞晶碎片&f，为灵魂粉尘的量产立项。"
+		""
+		"&c德格米这次要价更高了：每一轮都要一整罐魔源。财务部已经哭着签了字。"
+	]
+	quest.53E483EEF8F5F4A2.quest_subtitle: "通用货币"
+	quest.53E483EEF8F5F4A2.title: "灵魂"
 	quest.54EAE16EABEE8F0F.quest_desc: [
 		"理论课结束了，实验员。现在我们来看看你的动手能力是否和你的阅读理解能力一样……凑合。"
 		""
@@ -390,6 +544,20 @@
 	]
 	quest.54EAE16EABEE8F0F.quest_subtitle: "逐步解锁"
 	quest.54EAE16EABEE8F0F.title: "研究练习1"
+	quest.55ACC7FD61FCE3F2.quest_desc: ["第一颗共鸣核心。把它放在桌上，桌子也跟着轻轻地跳。"]
+	quest.55ACC7FD61FCE3F2.quest_subtitle: "它在跳"
+	quest.55ACC7FD61FCE3F2.title: "共鸣核心"
+	quest.566A26F40033C874.quest_desc: [
+		"&6门开了，实验员。按照奥术工业部档案最后一页的约定——派去门那边的人，就是你。研究所为此成立了一个新部门：&5幽匿声学部&f，编制一人。"
+		""
+		"门那边是&5幽冥&f。考古部的初步报告只有三行：没有天空，没有太阳，有东西在听。所以本部门研究的不是光，而是声音。"
+		""
+		"入职手续照旧：向终端上缴&a256个奥术构件&f与&a64个活化幽匿催发体&f，然后亲自去门那边报个到。"
+		""
+		"&4安全须知：幽冥里光照不足 10 的地方，黑暗会吞掉你的视野——火把周围 4 格、灯笼周围 5 格以内是安全的。后勤部为你配发了一盏灯笼。是的，一盏。不够用的话，别忘了你会一个能把光 “打” 出去的法术。"
+	]
+	quest.566A26F40033C874.quest_subtitle: "编制一人"
+	quest.566A26F40033C874.title: "幽匿声学"
 	quest.5939C56A0E871225.quest_desc: [
 		"如何&a邀请朋友&f进服？"
 		""
@@ -409,6 +577,16 @@
 	]
 	quest.5ACF65004EF1DD06.quest_subtitle: "逐步解锁"
 	quest.5ACF65004EF1DD06.title: "研究练习2"
+	quest.5B0CC9B07DD159B3.quest_desc: ["从阴郁石柱群地底抽上来的第一桶原浆。浑浊、黏稠，而且很 “吵”。"]
+	quest.5B0CC9B07DD159B3.quest_subtitle: "太吵了"
+	quest.5B0CC9B07DD159B3.title: "幽冥原浆"
+	quest.5C5FF8A00CA7FC3E.quest_desc: [
+		"戴上它，黑暗就再也碰不到你。"
+		""
+		"&c它只管眼睛，不管胆子。"
+	]
+	quest.5C5FF8A00CA7FC3E.quest_subtitle: "再也不怕黑"
+	quest.5C5FF8A00CA7FC3E.title: "监守者头盔"
 	quest.5CF611A89C4A3460.quest_desc: [
 		"嫌弃终端吞噬物资像在品茶？这套超频升级方案能把它的进食方式从“细嚼慢咽”变成“暴风吸入”。别让漫长的进度条成为你偷懒的借口，效率就是一切！"
 		""
@@ -416,6 +594,9 @@
 	]
 	quest.5CF611A89C4A3460.quest_subtitle: "Tier 1"
 	quest.5CF611A89C4A3460.title: "输入速率升级 I"
+	quest.5DA2C7C8802B267E.quest_desc: ["第一批人工培植的微光凝胶。摸起来冰冰凉凉，闻起来……还是别闻了。"]
+	quest.5DA2C7C8802B267E.quest_subtitle: "冰凉的"
+	quest.5DA2C7C8802B267E.title: "微光凝胶"
 	quest.5DED629CCC9E3DCF.quest_desc: ["离心机甩出来的第一桶树液。闻起来像整片森林，但请别拿它泡茶。"]
 	quest.5DED629CCC9E3DCF.quest_subtitle: "森林的味道"
 	quest.5DED629CCC9E3DCF.title: "至高木树液"
@@ -437,6 +618,15 @@
 	]
 	quest.6049542338A30466.quest_subtitle: "人造回响"
 	quest.6049542338A30466.title: "培育"
+	quest.605A67829E507AE6.quest_desc: [
+		"穿着奥术机壳的机器干了一整章的活，工程部觉得它们还能再卷一点。新外套叫&b谐振机壳&f，只能套在奥术机器外面——一次处理的份数，最多再翻四倍。"
+		""
+		"上缴&a1024个奥术构件&f、&a64个奥术机壳&f与&a64个谐振素板&f，解锁谐振机壳与谐振级机器升级。"
+		""
+		"&c机器越强，吃的应力越多。动力组表示：先把轴加粗再说。"
+	]
+	quest.605A67829E507AE6.quest_subtitle: "再卷一点"
+	quest.605A67829E507AE6.title: "谐振机器"
 	quest.6102986E979E25AD.quest_desc: [
 		"秘银的炼制离不开大量的&a下界合金&f。靠挖远古残骸是凑不够的，你需要一条能自己持续产出下界合金的产线。"
 		""
@@ -493,6 +683,42 @@
 	]
 	quest.682EA5AD7E10C382.quest_subtitle: "把魔法压扁"
 	quest.682EA5AD7E10C382.title: "奥术锭 / 奥术板"
+	quest.692F0EBB98667395.quest_desc: [
+		"骨架有了，还缺一颗会 “跳” 的心：&a共鸣核心&f。附魔装置会把共鸣晶核、灵魂水晶、硝粉和甲壳揉成一体。"
+		""
+		"上缴&a1536个奥术构件&f、&a256个谐振外壳&f与&a256个淬炼甲壳&f，解锁共鸣核心。"
+		""
+		"&c把耳朵贴上去能听到它在跳。如果它跳得和你一样快，请立刻离开房间。"
+	]
+	quest.692F0EBB98667395.quest_subtitle: "心跳"
+	quest.692F0EBB98667395.title: "共鸣核心"
+	quest.697350478FFA1073.quest_desc: [
+		"繁盛洞窟里游荡着一种黏糊糊的生物，最小的那只身上会掉出一种嗡嗡作响的金属——&a谐振素&f。材料部当场把它定为本部门的主要建材。"
+		""
+		"德格米可以继续帮忙，但这一次，石阵得建在繁盛洞窟里，罐子里的也得是最小号的那只。拿到原料后，用奥术章的老办法把它炼成锭、压成板。上缴&a512个奥术构件&f、&a512个灵魂粉尘&f与&a256个幽匿之硫&f，解锁谐振素的精炼工艺。"
+		""
+		"&c把大的打碎就能得到小的。这句话请只用在淤泥怪身上。"
+	]
+	quest.697350478FFA1073.quest_subtitle: "嗡嗡作响"
+	quest.697350478FFA1073.title: "谐振素"
+	quest.6A0F4A0CFE712172.quest_desc: [
+		"共鸣室的甲壳堆成了山，头盔却只用掉了一顶。工程部提议：干脆把整套做出来——比下界合金更结实，也更锋利。"
+		""
+		"上缴&a1024个奥术构件&f、&a256个监守者甲壳&f与&a16个强化回响碎片&f，解锁监守者全套装备的锻造。"
+		""
+		"&c穿着监守者靴子走路，幽匿感测体听不见你。这不代表你可以在图书馆里跑。"
+	]
+	quest.6A0F4A0CFE712172.quest_subtitle: "整套"
+	quest.6A0F4A0CFE712172.title: "监守者装备"
+	quest.6AD589709470597E.quest_desc: [
+		"回响树的木头里藏着幽冥特有的 “糖分”。工程部把神通术尘封已久的&d发酵釜&f搬了出来：喂给它幽匿之硫和回响木，就能 “酿” 出&a幽匿之硝&f。"
+		""
+		"上缴&a512个奥术构件&f、&a512个微光凝胶&f与&a64个多孔幽匿微光体&f，解锁发酵釜与幽匿之硝的发酵工艺。"
+		""
+		"&c发酵釜要先合上盖子才肯干活。工程部说这叫仪式感。"
+	]
+	quest.6AD589709470597E.quest_subtitle: "仪式感"
+	quest.6AD589709470597E.title: "回响发酵"
 	quest.6ADA796101C5F20F.quest_desc: [
 		"工程部提交了一份报告：基础研究部那些机器其实还能再干四倍的活，前提是给它们换一身&b奥术机壳&f。"
 		""
@@ -534,6 +760,13 @@
 	quest.6C940B32C97D8346.title: "液态魔源"
 	quest.6D87C1DF995717D7.quest_desc: ["想体验当上帝的感觉？我们确实出售修改现实的“作弊码”，但别高兴得太早。在这里，每个东西都是有标价的。准备好你的资源吧，毕竟打破第四面墙的罚款可不便宜。"]
 	quest.6D87C1DF995717D7.title: "“/back”"
+	quest.6DBF52D2DC14AAB4.quest_desc: [
+		"高频刺激凝出的晶核，里面封着一下一下的心跳。"
+		""
+		"&c请勿和监守者对视。它记得是你干的。"
+	]
+	quest.6DBF52D2DC14AAB4.quest_subtitle: "高频的回报"
+	quest.6DBF52D2DC14AAB4.title: "共鸣晶核"
 	quest.6DE15C580D22EACA.quest_desc: ["压实的甲壳碎屑。对探宝蟹来说，这就是一整天的工作量。"]
 	quest.6DE15C580D22EACA.quest_subtitle: "探宝蟹的工作台"
 	quest.6DE15C580D22EACA.title: "甲壳碎屑块"
@@ -546,6 +779,27 @@
 	]
 	quest.6E146F1D5029174F.quest_subtitle: "档案部推荐"
 	quest.6E146F1D5029174F.title: "魔法仓储"
+	quest.6E8CFF8B28880B50.quest_desc: [
+		"在一个看不见的地方，最值钱的情报是 “东西在哪儿”。新生魔艺的&b探知仪式&f能让你隔着岩石看见指定的方块——在幽冥里，它比任何一盏灯都管用。"
+		""
+		"上缴&a384个奥术构件&f、&a256个淬炼甲壳&f与&a128个幽匿感测体&f，解锁&a探知石板&f。"
+		""
+		"&c小贴士：往仪式里丢一撮会发光的粉末试试。黑暗里最值钱的情报，就是哪里有光。"
+	]
+	quest.6E8CFF8B28880B50.quest_subtitle: "隔墙有眼"
+	quest.6E8CFF8B28880B50.title: "探知"
+	quest.6FDBC03781D6DC78.quest_desc: ["回响树的木头。树苗只认幽冥的土，木头却可以在哪儿都长——前提是你带够了土。"]
+	quest.6FDBC03781D6DC78.quest_subtitle: "幽冥的糖分"
+	quest.6FDBC03781D6DC78.title: "回响原木"
+	quest.71CB5C08305F81DE.quest_desc: [
+		"黑暗不会伤害你，但它让每一次出门都像蒙着眼走钢丝。医疗部翻遍资料，找到一个先例：&5监守者&f天生看不见，却从不迷路。"
+		""
+		"据说灵魂粉尘能让回响碎片 “开眼”。把开了眼的碎片锻进&a监守者头盔&f，黑暗就再也碰不到你。上缴&a384个奥术构件&f、&a128个回响碎片&f与&a32个强化回响碎片&f，解锁&a灵视回响碎片&f与监守者头盔的锻造。"
+		""
+		"&c头盔不附送监守者的听力。你听到的那些声音，依然是真的。"
+	]
+	quest.71CB5C08305F81DE.quest_subtitle: "开眼"
+	quest.71CB5C08305F81DE.title: "看见"
 	quest.73B7FC9397EA5A19.quest_desc: [
 		"秘银的某些加工环节对&a乙醇&f的消耗大得惊人。研究所食堂不提供酒水，请自行解决。"
 		""
@@ -553,6 +807,15 @@
 	]
 	quest.73B7FC9397EA5A19.quest_subtitle: "工业用酒"
 	quest.73B7FC9397EA5A19.title: "乙醇"
+	quest.74773FEF2796426A.quest_desc: [
+		"喷气背包很好，就是太吵。在一个有东西在听的世界里，&a灵魂鞘翅&f安静得多，还自带一次冲刺。"
+		""
+		"上缴&a512个奥术构件&f、&a32个灵魂水晶&f与&a128个灵魂粉尘&f，解锁灵魂鞘翅的合成。"
+		""
+		"&c鞘翅本体得去末地城自己找。探险部表示：这次也是你。"
+	]
+	quest.74773FEF2796426A.quest_subtitle: "安静的翅膀"
+	quest.74773FEF2796426A.title: "灵魂鞘翅"
 	quest.749ADB890FB9504E.quest_desc: ["再神奇的魔法也需要一副结实的骨架。&a铁杆束&f正是奥术构件的基底。"]
 	quest.749ADB890FB9504E.quest_subtitle: "奥术的骨架"
 	quest.749ADB890FB9504E.title: "铁杆束"
@@ -602,9 +865,31 @@
 	quest.7F35511B45802CB1.quest_desc: ["汞的原料。仓库里也许还剩一些，但产线可不能只靠库存。"]
 	quest.7F35511B45802CB1.quest_subtitle: "汞的原料"
 	quest.7F35511B45802CB1.title: "紫水晶碎片"
+	quest.7F44862E06095A80.quest_desc: [
+		"幽匿声学部的终点：&a回响构件&f。从今天起，它就是研究所认可的新一代研发经费。"
+		""
+		"上缴&a2048个奥术构件&f、&a256个共鸣核心&f与&a256个回响碎片&f，解锁回响构件的装配工艺。"
+		""
+		"&c下一个部门已经在排队申请经费了。他们的原话是：“你懂的，要回响构件。”"
+	]
+	quest.7F44862E06095A80.quest_subtitle: "本章终点"
+	quest.7F44862E06095A80.title: "回响构件"
+	quest.7FE6E94E5E5ACC68.quest_desc: [
+		"勘探部在&5阴郁石柱群&f的地底下发现了流动的东西：&a幽冥原浆&f。普通钻头一碰就钝，得换一颗用谐振素包裹的&a谐振钻头&f，钻井液也得换成&a微光润滑液&f。原浆本身还太 “吵”，要再送进深渊催化釜，在超级加热下精炼成&a回响灵液&f。"
+		""
+		"上缴&a768个奥术构件&f、&a128个灵魂水晶&f与&a128个隔音玻璃&f，解锁幽冥原浆的开采与精炼。没选修过流体钻井的，这次一并发给你。"
+		""
+		"&c钻头做好就能一直用。这是勘探部今年唯一一件不用报销耗材的设备。"
+	]
+	quest.7FE6E94E5E5ACC68.quest_subtitle: "地底下的东西"
+	quest.7FE6E94E5E5ACC68.title: "幽冥流体脉"
 	reward.03A21E40BF73A72C.title: "解锁：奥术构件"
+	reward.03E11E67A7D77161.title: "解锁：紫晶傀儡护符"
+	reward.041B279B0EEEC45C.title: "解锁：深渊催化釜、机械幽匿尖啸体与灵魂水晶的催化工艺"
 	reward.062017ABCF0A980E.title: "不知道从哪捡来的终端"
 	reward.066E36711FFED665.title: "解锁：风转草护符"
+	reward.08F387CF75225D00.title: "解锁：回响构件"
+	reward.097079BC25767C26.title: "解锁：监守者共鸣室"
 	reward.0B50B2901F258D60.title: "解锁：伤害、点燃、蒸发、解除魔法、召唤狼、召唤骏马"
 	reward.11343EE40547FE0D.title: "解锁：附魔装置、奥术核心、强化回响碎片"
 	reward.1194A49B03FAFA45.title: "解锁：培育器及三种容具"
@@ -612,20 +897,34 @@
 	reward.1251261FC53AC217.title: "解锁：放置方块、构筑法师方块、旋转、交互、遥指"
 	reward.154E8C0A50388B75.title: "解锁：秘银加工"
 	reward.176511CF7EBEF5CB.title: "解锁：薇克精炼药锅、薇克精护符"
+	reward.18B285C7A3DD5AF8.title: "立项：灵魂粉尘的量产"
+	reward.19EADE7D2D71A404.title: "解锁：灵视回响碎片与监守者头盔的锻造"
 	reward.1CE54C482257621D.title: "解锁：喷气背包"
 	reward.1E4D5C0F1C78BFFA.title: "解锁：下界合金喷气背包"
+	reward.21BD5B380F534A87.title: "解锁：幽匿蔓延器升级组件"
+	reward.2549C2FD1A61BB0B.title: "解锁：幽匿之盐的批量煅烧工艺"
 	reward.268C453C9AEFC292.title: "解锁：符文、红石信号、延迟、重置、随机化"
 	reward.26990E3DE7058E2D.title: "解锁：探宝蟹护符与甲壳筛分工艺"
 	reward.26A11C5C06A686E5.title: "解锁：功能接口"
+	reward.273E4D0169263819.title: "解锁：多孔幽匿微光体的培植工艺"
 	reward.29631706689D5D9A.title: "解锁：流态硫发射器、重塑台座"
+	reward.2ABC5A0A5C778F90.title: "解锁：流体钻井"
 	reward.2BAC5B5C491E13AF.title: "解锁：幽匿蔓延器、基础法术炮塔、“幽匿收割”羊皮纸"
+	reward.2BBCECF9D7F91E2A.title: "解锁：幽冥原浆的开采与精炼"
 	reward.2BD28E90CF87BDE1.title: "解锁：腾跃、发射、风爆、弹性、脚下"
+	reward.2C074164F39F8C55.title: "解锁：发酵釜与幽匿之硝的发酵工艺"
+	reward.2CA4C756B45A8963.title: "解锁：监守者全套装备的锻造"
+	reward.2E2FCC4B696336EF.title: "解锁：消化釜与幽匿硝粉"
+	reward.35AB149501298E77.title: "解锁：谐振机壳与谐振级机器升级"
 	reward.36B6A012112DEA60.title: "解锁：输入速率升级 I"
 	reward.3947E5F39902C172.title: "解锁：离心机、真空压缩机与液态魔源高产工艺"
 	reward.4278A456A2E19632.title: "解锁：硇砂蓄积器、硇砂储罐"
+	reward.42ABC02D713BE406.title: "解锁：探知石板"
+	reward.42B5409BF642269B.title: "解锁：共鸣核心"
 	reward.42C202BDCE50DACC.title: "解锁：恐惧灯"
 	reward.441A91BBAF32F54B.title: "领取你的奖励！"
 	reward.4986E6455363256B.title: "解锁：“/back”"
+	reward.49D79A1A6531CEB3.title: "解锁：灵魂鞘翅的合成"
 	reward.4B9E5386DA158CEE.title: "解锁：抄写台、初学者法术书、法术羊皮纸与基础字形"
 	reward.4CB4E54160745C6D.title: "解锁：炼金机体、汞蒸馏器、汞催化器"
 	reward.4DC6F876DAB975D9.title: "解锁：输入速率升级 II"
@@ -633,9 +932,11 @@
 	reward.52F6A485C29AE6E3.title: "解锁：深渊之心"
 	reward.540E1760009D0F4A.title: "解锁：超级火把"
 	reward.56811ED463B183BF.title: "解锁：定时法术炮塔"
+	reward.5695716BAD83B2C2.title: "解锁：谐振外壳"
 	reward.5D7A62392FEBDEC1.title: "解锁：星宝石兽护符"
 	reward.5DD853A835BCC381.title: "解锁：流体钻井"
 	reward.60D5C56277F2805E.title: "解锁：合成、戏法、Wololo、投掷"
+	reward.61B3825D21102C75.title: "解锁：谐振素装备的锻造"
 	reward.63466AF724ADFD0D.title: "解锁：推演机壳"
 	reward.65BC9A7AE7DE9147.title: "解锁：液化坩埚、御炎火盆、煅烧炉、灌注室、奥术基座"
 	reward.66488A5410E621CA.title: "解锁：禁锢、击退、吸引、冻结、泡泡"
@@ -644,14 +945,19 @@
 	reward.6D20EC0004D2CC92.title: "解锁：魔源中转器全系列"
 	reward.6EB3167A8C03B6D7.title: "解锁：奥术锭、奥术板"
 	reward.6FD3FD5D43BFA8B4.title: "解锁：输入速率升级 III"
+	reward.7028E91B946B4B4E.title: "解锁：深渊萃取工艺"
 	reward.70906ED6A33D862B.title: "解锁：未调和精华与七种精华"
+	reward.789CC6AEA638A6FA.title: "解锁：魔源转化器升级组件"
 	reward.7A6B061E4CF7A776.title: "解锁：德格米石阵、德格米护符"
 	reward.7B382D1D6D70BF7B.title: "解锁：野火灯笼"
 	reward.7EBAE68FB551B80A.title: "解锁：仓库、存储讲台、书龙护符"
+	reward.7F1C2874EAEACFA6.title: "解锁：谐振素锭与谐振素板的精炼工艺"
 	reward_table.49185B525CF28733.title: "初心者奖励包"
 	reward_table.6CB5E0321863F6C6.title: "初级工程师福利包"
+	task.198FA8B694FBF008.title: "乘坐火车穿过幽冥传送门"
 	task.2C12A76784EF9940.title: "看向装有幻翼的收容罐"
 	task.3A8C14BE3A2AF0CF.title: "动力构件"
+	task.568D1E68604DAC6D.title: "抵达幽冥"
 	task.6AF024E3A7465684.title: "我已确认，启动！"
 	task.6E1592F5CC201E74.title: "看向装有监守者的收容罐"
 	task.728C11576CF4C550.title: "机械动力高手认证？"

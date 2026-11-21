@@ -33,7 +33,7 @@
 	#How much source drygmys consume per generation
 	# Default: 1000
 	# Range: 0 ~ 10000
-	drygmyManaCost = 1000
+	drygmyManaCost = 10000
 	#How many channels must occur before a drygmy produces loot
 	# Default: 20
 	# Range: 0 ~ 300

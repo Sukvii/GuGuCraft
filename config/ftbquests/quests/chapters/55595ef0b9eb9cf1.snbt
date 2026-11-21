@@ -1,0 +1,1449 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "55595ef0b9eb9cf1"
+	group: "5B35751FF01CB70D"
+	hide_quest_details_until_startable: true
+	icon: {
+		id: "kubejs:echo_mechanism"
+	}
+	id: "55595EF0B9EB9CF1"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76FDE6739638FE0F"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:lantern"
+			}
+			icon_scale: 0.9d
+			id: "566A26F40033C874"
+			rewards: [
+				{
+					auto: "invisible"
+					icon: {
+						id: "kubejs:echo_mechanism"
+					}
+					id: "2339FDF607271539"
+					ignore_reward_blocking: true
+					stage: "幽匿声学"
+					type: "gamestage"
+				}
+				{
+					id: "2C61CA3526961FD2"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "3878647202995040"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4E2E613C2D06A5CA"
+					item: { count: 1, id: "kubejs:activated_sculk_catalyst" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					dimension: "deeperdarker:otherside"
+					icon: {
+						id: "deeperdarker:heart_of_the_deep"
+					}
+					id: "568D1E68604DAC6D"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["566A26F40033C874"]
+			icon: {
+				id: "ars_nouveau:ritual_scrying"
+			}
+			icon_scale: 0.9d
+			id: "6E8CFF8B28880B50"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:ritual_scrying"
+				}
+				id: "42ABC02D713BE406"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "scrying"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 384L
+					id: "6481354CBA93D7B5"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "1BA782497813437C"
+					item: { count: 1, id: "kubejs:tempered_carapace" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "0A8F588F95AC5458"
+					item: { count: 1, id: "minecraft:sculk_sensor" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E8CFF8B28880B50"]
+			icon: {
+				id: "deeperdarker:soul_dust"
+			}
+			icon_scale: 0.9d
+			id: "53E483EEF8F5F4A2"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:soul_dust"
+				}
+				id: "18B285C7A3DD5AF8"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "soul"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 384L
+					id: "081BCA66A5CC18ED"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "2D80A2F13F9F5CFF"
+					item: { count: 1, id: "kubejs:sculk_salt" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "55BE0C18030328FF"
+					item: { count: 1, id: "theurgy:mercury_shard" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53E483EEF8F5F4A2"]
+			icon: {
+				id: "deeperdarker:warden_helmet"
+			}
+			icon_scale: 0.9d
+			id: "71CB5C08305F81DE"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:warden_helmet"
+				}
+				id: "19EADE7D2D71A404"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "warden_sight"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 384L
+					id: "3261987F258D0610"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "1786711666342E83"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "35230844AECA9593"
+					item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71CB5C08305F81DE"]
+			icon: {
+				id: "deeperdarker:resonarium_plate"
+			}
+			icon_scale: 0.9d
+			id: "697350478FFA1073"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:resonarium_plate"
+				}
+				id: "7F1C2874EAEACFA6"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "resonarium"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "028C42E3056C4C10"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "3201C3BD13E1EAB6"
+					item: { count: 1, id: "deeperdarker:soul_dust" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "6465CAC076004D6A"
+					item: { count: 1, id: "kubejs:sculk_sulfur" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["697350478FFA1073"]
+			icon: {
+				id: "deeperdarker:gleam_gel"
+			}
+			icon_scale: 0.9d
+			id: "0F5E13DF9824EAA3"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:gleam_gel"
+				}
+				id: "273E4D0169263819"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "gleam"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "64DDAA52F06248CE"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "56D6E1809CF0BABA"
+					item: { count: 1, id: "deeperdarker:resonarium_plate" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "39976B94949DE93C"
+					item: { count: 1, id: "kubejs:activated_sculk_catalyst" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F5E13DF9824EAA3"]
+			icon: {
+				id: "theurgy:fermentation_vat"
+			}
+			icon_scale: 0.9d
+			id: "6AD589709470597E"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:fermentation_vat"
+				}
+				id: "2C074164F39F8C55"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "fermentation"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "26881AF83C719096"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "728E267C9B4BF810"
+					item: { count: 1, id: "deeperdarker:gleam_gel" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "036520A4B3D946D5"
+					item: { count: 1, id: "deeperdarker:porous_sculk_gleam" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD589709470597E"]
+			icon: {
+				id: "guguaddons:abyss_catalytic_chamber"
+			}
+			icon_scale: 0.9d
+			id: "1BCE11A5E4128D4E"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:abyss_catalytic_chamber"
+				}
+				id: "041B279B0EEEC45C"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "abyss_catalysis"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 768L
+					id: "34690CCC86A88EED"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "0C79591EA4C2570F"
+					item: { count: 1, id: "kubejs:sculk_niter" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "7F69C94FDF69C45E"
+					item: { count: 1, id: "deeperdarker:echo_log" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BCE11A5E4128D4E"]
+			icon: {
+				id: "kubejs:otherside_slurry_bucket"
+			}
+			icon_scale: 0.9d
+			id: "7FE6E94E5E5ACC68"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						id: "kubejs:otherside_slurry_bucket"
+					}
+					id: "2BBCECF9D7F91E2A"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "otherside_fluid"
+					type: "astages:player"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						id: "createoreexcavation:extractor"
+					}
+					id: "2ABC5A0A5C778F90"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "fluid_drill"
+					type: "astages:player"
+				}
+			]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 768L
+					id: "2E154F9B669A8ED6"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "698EC7B19DE344DC"
+					item: { count: 1, id: "deeperdarker:soul_crystal" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "1DD78DA3187F76D6"
+					item: { count: 1, id: "deeperdarker:soundproof_glass" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FE6E94E5E5ACC68"]
+			icon: {
+				id: "theurgy:digestion_vat"
+			}
+			icon_scale: 0.9d
+			id: "5156ABA9AF3AEB22"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:digestion_vat"
+				}
+				id: "2E2FCC4B696336EF"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "digestion"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "0CE1449568522192"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "193A14874202A5D6"
+					item: { count: 1, id: "kubejs:echo_spirit_bucket" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "4216333A2CDA0E07"
+					item: { count: 1, id: "kubejs:sculk_niter" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5156ABA9AF3AEB22"]
+			icon: {
+				id: "guguaddons:warden_resonance_chamber"
+			}
+			icon_scale: 0.9d
+			id: "409289E37B9319C9"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:warden_resonance_chamber"
+				}
+				id: "097079BC25767C26"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "warden_resonance"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "41F719014A0F6413"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "0ECBFE0EB6BB75CF"
+					item: { count: 1, id: "kubejs:sculk_niter_powder" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "069FF4374EB69533"
+					item: { count: 1, id: "deeperdarker:soul_crystal" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["409289E37B9319C9"]
+			icon: {
+				id: "kubejs:resonant_shell"
+			}
+			icon_scale: 0.9d
+			id: "52C8E951EB081149"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:resonant_shell"
+				}
+				id: "5695716BAD83B2C2"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "resonant_casing"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 1536L
+					id: "3EB684C63A37761A"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "467F73C0DCE5F897"
+					item: { count: 1, id: "kubejs:resonance_nucleus" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "4D1C25BAF371926F"
+					item: { count: 1, id: "deeperdarker:warden_carapace" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 44.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52C8E951EB081149"]
+			icon: {
+				id: "kubejs:resonance_core"
+			}
+			icon_scale: 0.9d
+			id: "692F0EBB98667395"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:resonance_core"
+				}
+				id: "42B5409BF642269B"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "resonance_core"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 1536L
+					id: "7570F8188124B766"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "2B4ADD6B6359475C"
+					item: { count: 1, id: "kubejs:resonant_shell" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "63412A81F473B2FC"
+					item: { count: 1, id: "kubejs:tempered_carapace" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 48.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["692F0EBB98667395"]
+			icon: {
+				id: "kubejs:echo_mechanism"
+			}
+			icon_scale: 0.9d
+			id: "7F44862E06095A80"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:echo_mechanism"
+				}
+				id: "08F387CF75225D00"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "echo_mechanism"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					consume_items: true
+					count: 2048L
+					id: "62CE06BE0ACC6F6A"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "39959B190681F88A"
+					item: { count: 1, id: "kubejs:resonance_core" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "0C63758EAEF667A8"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 52.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E8CFF8B28880B50"]
+			icon: {
+				id: "ars_nouveau:manipulation_essence"
+			}
+			icon_scale: 0.9d
+			id: "4C43CCE55964AED1"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6CBF0AACC625C981"
+				item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53E483EEF8F5F4A2"]
+			icon: {
+				id: "deeperdarker:soul_dust"
+			}
+			icon_scale: 0.9d
+			id: "26C991A3C77C59D5"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "210540DBBA3A5607"
+				item: { count: 1, id: "deeperdarker:soul_dust" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71CB5C08305F81DE"]
+			icon: {
+				id: "deeperdarker:warden_helmet"
+			}
+			icon_scale: 0.9d
+			id: "5C5FF8A00CA7FC3E"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "2B43EA8E264235FB"
+				item: { count: 1, id: "deeperdarker:warden_helmet" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["697350478FFA1073"]
+			icon: {
+				id: "deeperdarker:resonarium"
+			}
+			icon_scale: 0.9d
+			id: "14EBD1C793537BCD"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "47AD8A39B62439C8"
+				item: { count: 1, id: "deeperdarker:resonarium" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["697350478FFA1073"]
+			icon: {
+				id: "deeperdarker:resonarium_plate"
+			}
+			icon_scale: 0.9d
+			id: "342722DF9F2D2041"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "0CE14BD2258B88D3"
+				item: { count: 1, id: "deeperdarker:resonarium_plate" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F5E13DF9824EAA3"]
+			icon: {
+				id: "deeperdarker:gleam_gel"
+			}
+			icon_scale: 0.9d
+			id: "5DA2C7C8802B267E"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6E3E1C7D78BBDE6E"
+				item: { count: 1, id: "deeperdarker:gleam_gel" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD589709470597E"]
+			icon: {
+				id: "deeperdarker:echo_log"
+			}
+			icon_scale: 0.9d
+			id: "6FDBC03781D6DC78"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "38EDEB92EEED8904"
+				item: { count: 1, id: "deeperdarker:echo_log" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD589709470597E"]
+			icon: {
+				id: "kubejs:sculk_niter"
+			}
+			icon_scale: 0.9d
+			id: "18E11475BADF6250"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6B2ACEF3E0A3835D"
+				item: { count: 1, id: "kubejs:sculk_niter" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1BCE11A5E4128D4E"]
+			icon: {
+				id: "deeperdarker:soul_crystal"
+			}
+			icon_scale: 0.9d
+			id: "247990E6EDCB18F4"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "7326BF3FDAAAE399"
+				item: { count: 1, id: "deeperdarker:soul_crystal" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FE6E94E5E5ACC68"]
+			icon: {
+				id: "kubejs:otherside_slurry_bucket"
+			}
+			icon_scale: 0.9d
+			id: "5B0CC9B07DD159B3"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "48205BD5AC473AB7"
+				item: { count: 1, id: "kubejs:otherside_slurry_bucket" }
+				type: "item"
+			}]
+			x: 31.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FE6E94E5E5ACC68"]
+			icon: {
+				id: "kubejs:echo_spirit_bucket"
+			}
+			icon_scale: 0.9d
+			id: "0E548295597CAF98"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "10AA64E4598569F0"
+				item: { count: 1, id: "kubejs:echo_spirit_bucket" }
+				type: "item"
+			}]
+			x: 33.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5156ABA9AF3AEB22"]
+			icon: {
+				id: "kubejs:sculk_niter_powder"
+			}
+			icon_scale: 0.9d
+			id: "1FF384E0982CB8EF"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "5A686234C15472D9"
+				item: { count: 1, id: "kubejs:sculk_niter_powder" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["409289E37B9319C9"]
+			icon: {
+				id: "deeperdarker:warden_carapace"
+			}
+			icon_scale: 0.9d
+			id: "0EC25B1B7F98E629"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "1189971E9EE6BB1D"
+				item: { count: 1, id: "deeperdarker:warden_carapace" }
+				type: "item"
+			}]
+			x: 39.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["409289E37B9319C9"]
+			icon: {
+				id: "kubejs:resonance_nucleus"
+			}
+			icon_scale: 0.9d
+			id: "6DBF52D2DC14AAB4"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6C5671EA7EAC23D0"
+				item: { count: 1, id: "kubejs:resonance_nucleus" }
+				type: "item"
+			}]
+			x: 41.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52C8E951EB081149"]
+			icon: {
+				id: "kubejs:resonant_shell"
+			}
+			icon_scale: 0.9d
+			id: "34068B0A2F94EC45"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "5A7E1059A7DFD69A"
+				item: { count: 1, id: "kubejs:resonant_shell" }
+				type: "item"
+			}]
+			x: 44.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["692F0EBB98667395"]
+			icon: {
+				id: "kubejs:resonance_core"
+			}
+			icon_scale: 0.9d
+			id: "55ACC7FD61FCE3F2"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "1908DBF3E6152B94"
+				item: { count: 1, id: "kubejs:resonance_core" }
+				type: "item"
+			}]
+			x: 48.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53E483EEF8F5F4A2"]
+			icon: {
+				id: "ars_nouveau:amethyst_golem_charm"
+			}
+			icon_scale: 0.9d
+			id: "3491A0DDC369A9F3"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:amethyst_golem_charm"
+				}
+				id: "03E11E67A7D77161"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "amethyst_golem"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "3AFD1D35DA5CB161"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "2AC42C23356D8900"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "5034EBAC77CD3107"
+					item: { count: 1, id: "deeperdarker:soul_dust" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71CB5C08305F81DE"]
+			icon: {
+				id: "kubejs:source_converter_upgrade"
+			}
+			icon_scale: 0.9d
+			id: "226D1B22A27EDBAD"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:source_converter_upgrade"
+				}
+				id: "789CC6AEA638A6FA"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "source_converter_mk2"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 768L
+					id: "13A335E46D01D81E"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "20AEFD3197459D84"
+					item: { count: 1, id: "ars_nouveau:source_gem_block" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "5DC10B6D1A2C408E"
+					item: { count: 1, id: "deeperdarker:soul_dust" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["697350478FFA1073"]
+			icon: {
+				id: "kubejs:resonant_casing"
+			}
+			icon_scale: 0.9d
+			id: "605A67829E507AE6"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:resonant_casing"
+				}
+				id: "35AB149501298E77"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "resonant_machines"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "61383B68B02E5F83"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "483E9991CE7E4547"
+					item: { count: 1, id: "kubejs:arcane_casing" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5F773CEB15EDDCD3"
+					item: { count: 1, id: "deeperdarker:resonarium_plate" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["697350478FFA1073"]
+			icon: {
+				id: "deeperdarker:resonarium_chestplate"
+			}
+			icon_scale: 0.9d
+			id: "3846444C3D1C9447"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:resonarium_chestplate"
+				}
+				id: "61B3825D21102C75"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "resonarium_gear"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "7F98F581DB70BCE3"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4EE27055C137CA99"
+					item: { count: 1, id: "deeperdarker:resonarium_plate" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "669506C8E65A2F7D"
+					item: { count: 1, id: "deeperdarker:soul_dust" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AD589709470597E"]
+			icon: {
+				id: "kubejs:sculk_spreader_upgrade"
+			}
+			icon_scale: 0.9d
+			id: "0A67762DB01390C3"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:sculk_spreader_upgrade"
+				}
+				id: "21BD5B380F534A87"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "sculk_spreader_mk2"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 768L
+					id: "25A23465BB631732"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "0248C0BAEABF9294"
+					item: { count: 1, id: "kubejs:sculk_salt" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "28213641E94C74C4"
+					item: { count: 1, id: "kubejs:sculk_niter" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BCE11A5E4128D4E"]
+			icon: {
+				id: "kubejs:source_mash_bucket"
+			}
+			icon_scale: 0.9d
+			id: "4DC3F9B9DBE61B72"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:source_mash_bucket"
+				}
+				id: "7028E91B946B4B4E"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "abyss_extraction"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "1DF48E9B518DEB9F"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "366A894F23C76FFC"
+					item: { count: 1, id: "kubejs:source_mash_bucket" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "45C44C6A2E8DE11B"
+					item: { count: 1, id: "deeperdarker:soul_crystal" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BCE11A5E4128D4E"]
+			icon: {
+				id: "deeperdarker:soul_elytra"
+			}
+			icon_scale: 0.9d
+			id: "74773FEF2796426A"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:soul_elytra"
+				}
+				id: "49D79A1A6531CEB3"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "soul_elytra"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "0F429A458EEAC3E2"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "3EF962E35BB8E65E"
+					item: { count: 1, id: "deeperdarker:soul_crystal" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "61CCB27232B8CB67"
+					item: { count: 1, id: "deeperdarker:soul_dust" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FE6E94E5E5ACC68"]
+			icon: {
+				id: "ars_nouveau:fire_essence"
+			}
+			icon_scale: 0.9d
+			id: "4F377A7938A923EC"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:fire_essence"
+				}
+				id: "2549C2FD1A61BB0B"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "fire_essence"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 768L
+					id: "0B26EF6222F151CA"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "7663A25B4D761CD7"
+					item: { count: 1, id: "kubejs:sculk_salt" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "7EBB0BF566525FC1"
+					item: { count: 1, id: "kubejs:echo_spirit_bucket" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["409289E37B9319C9"]
+			icon: {
+				id: "deeperdarker:warden_chestplate"
+			}
+			icon_scale: 0.9d
+			id: "6A0F4A0CFE712172"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:warden_chestplate"
+				}
+				id: "2CA4C756B45A8963"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "warden_gear"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "553E9218FB0861D6"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "7C7DBF502A0A50FA"
+					item: { count: 1, id: "deeperdarker:warden_carapace" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "0CE524FCCE3AE3F0"
+					item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 40.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F44862E06095A80"]
+			icon: {
+				id: "create:track_station"
+			}
+			icon_scale: 0.9d
+			id: "51B1AB04C78641CF"
+			shape: "gear"
+			tasks: [{
+				advancement: "guguaddons:otherside_railway"
+				criterion: ""
+				icon: {
+					id: "create:track_station"
+				}
+				id: "198FA8B694FBF008"
+				type: "advancement"
+			}]
+			x: 52.0d
+			y: 3.0d
+		}
+	]
+}

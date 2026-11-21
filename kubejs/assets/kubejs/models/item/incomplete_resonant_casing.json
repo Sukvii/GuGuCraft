@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "kubejs:block/arcane_casing",
+		"up": "kubejs:block/resonant_casing",
+		"down": "kubejs:block/arcane_casing",
+		"north": "kubejs:block/arcane_casing",
+		"south": "kubejs:block/arcane_casing",
+		"east": "kubejs:block/arcane_casing",
+		"west": "kubejs:block/arcane_casing"
+	}
+}

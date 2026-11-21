@@ -1,0 +1,9 @@
+{
+	"parent": "createmoremachines:block/spout_item",
+	"textures": {
+		"spout": "createmoremachines:block/netherite_spout",
+		"nozzle": "createmoremachines:block/netherite_spout_nozzle",
+		"pipe": "createmoremachines:block/netherite_encased_pipe",
+		"particle": "createmoremachines:block/resonant_machine_block"
+	}
+}

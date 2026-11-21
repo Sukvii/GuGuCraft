@@ -35,7 +35,10 @@ RecipeViewerEvents.removeEntries('item', event => {
         'theurgy:incubator',
         'theurgy:incubator_mercury_vessel',
         'theurgy:incubator_salt_vessel',
-        'theurgy:incubator_sulfur_vessel'
+        'theurgy:incubator_sulfur_vessel',
+        // Sculk Acoustics M6 / M9
+        'theurgy:fermentation_vat',
+        'theurgy:digestion_vat'
     ])
 
     Ingredient.of('/^theurgy:.*$/').itemIds.forEach(id => {

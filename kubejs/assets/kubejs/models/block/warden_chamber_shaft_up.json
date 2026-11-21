@@ -1,0 +1,24 @@
+{
+	"__comment": "Shaft of the Resonance Chamber Kinetic Input: Create's half shaft (create:block/shaft_half) turned to face up. The Flywheel path of MBD2 21.1.2 rotates from \"facing up\" with rotateToFace(facing), so the original half shaft facing south would turn the wrong way",
+	"parent": "block/block",
+	"textures": {
+		"particle": "create:block/axis",
+		"0": "create:block/axis",
+		"1": "create:block/axis_top"
+	},
+	"elements": [
+		{
+			"name": "Axis",
+			"from": [6, 8, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"texture": "#0", "uv": [6, 0, 10, 8]},
+				"east": {"texture": "#0", "uv": [6, 0, 10, 8]},
+				"south": {"texture": "#0", "uv": [6, 0, 10, 8]},
+				"west": {"texture": "#0", "uv": [6, 0, 10, 8]},
+				"up": {"texture": "#1", "uv": [6, 6, 10, 10]},
+				"down": {"texture": "#1", "uv": [6, 6, 10, 10]}
+			}
+		}
+	]
+}

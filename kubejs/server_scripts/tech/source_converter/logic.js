@@ -3,6 +3,9 @@
     const $Brazier = Java.loadClass('com.klikli_dev.theurgy.content.apparatus.pyromanticbrazier.PyromanticBrazierBlockEntity')
     const $ContentModifier = Java.loadClass('com.lowdragmc.mbd2.api.recipe.content.ContentModifier')
     const $IO = Java.loadClass('com.lowdragmc.mbd2.api.capability.recipe.IO')
+    // Sculk Acoustics side quest "Source Converter Upgrade": at level 2, input, output, full-yield range and tank capacity per batch are all x MULTIPLIER
+    const mk2 = global.SCULK_ACOUSTICS.SOURCE_CONVERTER_MK2
+    const multiplierOf = machine => machine.getCustomData().getInt(mk2.LEVEL_KEY) >= 2 ? mk2.MULTIPLIER : 1
 
     function isHeated(machine) {
         const level = machine.getLevel()
@@ -10,18 +13,27 @@
         const below = machine.getPos().below()
         if (!level.hasChunkAt(below)) return false
         const brazier = level.getBlockEntity(below)
-        // 读取 Theurgy 的实际燃烧计时，不以“放了燃料”代替正在燃烧。
+        // Read the actual Theurgy burn timer instead of treating "has fuel" as burning.
         return brazier instanceof $Brazier && brazier.isLit()
     }
 
-    function getEfficiency(machine) {
+    function getEfficiency(machine, multiplier) {
         const trait = machine.getTraitByName(cfg.FLUID_TRAIT)
         const tank = trait == null ? null : trait.storages[0]
         if (tank == null || tank.getCapacity() <= 0) return 0
         const amount = tank.getFluidAmount()
-        if (amount < cfg.FLUID_PER_BATCH) return 0
-        // 按批次开始、扣料前的绝对液量采样；区间含两个端点，不再要求精确半满。
-        return amount >= cfg.OPTIMAL_FLUID_MIN && amount <= cfg.OPTIMAL_FLUID_MAX ? 1 : cfg.OFF_RANGE_EFFICIENCY
+        if (amount < cfg.FLUID_PER_BATCH * multiplier) return 0
+        // Sampled from the absolute fluid amount at batch start, before ingredients are taken; the range includes both ends and no longer demands exactly half full.
+        return amount >= cfg.OPTIMAL_FLUID_MIN * multiplier && amount <= cfg.OPTIMAL_FLUID_MAX * multiplier
+            ? 1 : cfg.OFF_RANGE_EFFICIENCY
+    }
+
+    // The level 2 tank capacity is a runtime override of the machine's tank trait (saved with the machine); verify it again on load
+    function syncTankCapacity(machine) {
+        const trait = machine.getTraitByName(cfg.FLUID_TRAIT)
+        if (trait == null) return
+        const target = cfg.TANK_CAPACITY * multiplierOf(machine)
+        if (Number(trait.capacity.get()) !== target) trait.capacity.setValue(target)
     }
 
     MBDMachineEvents.onLoad(cfg.MACHINE_ID, event => {
@@ -30,13 +42,14 @@
         const logic = machine.getRecipeLogic()
         const recipe = logic.getLastRecipe()
         const data = machine.getCustomData()
-        // 迁移旧周期批次、逐 tick 条件，以及此前采样报错后意外缓存的原始配方。
-        // 本机在完成时才扣原料，因此迁移不会吞掉已经投入的液体。
+        // Migrates old periodic batches, per-tick conditions, and original recipes cached by accident after earlier sampling errors.
+        // This machine only takes ingredients on finish, so the migration never swallows fluid already inserted.
         if (recipe != null && String(recipe.id) === cfg.CONVERSION_RECIPE_ID &&
             (recipe.duration !== cfg.TICKS_PER_BATCH || !recipe.conditions.isEmpty() || !data.getBoolean(cfg.SAMPLED_KEY))) {
             logic.resetRecipeLogic()
         }
         data.remove(cfg.NEXT_CHECK_KEY)
+        syncTankCapacity(machine)
         if (logic.isIdle()) logic.markLastRecipeDirty()
         machine.markDirty()
     })
@@ -45,18 +58,19 @@
         const nativeEvent = event.event
         const recipe = nativeEvent.recipe
         if (recipe == null || String(recipe.id) !== cfg.CONVERSION_RECIPE_ID) return
-        // 先拒绝原始配方；若后续脚本异常被事件总线捕获，不能退回未缩放的最高产量。
+        // Reject the original recipe first; if a later script error is caught by the event bus, never fall back to the unscaled maximum yield.
         nativeEvent.setRecipe(null)
         const machine = nativeEvent.machine
         const data = machine.getCustomData()
-        // KubeJS LevelMixin 将 getGameTime 重命名为 getTime。
+        // KubeJS LevelMixin renames getGameTime to getTime.
         const now = machine.getLevel().getTime()
-        // MBD2 待机时可能重复搜索同一候选配方；被拒绝的启动尝试最多每秒检测一次。
+        // MBD2 may search the same candidate recipe repeatedly while idle; a rejected start is checked at most once per second.
         if (data.getLong(cfg.NEXT_CHECK_KEY) > now) {
             return
         }
         const heated = isHeated(machine)
-        const efficiency = getEfficiency(machine)
+        const multiplier = multiplierOf(machine)
+        const efficiency = getEfficiency(machine, multiplier)
         data.putBoolean(cfg.SAMPLED_KEY, true)
         data.putBoolean(cfg.HEATED_KEY, heated)
         data.putDouble(cfg.EFFICIENCY_KEY, efficiency)
@@ -65,14 +79,17 @@
         if (!heated || efficiency <= 0) {
             return
         }
-        // 始终复制：原配方由所有机器共享。本批开始后不再改变输出或检查火盆。
-        nativeEvent.setRecipe(recipe.copy($ContentModifier.of(efficiency, 0), false, $IO.OUT))
+        // Always copy: the original recipe is shared by every machine. Once a batch starts, its output and the brazier check no longer change.
+        // MBD2 re-modifies from the original recipe every batch (RecipeLogic.lastOriginRecipe), so level multipliers never stack
+        let modified = recipe
+        if (multiplier > 1) modified = modified.copy($ContentModifier.of(multiplier, 0), false, $IO.IN)
+        nativeEvent.setRecipe(modified.copy($ContentModifier.of(efficiency * multiplier, 0), false, $IO.OUT))
     })
 
     MBDMachineEvents.onBeforeRecipeWorking(cfg.MACHINE_ID, event => {
         const machine = event.event.machine
         if (machine.isRemote()) return
-        // 成功启动后清除重试限制；即使将来缩短批次，也允许下一批正常采样。
+        // Clear the retry limit after a successful start, so the next batch samples normally even if batches get shorter in the future.
         machine.getCustomData().remove(cfg.NEXT_CHECK_KEY)
         machine.markDirty()
     })
@@ -80,8 +97,8 @@
     MBDMachineEvents.onRecipeStatusChanged(cfg.MACHINE_ID, event => {
         const nativeEvent = event.event
         const machine = nativeEvent.machine
-        // 中途原料不足或缓存满导致待机时，使 MBD2 的快速路径失效。
-        // 恢复后必须从原始配方重新采样，不能复用上一批的效率与火盆结果。
+        // When missing ingredients or a full buffer send the machine idle midway, invalidate MBD2's fast path.
+        // After recovering it must resample from the original recipe instead of reusing the efficiency and brazier result of the previous batch.
         if (!machine.isRemote() && String(nativeEvent.getNewStatus().name()) === 'IDLE') {
             machine.getRecipeLogic().markLastRecipeDirty()
         }

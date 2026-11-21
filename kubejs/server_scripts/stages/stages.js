@@ -144,3 +144,13 @@ AStages.addRestrictionForItem('astages/item/netherite_jetpack', 'jetpack_2', 'cr
 ].forEach(stage => {
     AStages.customizeStage(stage).setAddTitle(unlockedTitle())
 })
+
+// Sculk Acoustics chapter (F5): one stage each for main line M1-M13 and side quests (M8 also grants fluid_drill). The locks of each stage are added along with the matching recipes
+;[
+    'scrying', 'soul', 'warden_sight', 'resonarium', 'gleam', 'fermentation', 'abyss_catalysis',
+    'otherside_fluid', 'digestion', 'warden_resonance', 'resonant_casing', 'resonance_core', 'echo_mechanism',
+    'amethyst_golem', 'source_converter_mk2', 'resonant_machines', 'resonarium_gear', 'sculk_spreader_mk2',
+    'abyss_extraction', 'soul_elytra', 'fire_essence', 'warden_gear'
+].forEach(stage => {
+    AStages.customizeStage(stage).setAddTitle(unlockedTitle())
+})
