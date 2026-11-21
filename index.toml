@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
-hash = "c924bf809b40f967027bd22fe90c7ee4931f015656999e1d1ec1545000e6af8c"
+hash = "2f0ed152239d4b1489d0c0f61c994f08fc9ed83a040bcead08dfa3016b650dbc"
 
 [[files]]
 file = "config/ars_nouveau-server.toml"
@@ -1518,31 +1518,39 @@ hash = "6807aac77ed275e7169b86587754b44fd252bfc4339bc8b565c190acd08c9d2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "481a69f227a6eaaa43a369adb15f44e1cbfacefec7c1b86fc64285539f080b5e"
+hash = "451769586a66eb524d42bad814e371a58d85d55991331c0c48b2ad128ba51aa4"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/725884AB89488808.snbt"
-hash = "5460e601095a5d7bd882f08cc7bde81ef71fc73d1bc2a9bb7e62afc6a72e3614"
+file = "config/ftbquests/quests/chapters/09933ce28d084db1.snbt"
+hash = "c698c4f0dae87250225083f607d87d5910b72e49066cdaaca3fb161fc7a8c84a"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/74FD9793EBF983AF.snbt"
-hash = "aff467045b318906de57f28d58da53453e6c7ec514c43732710a049db3bb2e2c"
+file = "config/ftbquests/quests/chapters/55595ef0b9eb9cf1.snbt"
+hash = "b326773e01bcc92cd1285caebb5bb1850ce0be297ad5bcbc76f32f50eba01371"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/7E04319371B01AD0.snbt"
-hash = "a7d277b4b639b1b1e3f22b3337d2272f2f4a42b95e64945dc11f50965a915250"
+file = "config/ftbquests/quests/chapters/725884ab89488808.snbt"
+hash = "9e85be5cb1ff6b73b06900aab5fc429bba42d7c38c8472f1eadb0d86f52f30db"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/74fd9793ebf983af.snbt"
+hash = "476147a97c9a6b5c27f3b1de6bd6fe5a2813c741c45e60f55a63a882d7a807db"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/7e04319371b01ad0.snbt"
+hash = "7b57c6e36e62a8187bb4fa63f2f252ecd9e9ee345c816e7493f22cf8a172959f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gugucraft.snbt"
-hash = "cbafc76e83a1b3cb9c6ed3ce22eab7ec573a9662b68ce77ce7a2408b6ffb86fd"
+hash = "09aa7e0b4b3ad0f163be96cba88f44dae261ab518253fd49bb3b2486ef857cef"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
-hash = "601f85e2a50ae34a4ec997244c6c0543778775d3948128f65c54b9428b817ad2"
+hash = "e5332e4bc9bb34efcfbb43234ce275d43ccc9bc3154abc437baa05bfc84651a4"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
+hash = "4e90e0c5f886d2f786e460a9be860404fa8062320269e86cddc4743ead6a95a0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
@@ -1550,15 +1558,15 @@ hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "a4b4bc9f51b7ff7d98f601f0e4b299d514c28abd805206dbb45a871e96b7fa58"
+hash = "7c563848fa660b6152dc062f717ef54993eca1f20f4e1192dcc704a642776be6"
 
 [[files]]
-file = "config/ftbquests/quests/reward_tables/49185B525CF28733.snbt"
-hash = "172c6d335fe8ea7490c97721ae509f4da02659526827e93cf080c7de3ef941fd"
+file = "config/ftbquests/quests/reward_tables/49185b525cf28733.snbt"
+hash = "471c1de98eabdf7f7886e0d89f123e04784e75e11bf4a680b003822e1cfccd92"
 
 [[files]]
-file = "config/ftbquests/quests/reward_tables/6CB5E0321863F6C6.snbt"
-hash = "eb0825ef414f63aa576ae2ef7eb0f4a8c84fa138bb9932535426e06fc4e5167d"
+file = "config/ftbquests/quests/reward_tables/6cb5e0321863f6c6.snbt"
+hash = "fc56a24bfbc3fed62097e92240e027885197810037197e4843eedf76c64f2c09"
 
 [[files]]
 file = "config/guguaddons-common.toml"
@@ -1637,12 +1645,32 @@ file = "kubejs/assets/createaddition/textures/item/iron_rod.png"
 hash = "36eeeaa058339e762ab448483d67570460c2c010f63664ba9316da968b6d7502"
 
 [[files]]
+file = "kubejs/assets/createmoremachines/lang/en_us.json"
+hash = "6492d987fc694e5aa60b01529222e0a10d1a73f7b60d3aff6d672090fc6012fa"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/lang/zh_cn.json"
+hash = "2d14122c3b99394d3cf23fcfce9283d8e07cb547be3d25d2a685cabd6cd59323"
+
+[[files]]
 file = "kubejs/assets/createmoremachines/models/block/basin/brass_basin.json"
 hash = "9f3f1162fb3e09ace1abdc352926fb534d954412f0aa8654820a7ad2995358d9"
 
 [[files]]
 file = "kubejs/assets/createmoremachines/models/block/basin/brass_basin_directional.json"
 hash = "e41268b0c727cb9f4f7371ae4adc860a0fbe8353e4c190d9c52519acd9aea3c4"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/basin/netherite_basin.json"
+hash = "4b89a952848bf8c1ccf3958df4cfa83250d3344f9c1dfa1fa2a1f3c6b6ab9e1f"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/basin/netherite_basin_directional.json"
+hash = "912de3d1706f9ce10c8bfd1690a98cbd485fcd8be41494a59f1a5890784b168e"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/crushing_wheel/netherite_crushing_wheel.json"
+hash = "0bac48a8bc76cf35abbff5c2e60c6a427cb8b751341653c00a5990e7b4fa4b29"
 
 [[files]]
 file = "kubejs/assets/createmoremachines/models/block/deployer/brass_deployer_horizontal.json"
@@ -1657,8 +1685,24 @@ file = "kubejs/assets/createmoremachines/models/block/deployer/item/brass_deploy
 hash = "f2ff7effa97cbc6c17a4f5c4beb2419515863cb9cba7d6a8f710fa7238d118da"
 
 [[files]]
+file = "kubejs/assets/createmoremachines/models/block/deployer/item/netherite_deployer.json"
+hash = "8987707c3fdc6d6713444859bf8ca9aa9278a748341896a7b86923fbf2e91814"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/deployer/netherite_deployer_horizontal.json"
+hash = "3feeb0c5f61eba86d66d7cb530b8d6a3894415db7aa34d1a5aeb5587d41c954f"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/deployer/netherite_deployer_vertical.json"
+hash = "d1ec39ad20dfbb07fe28073fc3392d5155ec1eba674ccb67b8b8e36bb706b677"
+
+[[files]]
 file = "kubejs/assets/createmoremachines/models/block/depot/brass_depot.json"
 hash = "d24684c68bab30ffe56a8b5408b1c8e8b15119b8847cf4859938a25036ad58e7"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/depot/netherite_depot.json"
+hash = "e606012424e71947b08490fb4eb54860d92728316604e053caa5d493e1d0a7cc"
 
 [[files]]
 file = "kubejs/assets/createmoremachines/models/block/mechanical_mixer/brass_mechanical_mixer.json"
@@ -1669,6 +1713,14 @@ file = "kubejs/assets/createmoremachines/models/block/mechanical_mixer/item/bras
 hash = "089f8c295d8a614d51882ef8bd4a3e7f528b61ca0a81abff4fd089b69ddf018b"
 
 [[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_mixer/item/netherite_mechanical_mixer.json"
+hash = "1a03610265b9a36e1c803416f9b48cfde9acf3b1ab1e39a3daa2556da2d3a669"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_mixer/netherite_mechanical_mixer.json"
+hash = "5c8d0ecd72b9252bbe2d301b4d2f5ff9813a12c8ccb0c26d7d9766d3494b463d"
+
+[[files]]
 file = "kubejs/assets/createmoremachines/models/block/mechanical_press/brass_mechanical_press.json"
 hash = "32b3d515982209e916db80e6e0285de9f3bff0038d37c057a95fddffef318379"
 
@@ -1677,12 +1729,32 @@ file = "kubejs/assets/createmoremachines/models/block/mechanical_press/item/bras
 hash = "e855daa4f975fdd141f491b3b037e7b0096a319aa40248e042dc75c9c24083d0"
 
 [[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_press/item/netherite_mechanical_press.json"
+hash = "f210c18857180bc45db75566239278d2d9c19dc55aa54b36a1b10054ec9e0cef"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/mechanical_press/netherite_mechanical_press.json"
+hash = "f2ce6ff611c07698370fa071b5b854669bc46cf0fa90c7c3803c8f06325f8df4"
+
+[[files]]
 file = "kubejs/assets/createmoremachines/models/block/spout/brass_spout.json"
 hash = "c62902a57625478edc42ab0d3603ec9da7844914562a454813dedddf1ac42c37"
 
 [[files]]
 file = "kubejs/assets/createmoremachines/models/block/spout/item/brass_spout.json"
 hash = "69e891fceb5d24807f976b64fb8c9844284f1ab5ee96d735ec4312480b9d6c80"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/spout/item/netherite_spout.json"
+hash = "26e515b8d832bbf96bf640d6eb5851e2e5b201300bcbe91d143c161036a1fbfe"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/block/spout/netherite_spout.json"
+hash = "85b7c12d40125660ce349e4cbf1eaf94bac56cd2cb226a19c1baaff00165c367"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/models/item/netherite_crushing_wheel.json"
+hash = "9335fd917cb74536b12428dfebace2e268806cc70ce2a498f98a2257f54ac675"
 
 [[files]]
 file = "kubejs/assets/createmoremachines/textures/block/brass_basin.png"
@@ -1801,8 +1873,128 @@ file = "kubejs/assets/createmoremachines/textures/block/brass_spout_nozzle.png"
 hash = "8f18cc8a5dd28b4e6b3fb9de5ec861cb31a85383c714734b830d24cb09867927"
 
 [[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_basin.png"
+hash = "6b3922c359f42279cb3c231be6e3b6c763f617044b14acddfa20737ae9ce5c03"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_basin_canal.png"
+hash = "225e3e6c54c6fd68f54b7e2d9dc88c290ade2432f19de1f114d8b4bd480b5ec4"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_casing_piston.png"
+hash = "b7fe304f55ff17767d7f82e1eb4ce35b583f844a8e51878e2e3f5ce1c0093ed8"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_casing_short.png"
+hash = "e0958ab79382c9da1d81d5406526bd0616868d7174fe80fab9adff9c925f7e92"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_crushing_wheel_insert.png"
+hash = "818adc3b554573bc9ed8364c86d8cd56b109073c65fb48dd748b9ccbac52bbbc"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_crushing_wheel_plates.png"
+hash = "6b5a5b78c9c0a0ceab23724160abb7fd13b040d7cebf7e1a8429b9cf55e80ecd"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_depot_side.png"
+hash = "ceb30c36230215f6b9d25c4f9725fa0cfde11c9233e2c26df22d3c5de94f04a8"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_depot_top.png"
+hash = "5f24c15222e3481ba8c6b62e20972c6ef953cbd176b79688c44c06f0cafe1f5a"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_encased_fan_back.png"
+hash = "e006ae0640da34e72609b57797071d39e42a78a2807a8f0070ea2a84b5d4438a"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_encased_fan_casing.png"
+hash = "b012e8a544933a9ee969b57c85a67f194820c1f44fe23642e6acc419b0422cee"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_encased_fan_frame.png"
+hash = "ae8e4aef063ed877ba8fd7794f6d2a2d71a820d03e194e290ba1f08aa3066ecd"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_encased_fan_side.png"
+hash = "512c4a3758af144ad4bcc936708bc89d8cd9f2cf471839ddd7a24814c355f7f6"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_encased_pipe.png"
+hash = "6ccc1d0fcca01892636ae41aed52dd7b3ab92435bc49dbbb103867dd1ace9449"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_mechanical_saw_belt.png"
+hash = "3c444756529b29eed0fac8bf0317bcc618405aaedc0f5dbce72a911f7ce31164"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_mechanical_saw_gearbox.png"
+hash = "e006ae0640da34e72609b57797071d39e42a78a2807a8f0070ea2a84b5d4438a"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_mechanical_saw_gearbox_top.png"
+hash = "ee6ffefe29bd4d9273a10c4bc2a7c1aa0d1ff2443cce4eb54d7ca3cd6137f205"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_mechanical_saw_saw_top.png"
+hash = "1b3123b834c80ee0f78ca4d1d34fbb85eea4a73e5e490769fc29c779b14333a5"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_mechanical_saw_saw_top_no_slot.png"
+hash = "8093bdc1f135fe6329054773b3b9f3382f3a7f6a8df4989cadc56e83a937de88"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_mixer_head.png"
+hash = "9275afe0e6471e96fba4f1720a5d14e8c7bf9148827b3769846d7a78fbc53004"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_mixer_side.png"
+hash = "7bddd051a2b4f50641879164a8587dc5eea257ea6f037036a5b47396bf0c501b"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_piston_bottom.png"
+hash = "f3c8bb1177718b422ed4072bc6d797b9853de16e02c67e870aa9bbdc50d04a99"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_press_bottom.png"
+hash = "4be99d6d47592900c653b49e0557a4612f809a33971ef45088ae0cf7d50f5bf1"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_press_side.png"
+hash = "8535d84f98e7c55c99ec2c12914b8323a37137bd38f0e8029a0d65059032c66b"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_press_top.png"
+hash = "0af70e7fa6616381a8bc77d5a725f5a486fa7b658db6b0cbdcc67913b4b9aad2"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_spout.png"
+hash = "7ebaa9596edc34a7cae2b0d90c7c1cae7cd7adce5ddf12cc0fc00f8c8ce45e05"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/netherite_spout_nozzle.png"
+hash = "4a6b5a16c727e2e6180dd765627bd8dbf26def1e925c5a097294c6a66b1f2dc6"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/resonant_machine_block.png"
+hash = "68b25ce4ad9fef476ca6f45de3f640e6c1d6d6acd926957ac51a55e97867c65f"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/resonant_machine_casing.png"
+hash = "06a89d1eb125e6d72c8dc7e2ef9bec6c9a8b0e5c8f9122c4391d13b3611f63ff"
+
+[[files]]
+file = "kubejs/assets/createmoremachines/textures/block/resonant_machine_gearbox.png"
+hash = "e006ae0640da34e72609b57797071d39e42a78a2807a8f0070ea2a84b5d4438a"
+
+[[files]]
 file = "kubejs/assets/deeperdarker/lang/zh_cn.json"
-hash = "9080ad423bc3cdda486a408e291acd6162d53720ce6c74340da2f0369ce0acad"
+hash = "3bbb218219fce6a48a1d6dce6a9ad7a70b27f42486f6af72796f377069ec61b4"
+
+[[files]]
+file = "kubejs/assets/deeperdarker/textures/item/resonarium_plate.png"
+hash = "8c950af477d972fe52a80f23127371f131a0e2f70084f7e642e67d096afadf3f"
 
 [[files]]
 file = "kubejs/assets/displaydelight/lang/zh_cn.json"
@@ -4909,6 +5101,18 @@ file = "kubejs/assets/ftbquests/textures/shapes/square/shape.png.mcmeta"
 hash = "23cafa521768d1245f5a4e46eca8e09851c971b4ddf4db7832cc0aa88827f05a"
 
 [[files]]
+file = "kubejs/assets/guguaddons/lang/en_us.json"
+hash = "bc5ede30d31196e737405015c9101cf441660cb73684c51b15838d9765dd76fc"
+
+[[files]]
+file = "kubejs/assets/guguaddons/lang/zh_cn.json"
+hash = "a18a28aa2f1ef722d5863653043dcec8b2b01d67fcbcf07c3b6df016c9265e4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/animations/warden_resonance_chamber.animation.json"
+hash = "0c9fb168ad45af6502e0e7c2cce04c2ead4aad24fe563283a0482bd56294d020"
+
+[[files]]
 file = "kubejs/assets/kubejs/blockstates/counter.json"
 hash = "2a005524746e0db0aa6c72e036ba8bf9fc86733a48240c305168803f775da13f"
 
@@ -4917,12 +5121,28 @@ file = "kubejs/assets/kubejs/blockstates/mythril_ore.json"
 hash = "60fb5035fdd5bbe5d407bc17a2d908910cc98675107dbec0da7af6574c943253"
 
 [[files]]
+file = "kubejs/assets/kubejs/geo/warden_resonance_chamber.geo.json"
+hash = "7b14bc62221eaaa832f9103c468c3444833cf4fb987908c787c247159dd22b99"
+
+[[files]]
+file = "kubejs/assets/kubejs/geo/warden_resonance_chamber_body.geo.json"
+hash = "ddf9ce7a7f5ac545b377cd7bca4779e6ccfd9fd66dd02548bbf2964a13ddf9af"
+
+[[files]]
+file = "kubejs/assets/kubejs/geo/warden_resonance_chamber_glass.geo.json"
+hash = "c035dc0d63411415222c29630a4ef8f94f64b62af28b51cfd5953f44404911b3"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "9db8223426b75724510c7fef0b6d10d98185eb0f27a867b688d243375a9e7674"
+hash = "1b3a6ca5e4974cb78b6d8898190b1460090c75580aea7a52fa7272960624d98f"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "b5e638673de4effcf0fb56669bca6c749125d281b177a47ec34934c6163ade54"
+hash = "995dcd9543f6564e0321317336933dc109e3914fee2ebe58718df5a0b184f252"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/alchemical_frame.json"
+hash = "593b1c677564c819b1c8f9cb913113c3215437abf014e774bbd1b64a2475a2ae"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/counter.json"
@@ -4931,6 +5151,30 @@ hash = "63412b1d631642cb3ac7a24f1506abe049475ba5f508fc4d5929056e9c338604"
 [[files]]
 file = "kubejs/assets/kubejs/models/block/mythril_ore.json"
 hash = "2e35b5555bb2093bfb10abdddfd19473388ff5126db4570b1681b83acd3f9bb0"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/sculk_spreader.json"
+hash = "0f33f3cd1dca8077fd1ead34e976592105a2c857a8664238a0c2022862d88f2a"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/sculk_spreader_working.json"
+hash = "0ce1ac481b621bb5d1013587e702c9a60b8a842d57603aebcb5534579303bb19"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/warden_chamber_shaft_up.json"
+hash = "dfc896cff0a5d07f3ced8a45974f0cc64352cae53a5bcc1ec100dd1f2c84fcdb"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/warden_resonance_chamber.json"
+hash = "4c36a2468b1860eef0ad75668b92fce66272241855c9c6c486a9d474f3953b4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/warden_resonance_kinetic_input.json"
+hash = "c58da8f6084917eeb0f855fc74db1aa8d219be7942c9149d3bcdb67a449d0c61"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/archwood_sap_bucket.json"
+hash = "e034d233bf1cf68aef03e32175286981ab52d8dbe6049d56c233a4c8e1973472"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/counter.json"
@@ -4945,8 +5189,76 @@ file = "kubejs/assets/kubejs/models/item/diamond_contract.json"
 hash = "553e8695a1881deb6d51a235bd96c2b09c86b2e2d1dd7b1d746f5fa36f110756"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/dilute_liquid_source_bucket.json"
+hash = "9d7249f36c4524c27a1f7f77854e6f38bd60fa115ba928943c64858d5be39237"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/dormant_arcane_core.json"
+hash = "06cdfab8fa1585044d38baf58cb530aeeef42c875ba5f16afb95c1f90eeb356b"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/echo_spirit_bucket.json"
+hash = "f2f3f1e6753b17a24a080a1f24914b243242ac53300524d9298735655ec2ec53"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/gleam_lubricant_bucket.json"
+hash = "2ae0ee2adf152bdbfa73aa31e1843faa07ad49e6e7fa00c463790644d867df2a"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/item/gold_contract.json"
 hash = "553e8695a1881deb6d51a235bd96c2b09c86b2e2d1dd7b1d746f5fa36f110756"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_alchemical_frame.json"
+hash = "295961d975a561adb8cf6abcd533d61439f6787154b91809d7503e20a9823741"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_centrifuge.json"
+hash = "ed8db974b25f339960b343462ed468e1dd4e1dd148a98080a5a08a154bd43d4a"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_dormant_arcane_core.json"
+hash = "295961d975a561adb8cf6abcd533d61439f6787154b91809d7503e20a9823741"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_mob_jar.json"
+hash = "a5fdf92930d52eed4efd325d512a7dd0f234f98bb4e3a969f8554538d0dc853d"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_relay.json"
+hash = "fdd2c9774c64066bff3b2f7dbd23c0bd73b23b4e8430fdd2562fe1775d7e5e7e"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_repository.json"
+hash = "406a0162ca43abbdc0cc4fe8d985bcc656e9870fa3d3a846d0b7172844947e4a"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_resonant_casing.json"
+hash = "7ba915093b7b4b3a89a28f5a7cb80190177c8101d9f14d42d9a642710dbf641b"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_sculk_spreader_upgrade.json"
+hash = "be792af678ba0b077f784af8a859f0c36a7e2f69c6b54305c4b16ec6a699f741"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_source_converter_upgrade.json"
+hash = "622d5746ac78f8985016d7f20b32baaa1cb7d8372dc3157ccabac2248315cbb6"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_storage_lectern.json"
+hash = "c684e510e062d7960aaa471c0cf8522675af2260eb602b3b8f1a378596ae1ac4"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_timer_spell_turret.json"
+hash = "585ddad5451d383c94f5adb96f519cb2091df96a798e9809f21acd5f96471294"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_unaligned_relay.json"
+hash = "1a5fb7b46e03c6f7f46b300fb96d077774ac016fce403406ecbe1bc42987a179"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/incomplete_vacuum_chamber.json"
+hash = "28e03c940b2b4101deafedf9b173255edc9cc58af98da905ed9e08bd8089920d"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/iron_contract.json"
@@ -4965,8 +5277,48 @@ file = "kubejs/assets/kubejs/models/item/mythril_solvent_bucket.json"
 hash = "e06e90641f5dd75793429d2b86d64fde6d0eee7c7b8c118f036a593a566752b8"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/otherside_slurry_bucket.json"
+hash = "f0b31f493cedf5d64d2c9855ee8e3d212f6b1aeabd008a464c1e12939b67ba19"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/source_mash_bucket.json"
+hash = "be6af106180738327e7b47e0f473d6661173375f76fe0a52f810e2292bfcb364"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/item/station_linker.json"
 hash = "59ecdf9c6c739448a832337fd9466d12cf07a03bf648ed4be7ab5ae5d58e332d"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/unaligned_relay.json"
+hash = "634d694af076b59fc77e4883ffa05437a17aa1895833b12f47efe13f3ac096ed"
+
+[[files]]
+file = "kubejs/assets/kubejs/ponder/warden_chamber.nbt"
+hash = "1503f3f4fabd726a0f67de83a35d0a183fe5b54daba4cfb7a525bfce5ef1d18c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/activated_sculk_catalyst_bottom.png"
+hash = "004d6b307b0fef135d93ad41f16ce3616a7f0bdca78d781afc92753a14531ceb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/activated_sculk_catalyst_side.png"
+hash = "a056e059c47a3b4e061250f0590e806ee86ba769dfbedd15d79cacb18cf39960"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/activated_sculk_catalyst_side.png.mcmeta"
+hash = "e9b8025fde1b09b0a4d2a38427b04f98f28a593045be6d177eb2b29164c872b0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/activated_sculk_catalyst_top.png"
+hash = "06d2783bd9a838b09750d092c9256a58756d5d96824a7802e60da48f14f2390b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/activated_sculk_catalyst_top.png.mcmeta"
+hash = "e9b8025fde1b09b0a4d2a38427b04f98f28a593045be6d177eb2b29164c872b0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/alchemical_frame.png"
+hash = "2b3c9710877ca38bd125eab1a46f94ed6d79d8cabfcabdb88be990160be970c6"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/arcane_casing.png"
@@ -4975,6 +5327,10 @@ hash = "65c4afc637ccb6170629738a7e821221bba8df54a8c012dd5a961d6d827f828e"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/arcane_casing_connected.png"
 hash = "164b01c5ad553e55aa998454da806599486e3958e97eee8146f1c7e41910de26"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/carapace_fragment_block.png"
+hash = "dd73213bd110fdc93a8108eab38ae4958e09b3785cabfb2dd66b1a4907815c00"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/counter_bottom.png"
@@ -4991,6 +5347,110 @@ hash = "aba28b34825f7ec8c56a1c4a20a8445d05b108ca2dcf11d3056c2c5643f7f987"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/mythril_ore.png"
 hash = "aab685df2c8563ef4207efd1f2e0d39d5d039b502c7da09640c0b5836aeb1c03"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/resonant_casing.png"
+hash = "c5e9a16a0a44a40c5d0e2e22934b9498404204fae4ab8c9b1b937cb8e94fb147"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/resonant_casing_connected.png"
+hash = "11c8cb8e7881d8f9bf5462a1e4bfc5dcb9d5056e92aac119ac5c73191efb03ff"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/sculk_spreader.png"
+hash = "5714a720966fa3523a67eed7addf57a6af2dfc07ca62db6521c2f836bdf09aa4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/sculk_spreader_working.png"
+hash = "f0436100ef57dc6c99885841035a2eb0439aa19819de6d870023e6c71decce3b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/sculk_spreader_working.png.mcmeta"
+hash = "491ea51d46bc1f0c0ff11ed9293461cc67de293c7672abbc45f67563f8fe1f1a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/warden_resonance_chamber.png"
+hash = "970095519c1b7016e75697944932a903a44c8dc7f2c62d1e06baaa0643315383"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/warden_resonance_chamber_formed.png"
+hash = "18ef4066d2d921dae4d694d922988499f609b099a8ac2bbf96bc7a25cb0b668f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/warden_resonance_chamber_formed_glowmask.png"
+hash = "49d2ad377c31eca0ac386ea4fad05cab0aed0a78eee7a6514304fee95cfad185"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/warden_resonance_kinetic_input.png"
+hash = "3163e055b75bffc3e45253b790037522b00f6d404d25a130db282992895f09d7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/entity/drill/resonant_drill.png"
+hash = "cd487d8a1078fbd955a6367f1be82cbe8b2bb87832f8644c852916a89cf6a3d9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/archwood_sap_flow.png"
+hash = "2150f0da2f69cbb7a24349429b711dc67c645a5cf41ed48bd04ee0636662a461"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/archwood_sap_flow.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/archwood_sap_still.png"
+hash = "2150f0da2f69cbb7a24349429b711dc67c645a5cf41ed48bd04ee0636662a461"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/archwood_sap_still.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/dilute_liquid_source_flow.png"
+hash = "0a0a0cacd8716b3bad5d3b5f06cd974ab7071568577413e85dc449ab98b34cab"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/dilute_liquid_source_flow.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/dilute_liquid_source_still.png"
+hash = "0a0a0cacd8716b3bad5d3b5f06cd974ab7071568577413e85dc449ab98b34cab"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/dilute_liquid_source_still.png.mcmeta"
+hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/echo_spirit_flow.png"
+hash = "abe7a4202d9e21d65a1ab0c2f282dcd72c61295b5bf7fe77cc0e6bcfbfcfa567"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/echo_spirit_flow.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/echo_spirit_still.png"
+hash = "761b8299525ed89014e3496b291a0479303ea2283544bdc04423f2072b902ee1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/echo_spirit_still.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/gleam_lubricant_flow.png"
+hash = "f38763114af0a71cae9bc13cab62f03ce255c24803a8022e4b8f511ef944fa79"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/gleam_lubricant_flow.png.mcmeta"
+hash = "3c29912ce13abcb8ecf4b0d5b4112896036531b58d3ab3f68b869d23ca5b41e4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/gleam_lubricant_still.png"
+hash = "f20cb2c05be618dec6b3491f09dc2d2a6fa30ec3e33d35ea15e2aa349f8c4e9e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/gleam_lubricant_still.png.mcmeta"
+hash = "3c29912ce13abcb8ecf4b0d5b4112896036531b58d3ab3f68b869d23ca5b41e4"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/fluid/liquid_concrete_flow.png"
@@ -5045,6 +5505,42 @@ file = "kubejs/assets/kubejs/textures/fluid/mythril_solvent_still.png.mcmeta"
 hash = "f0e84ee6690f97d4b9bcc81cdabb53cf634e01be4fa053e61b75e027b697851f"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/fluid/otherside_slurry_flow.png"
+hash = "ccd2e47bed8a81014b056ba4364ddc282c12f39b20b409d8d0b3f00e60812d60"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/otherside_slurry_flow.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/otherside_slurry_still.png"
+hash = "1ba7e0e34e8168f57df5f001e07196a7ee6f55242953dfd08db8ee47d6920886"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/otherside_slurry_still.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/source_mash_flow.png"
+hash = "176f3257cfc5a21441664443db12ee0fc4fe95b3806c1063a86c0086eac57654"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/source_mash_flow.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/source_mash_still.png"
+hash = "176f3257cfc5a21441664443db12ee0fc4fe95b3806c1063a86c0086eac57654"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/source_mash_still.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alchemy_seal.png"
+hash = "d14400b100c0b439bf8e3822b7ff6556493873df0cf98f178248ad952cddc0f9"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/arcane_ingot.png"
 hash = "cd152db05348604b91a56e9c42cb3b4faba244bc34b87c2e326676f382d78ffa"
 
@@ -5061,12 +5557,52 @@ file = "kubejs/assets/kubejs/textures/item/arcane_sheet.png"
 hash = "0ca8d2e6850561260275ecb2f42c1bb644aff33c20af594753a3d5607a2b4f89"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/archwood_sap_bucket.png"
+hash = "9b7155faf53ad46b0b6bf639b217d58cf984e5063d16226f482c2af7130d7812"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/blank_seal.png"
+hash = "47f2b8092eb7e0c37fca20067c5263e8a0d7ef75e36a0a0d8c9c2b100a208159"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/carapace_fragments.png"
+hash = "f5806d4d6de825595a6551758605d10c0f39e86bc563a281cc8f252240ef5449"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/crushed_mythril_ore.png"
 hash = "4bfe79bd2b686a700bbac077dd9d0650044457c89b92a9733c5abf23aeaef361"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/crushed_raw_netherite.png"
 hash = "a6403db8ecfb5a22d21984dfc24d1e251be55adbcaa08449600fa841461c3787"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/dilute_liquid_source_bucket.png"
+hash = "fa38572b7571c50966c905c499d7632dab05aff45f658f1daad93f30d59f2dfe"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/dormant_arcane_core.png"
+hash = "f09582fe5abcf11ce01937130c8ff5dea365985a43383de4e159268ef901d592"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/dormant_sculk_seal.png"
+hash = "17bf8fb3bd1e6c8206e98e4f5d658bd28e33c7889a3f883409080f8261f416ec"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/echo_mechanism.png"
+hash = "443b3ad910fa3cd4135158c9b52b7359f0bc751f59357f70a192775d04e93ca2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/echo_mechanism.png.mcmeta"
+hash = "96db1772346a18d8241923c0579cca91efceb361dea1bac1fa904f5517d78673"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/echo_spirit_bucket.png"
+hash = "68aaa2c8f7f34a53d43e02ef53b59fb5794db55fc8c094cf0872267e17cb2f2c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/gleam_lubricant_bucket.png"
+hash = "bcf7fddef40b32a89790140c4d54b197c680e8207e30e897c727f9ac4a55f10c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/hallowed_gold_ingot.png"
@@ -5081,16 +5617,44 @@ file = "kubejs/assets/kubejs/textures/item/incomplete_arcane_mechanism.png"
 hash = "8a6aa38cf40acb8450cbf6b3a64eb9223ff31d59e0a7b9b04a552e62590cba67"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_blank_seal.png"
+hash = "719c30970cd09120840ca9a478b968d077d507081b011386516ba304c38c9c93"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_deduction_casing.png"
 hash = "d44906e0ac657aa887665d6d4a31de37e5381c03d4cf5fc678658b1d7330787f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_echo_mechanism.png"
+hash = "7e569344092fef43cb3e1c188b77848e51390c1aad702497f78b318304050334"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_inscribed_draft.png"
+hash = "69e4aca1be7c36eb9d9eb241627260809d4743d2ad17f9aa4601fccc3a50873a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_kinetic_mechanism.png"
 hash = "a883333aca60780879b5645b4041f22c287d6be9be2d4eab2527e0ba1b9a444b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_unattuned_essence.png"
+hash = "9abac6af276788ce3f8b4f556f3ddb87ec070fb912316049b78aaa11725be107"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_unbound_spellbook.png"
+hash = "cad96771e65a4b4a651adf2d941dc17b4c6a8d8596bc91868eb276470f6347f2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_uncharged_source_seal.png"
+hash = "a84914625fec3f0f39f552336da75e8b1ba6e4266cf4f1b649e820112f13c079"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_warp_stone.png"
 hash = "a5df531ed3d32ad6297ed6dfffe8d9f0798031eed61af3416070ee62e3609bb9"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/inscribed_draft.png"
+hash = "f5507bf8ecd4851ff72bd0a279f78052fbaa730b86384a603c53c2e57f7da982"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/kinetic_mechanism.png"
@@ -5117,12 +5681,132 @@ file = "kubejs/assets/kubejs/textures/item/mythril_solvent_bucket.png"
 hash = "341b0c2e1502a1ec20657b86f43e401c94d08954928363979a52765757a826cb"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/otherside_slurry_bucket.png"
+hash = "163fe4a140198ceb501950a5c27c6770db107d642cb7d8ee138f4057cfff0981"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/raw_mythril.png"
 hash = "db87170e086d6daec56ac12ae2f2958ab02d63a67d71a698462409f9687badc1"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/resonance_core.png"
+hash = "28bc5982e1d3ad62e5767dbd71d5ac128509112d00aa6739b729770ca8fc27e6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/resonance_core.png.mcmeta"
+hash = "96db1772346a18d8241923c0579cca91efceb361dea1bac1fa904f5517d78673"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/resonance_nucleus.png"
+hash = "7200a53c9ea62b524e2301e1912c758c6acc9abff3e7320bf4b57da099e6e7b4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/resonance_nucleus.png.mcmeta"
+hash = "96db1772346a18d8241923c0579cca91efceb361dea1bac1fa904f5517d78673"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/resonant_draft.png"
+hash = "5ddeadf6fb9257c12d1d3f310b7e6db0d459472961028bdacac95791315b7df4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/resonant_drill.png"
+hash = "bb7c2b74927807b17d43107b6a2bd935eff823ec4da4323798b31a658408731b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/resonant_shell.png"
+hash = "0c55761bdb3e0334c973e82a7b90da65eaace51d5b28ca3cb1271a722ef08b29"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/resonarium_ingot.png"
+hash = "387d4f510c1f5bc56300d0797d421bcaaf6913ddc4144e3f9bca7610740f5a78"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/salted_blank_seal.png"
+hash = "581a7d01392fc240a84b5b0d8b1faf7c0c71b845af82a8d4efc00d6a15d12eb7"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/saw.png"
 hash = "2527119b535d994d5bd86e6aac935422efb471859d13c01a7ac2282a7a2ba0e5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_dregs.png"
+hash = "398abb13e95760799c11d962ebbebe6171897df7e65e0940972d1d50403d1da0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_niter.png"
+hash = "c2de55bc403f5858bf453bce5873cb263d068df0226998a4d440e0cf6b4e8bd0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_niter_powder.png"
+hash = "ac5fa314fc8699adce4e93e572da08c6e11f031b8dc21bd61accc2da8e0941f8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_salt.png"
+hash = "c60ee5c1a8bc5d26d7f0d1e991cc02b8e2c9b5bb2a02645df32080260dfdc5ac"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_seal.png"
+hash = "4ed5f91e2ec2e45a6b55f87d47b452f2cda443790919f10698ede12d132bb005"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_seal.png.mcmeta"
+hash = "d1e77f71dc0860d72b053363c7fefc41f2ea8ee6be779921d44f4fd8cba1faf3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_spreader_upgrade.png"
+hash = "527a4ba138234f33322382d5818373503ba8618a6065546ecce941c6efc7a3f1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sculk_sulfur.png"
+hash = "96393578f2a31002c5321d5ae0123c3c46a63f605ee080e4a11ad53964e01bbb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/seeing_echo_shard.png"
+hash = "db8457134f1ebc646e63dfdd0c6e013ca3d259809560c56c1425142442945d58"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/source_converter_upgrade.png"
+hash = "3ef00468259e07e00d60c7b2b424c1f2f15eca6ebe5553c736f75fd42be798cc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/source_mash_bucket.png"
+hash = "e8dcd35827c174570d52c52bfa9a651b649595df89daa6ddb08305e105520c53"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/source_seal.png"
+hash = "207609f3bb1fbf78294383910878afb29216b0ee1261a1a1ed6e9ba225a7ffa7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/source_seal.png.mcmeta"
+hash = "497b992cd5686ee0df3014ca16f36fe085c837783c2d29b97501482d6382cdda"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sulfurized_blank_seal.png"
+hash = "170de0dd832f260589d4efba91fc36bacb98fc3838713cca2c4af72e3a1eb4b3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/tempered_carapace.png"
+hash = "379aae16335aafaf8cb2a7553276449193e6a5d4c42bd0d75d6c64e9e73d0a9d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unaligned_relay.png"
+hash = "5141d86fd003ea2676b2e33a5e1c5d9ba50d3d8a39be2252a9e594291dab3f6e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unattuned_essence.png"
+hash = "e32e4cba64fa17c670cd537c297356347823835a3a48e34f340d4a825441cdff"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/unbound_spellbook.png"
+hash = "cbef3a810587ec7549a5535c3e3c2e3037bd10aeb777825432849a31589f2c15"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/uncharged_source_seal.png"
+hash = "e36a911821abcb53e1d900cede5239adc1ae746dcf5746a1c0045f1bf68bcd3e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/warden_seal.png"
+hash = "53f106dfbc9a5c69a33747e93533878e4da9bfe18a74b0bd45ca96adf0d6b0db"
 
 [[files]]
 file = "kubejs/assets/legendarytooltips/textures/gui/tooltip_borders.png"
@@ -5243,6 +5927,14 @@ hash = "d4d6ca44d17c76f9abca1cdfa71dfefcff04820d1fdd5f78ad9effade5e46a09"
 [[files]]
 file = "kubejs/assets/lootr/textures/shulker_opened.png"
 hash = "844579d932ddbb36b6d2a31eb7be58b2bf249a8872ce72d07f811a8d2b7964a3"
+
+[[files]]
+file = "kubejs/assets/mbd2/lang/en_us.json"
+hash = "69b42a793c48bb9dae84a6e1f4591d07f504f425f7d1f62cde5aec447d162fcf"
+
+[[files]]
+file = "kubejs/assets/mbd2/lang/zh_cn.json"
+hash = "9f317b76ddc229767f4e44eb16c541980a0db32e4e42385ebe2ba2faa9184f71"
 
 [[files]]
 file = "kubejs/assets/minecraft/atlases/blocks.json"
@@ -7458,47 +8150,55 @@ hash = "b69cb09c95683e7650b4bfc1a50f79dbda3735e5fe2fe7b182c482b32eec57a0"
 
 [[files]]
 file = "kubejs/client_scripts/arcane_casing/connected_textures.js"
-hash = "5cc124948be9975a3d88c40de5a1d096ff28639eebe632b52aa5a80416b5dc41"
+hash = "aca8a9c3fa9ca64c57b7c77bc4ed76e69f384b2a8d399dc298e49308df45759d"
 
 [[files]]
-file = "kubejs/client_scripts/arcane_casing/lang.js"
-hash = "d396146b684ae339eba86bc97b201655ea99a1c546473b9c8885c5b6ac5f6a13"
+file = "kubejs/client_scripts/arcane_industry/mystery_conversion.js"
+hash = "b5666785eaa40f9c044d429543331feb15cb52bb1e305ab0e116716c7cc86e58"
+
+[[files]]
+file = "kubejs/client_scripts/arcane_industry/ponder_rituals.js"
+hash = "9cc0c29f227d6643e1f2c08320bb9de37e994107301dc390f958cbe9d1a72dc6"
+
+[[files]]
+file = "kubejs/client_scripts/arcane_industry/sculk_spreader.js"
+hash = "85221bfb753610f247443f6a462cca5f5461ec7a13319c4fc264dfc401847e4b"
 
 [[files]]
 file = "kubejs/client_scripts/ars_nouveau_tooltips.js"
 hash = "3a2d644d14c6a8983d50173a5598b96135b81464bc19be48a9c4da0c327b38b4"
 
 [[files]]
-file = "kubejs/client_scripts/createmoremachines/lang.js"
-hash = "6b0b496fdc447b0e679fe08c893bb746a30f67d3203640376ba0cfa87183e3c1"
-
-[[files]]
-file = "kubejs/client_scripts/ee_integration/20_createaddition_lang_overrides.js"
-hash = "59f763de5046ee0b0bc6dd76da7150816ea524c4aa3cc1bf45e4342e5108dd30"
-
-[[files]]
 file = "kubejs/client_scripts/emi_removal.js"
-hash = "9ec1b4a820d77819d7858bb72b2978909c9ca356f989956c2d02f5ae85e40e64"
+hash = "b5d9f9e81fd036d0f1574fc6ccd11fec72d0cb2108cf90bdffe4ee181613ca7c"
 
 [[files]]
 file = "kubejs/client_scripts/jsconfig.json"
 hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
 
 [[files]]
+file = "kubejs/client_scripts/sculk_acoustics/ponder_warden_chamber.js"
+hash = "4f34af51da8b104b22e94f966ae321aee6ac3d8eed290f551e44d46fc330ec74"
+
+[[files]]
+file = "kubejs/client_scripts/sculk_acoustics/resonant_casing.js"
+hash = "9f1115b7f554fd78d16e5a53e3fd21972bdba3343a96b00dd164f80aca3f2d6c"
+
+[[files]]
+file = "kubejs/client_scripts/sculk_acoustics/warden_chamber.js"
+hash = "7827f1c244e7c738ea150613e39b769a218dd87a3daf6d9f6c46ab872e225b07"
+
+[[files]]
 file = "kubejs/client_scripts/source_converter/goggles.js"
-hash = "3b2078656bdb6b00b2e108a65bafbc8f84691e6b5c817d82c0c69801e1809582"
+hash = "f3b59fd58718c185a1251fbbabd6d9166e13f2df6114da1aac727de87a7dc431"
 
 [[files]]
 file = "kubejs/client_scripts/source_converter/jade.js"
-hash = "659713967becbf3c5a2be6dc957e495c8801a6a4842260c393921f772fc36584"
-
-[[files]]
-file = "kubejs/client_scripts/source_converter/lang.js"
-hash = "b132bf39203b7ef653f177914946706cea3b81aa63a8454f17dda90d257c4da4"
+hash = "771dcf9ce10f415bb4105f59077c32c4e97846214ac7df1398218f652d85a74a"
 
 [[files]]
 file = "kubejs/client_scripts/source_converter/tooltip.js"
-hash = "c370e533a97b5877418add5f726f8f7e43f83d6e4731d9793d4af9e3fd3daa96"
+hash = "7d32f4e02c5ad13116d20282fb8e167bd010710096707572636525c0334c791c"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -7543,6 +8243,14 @@ hash = "fdeb33c1341a658bee01b4acc56e1159e4e381e67b7c7c67add9c6f518a6237b"
 [[files]]
 file = "kubejs/data/ars_nouveau/worldgen/structure/stalker_wilden_den.json"
 hash = "d583d5d474d3b2e5e1dedd1dcf9ac74f56749b4f3f7045b33896e00e7a79235a"
+
+[[files]]
+file = "kubejs/data/deeperdarker/loot_table/entities/sculk_leech.json"
+hash = "389865d8edc4df407cb9d89177d45db8b12e8ca1ce3ff6122298c7d6bf6bbfa4"
+
+[[files]]
+file = "kubejs/data/deeperdarker/loot_table/entities/sludge.json"
+hash = "a9c746382dec373c424d553e5770c1fd82e1bb374138a68325e0948c5d01e003"
 
 [[files]]
 file = "kubejs/data/dungeons_arise/loot_table/chests/abandoned_temple/abandoned_temple_entrance.json"
@@ -8593,6 +9301,14 @@ file = "kubejs/data/kaleidoscope_cookery/loot_table/straw_hat_seed_drop.json"
 hash = "3adbea00d403ef87c1a0947cd7454c602bd66c982f7927f0f341b4746bac8670"
 
 [[files]]
+file = "kubejs/data/kubejs/loot_table/alakarkinos/carapace_fragment_block.json"
+hash = "6962183c523d16329f96334b1a12fc69bfbc34b7ea8f05a59e19811baea0afce"
+
+[[files]]
+file = "kubejs/data/kubejs/predicate/in_ancient_city.json"
+hash = "495c36b9bae2d2d417c84a619d1a727c9e091f32d2be3fae944bb7fc5689fdbc"
+
+[[files]]
 file = "kubejs/data/kubejs/tags/worldgen/biome/no_ars_nouveau_natural_generation.json"
 hash = "0c615d27d6e7932dab70603593b0d4b2098f06e605c17c7e8549a677ec84ef94"
 
@@ -8610,7 +9326,7 @@ hash = "d5a62316cac563bbc97eaf3a20c8a9a5b7f2f562c49f96eab4643def74252092"
 
 [[files]]
 file = "kubejs/server_scripts/compat/ars_nouveau.js"
-hash = "bd4c7c9e5f6e78e8dd595c0b0eb2e4c28cbdd9c80d93df9a4924a10932645de7"
+hash = "3046979aea06389ed78dfef931dd88959cff99d0167204f96c65b4faba55be44"
 
 [[files]]
 file = "kubejs/server_scripts/compat/cca.js"
@@ -8626,7 +9342,7 @@ hash = "35955998e387cae9a588274703594c4a001327a8aa0dbe9eebffef5b969945bf"
 
 [[files]]
 file = "kubejs/server_scripts/compat/createmoremachines.js"
-hash = "a26ed16545ff4186a895decc251ca90db2ed04719baed6ea814ebade3b7147b9"
+hash = "b109b1309890a5b6ad5ca285781775e1355d1cdc31f08b87ea5f674411abe4ff"
 
 [[files]]
 file = "kubejs/server_scripts/compat/farmerscompat.js"
@@ -8666,15 +9382,51 @@ hash = "3369a2f5f9cd466b4b31f09dbd6dcc5bcb854896c4d8933ecd4fcfd4c90dd69b"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/dungeons_arise/aivary.js"
-hash = "34c054de75d0d221a8ee15f22067049d05a1f56e179e83cc5ed83714b33ffb0d"
+hash = "b6544c6c980144454f3915e045b2e76f10d4a6706a789a5bdff62123f1a4963c"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/dungeons_arise/bandit_towers.js"
-hash = "d654f811af629a2c8f0ee97c229490e0f32183c28469d0cdcecff73166cb237f"
+hash = "46b66fd3a88cf947b79da5ba1191d130ef0c04dc99310d83cc14e2b4dcd1249d"
 
 [[files]]
 file = "kubejs/server_scripts/loot_table/ore_loot.js"
 hash = "4f3f20b30707575cb65ab35216a39b6ee767cd4988c4c41fbe9f1df93527d90a"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/alchemy.js"
+hash = "7d790008e81d734822f285099e84df93dc9b9c13cd865716a1ffcf517ac72470"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/apparatus.js"
+hash = "a2f46ee836561a0050dc1069eb1236efacc8bde80cdff70df193da1584a5c521"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/ars_blocks.js"
+hash = "62686c994ee9c90ecd9535c63f897c380c16308967c720aca25f5718b50b27dd"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/charms.js"
+hash = "a9510418da72dc435971611ea974b74f260797f83223fe144bb381590c2892c4"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/essence.js"
+hash = "3016cd394fe5733a80597852eaf5ff2a5ba7bf0a0a028978c3d894a7fa131f95"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/fluid_drill.js"
+hash = "88ea24dfa1452af0182826b215443f109bdd7399750d7f8208c2063d0f403ef8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/sculk_materials.js"
+hash = "7c71fe0d72db798aa9e3878f7d33176991fc6929b2aa29dae7ec1dcc44358afe"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/sculk_spreader.js"
+hash = "717252e5ada34447883d457112212a0e967527ad7efa0be9e9a1361cf6acfc0f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/arcane_industry/source_industry.js"
+hash = "87e469a750dd6f4cbc55cbd115e2032f1a292500310266e24d4e0a70650b5515"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ars_nouveau/imbuement.js"
@@ -8686,7 +9438,7 @@ hash = "6493c58b4d16fa53de29b196505580a92508e1628c715d4d137b5cc8f94a5158"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/item_application.js"
-hash = "b7356f2173cd8f741ca65bd7c5fa1a634ad66620761b45af104d59cda4350b9e"
+hash = "551b3d7caeb72f24f5c602a3e0021894acc078f0b6c642905906203b1e99ff1f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/preesing.js"
@@ -8698,7 +9450,11 @@ hash = "d8de60d7f563f0738997e8b6c5616d1e26414b9d9a02da0e5127435e5eb66b01"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/createmoremachines/arcane_machines.js"
-hash = "b9886764b8aac3e80dba80dcfc10123c68ef32f8870d3976d7a31f4e94e86461"
+hash = "ec38854c3b29a2305a0df8a11a30aaee991b9e41fa9cc1a205084a926792af72"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/createmoremachines/resonant_machines.js"
+hash = "6588d29d1bc4268635c338124b717c96a960985c3b28a71c34eb2c8d28fc331d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/dragonplus.js"
@@ -8722,15 +9478,51 @@ hash = "46b45bf2b48192b98d78b8b6fdf9e9ef50d89f57d84c84f598694c734ed53c46"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_crushing.js"
-hash = "05cfe1936be623c04d1467227b7130529c4a9fb8f141909aabfa64f9456a3a1e"
+hash = "58f7e2c0eba23b955d2a10fcde0eb085bdedcecc7e6bd6f7b680211417e5ee2a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/lychee/block_interacting.js"
-hash = "68e697352924883789c4a78863c9a772685844095a8c658aab8f2fec8371edab"
+hash = "d8b267e569ddc8b7bf3625b55b1ec80642ba87fc2ffd39a796a94b7d5468c9d3"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/branches.js"
+hash = "bb8d3635987d13b57563fd78ab9ca9c30ae35b1849646b9a68320ef0f69dbed2"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/catalysis_fluid.js"
+hash = "d7b8b789c772f1842edc5ceec01b13a1aecbae278aa7114bc66d996b616b1e4b"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/echo_mechanism.js"
+hash = "37b26fae26d396f59cf9f5434ede9d7b65a0011c15d4609540b74da869d4ce98"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/machine_upgrades.js"
+hash = "10190103b07882aef5da13ec3d3b74ddeaf78b8e3044607464e9b7a087b3941d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/resonarium_gleam.js"
+hash = "472e7caaf0e46fa6c4b305e8ed58a46a61d2005fa2381d6e205c642302174386"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/scrying.js"
+hash = "fb7cd0495d0d0b73ece3ef60c1a6ba7a94d61b7ae3258c0f207cee76f0d3389d"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/vats.js"
+hash = "4f8a90e295fe0e892f2d86d6e14aa78295d2ece74f3c6df52ba0b20bc906dfe7"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/warden_chamber.js"
+hash = "0b2f3c34d1f8bcc66ca4470c94e4cbb5f73d25a63670f29a9367a321f5245320"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/sculk_acoustics/warden_sight.js"
+hash = "3e14ff95d9ac88370c5236d77ceca16ad8cae6daa68d2170cc0a0041ba61f15d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/source_converter.js"
-hash = "25c20bb7884f8a2c59ceeec238c85cabe14999f58c1bacfa97d486ff62dd063d"
+hash = "573eac7dd0b299ee97319a45a6a0d0c8304f1936a34aa102c3b84ed1b1053544"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/theurgy/calcination_oven.js"
@@ -8757,6 +9549,18 @@ file = "kubejs/server_scripts/recipes/waystone.js"
 hash = "69222b269fbd09ff03d7ebe46d71162277b480dc588b7fb1edee9f6a58e388c8"
 
 [[files]]
+file = "kubejs/server_scripts/sculk_acoustics/darkness.js"
+hash = "76bf5a9e3dfc73fc0e0a1fbe06a1948097271f1fcf34d0ab67fec0b171bfac11"
+
+[[files]]
+file = "kubejs/server_scripts/sculk_acoustics/gleam_growth.js"
+hash = "87dc12c2cf4d78a508fcc3d085a3a17b5f15a9032eb81d87a71116a2152e6ead"
+
+[[files]]
+file = "kubejs/server_scripts/sculk_acoustics/machine_upgrades.js"
+hash = "1b1e91ab69a5cb4977f4190ef33083d2676f35b92a2a42c06001d089c53dea22"
+
+[[files]]
 file = "kubejs/server_scripts/security/illegal_item_cleaner.js"
 hash = "120d183f6194f2d25b7d5037127349d5127787ae4f0e7884cbdf2b3b2e4be12c"
 
@@ -8781,12 +9585,32 @@ file = "kubejs/server_scripts/selling_game/05_hud.js"
 hash = "54f0badc7ea41fb1797e3333e02f1e18f7ce3616c7768a006ebc75efbf6f5a68"
 
 [[files]]
+file = "kubejs/server_scripts/stages/arcane_industry.js"
+hash = "08d687a2eee5a2a16988b0be75eafc70a80cd5cba86d58d886367e680503e807"
+
+[[files]]
+file = "kubejs/server_scripts/stages/legacy.js"
+hash = "91b09947050b84807753727b3abcec8443dff4c985deb9eb6ca66615d7f80342"
+
+[[files]]
+file = "kubejs/server_scripts/stages/sculk_acoustics.js"
+hash = "f39a9bf0f3e9b43a19986a5baed4d4a2fad5c54126fcbb01c8fb1cc39ad02d4a"
+
+[[files]]
 file = "kubejs/server_scripts/stages/stages.js"
-hash = "f464940eadf954318715392ace9ead8749605eded98dc46d815ea8b71fef46b5"
+hash = "e5fe2ecc349e9ed6deb1cafd3e3a75e28538e1e879140c8e52ed80545d75dbcc"
+
+[[files]]
+file = "kubejs/server_scripts/tags/arcane_industry.js"
+hash = "6b802f2cda030afc921e26170497a54fc477aa233f0d865c343b8decdc6fba36"
 
 [[files]]
 file = "kubejs/server_scripts/tags/fluid.js"
 hash = "4d39814b3f62bf2924788ae7d2f65985bd3cbd3905333c78993681f049532c3e"
+
+[[files]]
+file = "kubejs/server_scripts/tags/sculk_acoustics.js"
+hash = "a2a1849bf4b8ce2d6a3e79622848c556502189a261697ab6f666ee7aeb0c2941"
 
 [[files]]
 file = "kubejs/server_scripts/tags/worldgen.js"
@@ -8798,27 +9622,47 @@ hash = "1fcabcfac2c4f86a797c8baa30e65783671305333f555ee89a1b3d38d8a724c9"
 
 [[files]]
 file = "kubejs/server_scripts/tech/ore.js"
-hash = "2ccc45bb5f7efff07466c33329eb234a7e61a39ec33964eff4488bc57cd86423"
+hash = "4f78d8585a5c1b0ec47f8dad153708e5528c13d0c2288b8e5c60f0d79e1a300b"
+
+[[files]]
+file = "kubejs/server_scripts/tech/sculk_spreader.js"
+hash = "8c50d3b21d2b41c6a559ee755480ccee21fc3a4a4bc14666ec5bfbde131192d8"
 
 [[files]]
 file = "kubejs/server_scripts/tech/source_converter/inspection.js"
-hash = "3be5e9931633442450e5b546aa23d35685eda210b22deaf37db873c8ddd43307"
+hash = "91fccf307c5999070400d8de3d390b8f481e0f0eb1fa26344481b41b1ae6f04b"
 
 [[files]]
 file = "kubejs/server_scripts/tech/source_converter/logic.js"
-hash = "c41eca88dcc7dc5599b530ae13ccd36df2aab2767845cb4aeaad7cb0615829ba"
+hash = "af71367fbaf8b03ce52e81886eadae1f7495854aa65dba4617aa01a60b0fee9d"
 
 [[files]]
 file = "kubejs/server_scripts/tech/source_converter/transfer.js"
-hash = "84ab71b651a12d1b51b638a391f2a5cdb2bd3d88ee886092ca92372d2b0e4595"
+hash = "2261f70bec19abc3fa5064fb859b2bca8ff93a15a803e8d3b2876342f977ee1d"
+
+[[files]]
+file = "kubejs/server_scripts/tech/warden_chamber.js"
+hash = "7d4da8185bf67948111e8bc3901f2f4f9543b53ac3394a191f25f0f9e33d4d82"
 
 [[files]]
 file = "kubejs/server_scripts/util/dragons_plus.js"
-hash = "7ce1c89ad5c86a85c7f83142739cc5444815b901381786cfdd909e7ec05883f3"
+hash = "13886e42a7977eec183d2ca7298e90103503d09422a24d8def6ce37c71bd4766"
 
 [[files]]
 file = "kubejs/startup_scripts/arcane_casing/registry.js"
-hash = "30dc6aeea55d3a0c14cafa00f25d3bac97c874a76c4852a6272b27bae7238d51"
+hash = "99a4ca66f65a913c7ccda90dd38c5283916c5573e0fac03246d3ad7b288f8405"
+
+[[files]]
+file = "kubejs/startup_scripts/arcane_industry/00_config.js"
+hash = "d98c0ede9c6840c1e1efc64e1893e36e371870e667d8cece7a5ef0db2cec4423"
+
+[[files]]
+file = "kubejs/startup_scripts/arcane_industry/registry.js"
+hash = "c6a934aa1a3860f29c642306e85ed801bcaffe87e613eb4feb0d9d745a749ae0"
+
+[[files]]
+file = "kubejs/startup_scripts/arcane_industry/sculk_spreader.js"
+hash = "69df9dbec1b1c5033949bd5ddf78c7cdfc96cc59a1977eac0ec810e0cc7841e5"
 
 [[files]]
 file = "kubejs/startup_scripts/ee_integration/10_ore_sound_fix.js"
@@ -8826,11 +9670,11 @@ hash = "1cec3e846664134efdc37a1a84d8de8cda5d124788c742201d46b4df8b4b1fba"
 
 [[files]]
 file = "kubejs/startup_scripts/fluid.js"
-hash = "29e8fbd35937bd2e02cc8c0ed689fb59ad34bd909837eddde2ee77e72494db92"
+hash = "c23cc29f15763d284c87a98aba98435d5c895ab60ee40132fe80e36c9f09dd12"
 
 [[files]]
 file = "kubejs/startup_scripts/item.js"
-hash = "eea78c7b18a075d6bbbd8e6fb8e4bac05a6810a3d0395f7b2418a56e9a77fe64"
+hash = "86a1133f08f069a95c3501cfa30ee140ad9c0cc1c9c3373080472d55cc2f4b08"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
@@ -8838,7 +9682,19 @@ hash = "9a75b8dd95ef5b2dd64998a78ef9c621b0d8e5578c9fd3e3bc268b1853258ca9"
 
 [[files]]
 file = "kubejs/startup_scripts/ore_registry.js"
-hash = "28a184d6271b8f5f2ec985288e0c334567f610868b2244e190b32ab822dfb189"
+hash = "f99363411a3f3164df998c1309c9d8b6c9abb6c88b14b508286eef4b24dc3b48"
+
+[[files]]
+file = "kubejs/startup_scripts/sculk_acoustics/00_config.js"
+hash = "70f11720ecd38442f73a95ccd19a1245e396e5b675f95c9709d6fdd4a41fee87"
+
+[[files]]
+file = "kubejs/startup_scripts/sculk_acoustics/registry.js"
+hash = "4b1b651210989816777b5d5727a9911b612719e8eb370dda3fa1be8a84951df3"
+
+[[files]]
+file = "kubejs/startup_scripts/sculk_acoustics/warden_chamber.js"
+hash = "31dbeb4b491d1ff6a47f5d09e8f293805742be47ed250dfb27111c01900639f8"
 
 [[files]]
 file = "kubejs/startup_scripts/selling_game/00_config.js"
@@ -8858,11 +9714,11 @@ hash = "ffc83717c287bfeda1d1fbd8ae47c03d711beb65a830a68de0f7a1c48f483813"
 
 [[files]]
 file = "kubejs/startup_scripts/source_converter/00_config.js"
-hash = "1352c35cebba8d9aef19853df1a28bf430df820b526fde3a064fbe2d4a6e5f3f"
+hash = "169d105ce1b7b827b4cd4595569ee65d1513f60469299a2db464e0e987fb312b"
 
 [[files]]
 file = "kubejs/startup_scripts/source_converter/01_machine.js"
-hash = "beb9ced732989c20769df095c5f2d066d8dd93c3bc23533e6f84e915203cf4bf"
+hash = "fcf3f96e98d30883a4ad433a8ad76fe9c3cc57637a1915b666b47f63df8b365b"
 
 [[files]]
 file = "mods/accelerated-recoiling.pw.toml"
@@ -9154,6 +10010,11 @@ hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
 metafile = true
 
 [[files]]
+file = "mods/emiaccelerator.pw.toml"
+hash = "3ef97c6123b6b5b1c0939190034d34412ad5e596b03dd75b83994331129530e1"
+metafile = true
+
+[[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "ac4e0cf6211625b432284e8f057592a2a0fa1c2fc33b94f9bf710153c4b79522"
 metafile = true
@@ -9436,6 +10297,11 @@ metafile = true
 [[files]]
 file = "mods/platform.pw.toml"
 hash = "cf4f9fdb9d7cf582d1068fae6ca9bf7fe6d3f0f1dbb031627f339f73477d325c"
+metafile = true
+
+[[files]]
+file = "mods/ponder-kjs.pw.toml"
+hash = "763ca3a7d927dfd1ece4d8cc2aedce1acf29614cf7d58b77234f8c748d5f7802"
 metafile = true
 
 [[files]]

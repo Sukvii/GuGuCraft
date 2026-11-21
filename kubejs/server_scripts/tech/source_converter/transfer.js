@@ -14,8 +14,8 @@
         const source = machine.getTraitByName(cfg.SOURCE_TRAIT)
         if (source == null) return
         const autoIO = source.getRuntimeAutoIO()
-        // onTick 在原生 trait.serverTick 前触发；接管调度，避免同一轮重复输出。
-        // 传输本身仍调用 MBD2 handleAutoIO，沿用容量限制、能力缓存与原有侧面设置。
+        // onTick fires before the native trait.serverTick; take over scheduling so one round never outputs twice.
+        // The transfer itself still calls MBD2 handleAutoIO, keeping the capacity limits, capability cache and existing side settings.
         if (autoIO.enable.get()) source.setAutoIOEnabled(false)
         if (machine.getOffsetTimer() % autoIO.intervalTicks() !== 0) return
         const storage = source.getStorage()
@@ -29,12 +29,12 @@
             const before = storage.getSource()
             source.handleAutoIO(pos, side, $IO.OUT)
             if (storage.getSource() >= before || particleFailed) return
-            // 与 Ars SourcelinkTile.tick 相同的追踪光球、默认颜色和客户端拖尾。
-            // 原生工具会检查区块与附近玩家；仅成功输出时调用一次。
+            // Same tracking orb, default color and client trail as Ars SourcelinkTile.tick.
+            // The native utility checks chunks and nearby players; called once, only on successful output.
             try {
                 $ParticleUtil.spawnFollowProjectile(level, pos, pos.relative(side), color)
             } catch (error) {
-                // 视觉异常不能中断后续出口的魔源传输。
+                // Visual errors must not interrupt the Source transfer of the remaining outputs.
                 particleFailed = true
                 console.error('[SourceConverter] Ars transfer particles disabled until script reload: ' + error)
             }

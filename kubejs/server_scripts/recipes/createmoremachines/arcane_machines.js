@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
     ]
 
     machines.forEach(machine => {
-        // 复用 Create 的右键装配：消耗一个奥术机壳，升级已放置的原版机器。
+        // Reuses Create's right-click assembly: consumes one Arcane Casing to upgrade a placed vanilla machine.
         event.recipes.create.item_application(`createmoremachines:brass_${machine}`, [
             `create:${machine}`,
             'kubejs:arcane_casing'

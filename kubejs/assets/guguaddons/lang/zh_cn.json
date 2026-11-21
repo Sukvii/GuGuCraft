@@ -1,0 +1,28 @@
+{
+  "block.guguaddons.source_converter": "魔源转化器",
+  "block.guguaddons.source_converter.tooltip.summary": "从_液态魔源_中提炼_魔源_，为奥术装置供能。",
+  "block.guguaddons.source_converter.tooltip.condition1": "用于生产时",
+  "block.guguaddons.source_converter.tooltip.behaviour1": "将液位维持在_半满附近_，即可保持_满额产出_。储液过少或过多，都会导致_大幅减产_。",
+
+  "block.guguaddons.sculk_spreader": "幽匿蔓延器",
+  "block.guguaddons.sculk_spreader.tooltip.summary": "以_魔源_和_经验颗粒_为食，把周围的_深板岩_转化为_幽匿块_。",
+  "block.guguaddons.sculk_spreader.tooltip.condition1": "结构",
+  "block.guguaddons.sculk_spreader.tooltip.behaviour1": "必须放在_活化幽匿催发体_正上方。催发体同层、周围 7×7 范围内的深板岩才会被转化。",
+  "block.guguaddons.sculk_spreader.tooltip.condition2": "运行时",
+  "block.guguaddons.sculk_spreader.tooltip.behaviour2": "每批转化数块深板岩；新长出的幽匿块上方有空间时，偶尔会长出_幽匿感测体_或_幽匿尖啸体_。",
+  "block.guguaddons.sculk_spreader.tooltip.condition3": "放入未唤醒的幽匿之印时",
+  "block.guguaddons.sculk_spreader.tooltip.behaviour3": "只在_不见天日_的_深层地下_（Y < 0）、且周围 7×7 已_全部化为幽匿块_时才会唤醒它。",
+
+  "block.guguaddons.warden_resonance_chamber": "监守者共鸣室",
+  "block.guguaddons.warden_resonance_chamber.tooltip.summary": "把一只_监守者_关进隔音的罐子，用不同的频率刺激它，换取它的_甲壳_或_共鸣晶核_。",
+  "block.guguaddons.warden_resonance_chamber.tooltip.condition1": "环境",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour1": "只能在_幽冥_工作，罐子里_一丝光都不能有_。需要附近的_魔源罐_和_应力_。",
+  "block.guguaddons.warden_resonance_chamber.tooltip.condition2": "收到红石信号时",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour2": "信号_弱_时为低频，监守者会平静下来；信号_强_时为高频，它会越来越_躁动_。",
+  "block.guguaddons.warden_resonance_chamber.tooltip.condition3": "躁动时",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour3": "越躁动，产出越多——直到它_忍无可忍_。比较器能读出它的情绪，_羊毛_能让它冷静。",
+  "block.guguaddons.warden_resonance_kinetic_input": "共鸣室动力接口",
+  "block.guguaddons.warden_resonance_kinetic_input.tooltip.summary": "为_监守者共鸣室_输送应力。",
+  "block.guguaddons.warden_resonance_kinetic_input.tooltip.condition1": "安装时",
+  "block.guguaddons.warden_resonance_kinetic_input.tooltip.behaviour1": "放在共鸣室底层_后面中间_，_传动杆_一面朝外，从这一面接入动力。"
+}

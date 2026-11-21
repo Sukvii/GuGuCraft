@@ -5,15 +5,15 @@
     const $BlockPos = Java.loadClass('net.minecraft.core.BlockPos')
     const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
 
-    // 普通单方块 MBD2 机器没有 Create 的护目镜接口，存量也不默认同步到客户端。
-    // 仅向正在查看且戴有护目镜的玩家回复数据，不为每台机器添加 tick 或持续广播。
+    // Plain single-block MBD2 machines have no Create goggle interface, and their storage is not synced to the client by default.
+    // Data is only sent to players looking at the machine while wearing goggles; no per-machine tick or constant broadcast is added.
     NetworkEvents.dataReceived(cfg.HUD_REQUEST, event => {
         const player = event.getEntity()
         if (player == null || !$GogglesItem.isWearingGoggles(player)) return
-        // Entity.level() 在 KubeJS 中隐藏，使用 EntityKJS 的访问器。
+        // Entity.level() is hidden in KubeJS; use the EntityKJS accessor.
         const level = player.getLevel()
         const request = event.getData()
-        // LevelKJS.getDimension() 已经返回 ResourceLocation。
+        // LevelKJS.getDimension() already returns a ResourceLocation.
         if (String(request.getString('dimension')) !== String(level.getDimension())) return
         const pos = new $BlockPos(request.getInt('x'), request.getInt('y'), request.getInt('z'))
         if (player.distanceToSqr(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5) > 64 || !level.hasChunkAt(pos)) return

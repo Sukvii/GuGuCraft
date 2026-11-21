@@ -1,7 +1,7 @@
 // priority: 1000
 
 ServerEvents.recipes(event => {
-    // 注入 createDragonsPlus 到 event.recipes 对象中
+    // Inject createDragonsPlus into the event.recipes object
     event.recipes.createDragonsPlus = {
         ending: (results, input) => {
             let resultJson = []
@@ -9,11 +9,11 @@ ServerEvents.recipes(event => {
 
             results.forEach(r => {
                 if (typeof r === 'string') {
-                    // 处理 '3x minecraft:stone' 这种字符串
+                    // Handle strings like '3x minecraft:stone'
                     let item = Item.of(r)
                     resultJson.push({ id: item.id, count: item.count })
                 } else {
-                    // 直接传递对象
+                    // Pass objects through as is
                     let resultItem = r.item ? r.item : r.id
                     let resultObj = {
                         id: resultItem,

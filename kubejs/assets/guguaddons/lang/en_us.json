@@ -1,0 +1,28 @@
+{
+  "block.guguaddons.source_converter": "Source Converter",
+  "block.guguaddons.source_converter.tooltip.summary": "Refines _Liquid Source_ into _Source_ to power arcane devices.",
+  "block.guguaddons.source_converter.tooltip.condition1": "When Producing",
+  "block.guguaddons.source_converter.tooltip.behaviour1": "Keep the tank _around half full_ for _full yield_. Too little or too much liquid will _greatly reduce output_.",
+
+  "block.guguaddons.sculk_spreader": "Sculk Spreader",
+  "block.guguaddons.sculk_spreader.tooltip.summary": "Feeds on _Source_ and _Experience Nuggets_ to turn nearby _Deepslate_ into _Sculk_.",
+  "block.guguaddons.sculk_spreader.tooltip.condition1": "Structure",
+  "block.guguaddons.sculk_spreader.tooltip.behaviour1": "Must sit directly on an _Activated Sculk Catalyst_. Deepslate on the catalyst's layer within a 7x7 area is converted.",
+  "block.guguaddons.sculk_spreader.tooltip.condition2": "When Running",
+  "block.guguaddons.sculk_spreader.tooltip.behaviour2": "Each batch converts a few blocks; new sculk with free space above may grow a _Sculk Sensor_ or _Sculk Shrieker_.",
+  "block.guguaddons.sculk_spreader.tooltip.condition3": "With a Dormant Sculk Seal",
+  "block.guguaddons.sculk_spreader.tooltip.behaviour3": "Awakens it only _without sky access_, _deep underground_ (Y < 0), once the whole 7x7 area has _turned to Sculk_.",
+
+  "block.guguaddons.warden_resonance_chamber": "Warden Resonance Chamber",
+  "block.guguaddons.warden_resonance_chamber.tooltip.summary": "Locks a _Warden_ in a soundproof jar and stimulates it at different frequencies for its _Carapace_ or a _Resonance Nucleus_.",
+  "block.guguaddons.warden_resonance_chamber.tooltip.condition1": "Environment",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour1": "Only works in _the Otherside_, with _no light at all_ inside. Needs nearby _Source Jars_ and _stress_.",
+  "block.guguaddons.warden_resonance_chamber.tooltip.condition2": "With a Redstone Signal",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour2": "A _weak_ signal is low frequency and calms the Warden; a _strong_ one is high frequency and makes it _agitated_.",
+  "block.guguaddons.warden_resonance_chamber.tooltip.condition3": "When Agitated",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour3": "The more agitated, the more it yields - until it _snaps_. Comparators read its mood; _wool_ calms it down.",
+  "block.guguaddons.warden_resonance_kinetic_input": "Resonance Chamber Kinetic Input",
+  "block.guguaddons.warden_resonance_kinetic_input.tooltip.summary": "Supplies stress to the _Warden Resonance Chamber_.",
+  "block.guguaddons.warden_resonance_kinetic_input.tooltip.condition1": "Placement",
+  "block.guguaddons.warden_resonance_kinetic_input.tooltip.behaviour1": "Goes in the _back middle_ of the bottom layer, _shaft side_ facing out; connect power on that side."
+}

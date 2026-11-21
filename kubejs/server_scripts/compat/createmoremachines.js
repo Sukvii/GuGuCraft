@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
-    // 仅保留压板，以及合金与合金块之间的压缩／解压配方。
-    // 根目录的 *_alloy 是解压配方，合金生产配方位于 mixing / mechanical_crafting 下。
+    // Only keep the plates and the compress / decompress recipes between alloys and alloy blocks.
+    // The root *_alloy recipes are decompression; alloy production recipes live under mixing / mechanical_crafting.
     const keepRecipeIds = new Set([
         'createmoremachines:pressing/netherite_sheet',
         'createmoremachines:pressing/end_sheet',

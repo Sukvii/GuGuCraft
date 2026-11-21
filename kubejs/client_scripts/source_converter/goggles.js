@@ -52,7 +52,7 @@
             clear()
             return
         }
-        // KubeJS 的 dimension 属性是 ResourceLocation，原生 dimension() 已被重映射。
+        // The KubeJS dimension property is a ResourceLocation; the native dimension() has been remapped.
         const dimension = String(client.level.getDimension())
         if (target == null || target.dimension !== dimension || !target.pos.equals(pos)) {
             clear()
@@ -72,15 +72,15 @@
         const data = event.getData()
         if (!matchesTarget(data)) return
         lines.clear()
-        // 按 LangBuilder.forGoggles/getIndents 为图标留 16px；不让泛型 List 转换丢失新增行。
+        // Leave 16px for the icon like LangBuilder.forGoggles/getIndents; keep added lines from being lost in the generic List conversion.
         const padding = ' '.repeat(Math.ceil(16 / Math.max(1, $Minecraft.getInstance().font.width(' '))))
         lines.add($CreateLang.builder().text(padding)['add(net.minecraft.network.chat.Component)'](
             Text.translate('goggles.gugucraft.source_converter.source', data.getInt('source'), data.getInt('source_capacity'))
         ).component())
     })
 
-    // 按实装 Create 6.0.10 的 GoggleOverlayRenderer.renderOverlay 调用原生 Tooltip 和图标渲染器。
-    // 普通 MBD2 方块没有 IHaveGoggleInformation 接口，在 Create 护目镜图层后提供这一行数据。
+    // Calls the native tooltip and icon renderers like GoggleOverlayRenderer.renderOverlay in the shipped Create 6.0.10.
+    // Plain MBD2 blocks lack the IHaveGoggleInformation interface, so this line of data is provided after Create's goggle overlay.
     function renderOverlay(event) {
         const client = $Minecraft.getInstance()
         if (target == null || lines.isEmpty() || client.player == null || client.level == null ||
@@ -111,7 +111,7 @@
             }
             $GuiGameElement['of(net.minecraft.world.item.ItemStack)']($AllItems.GOGGLES.asStack()).at(x + 10, y - 16, 450).render(graphics)
             if ($CreateMods.MODERNUI.isLoaded()) {
-                // 与 Create 的 ModernUI 分支相同：临时对齐鼠标像素，绘制后恢复。
+                // Same as Create's ModernUI branch: snap to the mouse pixel temporarily and restore after drawing.
                 const mouse = client.mouseHandler
                 const scale = client.getWindow().getGuiScale()
                 const cursorX = mouse.xpos()
@@ -134,14 +134,14 @@
 
     NativeEvents.onEvent($RenderGuiLayerPost, event => {
         if (renderFailed || String(event.getName()) !== 'create:goggle_info') return
-        // NativeEventWrapper.Listeners.accept 直接调用 Consumer，不会像 KubeJS 事件那样捕获脚本异常。
-        // 渲染失败后停止本信息框并仅记录一次，避免异常冒出渲染线程导致客户端崩溃。
+        // NativeEventWrapper.Listeners.accept calls the Consumer directly and does not catch script errors like KubeJS events do.
+        // After a render failure, stop this panel and log only once, so the error never escapes the render thread and crashes the client.
         try {
             renderOverlay(event)
         } catch (error) {
             renderFailed = true
             clear()
-            console.error('[Source Converter] 护目镜信息框渲染失败，已停用至客户端脚本重新加载：' + String(error))
+            console.error('[Source Converter] Goggle panel rendering failed; disabled until client scripts reload: ' + String(error))
         }
     })
 })()

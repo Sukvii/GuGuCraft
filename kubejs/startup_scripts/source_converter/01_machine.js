@@ -1,4 +1,4 @@
-// MBD2 21.1.2 / LDLib2 2.2.42：机器注册必须在 startup 阶段完成。
+// MBD2 21.1.2 / LDLib2 2.2.42: machines must be registered during startup.
 (() => {
     const cfg = global.SOURCE_CONVERTER
     const $IO = Java.loadClass('com.lowdragmc.mbd2.api.capability.recipe.IO')
@@ -14,12 +14,12 @@
     const $Shapes = Java.loadClass('net.minecraft.world.phys.shapes.Shapes')
 
     MBDRegistryEvents.recipeType(event => {
-        // 仅隐藏配方浏览器中的转换分类，机器仍使用此配方类型运行。
+        // Only hides the conversion category in recipe viewers; the machine still runs this recipe type.
         event.createRecipeType(cfg.RECIPE_TYPE).setXEIVisible(false)
     })
 
     MBDRegistryEvents.machine(event => {
-        // 当前模型的部件均无旋转；启动时合并一次，碰撞与选取共用模型几何。
+        // No part of the current model is rotated; merge once at startup so collision and selection share the model geometry.
         const model = JSON.parse(JsonIO.readString('kubejs/assets/ars_nouveau/models/block/liquid_sourcelink.json'))
         let shape = $Shapes.empty()
         model.elements.forEach(element => {
@@ -33,16 +33,16 @@
             () => $MachineState.baseBuilder(),
             () => new $ModelRenderer($ResourceLocation.parse('ars_nouveau:block/liquid_sourcelink'))
         )
-        // createSingleDefault 会强制设置完整方块形状，必须在工厂返回后覆盖。
-        // working / waiting / suspend 状态继承此形状，运行时不再读取模型或合并。
+        // createSingleDefault forces a full block shape, so it must be overridden after the factory returns.
+        // The working / waiting / suspend states inherit this shape, so the model is never read or merged at runtime.
         rootState.shape().setValue(shape.optimize())
 
-        // KubeJS builder 的键是 single；single_machine 是编辑器定义类型名。
+        // The KubeJS builder key is single; single_machine is the editor definition type name.
         event.create('single', cfg.MACHINE_ID)
-            // 方块与物品共用液态魔源通道模型；液面复用 Ars 的 source_still 动画贴图。
+            // The block and the item share the Liquid Source channel model; the fluid surface reuses Ars's animated source_still texture.
             .rootState(rootState)
             .blockProperties($BlockProperties.builder().destroyTime(3).explosionResistance(6).canOcclude(false).build())
-            // 工厂在注册表就绪后执行，此时才能安全引用自定义流体。
+            // The factory runs once registries are ready, which is when custom fluids can be referenced safely.
             .machineSettings(() => {
                 const settings = $MachineSettings.builder().hasUI(false).build()
 
@@ -71,12 +71,12 @@
             })
             .recipeLogicSettings($RecipeSettings.builder()
                 .recipeType($ResourceLocation.parse(cfg.RECIPE_TYPE))
-                // 连续批次开始前重新修改原始配方，检测火盆并按当时液位计算产量。
+                // Before each consecutive batch, re-modify the original recipe, check the brazier and compute the yield from the current fluid level.
                 .alwaysModifyRecipe(true)
-                // 完成时才扣液体；缓冲不足或中途失去原料时不会吞掉输入。
+                // Fluid is only taken on finish; a short buffer or ingredients lost midway never swallow the input.
                 .consumeInputsAfterWorking(true)
                 .recipeDampingValue(0)
                 .build())
-        // MBDRegistryEvents 在事件结束时自动 build / 注册。
+        // MBDRegistryEvents builds / registers automatically when the event ends.
     })
 })()

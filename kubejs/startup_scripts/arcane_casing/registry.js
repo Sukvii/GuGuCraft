@@ -1,11 +1,11 @@
-// 客户端脚本重载时保留注册状态，Create 的模型包装只在首次烘焙前注册一次。
+// Keeps the registration state across client script reloads; Create's model wrappers are registered once before the first bake.
 global.ARCANE_CASING_CLIENT = {
     connectedTexturesRegistered: false
 }
 
 StartupEvents.registry('block', event => {
     event.create('kubejs:arcane_casing')
-        .displayName('奥术机壳')
+        .displayName('Arcane Casing')
         .texture('kubejs:block/arcane_casing')
         .hardness(1.5)
         .resistance(6.0)

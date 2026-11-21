@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    // 原木复用 Ars Nouveau 的标签，同时允许四面去皮的至高木块。
+    // Logs reuse the Ars Nouveau tag and also accept Archwood blocks stripped on all four sides.
     const strippedArchwood = Ingredient.of([
         '#c:logs/archwood_stripped',
         'ars_nouveau:stripped_blue_archwood_wood',

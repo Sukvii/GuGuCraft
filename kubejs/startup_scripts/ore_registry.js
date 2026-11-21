@@ -1,6 +1,6 @@
 StartupEvents.registry('block', event => {
     event.create('mythril_ore')
-        .displayName('秘银矿石')
+        .displayName('Mythril Ore')
         .hardness(4.0)
         .resistance(4.0)
         .tagBlock('minecraft:mineable/pickaxe')

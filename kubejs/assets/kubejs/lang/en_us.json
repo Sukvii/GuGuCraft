@@ -40,5 +40,9 @@
   "message.kubejs.employee.hired_diamond": "Hired a diamond-tier employee.",
   "message.kubejs.employee.mode_working": "Employee: working (auto-selling).",
   "message.kubejs.employee.mode_paused": "Employee: paused (not selling).",
-  "message.kubejs.employee.mode_off": "Employee: off duty."
+  "message.kubejs.employee.mode_off": "Employee: off duty.",
+
+  "goggles.gugucraft.source_converter.source": "Source buffer: %s / %s",
+
+  "block.kubejs.arcane_casing": "Arcane Casing"
 }
