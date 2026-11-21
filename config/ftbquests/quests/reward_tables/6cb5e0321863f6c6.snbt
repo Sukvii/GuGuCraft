@@ -1,0 +1,62 @@
+{
+	hide_tooltip: true
+	icon: {
+		id: "create:white_toolbox"
+	}
+	id: "6CB5E0321863F6C6"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 8
+			id: "4A148ADD7CB32DD3"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+		}
+		{
+			count: 4
+			id: "20861658C224BDC4"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+		}
+		{ id: "54614BD92C6211C7", item: { count: 1, id: "create:white_toolbox" } }
+		{
+			count: 16
+			id: "6EE9597997FCFF4D"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+		}
+		{
+			count: 16
+			id: "5220C841AD16D16B"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{
+			count: 16
+			id: "4F116257B379303C"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+		}
+		{ id: "60FB50965956C274", item: { count: 1, id: "create:super_glue" } }
+		{
+			count: 8
+			id: "64A9959BBD2D4024"
+			item: {
+				count: 1
+				id: "create:polished_rose_quartz"
+			}
+		}
+	]
+	use_title: true
+}
