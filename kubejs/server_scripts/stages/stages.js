@@ -131,3 +131,16 @@ AStages.customizeStage('jetpack_2')
     .setAddTitle(unlockedTitle())
 
 AStages.addRestrictionForItem('astages/item/netherite_jetpack', 'jetpack_2', 'create_jetpack:netherite_jetpack')
+
+// Arcane Industry chapter (F4): one stage each for the opening, main line M1-M12 and side quests (fluid_drill is above, granted by the "Fluid Drill" node in the M11 column)
+// The item and recipe locks of each stage are added along with the recipes of the matching node
+;[
+    'arcane_essence', 'arcane_machines', 'source_converter',
+    'source_industry', 'containment', 'drygmy', 'sculk_imbuement', 'alakarkinos', 'sculk_spreader',
+    'mercury', 'salt_sulfur', 'reformation', 'incubation', 'enchanting_apparatus', 'heart_of_the_deep',
+    'source_relay', 'whirlisprig', 'spell_basics', 'spell_control', 'starbuncle', 'spell_mobility',
+    'spell_utility', 'spell_combat', 'spell_harvest', 'timer_turret', 'spell_building', 'spell_mechanism',
+    'magic_storage', 'wixie'
+].forEach(stage => {
+    AStages.customizeStage(stage).setAddTitle(unlockedTitle())
+})

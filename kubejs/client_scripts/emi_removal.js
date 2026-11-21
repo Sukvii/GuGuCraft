@@ -21,7 +21,21 @@ RecipeViewerEvents.removeEntries('item', event => {
         'theurgy:liquefaction_cauldron',
         'theurgy:purified_gold',
         'theurgy:sal_ammoniac_accumulator',
-        'theurgy:sal_ammoniac_bucket'
+        'theurgy:sal_ammoniac_bucket',
+        // Arcane Industry M7-M10
+        'theurgy:distiller',
+        'theurgy:mercury_catalyst',
+        'theurgy:mercury_shard',
+        'theurgy:caloric_flux_emitter',
+        'theurgy:alchemical_sulfur_deepslate',
+        'theurgy:sulfuric_flux_emitter',
+        'theurgy:reformation_source_pedestal',
+        'theurgy:reformation_target_pedestal',
+        'theurgy:reformation_result_pedestal',
+        'theurgy:incubator',
+        'theurgy:incubator_mercury_vessel',
+        'theurgy:incubator_salt_vessel',
+        'theurgy:incubator_sulfur_vessel'
     ])
 
     Ingredient.of('/^theurgy:.*$/').itemIds.forEach(id => {

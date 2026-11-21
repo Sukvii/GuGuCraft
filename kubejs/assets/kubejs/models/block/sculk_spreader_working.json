@@ -1,0 +1,7 @@
+{
+ "parent": "kubejs:block/sculk_spreader",
+ "textures": {
+  "0": "kubejs:block/sculk_spreader_working",
+  "particle": "kubejs:block/sculk_spreader_working"
+ }
+}

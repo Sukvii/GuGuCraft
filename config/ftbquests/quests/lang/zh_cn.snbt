@@ -1,4 +1,5 @@
 {
+	chapter.09933CE28D084DB1.title: "奥术工业"
 	chapter.22892B39A985EC54.title: "农贸市场"
 	chapter.58AD5AF80722331D.title: "欢迎来到GuGuCraft！"
 	chapter.725884AB89488808.title: "基础研究"
@@ -6,6 +7,24 @@
 	chapter.7E04319371B01AD0.title: "路线"
 	chapter_group.3C63A0CCCA15A8F0.title: "Event"
 	chapter_group.5B35751FF01CB70D.title: "GuGuCraft Expert DLC"
+	quest.007B65D803243E64.quest_desc: [
+		"手动给炮塔发红石信号太累了？&a定时法术炮塔&f会按设定的间隔自己施法，从此你的法术产线可以彻底挂机。"
+		""
+		"上缴&a256个奥术构件&f，解锁定时法术炮塔。"
+		""
+		"&c请勿把它对准走廊。“定时” 的意思是它会准时招呼每一个路过的人。"
+	]
+	quest.007B65D803243E64.quest_subtitle: "准时上班"
+	quest.007B65D803243E64.title: "定时法术炮塔"
+	quest.01BC60D82AA148BA.quest_desc: [
+		"监守者甲壳硬得离谱，碾碎之后，碎屑里只有一小部分称得上 “可用”。负责挑拣的不是机器，而是一只眼光毒辣的&a探宝蟹&f。"
+		""
+		"上缴&a256个奥术构件&f，解锁探宝蟹护符与相关的筛分工艺。"
+		""
+		"&c探宝蟹按件计酬，报酬是魔源。它从不讨价还价，因为它根本不给你还价的机会。"
+	]
+	quest.01BC60D82AA148BA.quest_subtitle: "按件计酬"
+	quest.01BC60D82AA148BA.title: "探宝蟹"
 	quest.03A125733BA8FA67.quest_desc: [
 		"传送石碑的老朋友&a传送粉&f在研究所找到了新工作：它对某些植物有着相当奇妙的“催化”效果。"
 		""
@@ -13,7 +32,46 @@
 	]
 	quest.03A125733BA8FA67.quest_subtitle: "不止能传送"
 	quest.03A125733BA8FA67.title: "传送粉"
+	quest.05A7B43F69E20BDB.quest_desc: [
+		"收容只是第一步。我们还需要一位不怕监守者、又勤劳肯干的员工——&a德格米&f。它会从附近的生物身上 “收集” 东西，而且不会伤到罐子里的住户。"
+		""
+		"上缴&a256个奥术构件&f，解锁德格米石阵与德格米护符。"
+		""
+		"&c德格米不挑食，所以它带回来的东西也是一锅乱炖。分拣归你。"
+	]
+	quest.05A7B43F69E20BDB.quest_subtitle: "勤劳的新同事"
+	quest.05A7B43F69E20BDB.title: "德格米"
 	quest.0776FD82E9C13041.title: "122"
+	quest.0A013D26F6121D5F.quest_desc: [
+		"基础法术炮塔已经在蔓延器旁边上岗了，可它们只会照着那张羊皮纸干活。想让炮塔帮你砍树、收庄稼、剪羊毛？那就得自己写法术了。"
+		""
+		"上缴&a256个奥术构件&f，解锁破坏、砍伐、收获、拾取、剪切字形与 “敏感” 增强。"
+		""
+		"&c砍伐法术分不清树和木屋。请先确认你的宿舍是不是木头做的。"
+	]
+	quest.0A013D26F6121D5F.quest_subtitle: "炮塔的新课程"
+	quest.0A013D26F6121D5F.title: "采集法术"
+	quest.0A374A4C03BAE12B.quest_desc: [
+		"研究所自己养出来的幽匿块。"
+		""
+		"&c请勿带回宿舍。"
+	]
+	quest.0A374A4C03BAE12B.quest_subtitle: "自产自销"
+	quest.0A374A4C03BAE12B.title: "幽匿块"
+	quest.0AD937A0448E5A06.quest_desc: ["探宝蟹从一堆碎屑里挑出来的精品。它对自己的眼光非常满意。"]
+	quest.0AD937A0448E5A06.quest_subtitle: "精挑细选"
+	quest.0AD937A0448E5A06.title: "淬炼甲壳"
+	quest.0CB5D621AADA2CF4.quest_desc: [
+		"&6恭喜，实验员——你造出了奥术构件，而且（暂时）没有长出紫色的胡子。欢迎调入奥术工业部。"
+		""
+		"基础研究教会了你怎么做出奥术构件，这里要教你怎么花掉它。从现在起，奥术构件就是本部门唯一认可的研发经费，每一台新设备、每一道新工艺都要拿它来换。"
+		""
+		"作为入职手续，请向终端上缴&a64个奥术构件&f。"
+		""
+		"&c本部门的终极目标写在档案的最后一页：“打开通往另一个世界的门”。没人知道门那边有什么，所以我们决定派你去。"
+	]
+	quest.0CB5D621AADA2CF4.quest_subtitle: "入职手续"
+	quest.0CB5D621AADA2CF4.title: "奥术工业"
 	quest.0DDF1A6636380BF4.quest_desc: [
 		"还记得那些从地底深处钻出来的银色矿石吗？材料部给它起名叫&b秘银&f，并宣布它是一切奥术研究的地基——前提是你能把它从矿渣里提炼出来。"
 		""
@@ -23,7 +81,25 @@
 	]
 	quest.0DDF1A6636380BF4.quest_subtitle: "比钢更硬，比钱包更薄"
 	quest.0DDF1A6636380BF4.title: "秘银"
+	quest.0E86442281471FCD.quest_desc: [
+		"在炼金术士眼里，万物都由 “躯体” 和 “灵魂” 组成：盐是躯体，硫是灵魂。要复制幽匿的力量，得先把它拆开。"
+		""
+		"上缴&a512个奥术构件&f，解锁幽匿的煅烧与液化工艺，以及远程供热用的&d流态热质发射器&f。"
+		""
+		"&c幽匿之硫的产量少得可怜。别急，下一项研究就是为它准备的。"
+	]
+	quest.0E86442281471FCD.quest_subtitle: "躯体与灵魂"
+	quest.0E86442281471FCD.title: "盐与硫"
 	quest.0EA1B4E371713261.title: "下界合金喷气背包"
+	quest.110C5677FA49998A.quest_desc: [
+		"魔源浆果长得太慢，高产路线的发酵罐已经开始 “饿肚子” 了。生态部推荐了一位绿色的帮手：&a风转草&f——它待过的地方，作物都会长得飞快。"
+		""
+		"上缴&a256个奥术构件&f，解锁风转草护符。"
+		""
+		"&c它喜欢在田里跳舞。请不要和它比赛，你会输。"
+	]
+	quest.110C5677FA49998A.quest_subtitle: "绿色的帮手"
+	quest.110C5677FA49998A.title: "风转草"
 	quest.128A83BF0B506781.quest_desc: [
 		"把你的手指从鼠标左键上移开，新人。看到那个显眼的黄色警告了吗？"
 		""
@@ -35,6 +111,18 @@
 	]
 	quest.128A83BF0B506781.quest_subtitle: "拯救你的鼠标"
 	quest.128A83BF0B506781.title: "另一种研究方式"
+	quest.12ECA55559922DE4.quest_desc: ["再请一只幻翼来做客。它在罐子里也照样只上夜班。"]
+	quest.12ECA55559922DE4.quest_subtitle: "夜班同事"
+	quest.12ECA55559922DE4.title: "收容：幻翼"
+	quest.13E5764E3D9A257A.quest_desc: [
+		"每次都跑去深暗之域挖幽匿块？后勤部拒绝签字。工程部的方案是把幽匿 “养” 在研究所里：给它魔源和经验，它自己就会长满周围的石头。"
+		""
+		"上缴&a384个奥术构件&f，解锁幽匿蔓延器。"
+		""
+		"&4严禁把蔓延器放在宿舍楼附近。自从上次事故以后，三楼至今仍在 “蔓延”。"
+	]
+	quest.13E5764E3D9A257A.quest_subtitle: "室内养殖"
+	quest.13E5764E3D9A257A.title: "幽匿蔓延器"
 	quest.142E41E10006D041.quest_desc: [
 		"苦力怕的爆炸不在设备保修范围内。为了防止你哭着重造流水线，这批照明方案能提供一种“战略性强光压制”。"
 		""
@@ -42,6 +130,18 @@
 	]
 	quest.142E41E10006D041.quest_subtitle: "防刷怪利器"
 	quest.142E41E10006D041.title: "超级火把"
+	quest.14C200AAF981B8C0.quest_desc: ["第一颗人造回响碎片。考古部已经开始写辞职信了。"]
+	quest.14C200AAF981B8C0.quest_subtitle: "人造的"
+	quest.14C200AAF981B8C0.title: "回响碎片"
+	quest.14E13CF3DED8D236.quest_desc: [
+		"德格米负责产出，分拣却全靠你一个人跑腿？物流科雇来了一位毛茸茸的临时工：&a星宝石兽&f，它会在容器之间任劳任怨地搬运物品。"
+		""
+		"上缴&a256个奥术构件&f，解锁星宝石兽护符。"
+		""
+		"&c它干活时总是蹦蹦跳跳的。请注意脚下。"
+	]
+	quest.14E13CF3DED8D236.quest_subtitle: "毛茸茸的临时工"
+	quest.14E13CF3DED8D236.title: "星宝石兽"
 	quest.14F992B07C3BEFA9.quest_desc: [
 		"把你的扳手准备好，实验员，我们即将接触真正的重工业技术。呈现在你面前的是“演算终端”，它是整个自动化提交流程的大脑。"
 		""
@@ -70,9 +170,45 @@
 	]
 	quest.1ADFEAFE92E08F24.quest_subtitle: "开端"
 	quest.1ADFEAFE92E08F24.title: "基础研究"
+	quest.1EFBD868961A12B4.quest_desc: [
+		"不是所有魔法都要轰轰烈烈。后勤部整理了一批 “懒人法术”：随身合成、换个颜色、把东西扔远点——专治各种不想走路。"
+		""
+		"上缴&a256个奥术构件&f，解锁合成、戏法、Wololo与投掷字形。"
+		""
+		"&c禁止用 Wololo 给同事的羊换颜色。上周那只粉色的羊至今还在申诉。"
+	]
+	quest.1EFBD868961A12B4.quest_subtitle: "懒人法术"
+	quest.1EFBD868961A12B4.title: "生活法术"
+	quest.1FCB6867A133AADB.quest_desc: [
+		"想把监守者请进收容罐，光靠勇气是不够的，还得让它 “站好别动”。行为管理科整理了一套让目标乖乖听话的法术。"
+		""
+		"上缴&a256个奥术构件&f，解锁禁锢、击退、吸引、冻结与泡泡字形。"
+		""
+		"&4再次声明：这些法术对监守者有效，但对它的心情无效。"
+	]
+	quest.1FCB6867A133AADB.quest_subtitle: "站好别动"
+	quest.1FCB6867A133AADB.title: "控制法术"
+	quest.2033516B0E3F66E1.quest_desc: [
+		"奥术工业部的魔源罐已经从一楼摆到了楼顶，后勤部每天抱着罐子上上下下，膝盖比预算先报废了。"
+		""
+		"&b魔源中转器&f能把魔源隔空送到需要的地方——收集、存放、分流，一应俱全。上缴&a256个奥术构件&f，解锁魔源中转器全系列。"
+		""
+		"&c中转器之间的光束不是晾衣绳，请勿悬挂实验服。"
+	]
+	quest.2033516B0E3F66E1.quest_subtitle: "隔空送魔源"
+	quest.2033516B0E3F66E1.title: "魔源物流"
 	quest.21486D4A2E6BF8A7.quest_desc: ["将提交速度提升至 &a16 / tick"]
 	quest.21486D4A2E6BF8A7.quest_subtitle: "Tier 3"
 	quest.21486D4A2E6BF8A7.title: "输入速率升级 III"
+	quest.25135B4F929E1EDF.quest_desc: [
+		"&5深渊之心&f——据说能打开另一个世界的心脏。研究所的计划很简单：既然它原本长在监守者身上，那就……请一只监守者来研究所做客。"
+		""
+		"新生魔艺的收容仪式能把生物装进罐子里。上缴&a128个奥术构件&f，解锁仪式火盆、收容仪式与收容罐。"
+		""
+		"&4医疗部提醒：监守者看不见，但它听得见你的心跳。建议出发前更新遗嘱。"
+	]
+	quest.25135B4F929E1EDF.quest_subtitle: "请客容易送客难"
+	quest.25135B4F929E1EDF.title: "收容"
 	quest.25FA6209BD88BBDD.quest_desc: ["神圣金相关的设备需要用到&a繁茂至高木&f。这种树在研究所附近可不常见，想要稳定的木材供应，你得想办法自己种。"]
 	quest.25FA6209BD88BBDD.quest_subtitle: "会长魔力的树"
 	quest.25FA6209BD88BBDD.title: "繁茂至高木"
@@ -103,6 +239,34 @@
 	]
 	quest.2B6158DD8EC3B428.quest_subtitle: "点石成金，字面意思"
 	quest.2B6158DD8EC3B428.title: "神圣金"
+	quest.2B99EF870C236588.quest_desc: [
+		"醒过来的催发体。"
+		""
+		"&c它在看你。"
+	]
+	quest.2B99EF870C236588.quest_subtitle: "它醒了"
+	quest.2B99EF870C236588.title: "活化幽匿催发体"
+	quest.2DB4B26CBBA3605F.quest_desc: [
+		"勘探部花了大半年，终于在地下找到了天然的&b秘银溶剂脉&f。只要把乙醇灌进钻井，就能把它抽上来，秘银混合物总算不用再往搅拌机里扔了。"
+		""
+		"这不是必修课，但财务部强烈建议你选修：上缴&a512个奥术构件&f，解锁流体钻井。"
+		""
+		"&c这是本部门唯一一笔 “花钱是为了以后少花钱” 的预算。"
+	]
+	quest.2DB4B26CBBA3605F.quest_subtitle: "选修课"
+	quest.2DB4B26CBBA3605F.title: "流体钻井"
+	quest.33DB8C8E6A064202.quest_desc: [
+		"奥术工业部的设备个个都是大胃王，可它们吃的不是液态魔源，而是&b魔源&f——两者的区别，大概相当于面粉和面包。"
+		""
+		"&b魔源转化器&f负责把液态魔源 “烤” 成魔源，烤炉底下得有一只烧得正旺的&a御炎火盆&f。上缴&a128个奥术构件&f，解锁魔源转化器。"
+		""
+		"&c转化器对储液量很挑剔：少了怠工，多了撑着。是的，它比你还难伺候。"
+	]
+	quest.33DB8C8E6A064202.quest_subtitle: "部门电费"
+	quest.33DB8C8E6A064202.title: "魔源转化器"
+	quest.33DBBC295C8C1B16.quest_desc: ["幽匿的 “躯体”。看起来像一碗盐，尝起来……别尝。"]
+	quest.33DBBC295C8C1B16.quest_subtitle: "躯体"
+	quest.33DBBC295C8C1B16.title: "幽匿之盐"
 	quest.350E5B96AEA079A7.quest_desc: [
 		"听好了，新人。在 GuGu 研究所，知识可不是免费的午餐——它是通过“物质转化数据”来换取的。"
 		""
@@ -114,6 +278,24 @@
 	]
 	quest.350E5B96AEA079A7.quest_subtitle: "最基础的研究方式"
 	quest.350E5B96AEA079A7.title: "如何进行研究？"
+	quest.367B4364CEFBD3F1.quest_desc: [
+		"幽匿之硫稀有到财务部开始考虑给它上保险。好在神通术有一门叫&b重塑&f的手艺：只要有一份样本，就能借汞的能量，把平凡的硫 “改写” 成样本的模样。"
+		""
+		"上缴&a768个奥术构件&f，解锁流态硫发射器与重塑台座。"
+		""
+		"&c样本请务必保管好。弄丢样本的实验员，得亲自去德格米那儿再排一次队。"
+	]
+	quest.367B4364CEFBD3F1.quest_subtitle: "照着样本抄"
+	quest.367B4364CEFBD3F1.title: "重塑"
+	quest.36EFBB37362A750D.quest_desc: [
+		"研究所终于批准了你的魔法执照。别激动，这只是&a初学者法术书&f——相当于魔法界的自行车辅助轮。"
+		""
+		"上缴&a128个奥术构件&f，解锁抄写台、初学者法术书、法术羊皮纸，以及最基础的几种字形。更多的字形会随着研究推进陆续开放。"
+		""
+		"&c第一次施法请对着空地。上一个对着镜子施法的实验员，至今还在和自己的倒影吵架。"
+	]
+	quest.36EFBB37362A750D.quest_subtitle: "魔法执照"
+	quest.36EFBB37362A750D.title: "法术入门"
 	quest.3974744BE1CB4D7E.quest_desc: ["若无其他意外情况，服务器将&4持续运行&f，存档也将&4长期保留&f，所以不必担心自己辛苦建造的成果随存档更换而消失"]
 	quest.3974744BE1CB4D7E.title: "服务器状况"
 	quest.3B1BA1B9DC394B51.quest_desc: [
@@ -125,8 +307,27 @@
 	]
 	quest.3B1BA1B9DC394B51.quest_subtitle: "那你走大运了"
 	quest.3B1BA1B9DC394B51.title: "意外捡到了没见过的东西？"
+	quest.3B4136E1987AADBD.quest_desc: ["德格米的第一批战利品。闻起来像熬夜加班。"]
+	quest.3B4136E1987AADBD.quest_subtitle: "第一批战利品"
+	quest.3B4136E1987AADBD.title: "幻翼膜"
+	quest.3D2A818D220469DF.quest_desc: [
+		"研究所的走廊越来越长，产线越铺越广，电梯却迟迟不批。既然预算不够，那就让自己跳得更高、飞得更远一点。"
+		""
+		"上缴&a256个奥术构件&f，解锁腾跃、发射、风爆、弹性字形与 “脚下” 形态。"
+		""
+		"&c落地是你自己的事。医疗部已经在楼下铺好了干草块。"
+	]
+	quest.3D2A818D220469DF.quest_subtitle: "跳得更高"
+	quest.3D2A818D220469DF.title: "机动法术"
 	quest.3DF01E01D8045FD0.quest_desc: ["敬请期待"]
 	quest.3DF01E01D8045FD0.title: "并行任务升级"
+	quest.431019A7FFCD9CC1.quest_desc: [
+		"第一片汞晶碎片。摸起来凉凉的。"
+		""
+		"&c请勿舔舐。"
+	]
+	quest.431019A7FFCD9CC1.quest_subtitle: "请勿舔舐"
+	quest.431019A7FFCD9CC1.title: "汞晶碎片"
 	quest.4449D408A6115C65.quest_subtitle: "狂野，只用一种"
 	quest.4449D408A6115C65.title: "野火灯笼"
 	quest.44B1E48CEE165775.quest_desc: [
@@ -142,9 +343,42 @@
 	quest.44DDEE323451701D.title: "升级占位符1"
 	quest.47E085E69978417A.quest_desc: ["双腿行走不仅低效，还磨损地板。感谢 PssbleTrngle™ 的慷慨赞助，我们赋予你脱离地心引力的特权。穿上喷气背包起飞吧——但请注意，天花板维修费需自理。"]
 	quest.47E085E69978417A.title: "喷气背包"
+	quest.4814A8F6D9096474.quest_desc: ["德格米的第一批战利品。硬得离谱，先别急着拿它做盔甲。"]
+	quest.4814A8F6D9096474.quest_subtitle: "第一批战利品"
+	quest.4814A8F6D9096474.title: "监守者甲壳"
+	quest.4885FF74AF80B50F.quest_desc: [
+		"所有原料都已就位，现在需要一张够大的工作台把它们组合起来——&d附魔装置&f，以及它脚下的&d奥术核心&f。第一件作品：&b强化回响碎片&f。"
+		""
+		"上缴&a768个奥术构件&f，解锁附魔装置与奥术核心。"
+		""
+		"&c基座上的东西放错一个，整炉就白费了。操作时请勿打喷嚏。"
+	]
+	quest.4885FF74AF80B50F.quest_subtitle: "汇合"
+	quest.4885FF74AF80B50F.title: "附魔装置"
+	quest.49FF3C14FEECCAE6.quest_desc: [
+		"研究所附近的怪物越来越多，安保科表示他们只负责看门，不负责打架。"
+		""
+		"上缴&a256个奥术构件&f，解锁伤害、点燃、蒸发、解除魔法、召唤狼与召唤骏马字形。"
+		""
+		"&c召唤出来的狼到点就会回家。请不要给它们起名字，分别的时候会很难过。"
+	]
+	quest.49FF3C14FEECCAE6.quest_subtitle: "安保外包"
+	quest.49FF3C14FEECCAE6.title: "战斗法术"
 	quest.4E02622DDA832F7F.quest_desc: ["如果你是被其他朋友介绍进服的，别忘了加入我们的&a官方QQ群：613726820"]
 	quest.4E02622DDA832F7F.title: "交流群指南"
+	quest.5080A08A5244278D.quest_desc: [
+		"从这里开始，研究所正式踏入&b神通术&f的炼金领域。一切的起点是&b汞&f——它既是原料，也是驱动炼金设备的能量。"
+		""
+		"上缴&a512个奥术构件&f，解锁汞蒸馏器与汞催化器。"
+		""
+		"&c汞晶碎片不是糖果，也不是硬币。请不要把它们塞进自动售货机。"
+	]
+	quest.5080A08A5244278D.quest_subtitle: "流动的能量"
+	quest.5080A08A5244278D.title: "汞"
 	quest.536171A3638882E5.title: "占位符1-1"
+	quest.53C54B9E16BBD469.quest_desc: ["幽匿的 “灵魂”。稀有，而且脾气不好。"]
+	quest.53C54B9E16BBD469.quest_subtitle: "灵魂"
+	quest.53C54B9E16BBD469.title: "幽匿之硫"
 	quest.54EAE16EABEE8F0F.quest_desc: [
 		"理论课结束了，实验员。现在我们来看看你的动手能力是否和你的阅读理解能力一样……凑合。"
 		""
@@ -182,6 +416,9 @@
 	]
 	quest.5CF611A89C4A3460.quest_subtitle: "Tier 1"
 	quest.5CF611A89C4A3460.title: "输入速率升级 I"
+	quest.5DED629CCC9E3DCF.quest_desc: ["离心机甩出来的第一桶树液。闻起来像整片森林，但请别拿它泡茶。"]
+	quest.5DED629CCC9E3DCF.quest_subtitle: "森林的味道"
+	quest.5DED629CCC9E3DCF.title: "至高木树液"
 	quest.5F262010FF62FC8C.quest_desc: ["内容正在施工中，流程极为不完整，仅为可玩状态。如遇bug等问题请联系群主&6@全自动鸽子&f反馈"]
 	quest.5F262010FF62FC8C.quest_subtitle: "Extremely WIP !!!"
 	quest.5F262010FF62FC8C.title: "观前提示"
@@ -191,6 +428,15 @@
 		"除此之外服务器没有其他限制，只要不影响到其他玩家正常游玩，你可以自由探索这个世界"
 	]
 	quest.5F8D54587D37CCEC.title: "服务器守则"
+	quest.6049542338A30466.quest_desc: [
+		"盐、硫、汞三者齐备，就能在&b培育器&f里让它们重新结合成实物。研究所第一次能够 “制造” 回响碎片，而不必去远古城市的箱子里翻找。"
+		""
+		"上缴&a768个奥术构件&f，解锁培育器及三种容具。"
+		""
+		"&c考古部对此强烈抗议：他们的出差补贴没了。"
+	]
+	quest.6049542338A30466.quest_subtitle: "人造回响"
+	quest.6049542338A30466.title: "培育"
 	quest.6102986E979E25AD.quest_desc: [
 		"秘银的炼制离不开大量的&a下界合金&f。靠挖远古残骸是凑不够的，你需要一条能自己持续产出下界合金的产线。"
 		""
@@ -214,7 +460,32 @@
 	]
 	quest.66435C3FE4214FE7.quest_subtitle: "章节基础教程"
 	quest.66435C3FE4214FE7.title: "欢迎来到GuGu研究所！"
+	quest.66819D39E541F079.quest_desc: [
+		"工程部想把法术和红石接在一起：埋下符文、发出信号、延时触发、随机应变。恭喜，研究所的陷阱和机关从此可以用魔法驱动了。"
+		""
+		"上缴&a256个奥术构件&f，解锁符文、红石信号、延迟、重置字形与 “随机化” 增强。"
+		""
+		"&c在自家门口埋符文之前，请先记住你埋在哪儿。"
+	]
+	quest.66819D39E541F079.quest_subtitle: "魔法驱动的机关"
+	quest.66819D39E541F079.title: "机关法术"
+	quest.66A289CDACC69976.quest_desc: [
+		"德格米带回来的幽匿催发体还在 “沉睡”。在材料部看来，它们只是一团会发光的原料，离真正派上用场还差一次魔力的唤醒。"
+		""
+		"上缴&a256个奥术构件&f，解锁对应的灌注工艺。"
+		""
+		"&c唤醒之后，它会对周围的一切产生兴趣。请把午餐收好。"
+	]
+	quest.66A289CDACC69976.quest_subtitle: "叫醒服务"
+	quest.66A289CDACC69976.title: "幽匿催发体活化"
 	quest.66DD1F44726A98F2.title: "更新日志"
+	quest.67505072C3D7A455.quest_desc: [
+		"发酵罐的第一批成果。"
+		""
+		"&c再次声明：它不是酒。"
+	]
+	quest.67505072C3D7A455.quest_subtitle: "它不是酒"
+	quest.67505072C3D7A455.title: "魔源醪液"
 	quest.682EA5AD7E10C382.quest_desc: [
 		"秘银、液态魔源、神圣金……原料已经到齐，是时候把它们熔为一炉了。&d奥术锭&f是秘银与魔源的结晶，而&d奥术板&f是它被机器压扁之后的样子——没错，我们对待魔法的方式就是这么朴实。"
 		""
@@ -222,6 +493,34 @@
 	]
 	quest.682EA5AD7E10C382.quest_subtitle: "把魔法压扁"
 	quest.682EA5AD7E10C382.title: "奥术锭 / 奥术板"
+	quest.6ADA796101C5F20F.quest_desc: [
+		"工程部提交了一份报告：基础研究部那些机器其实还能再干四倍的活，前提是给它们换一身&b奥术机壳&f。"
+		""
+		"这不是新机器，是给旧机器穿上新外套——顺便让它们一次干四份活。上缴&a256个奥术构件&f，解锁机械动力机器的奥术升级。"
+		""
+		"&c升级后的机器不接受 “我只是一台普通搅拌机” 作为偷懒理由。"
+	]
+	quest.6ADA796101C5F20F.quest_subtitle: "选修课"
+	quest.6ADA796101C5F20F.title: "奥术机器"
+	quest.6B2B741F70181444.quest_desc: ["便宜又量大的硫。它本身没什么用——但只要有一份样本……"]
+	quest.6B2B741F70181444.quest_subtitle: "平平无奇"
+	quest.6B2B741F70181444.title: "炼金硫（深板岩）"
+	quest.6BC620EF4EA84EE6.quest_desc: [
+		"现有的液态魔源产量，只够让魔源转化器打个盹。接下来的每一项奥术研究都是吞魔源的无底洞，高层要求你把魔源生产升级成真正的工业。"
+		""
+		"工程部从仓库角落翻出两台落灰的设备，又从柴油动力的酒厂借来了一整套发酵和分馏工艺。至高木和魔源浆果在里面扮演什么角色——你很快就会知道。上缴&a128个奥术构件&f，解锁全套许可。"
+		""
+		"&c发酵产物不是酒。上次有人当酒喝了，现在他能用意念点燃蜡烛。"
+	]
+	quest.6BC620EF4EA84EE6.quest_subtitle: "魔源不再按滴计价"
+	quest.6BC620EF4EA84EE6.title: "液态魔源工业化"
+	quest.6C223E352605E14D.quest_desc: [
+		"带一只监守者回来。活的。"
+		""
+		"&c罐子要结实。"
+	]
+	quest.6C223E352605E14D.quest_subtitle: "活的"
+	quest.6C223E352605E14D.title: "收容：监守者"
 	quest.6C56617CC14B9DB4.quest_desc: ["如你所见，这里是MC，做你想做的事吧"]
 	quest.6C56617CC14B9DB4.title: "我能做些什么？"
 	quest.6C940B32C97D8346.quest_desc: [
@@ -235,6 +534,18 @@
 	quest.6C940B32C97D8346.title: "液态魔源"
 	quest.6D87C1DF995717D7.quest_desc: ["想体验当上帝的感觉？我们确实出售修改现实的“作弊码”，但别高兴得太早。在这里，每个东西都是有标价的。准备好你的资源吧，毕竟打破第四面墙的罚款可不便宜。"]
 	quest.6D87C1DF995717D7.title: "“/back”"
+	quest.6DE15C580D22EACA.quest_desc: ["压实的甲壳碎屑。对探宝蟹来说，这就是一整天的工作量。"]
+	quest.6DE15C580D22EACA.quest_subtitle: "探宝蟹的工作台"
+	quest.6DE15C580D22EACA.title: "甲壳碎屑块"
+	quest.6E146F1D5029174F.quest_desc: [
+		"炼金阶段的原料清单已经长到需要翻页了。档案部推荐了一套新生魔艺的仓储方案：&a仓库&f负责存，&a存储讲台&f负责查，&a书龙&f负责跑腿。"
+		""
+		"上缴&a512个奥术构件&f，解锁仓库、存储讲台与书龙护符。"
+		""
+		"&c书龙不吃书。请不要拿这个问题考验它。"
+	]
+	quest.6E146F1D5029174F.quest_subtitle: "档案部推荐"
+	quest.6E146F1D5029174F.title: "魔法仓储"
 	quest.73B7FC9397EA5A19.quest_desc: [
 		"秘银的某些加工环节对&a乙醇&f的消耗大得惊人。研究所食堂不提供酒水，请自行解决。"
 		""
@@ -245,31 +556,103 @@
 	quest.749ADB890FB9504E.quest_desc: ["再神奇的魔法也需要一副结实的骨架。&a铁杆束&f正是奥术构件的基底。"]
 	quest.749ADB890FB9504E.quest_subtitle: "奥术的骨架"
 	quest.749ADB890FB9504E.title: "铁杆束"
+	quest.754437DB86A275DA.quest_desc: ["幽匿以经验为食。研究所的粉碎机每天都在 “掉经验”，去把它们收集起来。"]
+	quest.754437DB86A275DA.quest_subtitle: "幽匿的口粮"
+	quest.754437DB86A275DA.title: "经验颗粒"
+	quest.76FDE6739638FE0F.quest_desc: [
+		"奥术工业部的终点：&5深渊之心&f。据说只要把它对着强化深板岩的框架举起来，另一个世界的大门就会打开。"
+		""
+		"上缴&a1024个奥术构件&f，解锁深渊之心的合成。之后的事就交给探险部了——哦，探险部就是你。"
+		""
+		"&4研究所对门另一边的任何东西概不负责。"
+	]
+	quest.76FDE6739638FE0F.quest_subtitle: "本章终点"
+	quest.76FDE6739638FE0F.title: "深渊之心"
+	quest.796CDED810364F15.quest_desc: ["德格米的第一批战利品。它们还都是原料，别急着用。"]
+	quest.796CDED810364F15.quest_subtitle: "第一批战利品"
+	quest.796CDED810364F15.title: "幽匿催发体"
+	quest.7CACDB8FFB80762E.quest_desc: ["有了钻井，秘银溶剂终于不用省着用了。但别忘了，钻井也是要喝乙醇的。"]
+	quest.7CACDB8FFB80762E.quest_subtitle: "管够"
+	quest.7CACDB8FFB80762E.title: "秘银溶剂"
+	quest.7CF73ADC79F427DC.quest_desc: ["附魔装置的第一件作品。请轻拿轻放——虽然它比你结实得多。"]
+	quest.7CF73ADC79F427DC.quest_subtitle: "第一件作品"
+	quest.7CF73ADC79F427DC.title: "强化回响碎片"
+	quest.7D4715FD1E65BB94.quest_desc: [
+		"建筑部抱怨说，搭脚手架的时间比搭产线还长。现在你可以隔空放方块、凭空造出临时平台、把方块原地转个方向。"
+		""
+		"上缴&a256个奥术构件&f，解锁放置方块、构筑法师方块、旋转、交互字形与 “遥指” 形态。"
+		""
+		"&c法师方块不一定靠得住。请不要用它来搭你的床。"
+	]
+	quest.7D4715FD1E65BB94.quest_subtitle: "隔空施工"
+	quest.7D4715FD1E65BB94.title: "建造法术"
 	quest.7E4D4147072B5809.quest_desc: ["欢迎来到GuGuCraft六周目！这是你的奖励，快拿好！"]
 	quest.7E4D4147072B5809.title: "欢迎回来！"
 	quest.7E89BA85799A724B.quest_desc: ["本章节主要内容为DLC内容的重要节点，你可以在这里看到目前的大致发展阶段"]
 	quest.7E89BA85799A724B.title: "摘要"
+	quest.7EE498D501BFFCAC.quest_desc: [
+		"重复的合成工作交给机器？不，交给&a薇克精&f。只要告诉它做什么，它就会守着药锅一直做下去。"
+		""
+		"上缴&a256个奥术构件&f，解锁薇克精炼药锅与薇克精护符。"
+		""
+		"&c薇克精从不加班——因为它们从来不下班。"
+	]
+	quest.7EE498D501BFFCAC.quest_subtitle: "从不下班"
+	quest.7EE498D501BFFCAC.title: "薇克精"
+	quest.7F35511B45802CB1.quest_desc: ["汞的原料。仓库里也许还剩一些，但产线可不能只靠库存。"]
+	quest.7F35511B45802CB1.quest_subtitle: "汞的原料"
+	quest.7F35511B45802CB1.title: "紫水晶碎片"
 	reward.03A21E40BF73A72C.title: "解锁：奥术构件"
 	reward.062017ABCF0A980E.title: "不知道从哪捡来的终端"
+	reward.066E36711FFED665.title: "解锁：风转草护符"
+	reward.0B50B2901F258D60.title: "解锁：伤害、点燃、蒸发、解除魔法、召唤狼、召唤骏马"
+	reward.11343EE40547FE0D.title: "解锁：附魔装置、奥术核心、强化回响碎片"
+	reward.1194A49B03FAFA45.title: "解锁：培育器及三种容具"
+	reward.120255F5BFC41239.title: "解锁：幽匿的煅烧与液化工艺、流态热质发射器"
+	reward.1251261FC53AC217.title: "解锁：放置方块、构筑法师方块、旋转、交互、遥指"
 	reward.154E8C0A50388B75.title: "解锁：秘银加工"
+	reward.176511CF7EBEF5CB.title: "解锁：薇克精炼药锅、薇克精护符"
 	reward.1CE54C482257621D.title: "解锁：喷气背包"
 	reward.1E4D5C0F1C78BFFA.title: "解锁：下界合金喷气背包"
+	reward.268C453C9AEFC292.title: "解锁：符文、红石信号、延迟、重置、随机化"
+	reward.26990E3DE7058E2D.title: "解锁：探宝蟹护符与甲壳筛分工艺"
 	reward.26A11C5C06A686E5.title: "解锁：功能接口"
+	reward.29631706689D5D9A.title: "解锁：流态硫发射器、重塑台座"
+	reward.2BAC5B5C491E13AF.title: "解锁：幽匿蔓延器、基础法术炮塔、“幽匿收割”羊皮纸"
+	reward.2BD28E90CF87BDE1.title: "解锁：腾跃、发射、风爆、弹性、脚下"
 	reward.36B6A012112DEA60.title: "解锁：输入速率升级 I"
+	reward.3947E5F39902C172.title: "解锁：离心机、真空压缩机与液态魔源高产工艺"
 	reward.4278A456A2E19632.title: "解锁：硇砂蓄积器、硇砂储罐"
 	reward.42C202BDCE50DACC.title: "解锁：恐惧灯"
 	reward.441A91BBAF32F54B.title: "领取你的奖励！"
 	reward.4986E6455363256B.title: "解锁：“/back”"
+	reward.4B9E5386DA158CEE.title: "解锁：抄写台、初学者法术书、法术羊皮纸与基础字形"
+	reward.4CB4E54160745C6D.title: "解锁：炼金机体、汞蒸馏器、汞催化器"
 	reward.4DC6F876DAB975D9.title: "解锁：输入速率升级 II"
+	reward.4E59A9D02AB1C96F.title: "解锁：破坏、砍伐、收获、拾取、剪切、敏感"
+	reward.52F6A485C29AE6E3.title: "解锁：深渊之心"
 	reward.540E1760009D0F4A.title: "解锁：超级火把"
+	reward.56811ED463B183BF.title: "解锁：定时法术炮塔"
+	reward.5D7A62392FEBDEC1.title: "解锁：星宝石兽护符"
+	reward.5DD853A835BCC381.title: "解锁：流体钻井"
+	reward.60D5C56277F2805E.title: "解锁：合成、戏法、Wololo、投掷"
 	reward.63466AF724ADFD0D.title: "解锁：推演机壳"
 	reward.65BC9A7AE7DE9147.title: "解锁：液化坩埚、御炎火盆、煅烧炉、灌注室、奥术基座"
+	reward.66488A5410E621CA.title: "解锁：禁锢、击退、吸引、冻结、泡泡"
+	reward.67FD92B2974E789E.title: "解锁：仪式火盆、收容仪式、收容罐"
+	reward.683D520E21945B22.title: "解锁：活化幽匿催发体"
+	reward.6D20EC0004D2CC92.title: "解锁：魔源中转器全系列"
 	reward.6EB3167A8C03B6D7.title: "解锁：奥术锭、奥术板"
 	reward.6FD3FD5D43BFA8B4.title: "解锁：输入速率升级 III"
+	reward.70906ED6A33D862B.title: "解锁：未调和精华与七种精华"
+	reward.7A6B061E4CF7A776.title: "解锁：德格米石阵、德格米护符"
 	reward.7B382D1D6D70BF7B.title: "解锁：野火灯笼"
+	reward.7EBAE68FB551B80A.title: "解锁：仓库、存储讲台、书龙护符"
 	reward_table.49185B525CF28733.title: "初心者奖励包"
 	reward_table.6CB5E0321863F6C6.title: "初级工程师福利包"
+	task.2C12A76784EF9940.title: "看向装有幻翼的收容罐"
 	task.3A8C14BE3A2AF0CF.title: "动力构件"
 	task.6AF024E3A7465684.title: "我已确认，启动！"
+	task.6E1592F5CC201E74.title: "看向装有监守者的收容罐"
 	task.728C11576CF4C550.title: "机械动力高手认证？"
 }

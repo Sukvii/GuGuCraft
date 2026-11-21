@@ -1,0 +1,1316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "09933ce28d084db1"
+	group: "5B35751FF01CB70D"
+	hide_quest_details_until_startable: true
+	icon: {
+		id: "kubejs:arcane_mechanism"
+	}
+	id: "09933CE28D084DB1"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44B1E48CEE165775"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:arcane_mechanism"
+			}
+			icon_scale: 0.9d
+			id: "0CB5D621AADA2CF4"
+			rewards: [
+				{
+					auto: "invisible"
+					icon: {
+						id: "kubejs:arcane_mechanism"
+					}
+					id: "23EC262F996EA11F"
+					ignore_reward_blocking: true
+					stage: "奥术工业"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						id: "kubejs:unattuned_essence"
+					}
+					id: "70906ED6A33D862B"
+					ignore_reward_blocking: true
+					remove: false
+					stage: "arcane_essence"
+					type: "astages:player"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "244D7732FD46144E"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CB5D621AADA2CF4"]
+			icon: {
+				id: "guguaddons:centrifuge"
+			}
+			icon_scale: 0.9d
+			id: "6BC620EF4EA84EE6"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:centrifuge"
+				}
+				id: "3947E5F39902C172"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "source_industry"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "30CA54B25C6E46C1"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BC620EF4EA84EE6"]
+			icon: {
+				id: "ars_nouveau:mob_jar"
+			}
+			icon_scale: 0.9d
+			id: "25135B4F929E1EDF"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:ritual_brazier"
+				}
+				id: "67FD92B2974E789E"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "containment"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "63E9379BD7AC05A9"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25135B4F929E1EDF"]
+			icon: {
+				id: "ars_nouveau:drygmy_charm"
+			}
+			icon_scale: 0.9d
+			id: "05A7B43F69E20BDB"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:drygmy_charm"
+				}
+				id: "7A6B061E4CF7A776"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "drygmy"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "673231B25BFE0B9F"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05A7B43F69E20BDB"]
+			icon: {
+				id: "kubejs:activated_sculk_catalyst"
+			}
+			icon_scale: 0.9d
+			id: "66A289CDACC69976"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:activated_sculk_catalyst"
+				}
+				id: "683D520E21945B22"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "sculk_imbuement"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "4AE2A2039312451C"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66A289CDACC69976"]
+			icon: {
+				id: "ars_nouveau:alakarkinos_charm"
+			}
+			icon_scale: 0.9d
+			id: "01BC60D82AA148BA"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:alakarkinos_charm"
+				}
+				id: "26990E3DE7058E2D"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "alakarkinos"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5475A2156E5CEDB1"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01BC60D82AA148BA"]
+			icon: {
+				id: "guguaddons:sculk_spreader"
+			}
+			icon_scale: 0.9d
+			id: "13E5764E3D9A257A"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:sculk_spreader"
+				}
+				id: "2BAC5B5C491E13AF"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "sculk_spreader"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 384L
+				id: "38BD8F0A96BE4EDB"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13E5764E3D9A257A"]
+			icon: {
+				id: "theurgy:distiller"
+			}
+			icon_scale: 0.9d
+			id: "5080A08A5244278D"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:distiller"
+				}
+				id: "4CB4E54160745C6D"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "mercury"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "6B6A0DA9D36FD909"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5080A08A5244278D"]
+			icon: {
+				id: "theurgy:calcination_oven"
+			}
+			icon_scale: 0.9d
+			id: "0E86442281471FCD"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:caloric_flux_emitter"
+				}
+				id: "120255F5BFC41239"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "salt_sulfur"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "44ABDC20D4B8ACCA"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E86442281471FCD"]
+			icon: {
+				id: "theurgy:sulfuric_flux_emitter"
+			}
+			icon_scale: 0.9d
+			id: "367B4364CEFBD3F1"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:sulfuric_flux_emitter"
+				}
+				id: "29631706689D5D9A"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "reformation"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 768L
+				id: "2415C437DF265CAD"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["367B4364CEFBD3F1"]
+			icon: {
+				id: "theurgy:incubator"
+			}
+			icon_scale: 0.9d
+			id: "6049542338A30466"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:incubator"
+				}
+				id: "1194A49B03FAFA45"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "incubation"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 768L
+				id: "3BD8AC8102239CCB"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6049542338A30466"]
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			icon_scale: 0.9d
+			id: "4885FF74AF80B50F"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:arcane_core"
+				}
+				id: "11343EE40547FE0D"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "enchanting_apparatus"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 768L
+				id: "589C78B5293693A0"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 44.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4885FF74AF80B50F"]
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			icon_scale: 0.9d
+			id: "76FDE6739638FE0F"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "deeperdarker:heart_of_the_deep"
+				}
+				id: "52F6A485C29AE6E3"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "heart_of_the_deep"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "21449F7B2C574497"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 48.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BC620EF4EA84EE6"]
+			icon: {
+				id: "kubejs:archwood_sap_bucket"
+			}
+			icon_scale: 0.9d
+			id: "5DED629CCC9E3DCF"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6898D13842147B92"
+				item: { count: 1, id: "kubejs:archwood_sap_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BC620EF4EA84EE6"]
+			icon: {
+				id: "kubejs:source_mash_bucket"
+			}
+			icon_scale: 0.9d
+			id: "67505072C3D7A455"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "65377A5960D0DD4D"
+				item: { count: 1, id: "kubejs:source_mash_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25135B4F929E1EDF"]
+			icon: {
+				id: "ars_nouveau:mob_jar"
+			}
+			icon_scale: 0.9d
+			id: "6C223E352605E14D"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:mob_jar"
+				}
+				id: "6E1592F5CC201E74"
+				observation_type: "block_entity"
+				observe_type: 3
+				timer: 40L
+				to_observe: "ars_nouveau:mob_jar{entityTag:{id:'minecraft:warden'}}"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25135B4F929E1EDF"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			icon_scale: 0.9d
+			id: "12ECA55559922DE4"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:mob_jar"
+				}
+				id: "2C12A76784EF9940"
+				observation_type: "block_entity"
+				observe_type: 3
+				timer: 40L
+				to_observe: "ars_nouveau:mob_jar{entityTag:{id:'minecraft:phantom'}}"
+				type: "observation"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05A7B43F69E20BDB"]
+			icon: {
+				id: "minecraft:sculk_catalyst"
+			}
+			icon_scale: 0.9d
+			id: "796CDED810364F15"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "1EE4EDA61F309B96"
+				item: { count: 1, id: "minecraft:sculk_catalyst" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05A7B43F69E20BDB"]
+			icon: {
+				id: "deeperdarker:warden_carapace"
+			}
+			icon_scale: 0.9d
+			id: "4814A8F6D9096474"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "54B23AF283349381"
+				item: { count: 1, id: "deeperdarker:warden_carapace" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05A7B43F69E20BDB"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			icon_scale: 0.9d
+			id: "3B4136E1987AADBD"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "6DD7B8B478FEF86D"
+				item: { count: 1, id: "minecraft:phantom_membrane" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66A289CDACC69976"]
+			icon: {
+				id: "kubejs:activated_sculk_catalyst"
+			}
+			icon_scale: 0.9d
+			id: "2B99EF870C236588"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "466F330FC6094704"
+				item: { count: 1, id: "kubejs:activated_sculk_catalyst" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01BC60D82AA148BA"]
+			icon: {
+				id: "kubejs:carapace_fragment_block"
+			}
+			icon_scale: 0.9d
+			id: "6DE15C580D22EACA"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "5B8F8B120A8D06B2"
+				item: { count: 1, id: "kubejs:carapace_fragment_block" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01BC60D82AA148BA"]
+			icon: {
+				id: "kubejs:tempered_carapace"
+			}
+			icon_scale: 0.9d
+			id: "0AD937A0448E5A06"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "3DAA0805CC92A1D1"
+				item: { count: 1, id: "kubejs:tempered_carapace" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13E5764E3D9A257A"]
+			icon: {
+				id: "create:experience_nugget"
+			}
+			icon_scale: 0.9d
+			id: "754437DB86A275DA"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "601BA88C63B29837"
+				item: { count: 1, id: "create:experience_nugget" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["13E5764E3D9A257A"]
+			icon: {
+				id: "minecraft:sculk"
+			}
+			icon_scale: 0.9d
+			id: "0A374A4C03BAE12B"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "602FDC466A5B9CF0"
+				item: { count: 1, id: "minecraft:sculk" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5080A08A5244278D"]
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			icon_scale: 0.9d
+			id: "7F35511B45802CB1"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "422D7DEF7163A362"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5080A08A5244278D"]
+			icon: {
+				id: "theurgy:mercury_shard"
+			}
+			icon_scale: 0.9d
+			id: "431019A7FFCD9CC1"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "5491AE9F5D74959A"
+				item: { count: 1, id: "theurgy:mercury_shard" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E86442281471FCD"]
+			icon: {
+				id: "kubejs:sculk_salt"
+			}
+			icon_scale: 0.9d
+			id: "33DBBC295C8C1B16"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "5AED515A910CF0F8"
+				item: { count: 1, id: "kubejs:sculk_salt" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E86442281471FCD"]
+			icon: {
+				id: "kubejs:sculk_sulfur"
+			}
+			icon_scale: 0.9d
+			id: "53C54B9E16BBD469"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "363E3E73ADC665AE"
+				item: { count: 1, id: "kubejs:sculk_sulfur" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E86442281471FCD"]
+			icon: {
+				id: "theurgy:alchemical_sulfur_deepslate"
+			}
+			icon_scale: 0.9d
+			id: "6B2B741F70181444"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "05BA4C6C0ACF9583"
+				item: { count: 1, id: "theurgy:alchemical_sulfur_deepslate" }
+				type: "item"
+			}]
+			x: 33.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6049542338A30466"]
+			icon: {
+				id: "minecraft:echo_shard"
+			}
+			icon_scale: 0.9d
+			id: "14C200AAF981B8C0"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "3D6D2EE3E8B72EB1"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 40.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4885FF74AF80B50F"]
+			icon: {
+				id: "deeperdarker:reinforced_echo_shard"
+			}
+			icon_scale: 0.9d
+			id: "7CF73ADC79F427DC"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "2A2401108BE90D02"
+				item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }
+				type: "item"
+			}]
+			x: 44.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6BC620EF4EA84EE6"]
+			icon: {
+				id: "ars_nouveau:relay"
+			}
+			icon_scale: 0.9d
+			id: "2033516B0E3F66E1"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:relay"
+				}
+				id: "6D20EC0004D2CC92"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "source_relay"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "259572F5390711E8"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2033516B0E3F66E1"]
+			icon: {
+				id: "ars_nouveau:whirlisprig_charm"
+			}
+			icon_scale: 0.9d
+			id: "110C5677FA49998A"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:whirlisprig_charm"
+				}
+				id: "066E36711FFED665"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "whirlisprig"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "7A8CC3B53C027525"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["25135B4F929E1EDF"]
+			hide_dependent_lines: true
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			icon_scale: 0.9d
+			id: "36EFBB37362A750D"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:novice_spell_book"
+				}
+				id: "4B9E5386DA158CEE"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_basics"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "20BD9B648A4FFD06"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"25135B4F929E1EDF"
+				"36EFBB37362A750D"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_snare"
+			}
+			icon_scale: 0.9d
+			id: "1FCB6867A133AADB"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:glyph_snare"
+				}
+				id: "66488A5410E621CA"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_control"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "6E89F30E28E45210"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["05A7B43F69E20BDB"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			icon_scale: 0.9d
+			id: "14E13CF3DED8D236"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:starbuncle_charm"
+				}
+				id: "5D7A62392FEBDEC1"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "starbuncle"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "4833174B446C7643"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"05A7B43F69E20BDB"
+				"36EFBB37362A750D"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_leap"
+			}
+			icon_scale: 0.9d
+			id: "3D2A818D220469DF"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:glyph_leap"
+				}
+				id: "2BD28E90CF87BDE1"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_mobility"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "148F7D1148D11B81"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"66A289CDACC69976"
+				"36EFBB37362A750D"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_craft"
+			}
+			icon_scale: 0.9d
+			id: "1EFBD868961A12B4"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:glyph_craft"
+				}
+				id: "60D5C56277F2805E"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_utility"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "3D0916AE14E79D91"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"01BC60D82AA148BA"
+				"36EFBB37362A750D"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_harm"
+			}
+			icon_scale: 0.9d
+			id: "49FF3C14FEECCAE6"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:glyph_harm"
+				}
+				id: "0B50B2901F258D60"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_combat"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "4668D890F36D0222"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"13E5764E3D9A257A"
+				"36EFBB37362A750D"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_harvest"
+			}
+			icon_scale: 0.9d
+			id: "0A013D26F6121D5F"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:glyph_harvest"
+				}
+				id: "4E59A9D02AB1C96F"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_harvest"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "3A93E3012DD836FA"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A013D26F6121D5F"]
+			icon: {
+				id: "ars_nouveau:timer_spell_turret"
+			}
+			icon_scale: 0.9d
+			id: "007B65D803243E64"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:timer_spell_turret"
+				}
+				id: "56811ED463B183BF"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "timer_turret"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "7A852DED6BE0DE4C"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 24.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5080A08A5244278D"
+				"36EFBB37362A750D"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_place_block"
+			}
+			icon_scale: 0.9d
+			id: "7D4715FD1E65BB94"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:glyph_place_block"
+				}
+				id: "1251261FC53AC217"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_building"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "12E4F88DC9557C8E"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0E86442281471FCD"
+				"36EFBB37362A750D"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_rune"
+			}
+			icon_scale: 0.9d
+			id: "66819D39E541F079"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:glyph_rune"
+				}
+				id: "268C453C9AEFC292"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "spell_mechanism"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "6E98D814A000E4E5"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["367B4364CEFBD3F1"]
+			icon: {
+				id: "ars_nouveau:storage_lectern"
+			}
+			icon_scale: 0.9d
+			id: "6E146F1D5029174F"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:storage_lectern"
+				}
+				id: "7EBAE68FB551B80A"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "magic_storage"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "7375A45430A10942"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 36.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6049542338A30466"]
+			icon: {
+				id: "ars_nouveau:wixie_charm"
+			}
+			icon_scale: 0.9d
+			id: "7EE498D501BFFCAC"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "ars_nouveau:wixie_charm"
+				}
+				id: "176511CF7EBEF5CB"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "wixie"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "68ECFAC287F8803D"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 40.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4885FF74AF80B50F"]
+			icon: {
+				id: "createoreexcavation:extractor"
+			}
+			icon_scale: 0.9d
+			id: "2DB4B26CBBA3605F"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "createoreexcavation:extractor"
+				}
+				id: "5DD853A835BCC381"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "fluid_drill"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "2BDC7053785C577A"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 44.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CB5D621AADA2CF4"]
+			icon: {
+				id: "createmoremachines:brass_mechanical_mixer"
+			}
+			icon_scale: 0.9d
+			id: "6ADA796101C5F20F"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "createmoremachines:brass_mechanical_mixer"
+				}
+				id: "2F22C7AE9C709805"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "arcane_machines"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "0A57C5BAA6F01CB0"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0CB5D621AADA2CF4"]
+			icon: {
+				id: "guguaddons:source_converter"
+			}
+			icon_scale: 0.9d
+			id: "33DB8C8E6A064202"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:source_converter"
+				}
+				id: "33101545C88791BF"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "source_converter"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "19DDE14B7ED51AF9"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2DB4B26CBBA3605F"]
+			icon: {
+				id: "kubejs:mythril_solvent_bucket"
+			}
+			icon_scale: 0.9d
+			id: "7CACDB8FFB80762E"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "189C8E6A2B8B3E88"
+				item: { count: 1, id: "kubejs:mythril_solvent_bucket" }
+				type: "item"
+			}]
+			x: 44.0d
+			y: 5.5d
+		}
+	]
+}

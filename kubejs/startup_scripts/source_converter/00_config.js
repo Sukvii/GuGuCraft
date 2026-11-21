@@ -1,7 +1,8 @@
 // priority: 1000
-// 修改这些参数后需要重启游戏/服务器；server/client 脚本只读取此配置。
+// Changing these parameters needs a game/server restart; server/client scripts only read this config.
 global.SOURCE_CONVERTER = {
-    MACHINE_ID: 'mbd2:source_converter',
+    // 2026-11-13: moved from mbd2:source_converter to the guguaddons namespace (still in testing, no compatibility with the old ID)
+    MACHINE_ID: 'guguaddons:source_converter',
     RECIPE_TYPE: 'mbd2:source_conversion',
     CONVERSION_RECIPE_ID: 'kubejs:source_converter/liquid_source',
     FLUID_ID: 'kubejs:liquid_source',
@@ -13,11 +14,11 @@ global.SOURCE_CONVERTER = {
     NEXT_CHECK_KEY: 'source_converter_next_check',
     HUD_REQUEST: 'gugucraft:source_converter_inspect',
     HUD_RESPONSE: 'gugucraft:source_converter_status',
-    // 无法启动时每秒重试一次；运行中的批次不再检测火盆或重算效率。
+    // Retry once per second while it cannot start; a running batch no longer checks the brazier or recomputes efficiency.
     CHECK_RETRY_TICKS: 20,
-    // 仅在戴护目镜并看向机器时，每半秒获取一次魔源缓存。
+    // Fetch the Source buffer every half second, only while wearing goggles and looking at the machine.
     HUD_POLL_TICKS: 10,
-    // 8 桶总容量，自动化以约 4 桶为目标；3–5 桶内均为满产。
+    // 8 buckets total; automation targets about 4 buckets, and anything within 3-5 buckets is full yield.
     TANK_CAPACITY: 8000,
     OPTIMAL_FLUID_MIN: 3000,
     OPTIMAL_FLUID_MAX: 5000,
@@ -25,9 +26,9 @@ global.SOURCE_CONVERTER = {
     FLUID_PER_BATCH: 100,
     TICKS_PER_BATCH: 200,
     MAX_SOURCE_PER_BATCH: 1000,
-    // 超出最佳液量区间仅保留一成产量，耗液与耗时不变；仍可继续加工以排出过量液体。
+    // Outside the optimal fluid range only a tenth of the yield remains, with the same fluid use and duration; processing continues to drain excess fluid.
     OFF_RANGE_EFFICIENCY: 0.1
 }
 
-// client 脚本不能写入 global 顶层；预留可变状态，防止资源重载重复注册 Jade 回调。
+// Client scripts cannot write top-level global entries; reserve mutable state so resource reloads do not register the Jade callback twice.
 global.SOURCE_CONVERTER_CLIENT = {}

@@ -1,6 +1,6 @@
 # 魔源转化器
 
-方块 ID：`mbd2:source_converter`。使用 MBD2 的单方块机器、流体槽和 Ars 魔源存储接口；没有机器 GUI，方块和物品均使用自制液态魔源通道模型。
+方块 ID：`guguaddons:source_converter`（2026-11-13 由 `mbd2:source_converter` 改名）。使用 MBD2 的单方块机器、流体槽和 Ars 魔源存储接口；没有机器 GUI，方块和物品均使用自制液态魔源通道模型。
 
 模型位于 `kubejs/assets/ars_nouveau/models/block/liquid_sourcelink.json`，图集位于 `kubejs/assets/ars_nouveau/textures/block/liquid_sourcelink.png`，从 `GuGuMaterials/model/liquid_sourcelink` 原样安装。液面保留模型对 `ars_nouveau:block/source_still` 的引用，使用已安装 Ars 的动画贴图。模型使用 cutout 渲染，机器关闭实体遮挡以保留镂空效果。液面是模型固定几何，不随内部储液量变化。
 
@@ -15,7 +15,7 @@
 3. 在机器相邻位置放置 Ars 魔源罐，可自动接收魔源；附近 Ars 设备也可以直接取用机器内部的魔源。
 4. 佩戴 Create 工程师护目镜，将准星指向机器，查看原生风格信息框中的“魔源缓存：当前值 / 容量”。右键不显示参数，也不会打开 GUI。
 
-新增工作台配方：魔源转化器、配套魔源罐。后者使用独立的 `kubejs:` 配方 ID，保留整合包对原 Ars 配方的移除规则。
+新增工作台配方：魔源转化器、配套魔源罐。后者使用独立的 `kubejs:` 配方 ID，保留整合包对原 Ars 配方的移除规则。魔源转化器的配方按玩家阶段 `source_converter` 上锁（奥术工业章开场上方的支线任务 “魔源转化器” 发放，锁在 `server_scripts/stages/arcane_industry.js`）；魔源罐不锁。
 
 液态魔源转换是机器内部配方，使用 MBD2 的 `setXEIVisible(false)` 隐藏配方浏览器中的整个转换分类，兼容 JEI / EMI；工作台合成配方仍然可查。当前测试客户端安装的是 EMI。
 
@@ -65,7 +65,7 @@ ModernUI 兼容分支与 Create 相同：绘制时临时将鼠标位置对齐 GU
 - `kubejs/client_scripts/source_converter/goggles.js`：护目镜信息框与查看时的数据请求。
 - `kubejs/client_scripts/source_converter/jade.js`：使用 Jade 原生回调隐藏本机配方进度条，保留其他信息。
 - `kubejs/client_scripts/source_converter/tooltip.js`：接入 Create 原生 Shift 展开物品提示。
-- `kubejs/client_scripts/source_converter/lang.js`：中英文名称与提示。
+- `kubejs/assets/guguaddons/lang/{zh_cn,en_us}.json`：中英文名称与提示（配方类型名在 `kubejs/assets/mbd2/lang/`，护目镜文字在 `kubejs/assets/kubejs/lang/`）。
 - `kubejs/assets/ars_nouveau/models/block/liquid_sourcelink.json` 与 `textures/block/liquid_sourcelink.png`：方块和物品共用模型及图集。
 
 首次安装以及修改 startup 配置后，需要完整重启客户端和服务器。
@@ -82,4 +82,4 @@ ModernUI 兼容分支与 Create 相同：绘制时临时将鼠标位置对齐 GU
 
 已通过 JavaScript 语法检查和 16 组脚本模拟场景检查，并按实装 Create 6.0.10、NeoForge 21.1.256、KubeJS 2101.7.2-build.377 和 Rhino 2101.2.8-build.91 的反编译源码核对调用。实装 Rhino 的原生 API 回归覆盖 Tooltip 签名解析、Catnip 图标构建、原生配色与矩阵调用，并复现了泛型列表复制问题，验证当前数据处理代码能保留一行带图标间距的文字。模拟场景另覆盖图层筛选、Create 配置、ModernUI 鼠标恢复、目标切换和异常停用；实际 GPU 绘制和运行时 Mixin 兼容还需在 Minecraft 内确认。
 
-游戏内可用 `/give @s mbd2:source_converter` 获取测试方块。建议用 4,000 mB 测试 10 秒单批 100 mB → 1,000 Source；工作中熄灭火盆，确认当前批次完成、下一批停机，重新点燃后恢复；分别测试 2,900 / 3,000 / 5,000 / 5,100 mB 的 100 / 1,000 / 1,000 / 100 Source 产量，并放置相邻魔源罐确认自动输出。3,000 mB 启动的批次完成后液量为 2,900 mB，下批若不补液将降产；可用存量转信器围绕 4 桶控制补液。佩戴/摘下工程师护目镜、切换查看目标和进出世界，确认信息框显示及清除正常。
+游戏内可用 `/give @s guguaddons:source_converter` 获取测试方块。建议用 4,000 mB 测试 10 秒单批 100 mB → 1,000 Source；工作中熄灭火盆，确认当前批次完成、下一批停机，重新点燃后恢复；分别测试 2,900 / 3,000 / 5,000 / 5,100 mB 的 100 / 1,000 / 1,000 / 100 Source 产量，并放置相邻魔源罐确认自动输出。3,000 mB 启动的批次完成后液量为 2,900 mB，下批若不补液将降产；可用存量转信器围绕 4 桶控制补液。佩戴/摘下工程师护目镜、切换查看目标和进出世界，确认信息框显示及清除正常。

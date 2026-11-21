@@ -17,6 +17,15 @@ ServerEvents.recipes(event => {
         /^ars_nouveau:.*sourcestone.*$/
     ]
 
+    // Original recipes restored by the Arcane Industry chapter (F4): tier 1 glyphs and a few crafting recipes, stage locks in stages/arcane_industry.js
+    const arcane = global.ARCANE_INDUSTRY
+    Object.keys(arcane.GLYPH_STAGES).forEach(stage => {
+        arcane.GLYPH_STAGES[stage]
+            .filter(glyph => arcane.REWRITTEN_GLYPHS.indexOf(glyph) < 0)
+            .forEach(glyph => keepRecipeIds.add(`ars_nouveau:${glyph}`))
+    })
+    Object.keys(arcane.RESTORED_CRAFTING).forEach(id => keepRecipeIds.add(id))
+
     const idsToRemove = []
 
     event.forEachRecipe({ mod: 'ars_nouveau' }, recipe => {

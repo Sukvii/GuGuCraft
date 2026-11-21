@@ -97,5 +97,24 @@
 			x: -0.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["170D7F79D2568766"]
+			icon: {
+				id: "kubejs:arcane_mechanism"
+			}
+			id: "6E37D3C346AFEC21"
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "kubejs:arcane_mechanism"
+				}
+				id: "468753EF80C99E4C"
+				stage: "奥术工业"
+				team_stage: true
+				type: "gamestage"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
 	]
 }
