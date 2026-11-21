@@ -10,6 +10,7 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "58AD5AF80722331D"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -212,6 +213,18 @@
 			}]
 			x: -0.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["51B435BB7CF9EAEB"]
+			hide_details_until_startable: true
+			id: "75F1415BC1A9FBED"
+			tasks: [{
+				id: "3A65A6584DDA578A"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
 		}
 	]
 }
