@@ -1,0 +1,716 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "725884ab89488808"
+	group: "5B35751FF01CB70D"
+	hide_quest_details_until_startable: true
+	icon: {
+		id: "kubejs:kinetic_mechanism"
+	}
+	id: "725884AB89488808"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28EF8F833313DCFC"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/accept.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 0.9d
+			id: "1ADFEAFE92E08F24"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					id: "kubejs:kinetic_mechanism"
+				}
+				id: "4388F95DC39D5F2E"
+				ignore_reward_blocking: true
+				stage: "基础研究"
+				type: "gamestage"
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "09ACD32B46BA581C"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					id: "2DA71C3A06B04594"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6158DD8EC3B428"]
+			icon_scale: 0.9d
+			id: "44DDEE323451701D"
+			shape: "gear"
+			tasks: [{
+				id: "115A06D0C5D180EC"
+				item: { count: 1, id: "guideme:guide" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1ADFEAFE92E08F24"]
+			icon: {
+				id: "guguaddons:interface_upgrade_1"
+			}
+			icon_scale: 0.9d
+			id: "5CF611A89C4A3460"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:interface_upgrade_1"
+				}
+				id: "36B6A012112DEA60"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "interface_upgrade_1"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 4096L
+				id: "0EF51A3237029021"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44B1E48CEE165775"]
+			icon: {
+				id: "guguaddons:interface_upgrade_2"
+			}
+			icon_scale: 0.9d
+			id: "15F92C8B6180BBCD"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:interface_upgrade_2"
+				}
+				id: "4DC6F876DAB975D9"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "interface_upgrade_2"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 8192L
+					id: "5617F77BCE0281C6"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "2C77D5DBA2530816"
+					item: { count: 1, id: "create:precision_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "3DDA5597C3A80A58"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["682EA5AD7E10C382"]
+			icon: {
+				id: "create:schedule"
+			}
+			icon_scale: 0.9d
+			id: "3DF01E01D8045FD0"
+			shape: "gear"
+			tasks: [{
+				id: "468B9AACD1E2B739"
+				item: { count: 1, id: "guideme:guide" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44DDEE323451701D"]
+			icon_scale: 0.9d
+			id: "536171A3638882E5"
+			shape: "gear"
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0DDF1A6636380BF4"]
+			icon: {
+				components: {
+					"create:banktank_air": 900
+				}
+				id: "create_jetpack:jetpack"
+			}
+			icon_scale: 0.9d
+			id: "47E085E69978417A"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					components: {
+						"create:banktank_air": 900
+					}
+					id: "create_jetpack:jetpack"
+				}
+				id: "1CE54C482257621D"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "jetpack_1"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "377F7FA3137A36C1"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47E085E69978417A"]
+			icon: {
+				components: {
+					"create:banktank_air": 900
+				}
+				id: "create_jetpack:netherite_jetpack"
+			}
+			icon_scale: 0.9d
+			id: "0EA1B4E371713261"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					components: {
+						"create:banktank_air": 900
+					}
+					id: "create_jetpack:netherite_jetpack"
+				}
+				id: "1E4D5C0F1C78BFFA"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "jetpack_2"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "055791189E551DBB"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6C940B32C97D8346"]
+			icon: {
+				id: "torchmaster:megatorch"
+			}
+			icon_scale: 0.9d
+			id: "142E41E10006D041"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "torchmaster:megatorch"
+				}
+				id: "540E1760009D0F4A"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "torchmaster_1"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "3577669BF89C93D1"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["142E41E10006D041"]
+			icon: {
+				id: "torchmaster:dreadlamp"
+			}
+			icon_scale: 0.9d
+			id: "65094E8DF35B6220"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "torchmaster:dreadlamp"
+				}
+				id: "42C202BDCE50DACC"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "torchmaster_2"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "541AFBD0AAB924D7"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["65094E8DF35B6220"]
+			icon: {
+				id: "torchmaster:feral_flare_lantern"
+			}
+			icon_scale: 0.9d
+			id: "4449D408A6115C65"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "torchmaster:feral_flare_lantern"
+				}
+				id: "7B382D1D6D70BF7B"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "torchmaster_3"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "679A9CE0F0EDCAC1"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["44B1E48CEE165775"]
+			icon: {
+				id: "guguaddons:slash_back_terminal"
+			}
+			icon_scale: 0.9d
+			id: "6D87C1DF995717D7"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					id: "guguaddons:slash_back_terminal"
+				}
+				id: "4986E6455363256B"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "slash_back_terminal"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "62D2FB4D8CC1B57C"
+				item: { count: 1, id: "kubejs:arcane_mechanism" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15F92C8B6180BBCD"]
+			icon: {
+				id: "guguaddons:interface_upgrade_3"
+			}
+			icon_scale: 0.9d
+			id: "21486D4A2E6BF8A7"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "guguaddons:interface_upgrade_3"
+				}
+				id: "6FD3FD5D43BFA8B4"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "interface_upgrade_3"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					consume_items: true
+					count: 16384L
+					id: "30F944EFE3B03B81"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4096L
+					id: "36FA448B43B761EA"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "7A3FBC4AEEBD42D4"
+					item: { count: 1, id: "kubejs:arcane_mechanism" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1ADFEAFE92E08F24"]
+			icon: {
+				id: "kubejs:mythril_ingot"
+			}
+			icon_scale: 0.9d
+			id: "0DDF1A6636380BF4"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:mythril_ingot"
+				}
+				id: "154E8C0A50388B75"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "mythril"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "14858E3AF070DDA0"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DDF1A6636380BF4"]
+			icon: {
+				id: "kubejs:liquid_source_bucket"
+			}
+			icon_scale: 0.9d
+			id: "6C940B32C97D8346"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:sal_ammoniac_accumulator"
+				}
+				id: "4278A456A2E19632"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "liquid_source"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 768L
+				id: "14CF9BBB0819AF18"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C940B32C97D8346"]
+			icon: {
+				id: "kubejs:hallowed_gold_ingot"
+			}
+			icon_scale: 0.9d
+			id: "2B6158DD8EC3B428"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "theurgy:liquefaction_cauldron"
+				}
+				id: "65BC9A7AE7DE9147"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "hallowed_gold"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "3BDFAA94EC17437D"
+				item: { count: 1, id: "kubejs:kinetic_mechanism" }
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6158DD8EC3B428"]
+			icon: {
+				id: "kubejs:arcane_ingot"
+			}
+			icon_scale: 0.9d
+			id: "682EA5AD7E10C382"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:arcane_sheet"
+				}
+				id: "6EB3167A8C03B6D7"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "arcane_ingot"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.4d
+			tasks: [
+				{
+					consume_items: true
+					count: 1024L
+					id: "706042E9E5296033"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "4BBE8E3AA38C622E"
+					item: { count: 1, id: "create:precision_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["682EA5AD7E10C382"]
+			icon: {
+				id: "kubejs:arcane_mechanism"
+			}
+			icon_scale: 0.9d
+			id: "44B1E48CEE165775"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					id: "kubejs:arcane_mechanism"
+				}
+				id: "03A21E40BF73A72C"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "arcane_mechanism"
+				type: "astages:player"
+			}]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					consume_items: true
+					count: 2048L
+					id: "4DAFC5F485E4450F"
+					item: { count: 1, id: "kubejs:kinetic_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "6E7D68670978031D"
+					item: { count: 1, id: "create:precision_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DDF1A6636380BF4"]
+			icon: {
+				id: "createdieselgenerators:ethanol_bucket"
+			}
+			icon_scale: 0.9d
+			id: "73B7FC9397EA5A19"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "2514D0FD42879EEA"
+				item: { count: 1, id: "createdieselgenerators:ethanol_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DDF1A6636380BF4"]
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			icon_scale: 0.9d
+			id: "6102986E979E25AD"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "3C265BE1A808B3E1"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C940B32C97D8346"]
+			icon: {
+				id: "waystones:warp_dust"
+			}
+			icon_scale: 0.9d
+			id: "03A125733BA8FA67"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "79ED12683EF183A0"
+				item: { count: 1, id: "waystones:warp_dust" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03A125733BA8FA67"]
+			icon: {
+				id: "ars_nouveau:sourceberry_bush"
+			}
+			icon_scale: 0.9d
+			id: "2806210C82CB96DF"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "1EB897F9B2C3CF27"
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2B6158DD8EC3B428"
+				"03A125733BA8FA67"
+			]
+			icon: {
+				id: "ars_nouveau:green_archwood_log"
+			}
+			icon_scale: 0.9d
+			id: "25FA6209BD88BBDD"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "02E6A33A28FB6392"
+				item: { count: 1, id: "ars_nouveau:green_archwood_log" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B6158DD8EC3B428"]
+			icon: {
+				id: "createaddition:electrum_block"
+			}
+			icon_scale: 0.9d
+			id: "156D64CD59334840"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "7E097C8C51E1FDAC"
+					item: { count: 1, id: "mynethersdelight:golden_egg" }
+					type: "item"
+				}
+				{
+					id: "194894755DA47807"
+					item: { count: 1, id: "createaddition:electrum_block" }
+					type: "item"
+				}
+				{
+					id: "027D550B62514788"
+					item: { count: 1, id: "minecraft:resin_clump" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44B1E48CEE165775"]
+			icon: {
+				id: "pantographsandwires:iron_rod_bundle"
+			}
+			icon_scale: 0.9d
+			id: "749ADB890FB9504E"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "5958FDC5AF1D7A81"
+				item: { count: 1, id: "pantographsandwires:iron_rod_bundle" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.0d
+		}
+	]
+}

@@ -175,14 +175,28 @@ ServerEvents.recipes(event => {
             count: 1
         },
         block_in: 'create:basin',
-        contextual: {
-            type: 'execute',
-            command: emptyBasinCommand
-        },
+        // The liquefaction cauldron is two blocks tall: Lychee's place does not trigger setPlacedBy, so the upper half is placed separately and the block above must be air
+        // With only the lower half, the cauldron vanishes as soon as the block above changes (cauldrons already converted in old saves are not patched)
+        contextual: [
+            {
+                type: 'execute',
+                command: emptyBasinCommand
+            },
+            {
+                type: 'location',
+                offsetY: 1,
+                predicate: { block: { blocks: ['minecraft:air', 'minecraft:cave_air'] } }
+            }
+        ],
         post: [
             {
                 type: 'place',
                 block: 'theurgy:liquefaction_cauldron'
+            },
+            {
+                type: 'place',
+                block: 'theurgy:liquefaction_cauldron[half=upper]',
+                offsetY: 1
             },
             {
                 type: 'execute',

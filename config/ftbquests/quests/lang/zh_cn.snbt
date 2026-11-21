@@ -6,16 +6,23 @@
 	chapter.7E04319371B01AD0.title: "路线"
 	chapter_group.3C63A0CCCA15A8F0.title: "Event"
 	chapter_group.5B35751FF01CB70D.title: "GuGuCraft Expert DLC"
-	quest.06C4F025C07591FE.quest_desc: [
-		"听着，实验员，接下来的奥术挑战可不是闹着玩的，高层在报告里管这叫“&6难度稍高的自动化挑战&f”。但据我所知，上一个试图徒手组装的工友，他的胡子至今还在闪烁着紫光。"
+	quest.03A125733BA8FA67.quest_desc: [
+		"传送石碑的老朋友&a传送粉&f在研究所找到了新工作：它对某些植物有着相当奇妙的“催化”效果。"
 		""
-		"为了不让你步其后尘，我们需要在正式开始前，为你解锁制造奥术构件的核心必要机器。规则依旧：向终端上缴512个动力构件作为研发经费。"
-		""
-		"&4正所谓工欲善其事，必先利其器。老老实实把必备工具准备好，除非你真的想用肉体去搅拌那些狂暴的魔法能量。"
+		"至于是哪些植物，就请你自己去翻资料了。"
 	]
-	quest.06C4F025C07591FE.quest_subtitle: "工欲善其事，必先利其器"
-	quest.06C4F025C07591FE.title: "在此之前"
+	quest.03A125733BA8FA67.quest_subtitle: "不止能传送"
+	quest.03A125733BA8FA67.title: "传送粉"
 	quest.0776FD82E9C13041.title: "122"
+	quest.0DDF1A6636380BF4.quest_desc: [
+		"还记得那些从地底深处钻出来的银色矿石吗？材料部给它起名叫&b秘银&f，并宣布它是一切奥术研究的地基——前提是你能把它从矿渣里提炼出来。"
+		""
+		"提炼工艺目前还锁在数据库里。规矩照旧：向终端上缴&a512个动力构件&f作为研发经费，秘银的加工许可就归你了。"
+		""
+		"&c友情提示：秘银的胃口可不小。后勤部看了一眼它的原料清单，就开始默默更新自己的简历。"
+	]
+	quest.0DDF1A6636380BF4.quest_subtitle: "比钢更硬，比钱包更薄"
+	quest.0DDF1A6636380BF4.title: "秘银"
 	quest.0EA1B4E371713261.title: "下界合金喷气背包"
 	quest.128A83BF0B506781.quest_desc: [
 		"把你的手指从鼠标左键上移开，新人。看到那个显眼的黄色警告了吗？"
@@ -28,17 +35,13 @@
 	]
 	quest.128A83BF0B506781.quest_subtitle: "拯救你的鼠标"
 	quest.128A83BF0B506781.title: "另一种研究方式"
-	quest.12DE07A7191AB43F.quest_desc: [
-		"准备好让科学与玄学发生剧烈碰撞了吗，实验员？本章节的主要目标，是实现&6奥术构件&f的全面自动化量产。没错，“奥术”。高层不知从哪挖来了一些发光的破石头，就一拍脑门决定要把魔法强行塞进齿轮里。"
+	quest.142E41E10006D041.quest_desc: [
+		"苦力怕的爆炸不在设备保修范围内。为了防止你哭着重造流水线，这批照明方案能提供一种“战略性强光压制”。"
 		""
-		"为了解锁这项极其不讲道理的蓝图，你首先需要向终端上缴高达 512个&a动力构件&f。为什么刚好是512个？研究主管宣称这是为了“建立稳定的奥术能量场”，但我严重怀疑他只是想挪用零件去造一台全自动意式咖啡机。"
-		""
-		"别盯着那可怕的数字发呆了。全面启动你的流水线吧！&4如果你企图徒手敲出这512个构件，医疗部真的很乐意把你本人直接当成施法材料。"
+		"&c记住：只有把光照拉满，你的加班环境才足够安全。"
 	]
-	quest.12DE07A7191AB43F.quest_subtitle: "下一步"
-	quest.12DE07A7191AB43F.title: "本章目标"
 	quest.142E41E10006D041.quest_subtitle: "防刷怪利器"
-	quest.142E41E10006D041.title: "巨型火把"
+	quest.142E41E10006D041.title: "超级火把"
 	quest.14F992B07C3BEFA9.quest_desc: [
 		"把你的扳手准备好，实验员，我们即将接触真正的重工业技术。呈现在你面前的是“演算终端”，它是整个自动化提交流程的大脑。"
 		""
@@ -47,6 +50,13 @@
 		"搭建完成后，请确保接入了足够的应力。动起来吧，机器可不会自己把自己装好！"
 	]
 	quest.14F992B07C3BEFA9.quest_subtitle: "工业结晶"
+	quest.156D64CD59334840.quest_desc: [
+		"灌注可不是往台子上随便摆点东西就行的。后勤部已经把需要准备的材料列在了任务目标里。"
+		""
+		"&c别问为什么需要一颗金蛋。我们问过，研究主管只是神秘地笑了笑。"
+	]
+	quest.156D64CD59334840.quest_subtitle: "仪式感很重要"
+	quest.156D64CD59334840.title: "灌注材料"
 	quest.15F92C8B6180BBCD.quest_desc: ["将提交速度提升至 &a8 / tick"]
 	quest.15F92C8B6180BBCD.quest_subtitle: "Tier 2"
 	quest.15F92C8B6180BBCD.title: "输入速率升级 II"
@@ -63,6 +73,16 @@
 	quest.21486D4A2E6BF8A7.quest_desc: ["将提交速度提升至 &a16 / tick"]
 	quest.21486D4A2E6BF8A7.quest_subtitle: "Tier 3"
 	quest.21486D4A2E6BF8A7.title: "输入速率升级 III"
+	quest.25FA6209BD88BBDD.quest_desc: ["神圣金相关的设备需要用到&a繁茂至高木&f。这种树在研究所附近可不常见，想要稳定的木材供应，你得想办法自己种。"]
+	quest.25FA6209BD88BBDD.quest_subtitle: "会长魔力的树"
+	quest.25FA6209BD88BBDD.title: "繁茂至高木"
+	quest.2806210C82CB96DF.quest_desc: [
+		"液态魔源的蓄积需要用到&a魔源浆果&f。"
+		""
+		"&c它们是实验耗材，不是零食。上周有人把一整箱当下午茶吃了，现在他打嗝会冒火花。"
+	]
+	quest.2806210C82CB96DF.quest_subtitle: "实验耗材，禁止食用"
+	quest.2806210C82CB96DF.title: "魔源浆果"
 	quest.28EF8F833313DCFC.quest_desc: [
 		"很好，看来你没有把那些构件偷偷拿去换成面包。现在，我们要把这些零散的部件变成“演算终端”。"
 		""
@@ -74,7 +94,15 @@
 	]
 	quest.28EF8F833313DCFC.quest_subtitle: "建造需求"
 	quest.28EF8F833313DCFC.title: "演算终端的搭建"
-	quest.31473A2C2F107100.title: "演算终端升级"
+	quest.2B6158DD8EC3B428.quest_desc: [
+		"有了液态魔源，我们终于可以对黄金下手了。研究所的目标是把普通的金子“净化”成&6神圣金&f——一种据说被魔力祝福过、实际上主要被财务部诅咒过的金属。"
+		""
+		"向终端上缴&a1024个动力构件&f，解锁净化与灌注所需的全套设备。"
+		""
+		"&c注意：第一块神圣金总是最难的。等你凑齐它的时候，你会对“万事开头难”有全新的理解。"
+	]
+	quest.2B6158DD8EC3B428.quest_subtitle: "点石成金，字面意思"
+	quest.2B6158DD8EC3B428.title: "神圣金"
 	quest.350E5B96AEA079A7.quest_desc: [
 		"听好了，新人。在 GuGu 研究所，知识可不是免费的午餐——它是通过“物质转化数据”来换取的。"
 		""
@@ -98,15 +126,24 @@
 	quest.3B1BA1B9DC394B51.quest_subtitle: "那你走大运了"
 	quest.3B1BA1B9DC394B51.title: "意外捡到了没见过的东西？"
 	quest.3DF01E01D8045FD0.quest_desc: ["敬请期待"]
-	quest.3DF01E01D8045FD0.title: "升级占位符2"
+	quest.3DF01E01D8045FD0.title: "并行任务升级"
 	quest.4449D408A6115C65.quest_subtitle: "狂野，只用一种"
-	quest.4449D408A6115C65.title: "狂野闪耀之灯"
+	quest.4449D408A6115C65.title: "野火灯笼"
+	quest.44B1E48CEE165775.quest_desc: [
+		"欢迎来到本章的终点：&d奥术构件&f。它把机械的严谨和魔法的不讲道理塞进了同一个零件里，也是研究所下一阶段所有奥术研究的“货币”。"
+		""
+		"最后一笔经费：&a2048个动力构件&f与&a512个精密构件&f。解锁之后，请立刻着手它的量产——相信我，你会需要非常、非常多的奥术构件。"
+		""
+		"&4医疗部提醒：长时间注视奥术构件可能导致胡子发出紫光，研究所对此概不负责。"
+	]
+	quest.44B1E48CEE165775.quest_subtitle: "本章终点"
+	quest.44B1E48CEE165775.title: "奥术构件"
 	quest.44DDEE323451701D.quest_desc: ["敬请期待"]
 	quest.44DDEE323451701D.title: "升级占位符1"
+	quest.47E085E69978417A.quest_desc: ["双腿行走不仅低效，还磨损地板。感谢 PssbleTrngle™ 的慷慨赞助，我们赋予你脱离地心引力的特权。穿上喷气背包起飞吧——但请注意，天花板维修费需自理。"]
 	quest.47E085E69978417A.title: "喷气背包"
 	quest.4E02622DDA832F7F.quest_desc: ["如果你是被其他朋友介绍进服的，别忘了加入我们的&a官方QQ群：613726820"]
 	quest.4E02622DDA832F7F.title: "交流群指南"
-	quest.515D94A2377A0691.title: "占位符2-1"
 	quest.536171A3638882E5.title: "占位符1-1"
 	quest.54EAE16EABEE8F0F.quest_desc: [
 		"理论课结束了，实验员。现在我们来看看你的动手能力是否和你的阅读理解能力一样……凑合。"
@@ -138,7 +175,11 @@
 	]
 	quest.5ACF65004EF1DD06.quest_subtitle: "逐步解锁"
 	quest.5ACF65004EF1DD06.title: "研究练习2"
-	quest.5CF611A89C4A3460.quest_desc: ["将提交速度提升至 &a4 / tick"]
+	quest.5CF611A89C4A3460.quest_desc: [
+		"嫌弃终端吞噬物资像在品茶？这套超频升级方案能把它的进食方式从“细嚼慢咽”变成“暴风吸入”。别让漫长的进度条成为你偷懒的借口，效率就是一切！"
+		""
+		"将提交速度提升至 &a4 / tick"
+	]
 	quest.5CF611A89C4A3460.quest_subtitle: "Tier 1"
 	quest.5CF611A89C4A3460.title: "输入速率升级 I"
 	quest.5F262010FF62FC8C.quest_desc: ["内容正在施工中，流程极为不完整，仅为可玩状态。如遇bug等问题请联系群主&6@全自动鸽子&f反馈"]
@@ -150,19 +191,18 @@
 		"除此之外服务器没有其他限制，只要不影响到其他玩家正常游玩，你可以自由探索这个世界"
 	]
 	quest.5F8D54587D37CCEC.title: "服务器守则"
+	quest.6102986E979E25AD.quest_desc: [
+		"秘银的炼制离不开大量的&a下界合金&f。靠挖远古残骸是凑不够的，你需要一条能自己持续产出下界合金的产线。"
+		""
+		"&c别指望后勤部替你去下界挖矿，他们连食堂都懒得去。"
+	]
+	quest.6102986E979E25AD.quest_subtitle: "稳定货源"
+	quest.6102986E979E25AD.title: "下界合金"
 	quest.61225D16E85DC829.title: "EXPERT DLC KEY"
 	quest.619CC9255627D69D.quest_desc: ["除开&a新年&f的固有合影活动之外，服务器将&a不定期&f举行一些小活动，欢迎积极参与"]
 	quest.619CC9255627D69D.title: "服务器活动"
-	quest.644F6979053A23C6.quest_desc: [
-		"苦力怕的爆炸不在设备保修范围内。为了防止你哭着重造流水线，这批照明方案能提供一种“战略性强光压制”。"
-		""
-		"&c记住：只有把光照拉满，你的加班环境才足够安全。"
-	]
-	quest.644F6979053A23C6.title: "真·伪和平"
 	quest.65094E8DF35B6220.quest_subtitle: "防蝙蝠利器"
-	quest.65094E8DF35B6220.title: "恐惧之灯"
-	quest.65A4C7999CB24B58.quest_desc: ["双腿行走不仅低效，还磨损地板。感谢 PssbleTrngle™ 的慷慨赞助，我们赋予你脱离地心引力的特权。穿上喷气背包起飞吧——但请注意，天花板维修费需自理。"]
-	quest.65A4C7999CB24B58.title: "便捷的移动方式"
+	quest.65094E8DF35B6220.title: "恐惧灯"
 	quest.66435C3FE4214FE7.quest_desc: [
 		"欢迎入职，第 [数据删除] 号实验员！既然你能读到这段文字，说明你已经成功通过了我们的人体耐受性测试——或者只是单纯地捡到了这本操作终端。"
 		""
@@ -175,40 +215,60 @@
 	quest.66435C3FE4214FE7.quest_subtitle: "章节基础教程"
 	quest.66435C3FE4214FE7.title: "欢迎来到GuGu研究所！"
 	quest.66DD1F44726A98F2.title: "更新日志"
-	quest.68E9F68EF5DB9EC1.quest_subtitle: "因为产能就这点了，只能做这么多了.jpg"
-	quest.68E9F68EF5DB9EC1.title: "未完待续"
+	quest.682EA5AD7E10C382.quest_desc: [
+		"秘银、液态魔源、神圣金……原料已经到齐，是时候把它们熔为一炉了。&d奥术锭&f是秘银与魔源的结晶，而&d奥术板&f是它被机器压扁之后的样子——没错，我们对待魔法的方式就是这么朴实。"
+		""
+		"本次研发经费：&a1024个动力构件&f与&a256个精密构件&f。精密构件的加入意味着高层终于承认，魔法也是需要一点精度的。"
+	]
+	quest.682EA5AD7E10C382.quest_subtitle: "把魔法压扁"
+	quest.682EA5AD7E10C382.title: "奥术锭 / 奥术板"
 	quest.6C56617CC14B9DB4.quest_desc: ["如你所见，这里是MC，做你想做的事吧"]
 	quest.6C56617CC14B9DB4.title: "我能做些什么？"
-	quest.6D770935677BE2AE.title: "生活质量更新"
+	quest.6C940B32C97D8346.quest_desc: [
+		"秘银到手，接下来要对付的是真正的“魔法”。高层坚持认为魔力也能像机油一样灌进管道，于是有了&b液态魔源&f这个听上去就很危险的项目。"
+		""
+		"为此你需要两台来自神通术的炼金设备。向终端上缴&a768个动力构件&f，解锁它们的使用许可。"
+		""
+		"&4再说一遍，请勿饮用。上一个这么做的实验员，现在能看见声音。"
+	]
+	quest.6C940B32C97D8346.quest_subtitle: "请勿饮用"
+	quest.6C940B32C97D8346.title: "液态魔源"
+	quest.6D87C1DF995717D7.quest_desc: ["想体验当上帝的感觉？我们确实出售修改现实的“作弊码”，但别高兴得太早。在这里，每个东西都是有标价的。准备好你的资源吧，毕竟打破第四面墙的罚款可不便宜。"]
 	quest.6D87C1DF995717D7.title: "“/back”"
-	quest.6FF9ABC70A1ED35E.quest_desc: ["嫌弃终端吞噬物资像在品茶？这套超频升级方案能把它的进食方式从“细嚼慢咽”变成“暴风吸入”。别让漫长的进度条成为你偷懒的借口，效率就是一切！"]
-	quest.6FF9ABC70A1ED35E.quest_subtitle: "更高更快更强"
-	quest.6FF9ABC70A1ED35E.title: "提交速率升级"
-	quest.7DCB180AF32B68EA.quest_desc: ["想体验当上帝的感觉？我们确实出售修改现实的“作弊码”，但别高兴得太早。在这里，每个东西都是有标价的。准备好你的资源吧，毕竟打破第四面墙的罚款可不便宜。"]
-	quest.7DCB180AF32B68EA.title: "服务器指令？"
+	quest.73B7FC9397EA5A19.quest_desc: [
+		"秘银的某些加工环节对&a乙醇&f的消耗大得惊人。研究所食堂不提供酒水，请自行解决。"
+		""
+		"顺带一提，钻井也是要喝燃料的。柴油动力的产品线值得你好好研究一番。"
+	]
+	quest.73B7FC9397EA5A19.quest_subtitle: "工业用酒"
+	quest.73B7FC9397EA5A19.title: "乙醇"
+	quest.749ADB890FB9504E.quest_desc: ["再神奇的魔法也需要一副结实的骨架。&a铁杆束&f正是奥术构件的基底。"]
+	quest.749ADB890FB9504E.quest_subtitle: "奥术的骨架"
+	quest.749ADB890FB9504E.title: "铁杆束"
 	quest.7E4D4147072B5809.quest_desc: ["欢迎来到GuGuCraft六周目！这是你的奖励，快拿好！"]
 	quest.7E4D4147072B5809.title: "欢迎回来！"
 	quest.7E89BA85799A724B.quest_desc: ["本章节主要内容为DLC内容的重要节点，你可以在这里看到目前的大致发展阶段"]
 	quest.7E89BA85799A724B.title: "摘要"
-	reward.05D442B3BCD9DFAB.title: "敬请期待"
+	reward.03A21E40BF73A72C.title: "解锁：奥术构件"
 	reward.062017ABCF0A980E.title: "不知道从哪捡来的终端"
+	reward.154E8C0A50388B75.title: "解锁：秘银加工"
 	reward.1CE54C482257621D.title: "解锁：喷气背包"
 	reward.1E4D5C0F1C78BFFA.title: "解锁：下界合金喷气背包"
 	reward.26A11C5C06A686E5.title: "解锁：功能接口"
 	reward.36B6A012112DEA60.title: "解锁：输入速率升级 I"
-	reward.3DB775EA629D23FD.title: "解锁：奥术构件"
-	reward.42C202BDCE50DACC.title: "解锁：恐惧之灯"
+	reward.4278A456A2E19632.title: "解锁：硇砂蓄积器、硇砂储罐"
+	reward.42C202BDCE50DACC.title: "解锁：恐惧灯"
 	reward.441A91BBAF32F54B.title: "领取你的奖励！"
 	reward.4986E6455363256B.title: "解锁：“/back”"
-	reward.4B321182ACCBA2DD.title: "解锁：基础奥术套件"
 	reward.4DC6F876DAB975D9.title: "解锁：输入速率升级 II"
-	reward.540E1760009D0F4A.title: "解锁：巨型火把"
+	reward.540E1760009D0F4A.title: "解锁：超级火把"
 	reward.63466AF724ADFD0D.title: "解锁：推演机壳"
+	reward.65BC9A7AE7DE9147.title: "解锁：液化坩埚、御炎火盆、煅烧炉、灌注室、奥术基座"
+	reward.6EB3167A8C03B6D7.title: "解锁：奥术锭、奥术板"
 	reward.6FD3FD5D43BFA8B4.title: "解锁：输入速率升级 III"
-	reward.7B382D1D6D70BF7B.title: "解锁：狂野闪耀之灯"
+	reward.7B382D1D6D70BF7B.title: "解锁：野火灯笼"
 	reward_table.49185B525CF28733.title: "初心者奖励包"
 	reward_table.6CB5E0321863F6C6.title: "初级工程师福利包"
-	task.22F53E8C63AFD672.title: "未完待续"
 	task.3A8C14BE3A2AF0CF.title: "动力构件"
 	task.6AF024E3A7465684.title: "我已确认，启动！"
 	task.728C11576CF4C550.title: "机械动力高手认证？"

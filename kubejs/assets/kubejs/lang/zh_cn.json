@@ -6,6 +6,9 @@
   "fluid_type.kubejs.reactive_dye": "活性染色剂",
   "fluid_type.kubejs.liquid_source": "液态魔源",
   "fluid_type.kubejs.mythril_solvent": "秘银溶剂",
+  "item.kubejs.liquid_source_bucket": "液态魔源桶",
+  "block.kubejs.liquid_source": "液态魔源",
+  "block.kubejs.mythril_solvent": "秘银溶剂",
 
   "block.kubejs.counter": "柜台",
   "item.kubejs.counter": "柜台",
