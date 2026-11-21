@@ -1542,7 +1542,7 @@ hash = "7b57c6e36e62a8187bb4fa63f2f252ecd9e9ee345c816e7493f22cf8a172959f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gugucraft.snbt"
-hash = "09aa7e0b4b3ad0f163be96cba88f44dae261ab518253fd49bb3b2486ef857cef"
+hash = "2dd25e4705a83e3bf473474e4e30631e67d3482ebc17102156f81fe79abbe5ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
