@@ -19,6 +19,8 @@
     const $SoundSource = Java.loadClass('net.minecraft.sounds.SoundSource')
     const $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
     const $ProxyPartBlockEntity = Java.loadClass('com.lowdragmc.mbd2.api.blockentity.ProxyPartBlockEntity')
+    const $MobJarData = Java.loadClass('com.hollingsworth.arsnouveau.common.items.data.MobJarData')
+    const $JarComponent = Java.loadClass('com.hollingsworth.arsnouveau.setup.registry.DataComponentRegistry').MOB_JAR.get()
     const PLAY_SOUND = 'playSound(net.minecraft.world.entity.player.Player,net.minecraft.core.BlockPos,net.minecraft.sounds.SoundEvent,net.minecraft.sounds.SoundSource,float,float)'
     const OTHERSIDE = global.SCULK_ACOUSTICS.DIMENSION
     const WOOL = Ingredient.of('#minecraft:wool')
@@ -130,6 +132,8 @@
 
         const agitation = getAgitation(machine)
         if (agitation + deltaOf(recipe) > cfg.THRESHOLD) {
+            // On repeat batches MBD2 calls this hook before checking supplies, power and output space.
+            if (!recipe.matchRecipe(machine).isSuccess() || !recipe.matchTickRecipe(machine).isSuccess()) return
             voidBatch(machine, now)
             return
         }
@@ -191,17 +195,18 @@
         }
     })
 
-    // Once formed the Containment Jar is replaced by a proxy block: breaking that position directly drops loot from the jar loot table but cannot read the Warden data inside.
-    // Restore the proxy block to the original jar (with its block entity data) first, then break it as usual
-    BlockEvents.broken('mbd2:proxy_part_block', event => {
-        const level = event.level
-        const pos = event.block.getPos()
-        const proxy = level.getBlockEntity(pos)
+    // MBD2 uses the jar's loot table but passes the proxy as its block entity. Fill in the missing Ars component on the actual drop.
+    BlockEvents.drops('mbd2:proxy_part_block', event => {
+        const proxy = event.block.entity
         if (!(proxy instanceof $ProxyPartBlockEntity)) return
         const original = proxy.getOriginalState()
         if (original == null || String($BuiltInRegistries.BLOCK.getKey(original.getBlock())) !== cfg.JAR) return
-        event.cancel()
-        proxy.restoreOriginalBlock()
-        level.destroyBlock(pos, !event.player.isCreative(), event.player)
+        const data = proxy.getOriginalData()
+        if (data == null || (!data.contains('entityTag') && !data.contains('extraMobData'))) return
+        event.getItems().forEach(stack => {
+            if (String(stack.getId()) === cfg.JAR) {
+                stack.set($JarComponent, new $MobJarData(data.get('entityTag'), data.get('extraMobData')))
+            }
+        })
     })
 })()

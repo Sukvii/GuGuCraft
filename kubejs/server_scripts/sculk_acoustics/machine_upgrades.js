@@ -42,11 +42,9 @@
             if (!(blockEntity instanceof $MachineBlockEntity)) return
             const machine = blockEntity.getMetaMachine()
             const data = machine.getCustomData()
-            // Cancel whether or not the upgrade succeeds, so the upgrade item never triggers the block's other interactions
-            event.cancel()
             if (data.getInt(upgrade.cfg.LEVEL_KEY) >= 2) {
                 player.displayClientMessage(Text.translatableWithFallback('message.kubejs.machine_upgrade.already_max', 'This %s is already level 2.', machineName(upgrade)), true)
-                return
+                return event.cancel()
             }
             data.putInt(upgrade.cfg.LEVEL_KEY, 2)
             upgrade.apply(machine)
@@ -58,6 +56,7 @@
             level[PLAY_SOUND](null, pos, $SoundEvents.SMITHING_TABLE_USE, $SoundSource.BLOCKS, 1.0, 1.0)
             level.sendParticles($ParticleTypes.ENCHANT, pos.getX() + 0.5, pos.getY() + 1.0, pos.getZ() + 0.5, 40, 0.3, 0.3, 0.3, 0.5)
             player.displayClientMessage(Text.translatableWithFallback('message.kubejs.machine_upgrade.done', '%s upgraded to level 2.', machineName(upgrade)), true)
+            event.cancel()
         })
     })
 })()

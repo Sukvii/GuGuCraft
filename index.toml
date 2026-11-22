@@ -9326,7 +9326,7 @@ hash = "d5a62316cac563bbc97eaf3a20c8a9a5b7f2f562c49f96eab4643def74252092"
 
 [[files]]
 file = "kubejs/server_scripts/compat/ars_nouveau.js"
-hash = "3046979aea06389ed78dfef931dd88959cff99d0167204f96c65b4faba55be44"
+hash = "9cc17e6320f0763b6761729318329555ec09d056755ab1493c0b5daa26f09610"
 
 [[files]]
 file = "kubejs/server_scripts/compat/cca.js"
@@ -9426,7 +9426,7 @@ hash = "717252e5ada34447883d457112212a0e967527ad7efa0be9e9a1361cf6acfc0f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/arcane_industry/source_industry.js"
-hash = "87e469a750dd6f4cbc55cbd115e2032f1a292500310266e24d4e0a70650b5515"
+hash = "ac3728f9cfb3719c704c031b509baabecba6a4a508963da1c0a67e2ad782bb27"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/ars_nouveau/imbuement.js"
@@ -9558,7 +9558,7 @@ hash = "87dc12c2cf4d78a508fcc3d085a3a17b5f15a9032eb81d87a71116a2152e6ead"
 
 [[files]]
 file = "kubejs/server_scripts/sculk_acoustics/machine_upgrades.js"
-hash = "1b1e91ab69a5cb4977f4190ef33083d2676f35b92a2a42c06001d089c53dea22"
+hash = "61463903ba0b4e23ba231162815d691b972af3e30d3856dbaa4e49ed38d2f676"
 
 [[files]]
 file = "kubejs/server_scripts/security/illegal_item_cleaner.js"
@@ -9642,7 +9642,7 @@ hash = "2261f70bec19abc3fa5064fb859b2bca8ff93a15a803e8d3b2876342f977ee1d"
 
 [[files]]
 file = "kubejs/server_scripts/tech/warden_chamber.js"
-hash = "7d4da8185bf67948111e8bc3901f2f4f9543b53ac3394a191f25f0f9e33d4d82"
+hash = "2cb10ad7ed103080cfcc8a62659824378ab1833b7bf1fe3ca2eceb226dacf310"
 
 [[files]]
 file = "kubejs/server_scripts/util/dragons_plus.js"

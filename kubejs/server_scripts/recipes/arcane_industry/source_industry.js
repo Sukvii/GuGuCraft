@@ -63,6 +63,7 @@ ServerEvents.recipes(event => {
             ],
             results: [{ id: 'kubejs:liquid_source', amount: output }],
             heat_requirement: heat,
+            allowSuperheated: heat === 'superheated',
             processing_time: 100,
             // The 2nd fluid input (index 1) is read from the internal tank
             secondaryFluidInput: 1
