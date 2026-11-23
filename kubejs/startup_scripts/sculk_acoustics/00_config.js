@@ -45,9 +45,13 @@ global.SCULK_ACOUSTICS = {
         ITEM_OUTPUT_TRAIT: 'item_output',
         SOURCE_TRAIT: 'nearby_source',
         // Structure blocks
-        CASING: 'kubejs:arcane_casing',
+        CASING: 'kubejs:resonant_casing',
+        CATALYST: 'kubejs:activated_sculk_catalyst',
         GLASS: 'deeperdarker:soundproof_glass',
-        SENSOR: 'minecraft:sculk_sensor',
+        CALIBRATED_SENSOR: 'minecraft:calibrated_sculk_sensor',
+        // Mechanical Shrieker and Basic Spell Turret must face down (blockstate facing=down)
+        SHRIEKER: 'guguaddons:mechanical_shrieker',
+        TURRET: 'ars_nouveau:basic_spell_turret',
         JAR: 'ars_nouveau:mob_jar',
         JAR_ENTITY: 'minecraft:warden',
         // Per batch: Sculk Niter Powder x4 + 2000 Source (Source Jars within radius 10) + stress; 200 ticks

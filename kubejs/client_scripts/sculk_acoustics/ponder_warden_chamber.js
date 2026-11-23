@@ -23,6 +23,11 @@
     const CTRL = [3, 1, 2]
     const KINETIC = [3, 1, 4]
     const JAR = [3, 2, 3]
+    // Center column: Activated Sculk Catalyst under the jar; Calibrated Sculk Sensor and Mechanical Shrieker (facing down) above it; Basic Spell Turret (facing down) in the top center
+    const CATALYST = [3, 1, 3]
+    const SENSOR = [3, 3, 3]
+    const SHRIEKER = [3, 4, 3]
+    const TURRET = [3, 5, 3]
     const FRONT = [3, 1, 1]
     const OUT = [3, 1, 0]
     const SHAFTS = [[3, 1, 5], [3, 1, 6]]
@@ -37,7 +42,6 @@
         comparator: [1, 1, 4],
         wire: [0, 1, 4]
     }
-    const SENSORS = [[2, 5, 2], [4, 5, 2], [2, 5, 4], [4, 5, 4]]
     const SPEED = 64
 
     // Classes loaded only when a scene runs (when Ponder opens); registries are not bound yet when client scripts load, so they are not loaded at top level
@@ -94,16 +98,17 @@
     // adding to a selection already handed to an instruction also changes that instruction's range (a scene builds all instructions first, then plays them), so always copy() before merging
     const parts = t => {
         const select = t.select
-        const casingBottom = select.fromTo(2, 1, 2, 4, 1, 4).substract(t.at(CTRL)).substract(t.at(KINETIC))
+        const casingBottom = select.fromTo(2, 1, 2, 4, 1, 4).substract(t.at(CTRL)).substract(t.at(KINETIC)).substract(t.at(CATALYST))
         const glass = select.fromTo(2, 2, 2, 4, 4, 4).substract(select.fromTo(3, 2, 3, 3, 4, 3))
-        const sensors = t.many(SENSORS)
-        const casingTop = select.fromTo(2, 5, 2, 4, 5, 4).substract(sensors)
-        return { casingBottom, glass, sensors, casingTop, jar: t.at(JAR) }
+        const column = t.many([SENSOR, SHRIEKER])
+        const casingTop = select.fromTo(2, 5, 2, 4, 5, 4).substract(t.at(TURRET))
+        return { casingBottom, catalyst: t.at(CATALYST), glass, column, casingTop, turret: t.at(TURRET), jar: t.at(JAR) }
     }
 
     // Place all structure blocks (not shown yet)
     const placeStructure = (world, t, p) => {
         world.setBlocks(p.casingBottom, stateOf(cfg.CASING), false)
+        world.setBlocks(p.catalyst, stateOf(cfg.CATALYST), false)
         world.setBlocks(t.at(CTRL), stateOf(`${cfg.MACHINE_ID}[facing=north]`), false)
         world.setBlocks(t.at(KINETIC), stateOf(`${cfg.KINETIC_INPUT_ID}[facing=south]`), false)
         world.setBlocks(p.jar, stateOf(cfg.JAR), false)
@@ -113,8 +118,10 @@
             nbt.put('entityTag', entity)
         })
         world.setBlocks(p.glass, stateOf(cfg.GLASS), false)
-        world.setBlocks(p.sensors, stateOf(cfg.SENSOR), false)
+        world.setBlocks(t.at(SENSOR), stateOf(cfg.CALIBRATED_SENSOR), false)
+        world.setBlocks(t.at(SHRIEKER), stateOf(`${cfg.SHRIEKER}[facing=down]`), false)
         world.setBlocks(p.casingTop, stateOf(cfg.CASING), false)
+        world.setBlocks(p.turret, stateOf(`${cfg.TURRET}[facing=down]`), false)
     }
 
     // Power and Source
@@ -132,7 +139,7 @@
     // Forming: set the controller to formed and remove the other structure blocks (invisible proxy blocks in game); the jar model draws the whole machine
     const form = (scene, t, p) => {
         modifyMachine(scene, t, machine => machine.setFormed(true))
-        const hidden = p.casingBottom.copy().add(p.glass).add(p.sensors).add(p.casingTop).add(p.jar)
+        const hidden = p.casingBottom.copy().add(p.catalyst).add(p.glass).add(p.column).add(p.casingTop).add(p.turret).add(p.jar)
         scene.world.setBlocks(hidden, AIR(), false)
     }
 
@@ -150,14 +157,14 @@
         scene.idle(10)
 
         // Bottom layer
-        world.showSection(p.casingBottom, Direction.DOWN)
+        world.showSection(p.casingBottom.copy().add(p.catalyst), Direction.DOWN)
         scene.idle(10)
         world.showSection(t.at(CTRL), Direction.DOWN)
         scene.idle(5)
         world.showSection(t.at(KINETIC), Direction.DOWN)
         scene.idle(15)
-        overlay.showOutline(PonderPalette.GREEN, 'bottom', p.casingBottom, 80)
-        scene.text(80, T('structure.bottom', 'Lay &aArcane Casing&f on the bottom layer. The &aWarden Resonance Chamber&f controller goes in the middle of the front, the &aResonance Chamber Kinetic Input&f in the middle of the back.'), t.face(CTRL, 0, 0, -1))
+        overlay.showOutline(PonderPalette.GREEN, 'bottom', p.casingBottom.copy().add(p.catalyst), 80)
+        scene.text(80, T('structure.bottom', 'Lay &aResonant Casing&f on the bottom layer with an &aActivated Sculk Catalyst&f in the center. The &aWarden Resonance Chamber&f controller goes in the middle of the front, the &aResonance Chamber Kinetic Input&f in the middle of the back.'), t.face(CTRL, 0, 0, -1))
             .placeNearTarget().attachKeyFrame()
         scene.idle(90)
 
@@ -172,15 +179,23 @@
         world.showSection(p.glass, Direction.DOWN)
         scene.idle(15)
         overlay.showOutline(PonderPalette.GREEN, 'glass', p.glass, 70)
-        scene.text(70, T('structure.glass', 'Surround the outer ring of layers two to four with &aSoundproof Glass&f. The two blocks above the jar stay empty.'), t.face([2, 3, 3], -1, 0, 0))
+        scene.text(70, T('structure.glass', 'Surround the outer ring of layers two to four with &aSoundproof Glass&f.'), t.face([2, 3, 3], -1, 0, 0))
+            .placeNearTarget().attachKeyFrame()
+        scene.idle(80)
+
+        // Above the jar
+        world.showSection(p.column, Direction.DOWN)
+        scene.idle(15)
+        overlay.showOutline(PonderPalette.GREEN, 'column', p.column, 70)
+        scene.text(70, T('structure.column', 'Above the jar, stack a &aCalibrated Sculk Sensor&f, then a &aMechanical Shrieker&f facing down.'), t.center(SHRIEKER))
             .placeNearTarget().attachKeyFrame()
         scene.idle(80)
 
         // Top layer
-        world.showSection(p.casingTop.copy().add(p.sensors), Direction.DOWN)
+        world.showSection(p.casingTop.copy().add(p.turret), Direction.DOWN)
         scene.idle(15)
-        overlay.showOutline(PonderPalette.GREEN, 'sensors', p.sensors, 70)
-        scene.text(70, T('structure.top', 'The top layer has &aSculk Sensors&f in the four corners and &aArcane Casing&f everywhere else.'), t.top([2, 5, 2]))
+        overlay.showOutline(PonderPalette.GREEN, 'turret', p.turret, 70)
+        scene.text(70, T('structure.top', 'The top layer is a ring of &aResonant Casing&f with a &aBasic Spell Turret&f facing down in the center.'), t.top(TURRET))
             .placeNearTarget().attachKeyFrame()
         scene.idle(80)
 
@@ -351,7 +366,7 @@
         scene.idle(20)
 
         // Port coverage
-        overlay.showOutline(PonderPalette.GREEN, 'ports', p.casingBottom.copy().add(t.at(CTRL)), 90)
+        overlay.showOutline(PonderPalette.GREEN, 'ports', p.casingBottom.copy().add(p.catalyst).add(t.at(CTRL)), 90)
         scene.text(90, T('automation.ports', 'Once formed, &bevery bottom block&f except the kinetic input is a port: items and redstone work the same on any of them, so the logistics can be laid out neatly.'), t.face([2, 1, 3], -1, 0, 0))
             .placeNearTarget().attachKeyFrame()
         scene.idle(100)

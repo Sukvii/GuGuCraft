@@ -3,9 +3,9 @@
 // The Warden in the jar is rendered by GuGuAddons (WardenChamberRenderer), called from the custom script renderer of the proxy block at the jar (client_scripts/sculk_acoustics/warden_chamber.js)
 //
 // Structure 3x3x5 (width x depth x height); the controller is in the front middle of the bottom layer, the kinetic input in the back middle (the runtime script checks that the jar holds a Warden):
-//   Layer 1 (bottom): Arcane Casing ring (controller front middle, kinetic input back middle), Arcane Casing center; once formed these 7 blocks are all item / redstone ports
-//   Layers 2-4: Soundproof Glass ring; the center of layer 2 is a Containment Jar holding a Warden, the centers of layers 3 and 4 stay empty
-//   Layer 5 (top): Sculk Sensors in the corners, Arcane Casing on the sides and center
+//   Layer 1 (bottom): Resonant Casing ring (controller front middle, kinetic input back middle), Activated Sculk Catalyst center; once formed these 7 blocks are all item / redstone ports
+//   Layers 2-4: Soundproof Glass ring; center column from bottom to top: Containment Jar holding a Warden, Calibrated Sculk Sensor, Mechanical Shrieker facing down
+//   Layer 5 (top): Resonant Casing ring, Basic Spell Turret facing down in the center
 //   Once formed, every block except the kinetic input becomes a hidden MBD2 proxy block (proxyWhileFormed), and the controller's GeckoLib jar model draws the whole machine
 (() => {
     const cfg = global.SCULK_ACOUSTICS.WARDEN_CHAMBER
@@ -27,6 +27,7 @@
     const $NearbySource = Java.loadClass('com.lowdragmc.mbd2.integration.arsnouveau.trait.NearbySourceTraitDefinition')
     const $FactoryBlockPattern = Java.loadClass('com.lowdragmc.mbd2.api.pattern.FactoryBlockPattern')
     const $Predicates = Java.loadClass('com.lowdragmc.mbd2.api.pattern.Predicates')
+    const $HashMap = Java.loadClass('java.util.HashMap')
     const $MultiblockShapeInfo = Java.loadClass('com.lowdragmc.mbd2.api.pattern.MultiblockShapeInfo')
     const $ModelRenderer = Java.loadClass('com.lowdragmc.lowdraglib2.client.renderer.impl.IModelRenderer')
     const $ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
@@ -187,14 +188,24 @@
                 output.capabilityIO().setAllIO($IO.OUT)
                 proxy.getProxyCapabilities().add(output)
             }
+            // Blocks that must face down (Mechanical Shrieker, Basic Spell Turret); the preview shows them facing down too
+            // Explicit signature: Rhino cannot pick between the Map overload and the varargs overloads
+            const hiddenDown = id => {
+                const facing = new $HashMap()
+                facing.put('facing', 'down')
+                return $Predicates['partialState(net.minecraft.world.level.block.Block,java.util.Map)'](blockOf(id), facing).proxyWhileFormed()
+            }
             pattern = $FactoryBlockPattern.start()
-                .aisle('BKB', 'GGG', 'GGG', 'GGG', 'SCS')
-                .aisle('BBB', 'GJG', 'G#G', 'G#G', 'CCC')
-                .aisle('B@B', 'GGG', 'GGG', 'GGG', 'SCS')
+                .aisle('BKB', 'GGG', 'GGG', 'GGG', 'CCC')
+                .aisle('BAB', 'GJG', 'GLG', 'GMG', 'CTC')
+                .aisle('B@B', 'GGG', 'GGG', 'GGG', 'CCC')
                 .where('B', $Predicates.blocks(blockOf(cfg.CASING)).proxyWhileFormed(port))
+                .where('A', $Predicates.blocks(blockOf(cfg.CATALYST)).proxyWhileFormed(port))
                 .where('C', hidden(cfg.CASING))
                 .where('G', hidden(cfg.GLASS))
-                .where('S', hidden(cfg.SENSOR))
+                .where('L', hidden(cfg.CALIBRATED_SENSOR))
+                .where('M', hiddenDown(cfg.SHRIEKER))
+                .where('T', hiddenDown(cfg.TURRET))
                 // Containment Jar: the structure only checks the block; "holds a Warden" is checked by server_scripts/tech/warden_chamber.js before each batch.
                 // setNBT cannot be used: once formed this is a proxy block, and when MBD2 rechecks the structure (rejoining the world, nearby block changes) it reads the proxy block's own data,
                 // which never matches, so the structure breaks and the proxy positions are lost, and the proxy blocks cannot be restored when the controller is broken (tested 2026-11-18)
@@ -204,7 +215,6 @@
                 }))
                 .where('K', $Predicates.blocks(blockOf(cfg.KINETIC_INPUT_ID)))
                 .where('@', $Predicates.controller($Predicates.blocks(blockOf(cfg.MACHINE_ID))))
-                .where('#', $Predicates.air())
                 .build()
             return pattern
         }
