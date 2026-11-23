@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
         ]).id(`guguaddons:item_application/resonant_${machine}`)
     })
 
-    // Resonant Casing: Arcane Casing -[sequenced assembly x2]-> deploy Stripped Echo Log -> deploy Resonarium Plate -> deploy Soul Dust -> fill 250 mB Liquid Source -> press
+    // Resonant Casing (not stage-locked: the M10 chamber structure needs it): Arcane Casing -[sequenced assembly x2]-> deploy Stripped Echo Log -> deploy Resonarium Plate -> deploy Soul Dust -> fill 250 mB Liquid Source -> press
     const t = 'kubejs:incomplete_resonant_casing'
     event.recipes.create.sequenced_assembly(['kubejs:resonant_casing'], 'kubejs:arcane_casing', [
         event.recipes.create.deploying(t, [t, 'deeperdarker:stripped_echo_log']),

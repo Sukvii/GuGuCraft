@@ -35,8 +35,9 @@ const SCULK_ACOUSTICS_LOCKS = {
     amethyst_golem: {
         'lychee:block_interacting': ['guguaddons:lychee/block_interacting/ritual/amethyst_golem_charm']
     },
+    // The Resonant Casing itself is not locked (like the Arcane Casing): the M10 Warden Resonance Chamber structure needs it,
+    // and its recipe already needs Resonarium Plates from M4. Only the 9 upgrades are locked
     resonant_machines: {
-        'create:sequenced_assembly': ['guguaddons:sequenced_assembly/resonant_casing'],
         'create:item_application': [
             'basin', 'crushing_wheel', 'deployer', 'depot', 'encased_fan',
             'mechanical_mixer', 'mechanical_press', 'mechanical_saw', 'spout'
@@ -106,10 +107,10 @@ const SCULK_ACOUSTICS_ITEM_LOCKS = {
     amethyst_golem: ['ars_nouveau:amethyst_golem_charm'],
     source_converter_mk2: ['kubejs:source_converter_upgrade'],
     sculk_spreader_mk2: ['kubejs:sculk_spreader_upgrade'],
-    resonant_machines: ['kubejs:resonant_casing'].concat([
+    resonant_machines: [
         'basin', 'crushing_wheel', 'deployer', 'depot', 'encased_fan',
         'mechanical_mixer', 'mechanical_press', 'mechanical_saw', 'spout'
-    ].map(machine => `createmoremachines:netherite_${machine}`)),
+    ].map(machine => `createmoremachines:netherite_${machine}`),
     resonarium_gear: ['axe', 'boots', 'chestplate', 'helmet', 'hoe', 'leggings', 'pickaxe', 'shovel', 'sword']
         .map(part => `deeperdarker:resonarium_${part}`),
     soul_elytra: ['deeperdarker:soul_elytra'],
