@@ -34,6 +34,7 @@
     const $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
     const $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
     const $AABB = Java.loadClass('net.minecraft.world.phys.AABB')
+    const $Size = Java.loadClass('com.lowdragmc.lowdraglib2.math.Size')
     // shapeInfoFactory must return a Java MultiblockShapeInfo[]; Java.cast turns the JS array into that array type
     const $ShapeInfoArray = Java.tryLoadClass('[Lcom.lowdragmc.mbd2.api.pattern.MultiblockShapeInfo;')
 
@@ -77,7 +78,9 @@
     if (isClient) Java.loadClass('dev.engine_room.flywheel.lib.model.baked.PartialModel').of(rl(SHAFT_MODEL))
 
     MBDRegistryEvents.recipeType(event => {
-        event.createRecipeType(cfg.RECIPE_TYPE)
+        // EMI page: MBD2 sizes the page from the recipe type (the width is always 176); the page itself is built by
+        // client_scripts/sculk_acoustics/warden_chamber_emi.js, so only the size is set here (Create's mixing page is 177 x 103, plus a Source line)
+        event.createRecipeType(cfg.RECIPE_TYPE).setUiSize($Size.of(cfg.EMI_WIDTH, cfg.EMI_HEIGHT))
     })
 
     MBDRegistryEvents.machine(event => {

@@ -83,6 +83,7 @@
         const $IMachine = Java.loadClass('com.lowdragmc.mbd2.api.machine.IMachine')
         const $Direction = Java.loadClass('net.minecraft.core.Direction')
         const $PonderLevel = Java.loadClass('net.createmod.ponder.api.level.PonderLevel')
+        const $DummyWorld = Java.loadClass('com.lowdragmc.lowdraglib2.utils.virtuallevel.DummyWorld')
 
         const renderFormed = ctx => {
             const renderers = getChamberRenderers()
@@ -112,8 +113,10 @@
             poses.popPose()
         }
 
-        // The Ponder scene (client_scripts/sculk_acoustics/ponder_warden_chamber.js) has no proxy blocks, so the controller draws the Warden in the jar itself:
-        // the jar is one block behind and one above the controller. Errors in Ponder are logged once and never let MBD2 disable this renderer (that would stop drawing the chamber in game too)
+        // Outside the real world (the Ponder scene in client_scripts/sculk_acoustics/ponder_warden_chamber.js, the EMI page preview in
+        // client_scripts/sculk_acoustics/warden_chamber_emi.js and MBD2's structure preview, all with LDLib2 / Ponder dummy levels) there are no proxy blocks
+        // with a Warden, so the controller draws the Warden in the jar itself: the jar is one block behind and one above the controller.
+        // Errors there are logged once and never let MBD2 disable this renderer (that would stop drawing the chamber in game too)
         const BACK_OFFSET = { north: [0, 1], south: [0, -1], west: [1, 0], east: [-1, 0] }
         let ponderErrorLogged = false
         const renderPonder = ctx => {
@@ -129,14 +132,15 @@
             } catch (e) {
                 if (!ponderErrorLogged) {
                     ponderErrorLogged = true
-                    console.error(`[WardenChamber] Ponder scene rendering failed: ${e}`)
+                    console.error(`[WardenChamber] Standalone (Ponder / preview) rendering failed: ${e}`)
                 }
             }
             if (pushed) ctx.poseStack.popPose()
         }
 
         event.register(cfg.FORMED_RENDERER, ctx => {
-            if (ctx.getLevel() instanceof $PonderLevel) {
+            const level = ctx.getLevel()
+            if (level instanceof $PonderLevel || level instanceof $DummyWorld) {
                 renderPonder(ctx)
                 return
             }

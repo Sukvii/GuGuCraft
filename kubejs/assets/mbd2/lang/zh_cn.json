@@ -1,5 +1,7 @@
 {
   "recipe_type.mbd2.source_conversion": "液态魔源转化",
 
-  "block.mbd2.proxy_part_block": "多方块结构部件"
+  "block.mbd2.proxy_part_block": "多方块结构部件",
+
+  "recipe_type.mbd2.warden_resonance": "监守者共鸣室"
 }

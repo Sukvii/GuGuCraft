@@ -1558,7 +1558,7 @@ hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "7c563848fa660b6152dc062f717ef54993eca1f20f4e1192dcc704a642776be6"
+hash = "9698c0586e24750e785857da256f022027d5d95f5abd5575d4a2421ed2671491"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/49185b525cf28733.snbt"
@@ -5102,11 +5102,11 @@ hash = "23cafa521768d1245f5a4e46eca8e09851c971b4ddf4db7832cc0aa88827f05a"
 
 [[files]]
 file = "kubejs/assets/guguaddons/lang/en_us.json"
-hash = "bc5ede30d31196e737405015c9101cf441660cb73684c51b15838d9765dd76fc"
+hash = "5e95637fb2c65eeeb5e12f772ea065be93b8a1d8e9127dab21c336657e5ace7d"
 
 [[files]]
 file = "kubejs/assets/guguaddons/lang/zh_cn.json"
-hash = "a18a28aa2f1ef722d5863653043dcec8b2b01d67fcbcf07c3b6df016c9265e4b"
+hash = "63e506b8acbe6b8de27856a278b1e087a91cdf53d9f7b8a6efeda62377c0ab58"
 
 [[files]]
 file = "kubejs/assets/kubejs/animations/warden_resonance_chamber.animation.json"
@@ -5138,7 +5138,7 @@ hash = "1b3a6ca5e4974cb78b6d8898190b1460090c75580aea7a52fa7272960624d98f"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/zh_cn.json"
-hash = "995dcd9543f6564e0321317336933dc109e3914fee2ebe58718df5a0b184f252"
+hash = "e1b43f8d29390f4cb8bb7d234db4744ccdba1f60ec5ba6ea1f49bada6eb8aeca"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/alchemical_frame.json"
@@ -5930,11 +5930,11 @@ hash = "844579d932ddbb36b6d2a31eb7be58b2bf249a8872ce72d07f811a8d2b7964a3"
 
 [[files]]
 file = "kubejs/assets/mbd2/lang/en_us.json"
-hash = "69b42a793c48bb9dae84a6e1f4591d07f504f425f7d1f62cde5aec447d162fcf"
+hash = "bbb4ab5dddc3a40cde40205119b3ae7b617ed8db2ddcd2c50b209f1f9cba86e5"
 
 [[files]]
 file = "kubejs/assets/mbd2/lang/zh_cn.json"
-hash = "9f317b76ddc229767f4e44eb16c541980a0db32e4e42385ebe2ba2faa9184f71"
+hash = "836ded4bb2d32cff8134878893b32ae1694f47a60e6200bf31c9228e7aad5173"
 
 [[files]]
 file = "kubejs/assets/minecraft/atlases/blocks.json"
@@ -8178,7 +8178,7 @@ hash = "074d0711e4acb8ad4f0421127c8df1e8eb73c060bf0417bb159fc05239dbdcb8"
 
 [[files]]
 file = "kubejs/client_scripts/sculk_acoustics/ponder_warden_chamber.js"
-hash = "4f34af51da8b104b22e94f966ae321aee6ac3d8eed290f551e44d46fc330ec74"
+hash = "3993958ef2e9d6984e6eef754fbab16c0222ed36c46d96dc0946aa3d9e9dcd59"
 
 [[files]]
 file = "kubejs/client_scripts/sculk_acoustics/resonant_casing.js"
@@ -8186,7 +8186,11 @@ hash = "9f1115b7f554fd78d16e5a53e3fd21972bdba3343a96b00dd164f80aca3f2d6c"
 
 [[files]]
 file = "kubejs/client_scripts/sculk_acoustics/warden_chamber.js"
-hash = "7827f1c244e7c738ea150613e39b769a218dd87a3daf6d9f6c46ab872e225b07"
+hash = "e5494c5fd563762878dd0ddc7fa8f3b3bbe2f6da15dfd1c40361b5033656b330"
+
+[[files]]
+file = "kubejs/client_scripts/sculk_acoustics/warden_chamber_emi.js"
+hash = "9e4ddcf585ceb450bfa659c28d9c5d58b7b4b315e4a378ed883bbf7e5ad9781b"
 
 [[files]]
 file = "kubejs/client_scripts/source_converter/goggles.js"
@@ -9326,7 +9330,7 @@ hash = "d5a62316cac563bbc97eaf3a20c8a9a5b7f2f562c49f96eab4643def74252092"
 
 [[files]]
 file = "kubejs/server_scripts/compat/ars_nouveau.js"
-hash = "9cc17e6320f0763b6761729318329555ec09d056755ab1493c0b5daa26f09610"
+hash = "3046979aea06389ed78dfef931dd88959cff99d0167204f96c65b4faba55be44"
 
 [[files]]
 file = "kubejs/server_scripts/compat/cca.js"
@@ -9418,7 +9422,7 @@ hash = "88ea24dfa1452af0182826b215443f109bdd7399750d7f8208c2063d0f403ef8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/arcane_industry/sculk_materials.js"
-hash = "7c71fe0d72db798aa9e3878f7d33176991fc6929b2aa29dae7ec1dcc44358afe"
+hash = "c21d0a3ec401608eb6d382b3ec8470341fb41161051f63bfd630d70e1f516f3d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/arcane_industry/sculk_spreader.js"
@@ -9454,7 +9458,7 @@ hash = "ec38854c3b29a2305a0df8a11a30aaee991b9e41fa9cc1a205084a926792af72"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/createmoremachines/resonant_machines.js"
-hash = "6588d29d1bc4268635c338124b717c96a960985c3b28a71c34eb2c8d28fc331d"
+hash = "f23f0d6f517a6afb9d9a81a8e444452a532745bfa3fc2fff6611d2aa55306522"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/dragonplus.js"
@@ -9514,7 +9518,7 @@ hash = "4f8a90e295fe0e892f2d86d6e14aa78295d2ece74f3c6df52ba0b20bc906dfe7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/sculk_acoustics/warden_chamber.js"
-hash = "0b2f3c34d1f8bcc66ca4470c94e4cbb5f73d25a63670f29a9367a321f5245320"
+hash = "7e887f414aa328e51254ee230ebc66fbd3ed34bc4a4e3b509dbd35d0cffada17"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/sculk_acoustics/warden_sight.js"
@@ -9594,7 +9598,7 @@ hash = "91b09947050b84807753727b3abcec8443dff4c985deb9eb6ca66615d7f80342"
 
 [[files]]
 file = "kubejs/server_scripts/stages/sculk_acoustics.js"
-hash = "f39a9bf0f3e9b43a19986a5baed4d4a2fad5c54126fcbb01c8fb1cc39ad02d4a"
+hash = "fcc0e61dabd5ece0609cd2266f7cbe84697bef1b0e244069486779aa11481736"
 
 [[files]]
 file = "kubejs/server_scripts/stages/stages.js"
@@ -9642,7 +9646,7 @@ hash = "2261f70bec19abc3fa5064fb859b2bca8ff93a15a803e8d3b2876342f977ee1d"
 
 [[files]]
 file = "kubejs/server_scripts/tech/warden_chamber.js"
-hash = "2cb10ad7ed103080cfcc8a62659824378ab1833b7bf1fe3ca2eceb226dacf310"
+hash = "517c8dcf57fc35718bfac613a8f7349e1a2d06311a2079af6caa65141b78ce28"
 
 [[files]]
 file = "kubejs/server_scripts/util/dragons_plus.js"
@@ -9686,7 +9690,7 @@ hash = "f99363411a3f3164df998c1309c9d8b6c9abb6c88b14b508286eef4b24dc3b48"
 
 [[files]]
 file = "kubejs/startup_scripts/sculk_acoustics/00_config.js"
-hash = "70f11720ecd38442f73a95ccd19a1245e396e5b675f95c9709d6fdd4a41fee87"
+hash = "f539bd076ca8a4e30434bf53fcd22ecf095f13770acb60135b36554131f38333"
 
 [[files]]
 file = "kubejs/startup_scripts/sculk_acoustics/registry.js"
@@ -9694,7 +9698,7 @@ hash = "4b1b651210989816777b5d5727a9911b612719e8eb370dda3fa1be8a84951df3"
 
 [[files]]
 file = "kubejs/startup_scripts/sculk_acoustics/warden_chamber.js"
-hash = "31dbeb4b491d1ff6a47f5d09e8f293805742be47ed250dfb27111c01900639f8"
+hash = "5821c4a53f6b6fd523fb7035f88acff467493a2685ff20dfa202ad9e827a9fa9"
 
 [[files]]
 file = "kubejs/startup_scripts/selling_game/00_config.js"

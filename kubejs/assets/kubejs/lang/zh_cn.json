@@ -226,5 +226,18 @@
   "kubejs.lychee.hallowed_gold_chance": "概率：5%% × 8",
 
   "kubejs.vein.mythril": "秘银矿脉",
-  "kubejs.vein.mythril_solvent": "秘银溶剂脉"
+  "kubejs.vein.mythril_solvent": "秘银溶剂脉",
+
+  "kubejs.emi.warden_resonance.band.low": "低频",
+  "kubejs.emi.warden_resonance.band.high": "高频",
+  "kubejs.emi.warden_resonance.band.low.tooltip": "控制器收到红石信号 %s–%s 时为低频",
+  "kubejs.emi.warden_resonance.band.high.tooltip": "控制器收到红石信号 %s–%s 时为高频",
+  "kubejs.emi.warden_resonance.batch": "每批 %s 秒",
+  "kubejs.emi.warden_resonance.stress": "需要应力：%s su，至少 %s RPM",
+  "kubejs.emi.warden_resonance.condition.otherside": "只能在幽冥工作",
+  "kubejs.emi.warden_resonance.condition.dark": "罐中不能有光",
+  "kubejs.emi.warden_resonance.condition.warden": "罐中要有监守者",
+  "kubejs.emi.warden_resonance.yield": "实际产量随躁动值变化",
+  "kubejs.emi.warden_resonance.yield.too_calm": "监守者太平静时不出晶核",
+  "kubejs.emi.warden_resonance.wool": "可选：投入后降低躁动值"
 }

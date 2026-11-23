@@ -1,5 +1,7 @@
 {
   "recipe_type.mbd2.source_conversion": "Liquid Source Conversion",
 
-  "block.mbd2.proxy_part_block": "Multiblock Structure Part"
+  "block.mbd2.proxy_part_block": "Multiblock Structure Part",
+
+  "recipe_type.mbd2.warden_resonance": "Warden Resonance Chamber"
 }

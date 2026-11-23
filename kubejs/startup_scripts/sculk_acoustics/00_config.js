@@ -97,6 +97,9 @@ global.SCULK_ACOUSTICS = {
         CHECK_RETRY_TICKS: 20,
         // Custom renderers (client_scripts/sculk_acoustics/warden_chamber.js): the proxy block at the jar draws the Warden; the formed controller draws the jar model
         JAR_RENDERER: 'kubejs:warden_chamber_jar',
-        FORMED_RENDERER: 'kubejs:warden_chamber_formed'
+        FORMED_RENDERER: 'kubejs:warden_chamber_formed',
+        // EMI recipe page size (client_scripts/sculk_acoustics/warden_chamber_emi.js); MBD2 always uses a width of 176
+        EMI_WIDTH: 176,
+        EMI_HEIGHT: 113
     }
 }
