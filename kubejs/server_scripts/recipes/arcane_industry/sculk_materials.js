@@ -22,4 +22,10 @@ ServerEvents.recipes(event => {
         table: 'kubejs:alakarkinos/carapace_fragment_block',
         weight: 1
     }).id('guguaddons:ars_nouveau/alakarkinos/carapace_fragment_block')
+
+    // Dominion Wand: the Alakarkinos needs it to bind its container, but the original Enchanting Apparatus recipe cannot be
+    // started by hand before the first Arcane Core, which itself needs Tempered Carapace. A crafting recipe with the same
+    // materials (stick + 2 Source Gems + gold ingot) breaks the loop; the original recipe is removed with the other Ars recipes
+    event.shapeless('ars_nouveau:dominion_wand', ['minecraft:stick', '#c:gems/source', '#c:gems/source', '#c:ingots/gold'])
+        .id('guguaddons:crafting/dominion_wand')
 })

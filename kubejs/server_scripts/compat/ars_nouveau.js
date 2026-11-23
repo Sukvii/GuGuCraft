@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
     const keepRecipeIds = new Set([
-        'ars_nouveau:dominion_wand',
         'ars_nouveau:sconce',
         'ars_nouveau:polished_sconce',
         'ars_nouveau:polished_source_sconce',
