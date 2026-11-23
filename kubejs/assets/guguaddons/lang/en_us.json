@@ -20,7 +20,7 @@
   "block.guguaddons.warden_resonance_chamber.tooltip.condition2": "With a Redstone Signal",
   "block.guguaddons.warden_resonance_chamber.tooltip.behaviour2": "A _weak_ signal is low frequency and calms the Warden; a _strong_ one is high frequency and makes it _agitated_.",
   "block.guguaddons.warden_resonance_chamber.tooltip.condition3": "When Agitated",
-  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour3": "The more agitated, the more it yields - until it _snaps_. Comparators read its mood; _wool_ calms it down.",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour3": "The more agitated, the more it yields - until it _snaps_; too calm, and the high band yields no _Nucleus_ at all. Comparators read its mood; _wool_ calms it down.",
   "block.guguaddons.warden_resonance_kinetic_input": "Resonance Chamber Kinetic Input",
   "block.guguaddons.warden_resonance_kinetic_input.tooltip.summary": "Supplies stress to the _Warden Resonance Chamber_.",
   "block.guguaddons.warden_resonance_kinetic_input.tooltip.condition1": "Placement",

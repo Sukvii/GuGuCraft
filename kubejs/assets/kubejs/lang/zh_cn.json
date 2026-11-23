@@ -85,7 +85,7 @@
   "kubejs.ponder.warden_chamber.operation.intro": "共鸣室按收到的§b红石信号强度§f选择对监守者 “说话” 的频率。",
   "kubejs.ponder.warden_chamber.operation.low": "信号 1–7 为§b低频§f：监守者慢慢平静下来，交出§a监守者甲壳§f。",
   "kubejs.ponder.warden_chamber.operation.high": "信号 8–15 为§b高频§f：监守者越来越躁动，凝出§a共鸣晶核§f。",
-  "kubejs.ponder.warden_chamber.operation.yield": "它越躁动，每一批产出越多。注意看罐子：心跳和触须都会越来越快。",
+  "kubejs.ponder.warden_chamber.operation.yield": "它越躁动，每一批产出越多；可在高频下它要是太平静，就一颗§a共鸣晶核§f也不肯给。注意看罐子：心跳和触须都会越来越快。",
   "kubejs.ponder.warden_chamber.operation.void": "但躁动一旦越过它的底线，§c这一批就会作废§f：原料白白耗掉，监守者咆哮，共鸣室停机冷却一段时间。",
   "kubejs.ponder.warden_chamber.operation.comparator": "§a红石比较器§f贴着共鸣室，能读出它的躁动程度：越躁动，信号越强。",
   "kubejs.ponder.warden_chamber.operation.wool": "往共鸣室里送入§a羊毛§f可以安抚它：共鸣室每秒吃掉一团，躁动随之回落。",

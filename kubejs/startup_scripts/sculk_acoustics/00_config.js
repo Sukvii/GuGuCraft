@@ -50,9 +50,9 @@ global.SCULK_ACOUSTICS = {
         SENSOR: 'minecraft:sculk_sensor',
         JAR: 'ars_nouveau:mob_jar',
         JAR_ENTITY: 'minecraft:warden',
-        // Per batch: Sculk Niter Powder x2 + 2000 Source (Source Jars within radius 10) + stress; 200 ticks
+        // Per batch: Sculk Niter Powder x4 + 2000 Source (Source Jars within radius 10) + stress; 200 ticks
         POWDER: 'kubejs:sculk_niter_powder',
-        POWDER_PER_BATCH: 2,
+        POWDER_PER_BATCH: 4,
         SOURCE_PER_BATCH: 2000,
         SOURCE_RADIUS: 10,
         TICKS_PER_BATCH: 200,
@@ -64,17 +64,23 @@ global.SCULK_ACOUSTICS = {
         HIGH_SIGNAL: [8, 15],
         LOW_OUTPUT: 'deeperdarker:warden_carapace',
         HIGH_OUTPUT: 'kubejs:resonance_nucleus',
-        // Agitation 0-100: yield x (1 + agitation / OUTPUT_DIVISOR); a batch that would end above THRESHOLD is voided, the machine cools down and drops to RESET
+        // Agitation 0-100, read when a batch starts (the fraction of the yield rounds up by chance):
+        // - low band: yield x (1 + agitation / LOW_YIELD_DIVISOR)
+        // - high band: yield = (agitation - HIGH_YIELD_FLOOR) / HIGH_YIELD_DIVISOR, nothing at or below the floor; the batch still consumes its inputs and adds HIGH_DELTA.
+        //   This output window makes an uncontrolled chamber waste powder instead of only running slower (idle servers make time nearly free)
+        // A batch that would end above THRESHOLD is voided, the machine cools down and drops to RESET
         LOW_DELTA: -5,
         HIGH_DELTA: 15,
         // 81: the highest agitation a high band batch (+15) can start at, 66, is exactly the top of comparator level 9 (60-66), so level <= 9 means the high band is safe; easy to automate
         THRESHOLD: 81,
-        RESET: 50,
-        COOLDOWN_TICKS: 600,
+        RESET: 20,
+        COOLDOWN_TICKS: 1200,
         // Natural decay is slow (only -1 every DECAY_INTERVAL_TICKS, about one batch); agitation is mainly kept down with wool and the low band
         DECAY_INTERVAL_TICKS: 200,
         WOOL_RELIEF: 10,
-        OUTPUT_DIVISOR: 50,
+        LOW_YIELD_DIVISOR: 50,
+        HIGH_YIELD_FLOOR: 35,
+        HIGH_YIELD_DIVISOR: 15,
         // Roar animation length of the Warden in the jar when a batch is voided (a vanilla Warden roar is about 84 ticks)
         ROAR_TICKS: 84,
         // Machine custom data (synced to the client, used to render the Warden in the jar)

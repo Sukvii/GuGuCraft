@@ -277,11 +277,11 @@
 
         // Agitation and yield
         setAgitation(scene, t, 70)
-        scene.text(80, T('operation.yield', 'The more agitated it is, the more each batch yields. Watch the jar: its heartbeat and tendrils speed up too.'), t.center([3, 3, 3]))
+        scene.text(110, T('operation.yield', 'The more agitated it is, the more each batch yields; but in the high band, if it is too calm, it will not give a single &aResonance Nucleus&f. Watch the jar: its heartbeat and tendrils speed up too.'), t.center([3, 3, 3]))
             .placeNearTarget().attachKeyFrame()
         scene.idle(40)
         showProduct(scene, t, Item.of(cfg.HIGH_OUTPUT, 2))
-        scene.idle(50)
+        scene.idle(80)
 
         // Crossing the line voids the batch
         // KubeJS renames Level.getGameTime() to getTime() (@RemapForJS in LevelMixin)

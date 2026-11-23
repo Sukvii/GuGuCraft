@@ -20,7 +20,7 @@
   "block.guguaddons.warden_resonance_chamber.tooltip.condition2": "收到红石信号时",
   "block.guguaddons.warden_resonance_chamber.tooltip.behaviour2": "信号_弱_时为低频，监守者会平静下来；信号_强_时为高频，它会越来越_躁动_。",
   "block.guguaddons.warden_resonance_chamber.tooltip.condition3": "躁动时",
-  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour3": "越躁动，产出越多——直到它_忍无可忍_。比较器能读出它的情绪，_羊毛_能让它冷静。",
+  "block.guguaddons.warden_resonance_chamber.tooltip.behaviour3": "越躁动，产出越多——直到它_忍无可忍_；可它要是太平静，高频就一颗_晶核_也不给。比较器能读出它的情绪，_羊毛_能让它冷静。",
   "block.guguaddons.warden_resonance_kinetic_input": "共鸣室动力接口",
   "block.guguaddons.warden_resonance_kinetic_input.tooltip.summary": "为_监守者共鸣室_输送应力。",
   "block.guguaddons.warden_resonance_kinetic_input.tooltip.condition1": "安装时",

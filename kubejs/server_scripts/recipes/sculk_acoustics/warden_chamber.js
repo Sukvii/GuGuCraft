@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     const cfg = global.SCULK_ACOUSTICS.WARDEN_CHAMBER
 
     // Low band (redstone signal 1-7) -> Warden Carapace; high band (8-15) -> Resonance Nucleus
-    // Per batch Sculk Niter Powder x2 + 2000 Source + 4096 stress (kinetic input at least 64 RPM); the yield scales with agitation, voiding and cooldown are handled by the script
+    // Per batch Sculk Niter Powder x4 + 2000 Source + 4096 stress (kinetic input at least 64 RPM); the yield scales with agitation, voiding and cooldown are handled by the script
     const band = (id, signal, output) => event.recipes.mbd2.warden_resonance()
         .inputItems(`${cfg.POWDER_PER_BATCH}x ${cfg.POWDER}`)
         .inputSource(cfg.SOURCE_PER_BATCH)
